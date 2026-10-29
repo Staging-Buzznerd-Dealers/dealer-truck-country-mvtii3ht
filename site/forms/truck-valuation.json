@@ -1,0 +1,198 @@
+{
+  "id": "truck-valuation",
+  "name": "Truck valuation request",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "value-my-trade",
+  "submitLabel": "Get a Truck Valuation",
+  "successMessage": "Thank you. A Truck Country / Stoops team member will review your truck details and contact you.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted by Truck Country / Stoops about my truck. Your information is used to respond to this request and is handled under our Privacy Policy."
+  },
+  "fields": [
+    {
+      "id": "tv-first",
+      "type": "first_name",
+      "label": "First name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-last",
+      "type": "last_name",
+      "label": "Last name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-phone",
+      "type": "phone",
+      "label": "Phone",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-company",
+      "type": "single_line",
+      "label": "Company",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "tv-zip",
+      "type": "single_line",
+      "label": "ZIP code",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-year",
+      "type": "single_line",
+      "label": "Truck year",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-make",
+      "type": "dropdown",
+      "label": "Make",
+      "required": true,
+      "width": "half",
+      "options": [
+        {
+          "value": "Freightliner",
+          "label": "Freightliner"
+        },
+        {
+          "value": "Western Star",
+          "label": "Western Star"
+        },
+        {
+          "value": "Autocar",
+          "label": "Autocar"
+        },
+        {
+          "value": "Kenworth",
+          "label": "Kenworth"
+        },
+        {
+          "value": "Peterbilt",
+          "label": "Peterbilt"
+        },
+        {
+          "value": "Volvo",
+          "label": "Volvo"
+        },
+        {
+          "value": "International",
+          "label": "International"
+        },
+        {
+          "value": "Mack",
+          "label": "Mack"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "placeholder": "Select"
+    },
+    {
+      "id": "tv-model",
+      "type": "single_line",
+      "label": "Model",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-mileage",
+      "type": "single_line",
+      "label": "Mileage",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tv-vin",
+      "type": "single_line",
+      "label": "VIN",
+      "required": false,
+      "width": "half",
+      "help": "17 characters, found on the driver door jamb or dashboard."
+    },
+    {
+      "id": "tv-condition",
+      "type": "dropdown",
+      "label": "Condition",
+      "required": true,
+      "width": "half",
+      "options": [
+        {
+          "value": "Excellent",
+          "label": "Excellent"
+        },
+        {
+          "value": "Good",
+          "label": "Good"
+        },
+        {
+          "value": "Fair",
+          "label": "Fair"
+        },
+        {
+          "value": "Needs repair",
+          "label": "Needs repair"
+        }
+      ],
+      "placeholder": "Select"
+    },
+    {
+      "id": "tv-photos",
+      "type": "file",
+      "label": "Photos",
+      "required": false,
+      "accept": "image/*",
+      "help": "Optional. Upload support depends on the site\u2019s form backend."
+    },
+    {
+      "id": "tv-notes",
+      "type": "paragraph",
+      "label": "Notes",
+      "required": false,
+      "help": "Include recent service, known issues, or interest in a trade-in."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "tv-used",
+      "name": "Used truck buyers",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "sales-manager",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "tv-thanks",
+      "name": "Valuation received",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "heading": "Request received",
+      "message": "Thank you. A Truck Country / Stoops team member will review your truck details and contact you."
+    }
+  ]
+}

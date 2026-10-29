@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "id": "bullet-band",
+  "name": "Dark band with bullets",
+  "description": "The #45474E band: an eyebrow, H2 and square-bulleted points on the left, a photo on the right.",
+  "css": "[data-bz-node=\"bb\"]{color:#fff}\n[data-bz-node=\"bb-copy\"] .bz-eyebrow{color:#fff;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;border-left:4px solid #C41230;padding-left:12px}\n[data-bz-node=\"bb-copy\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"bb-copy\"] h2{color:#fff;margin:0 0 28px}\n[data-bz-node=\"bb-list\"]{display:grid;grid-template-columns:1fr;gap:20px}\n[data-bz-node=\"bb-list\"]>.bz-col{grid-column:auto;display:grid;grid-template-columns:20px 1fr;gap:16px;align-items:start}\n[data-bz-node=\"bb-list\"] .bz-block,[data-bz-node=\"bb-list\"] .bz-container{padding:0}\n[data-bz-node=\"bb-list\"] .bz-block--spacer{width:12px;height:12px;background:#C41230;margin-top:8px}\n[data-bz-node=\"bb-list\"] h3{font-family:var(--font-heading);font-weight:600;font-size:18px;line-height:1.3;letter-spacing:.04em;text-transform:uppercase;color:#fff;margin:0 0 4px}\n[data-bz-node=\"bb-list\"] p{margin:0;font-size:16px;color:#fff}\n[data-bz-node=\"bb-photo\"] img{width:100%;height:auto;display:block;border-radius:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Points",
+      "fields": [
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "body",
+          "type": "textarea",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Photo"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "bb-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 80
+            },
+            "tablet": {
+              "gap": 40
+            },
+            "mobile": {
+              "gap": 32
+            }
+          },
+          "children": [
+            {
+              "id": "bb-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "bb-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "bb-list",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "bb-item",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "children": [
+                        {
+                          "id": "bb-mark",
+                          "type": "spacer",
+                          "props": {
+                            "size": 1
+                          }
+                        },
+                        {
+                          "id": "bb-item-body",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "bb-item-col",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "bb-item-title",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "{{title}}",
+                                    "headingLevel": 3
+                                  }
+                                },
+                                {
+                                  "id": "bb-item-text",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{body}}",
+                                    "width": "full"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bb-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "bb-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

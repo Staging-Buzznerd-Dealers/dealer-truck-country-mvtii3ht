@@ -17,5 +17,81 @@
       "utilityNav": null
     },
     "pageType": "Home"
+  },
+  {
+    "slug": "sell-your-truck",
+    "title": "Sell or Trade In Your Semi Truck",
+    "description": "Sell or trade in your used semi truck with Truck Country / Stoops. Request a truck valuation online and work with a Freightliner and Western Star dealer in IA, IL, IN, MI, OH and WI.",
+    "path": "/sell-your-truck",
+    "out": "sell-your-truck/index.html",
+    "dir": "sell-your-truck",
+    "pageType": "Other",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "electric-trucks",
+    "title": "Electric Trucks",
+    "description": "The Freightliner eCascadia and eM2 are here. Review the specifications and talk with a Truck Country / Stoops team member about electric trucks for your fleet.",
+    "path": "/electric-trucks",
+    "out": "electric-trucks/index.html",
+    "dir": "electric-trucks",
+    "pageType": "Other",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "the-fifth-generation-cascadia",
+    "title": "The Fifth Generation Cascadia",
+    "description": "The Fifth Generation Cascadia redefines performance with state-of-the-art aerodynamic advancements. Watch the feature videos and contact Truck Country / Stoops.",
+    "path": "/the-fifth-generation-cascadia",
+    "out": "the-fifth-generation-cascadia/index.html",
+    "dir": "the-fifth-generation-cascadia",
+    "pageType": "Other",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "sitemap",
+    "title": "Site Map",
+    "description": "Every page on truckcountry.com, grouped by section.",
+    "path": "/sitemap",
+    "out": "sitemap/index.html",
+    "dir": "sitemap",
+    "pageType": "Other",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

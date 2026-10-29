@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "breadcrumb",
+  "label": "Breadcrumb",
+  "category": "content",
+  "origin": "ai",
+  "description": "The trail above an inner page: linked ancestors, then the current page.",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Ancestors",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Label"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    },
+    {
+      "key": "current",
+      "type": "text",
+      "label": "Current page",
+      "default": ""
+    }
+  ],
+  "html": "<nav class=\"tc-bc\" aria-label=\"Breadcrumb\">\n  {{#each items}}<a class=\"tc-bc__a\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"breadcrumb\">{{label}}</a><span class=\"tc-bc__s\" aria-hidden=\"true\">/</span>{{/each}}\n  <span aria-current=\"page\">{{current}}</span>\n</nav>",
+  "css": ".tc-bc{font-size:14px;color:#54565C;display:flex;flex-wrap:wrap;gap:8px;align-items:center}\n.tc-bc__a{color:#54565C;text-decoration:underline}\n.tc-bc__a:hover{color:#8f0d21}\n.tc-bc__s{color:#54565C}"
+}

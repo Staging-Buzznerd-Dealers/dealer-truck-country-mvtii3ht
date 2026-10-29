@@ -1,0 +1,413 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Trucks",
+                        "url": "https://www.truckcountry.com/inventory/truck-inventory/"
+                      }
+                    ],
+                    "current": "Electric Trucks"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero-split",
+        "values": {
+          "eyebrow": "Freightliner eMobility",
+          "headline": "Electric trucks have arrived",
+          "lead": "The Freightliner eCascadia and eM2 are here. Review the specifications and talk with a Truck Country / Stoops team member about electric trucks for your fleet.",
+          "cta1Label": "Ask About Electric Trucks",
+          "cta1Url": "#contact",
+          "cta2Label": "View Models",
+          "cta2Url": "#models",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "Freightliner semi truck at a Truck Country dealership",
+            "width": 2000,
+            "height": 1308
+          }
+        }
+      }
+    },
+    {
+      "id": "models",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "spec-cards",
+        "values": {
+          "anchorId": "models",
+          "eyebrow": "Models",
+          "heading": "Freightliner electric trucks",
+          "items": [
+            {
+              "image": {
+                "src": "/img/model-cascadia.jpg",
+                "alt": "Freightliner Cascadia semi truck, placeholder for the eCascadia",
+                "width": 900,
+                "height": 450
+              },
+              "title": "eCascadia",
+              "body": "A 100% battery electric Class 8 semi truck with zero emissions.",
+              "linkLabel": "eCascadia specs, videos & photos",
+              "url": "https://www.truckcountry.com/freightliner-ecascadia-specs/",
+              "specs": [
+                {
+                  "label": "Class",
+                  "value": "Class 8"
+                },
+                {
+                  "label": "Horsepower",
+                  "value": "Up to 470 hp (350 kW)"
+                },
+                {
+                  "label": "Max GCW",
+                  "value": "Tandem drive: 82,000 lbs. | Single drive: 65,000 lbs."
+                },
+                {
+                  "label": "Typical range",
+                  "value": "Up to 230 miles"
+                },
+                {
+                  "label": "Usable capacity",
+                  "value": "Up to 438 kWh"
+                },
+                {
+                  "label": "Recharge",
+                  "value": "80% in ~90 min."
+                }
+              ]
+            },
+            {
+              "image": {
+                "src": "/img/model-m2-106.jpg",
+                "alt": "Freightliner M2 106 truck, placeholder for the eM2",
+                "width": 900,
+                "height": 375
+              },
+              "title": "eM2",
+              "body": "A practical electric box truck and delivery truck.",
+              "linkLabel": "eM2 specs, videos & photos",
+              "url": "https://www.truckcountry.com/freightliner-em2-specs/",
+              "specs": [
+                {
+                  "label": "Class",
+                  "value": "Class 6 – Class 7"
+                },
+                {
+                  "label": "Horsepower",
+                  "value": "Up to 255 hp (188 kW)"
+                },
+                {
+                  "label": "GVWR",
+                  "value": "26,000–33,000 lbs."
+                },
+                {
+                  "label": "Typical range",
+                  "value": "180 or 250 miles"
+                },
+                {
+                  "label": "Usable capacity",
+                  "value": "194 kWh or 291 kWh"
+                },
+                {
+                  "label": "Recharge",
+                  "value": "80% in ~60 min."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sustainability",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "Sustainability",
+          "heading": "Sustainability goals, achieved",
+          "body": "From cutting-edge fuel efficiency and industry-leading powertrain innovation to our first zero-emission heavy-duty electric commercial truck, the eCascadia will continue our legacy of helping customers meet their sustainability goals.\n\nThe eM2 was developed with the Freightliner eMobility team together with fleet customers and drivers, resulting in a practical electric box truck and delivery truck."
+        }
+      }
+    },
+    {
+      "id": "contact",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "contact"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "contact-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 64
+            },
+            "tablet": {
+              "gap": 40
+            },
+            "mobile": {
+              "gap": 32
+            }
+          },
+          "children": [
+            {
+              "id": "contact-copy",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "contact-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Looking for information on our electric trucks?",
+                    "eyebrow": "Contact us today",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "contact-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "Fill out the form and we will get in contact. Fields marked with an asterisk (*) are required.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "contact-links",
+                  "type": "text",
+                  "props": {
+                    "text": "Also see <a href=\"/the-fifth-generation-cascadia\">the fifth generation Cascadia</a>, <a href=\"https://www.truckcountry.com/inventory/truck-inventory/new-inventory/freightliner-inventory/\">new Freightliner inventory</a> or <a href=\"https://www.truckcountry.com/trucks/truck-financing/\">semi-truck financing</a>.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "contact-form-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3",
+                  "paddingTop": 40,
+                  "paddingRight": 40,
+                  "paddingBottom": 40,
+                  "paddingLeft": 40
+                },
+                "mobile": {
+                  "paddingTop": 20,
+                  "paddingRight": 20,
+                  "paddingBottom": 20,
+                  "paddingLeft": 20
+                }
+              },
+              "children": [
+                {
+                  "id": "contact-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "electric-truck-inquiry"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "faq-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "faq-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 960
+                }
+              },
+              "children": [
+                {
+                  "id": "faq-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Electric truck questions",
+                    "eyebrow": "FAQs",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "faq-list",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "q": "Which electric trucks are available?",
+                          "a": "The Freightliner eCascadia is a Class 8 electric semi truck, and the Freightliner eM2 is a Class 6–7 electric box and delivery truck."
+                        },
+                        {
+                          "q": "What is the typical range?",
+                          "a": "The eCascadia has a typical range of up to 230 miles. The eM2 has a typical range of 180 or 250 miles, depending on battery capacity."
+                        },
+                        {
+                          "q": "How long does it take to recharge?",
+                          "a": "The eCascadia recharges to 80% in about 90 minutes. The eM2 recharges to 80% in about 60 minutes."
+                        },
+                        {
+                          "q": "How do I get pricing or availability?",
+                          "a": "Use the contact form on this page. A Truck Country / Stoops team member will follow up with the information you request."
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "next-steps",
+        "values": {
+          "heading": "Next steps",
+          "items": [
+            {
+              "title": "Fifth Gen Cascadia",
+              "body": "Explore the latest Cascadia.",
+              "linkLabel": "Learn more →",
+              "url": "/the-fifth-generation-cascadia"
+            },
+            {
+              "title": "New Inventory",
+              "body": "Browse new Freightliner trucks.",
+              "linkLabel": "View inventory →",
+              "url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/freightliner-inventory/"
+            },
+            {
+              "title": "Financing",
+              "body": "Explore semi-truck financing.",
+              "linkLabel": "See financing →",
+              "url": "https://www.truckcountry.com/trucks/truck-financing/"
+            },
+            {
+              "title": "Locations",
+              "body": "Find a dealership near you.",
+              "linkLabel": "Find a location →",
+              "url": "https://www.truckcountry.com/locations/"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "id": "numbered-cards",
+  "name": "Numbered steps",
+  "description": "A row of numbered cards \u2014 the process band. One card per list row.",
+  "css": "[data-bz-node=\"nc-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"nc-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"nc-head\"] h2{margin:0 0 40px;max-width:720px}\n[data-bz-node=\"nc-grid\"]>.bz-col{grid-column:auto}\n[data-bz-node=\"nc-grid\"] .bz-block,[data-bz-node=\"nc-grid\"] .bz-container{padding:0}\n[data-bz-node^=\"nc-num\"] p{font-family:var(--font-heading);font-weight:700;font-size:44px;line-height:1;color:#C41230;margin:0 0 16px}\n[data-bz-node=\"nc-grid\"] h3{font-family:var(--font-heading);font-weight:600;font-size:20px;line-height:1.2;letter-spacing:.04em;text-transform:uppercase;margin:0 0 10px}\n[data-bz-node^=\"nc-body\"] p{margin:0;color:#54565C;font-size:16px;line-height:1.6}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "The process"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Steps",
+      "fields": [
+        {
+          "key": "num",
+          "type": "text",
+          "label": "Number"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "body",
+          "type": "textarea",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "nc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "nc-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "nc-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "nc-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nc-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "gridColumns": "1fr 1fr 1fr 1fr"
+            },
+            "tablet": {
+              "gridColumns": "1fr 1fr"
+            },
+            "mobile": {
+              "gridColumns": "1fr"
+            }
+          },
+          "children": [
+            {
+              "id": "nc-card",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3",
+                  "paddingTop": 28,
+                  "paddingRight": 28,
+                  "paddingBottom": 28,
+                  "paddingLeft": 28
+                }
+              },
+              "children": [
+                {
+                  "id": "nc-num",
+                  "type": "text",
+                  "props": {
+                    "text": "{{num}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "nc-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "nc-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

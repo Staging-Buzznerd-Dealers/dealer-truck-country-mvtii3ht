@@ -1,0 +1,74 @@
+{
+  "id": "electric-truck-inquiry",
+  "name": "Electric truck inquiry",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "request-info",
+  "submitLabel": "Send Inquiry",
+  "successMessage": "Thank you. A Truck Country / Stoops team member will be in touch.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "By providing my phone number to \u201cTruck Country/Stoops Freightliner-Western Star\u201d, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying \u201cSTOP\u201d. For more information on how your data will be handled, please visit our Privacy Policy."
+  },
+  "fields": [
+    {
+      "id": "et-name",
+      "type": "full_name",
+      "label": "Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "et-company",
+      "type": "single_line",
+      "label": "Company",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "et-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "et-phone",
+      "type": "phone",
+      "label": "Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "et-notes",
+      "type": "paragraph",
+      "label": "Question/Comments",
+      "required": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "et-sales",
+      "name": "Electric truck enquiries",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "sales-manager",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "et-thanks",
+      "name": "Inquiry received",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "heading": "Message received",
+      "message": "Thank you. A Truck Country / Stoops team member will be in touch."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "id": "page-hero-split",
+  "name": "Page hero (photo beside)",
+  "description": "The inner-page hero in its two-column form: copy on the left, photo on the right, on the near-black surface.",
+  "css": "[data-bz-node=\"phs\"]{color:#fff}\n[data-bz-node=\"phs-copy\"] .bz-eyebrow{color:#fff;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;border-left:4px solid #C41230;padding-left:12px}\n[data-bz-node=\"phs-title\"] h1{font-family:var(--font-heading);font-weight:700;font-size:clamp(40px,6vw,80px);line-height:1;text-transform:uppercase;color:#fff;margin:0 0 24px;letter-spacing:0}\n[data-bz-node=\"phs-lead\"] p{font-size:18px;line-height:1.6;color:#fff;margin:0 0 32px;max-width:560px}\n[data-bz-node=\"phs-ctas\"] .bz-btns{display:flex;flex-wrap:wrap;gap:16px;margin:0}\n[data-bz-node=\"phs-ctas\"] .bz-btn{font-family:var(--font-heading);font-weight:600;font-size:15px;letter-spacing:.1em;text-transform:uppercase;border-radius:0}\n[data-bz-node=\"phs-ctas\"] .bz-btn--primary{background:#C41230;color:#fff;padding:18px 32px;border:0}\n[data-bz-node=\"phs-ctas\"] .bz-btn--primary:hover{background:#8f0d21;color:#fff}\n[data-bz-node=\"phs-ctas\"] .bz-btn--secondary{background:transparent;color:#fff;border:2px solid #fff;padding:16px 32px}\n[data-bz-node=\"phs-ctas\"] .bz-btn--secondary:hover{background:rgba(255,255,255,.15);border-color:#fff;color:#fff}\n[data-bz-node=\"phs-photo\"] img{width:100%;height:auto;display:block;border-radius:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "headline",
+      "type": "text",
+      "label": "Headline",
+      "default": ""
+    },
+    {
+      "key": "lead",
+      "type": "textarea",
+      "label": "Lead paragraph",
+      "default": ""
+    },
+    {
+      "key": "cta1Label",
+      "type": "text",
+      "label": "Primary button",
+      "default": ""
+    },
+    {
+      "key": "cta1Url",
+      "type": "url",
+      "label": "Primary link",
+      "default": ""
+    },
+    {
+      "key": "cta2Label",
+      "type": "text",
+      "label": "Secondary button",
+      "default": ""
+    },
+    {
+      "key": "cta2Url",
+      "type": "url",
+      "label": "Secondary link",
+      "default": ""
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Hero photo"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "phs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "background": "ink",
+        "anchor": "main-content"
+      },
+      "styles": {
+        "base": {
+          "marginTop": 16,
+          "paddingTop": 96,
+          "paddingBottom": 96
+        },
+        "tablet": {
+          "paddingTop": 64,
+          "paddingBottom": 64
+        },
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 48
+        }
+      },
+      "children": [
+        {
+          "id": "phs-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 72
+            },
+            "tablet": {
+              "gap": 40
+            },
+            "mobile": {
+              "gap": 32
+            }
+          },
+          "children": [
+            {
+              "id": "phs-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "phs-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{headline}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "phs-lead",
+                  "type": "text",
+                  "props": {
+                    "text": "{{lead}}",
+                    "width": "prose"
+                  }
+                },
+                {
+                  "id": "phs-ctas",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{cta1Label}}",
+                        "url": "{{cta1Url}}",
+                        "style": "primary"
+                      },
+                      {
+                        "label": "{{cta2Label}}",
+                        "url": "{{cta2Url}}",
+                        "style": "secondary"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "phs-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "phs-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

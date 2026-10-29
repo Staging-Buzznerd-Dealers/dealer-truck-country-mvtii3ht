@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "id": "feature-tiles",
+  "name": "Feature tiles",
+  "description": "A grid of short feature cards, each a red bar over a title. One tile per list row.",
+  "css": "[data-bz-node=\"ft-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"ft-head\"] h2{margin:0 0 40px}\n[data-bz-node=\"ft-grid\"]>.bz-col{grid-column:auto}\n[data-bz-node=\"ft-grid\"] .bz-block,[data-bz-node=\"ft-grid\"] .bz-container{padding:0}\n[data-bz-node=\"ft-grid\"] .bz-block--spacer{width:40px;height:4px;background:#C41230;margin-bottom:16px}\n[data-bz-node=\"ft-grid\"] h3{font-family:var(--font-heading);font-weight:600;font-size:20px;line-height:1.2;letter-spacing:.04em;text-transform:uppercase;margin:0}",
+  "props": [
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Features",
+      "fields": [
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ft",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "ft-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "ft-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ft-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ft-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "gridColumns": "1fr 1fr 1fr"
+            },
+            "tablet": {
+              "gridColumns": "1fr 1fr"
+            },
+            "mobile": {
+              "gridColumns": "1fr"
+            }
+          },
+          "children": [
+            {
+              "id": "ft-tile",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3",
+                  "paddingTop": 28,
+                  "paddingRight": 28,
+                  "paddingBottom": 28,
+                  "paddingLeft": 28
+                }
+              },
+              "children": [
+                {
+                  "id": "ft-bar",
+                  "type": "spacer",
+                  "props": {
+                    "size": 1
+                  }
+                },
+                {
+                  "id": "ft-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

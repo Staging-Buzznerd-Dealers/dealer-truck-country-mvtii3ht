@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "id": "spec-cards",
+  "name": "Model cards with specs",
+  "description": "Product cards, each with a photo, blurb, specification table and a link. One card per list row; the specs are a list inside it.",
+  "css": "[data-bz-node=\"sc-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"sc-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 40px}\n[data-bz-node=\"sc-grid\"]>.bz-col{grid-column:auto;display:flex;flex-direction:column}\n[data-bz-node=\"sc-grid\"] .bz-block,[data-bz-node=\"sc-grid\"] .bz-container{padding:0}\n[data-bz-node=\"sc-grid\"] .bz-figure img{width:100%;height:auto;display:block;border-bottom:1px solid #EDEBE3;border-radius:0}\n[data-bz-node^=\"sc-body-col\"]{padding:clamp(20px,3vw,36px);display:flex;flex-direction:column;gap:16px;flex:1}\n[data-bz-node=\"sc-grid\"] h3{font-family:var(--font-heading);font-weight:700;font-size:28px;line-height:1.1;letter-spacing:.04em;text-transform:uppercase;margin:0}\n[data-bz-node^=\"sc-blurb\"] p{margin:0;color:#54565C;font-size:16px;line-height:1.6}\n[data-bz-node^=\"sc-specs\"]{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);border-top:1px solid #EDEBE3;gap:0}\n[data-bz-node^=\"sc-specs\"]>.bz-col{grid-column:auto;display:contents}\n[data-bz-node^=\"sc-specs\"] .bz-block{padding:12px 0;border-bottom:1px solid #EDEBE3}\n[data-bz-node^=\"sc-spec-k\"] p{font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#54565C;margin:0}\n[data-bz-node^=\"sc-spec-v\"] p{font-weight:600;margin:0;font-size:16px}\n[data-bz-node=\"sc-grid\"] .bz-btn--link{padding:0;font-family:var(--font-body);font-size:15px;font-weight:600;letter-spacing:0;text-transform:none;color:#C41230;text-decoration:underline;margin-top:auto}\n[data-bz-node=\"sc-grid\"] .bz-btn--link:hover{color:#8f0d21}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Models"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Models",
+      "fields": [
+        {
+          "key": "image",
+          "type": "image",
+          "label": "Photo"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Model"
+        },
+        {
+          "key": "body",
+          "type": "textarea",
+          "label": "Blurb"
+        },
+        {
+          "key": "linkLabel",
+          "type": "text",
+          "label": "Link label"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        },
+        {
+          "key": "specs",
+          "type": "list",
+          "label": "Specifications",
+          "fields": [
+            {
+              "key": "label",
+              "type": "text",
+              "label": "Spec"
+            },
+            {
+              "key": "value",
+              "type": "text",
+              "label": "Value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "sc-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "sc-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "sc-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sc-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "gridColumns": "1fr 1fr",
+              "gap": 24
+            },
+            "tablet": {
+              "gridColumns": "1fr"
+            }
+          },
+          "children": [
+            {
+              "id": "sc-card",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3"
+                }
+              },
+              "children": [
+                {
+                  "id": "sc-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "sc-body",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "sc-body-col",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "sc-title",
+                          "type": "heading",
+                          "props": {
+                            "text": "{{title}}",
+                            "headingLevel": 3
+                          }
+                        },
+                        {
+                          "id": "sc-blurb",
+                          "type": "text",
+                          "props": {
+                            "text": "{{body}}",
+                            "width": "full"
+                          }
+                        },
+                        {
+                          "id": "sc-specs",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "sc-spec",
+                              "type": "column",
+                              "props": {
+                                "span": 12,
+                                "repeat": "specs"
+                              },
+                              "children": [
+                                {
+                                  "id": "sc-spec-k",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{label}}",
+                                    "width": "full"
+                                  }
+                                },
+                                {
+                                  "id": "sc-spec-v",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{value}}",
+                                    "width": "full"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "sc-link",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "{{linkLabel}}",
+                                "url": "{{url}}",
+                                "style": "link"
+                              }
+                            ],
+                            "align": "left"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
