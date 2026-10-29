@@ -1,3 +1,47 @@
+/* ---------------------------------------------------------- homepage shell */
+/* The handoff carries two header designs: home.html's, and the one the README
+   documents as the global shell and the three inner pages implement. The
+   shared template holds the inner-page shell; these page-scoped rules restore
+   the homepage's own measurements without touching the template, its menus or
+   its collapse behaviour. The extra [data-bz-type] is what lets a page rule
+   outrank the template's. */
+
+/* Utility bar: 8px 32px, 12px on a normal line box, links at 75% white. */
+[data-bz-node="utility"][data-bz-type] { padding-block: 8px; line-height: normal }
+[data-bz-node="utility"][data-bz-type] p,
+[data-bz-node="utility"][data-bz-type] a,
+[data-bz-node="utility"][data-bz-type] .bz-navitem > a { color: rgba(255, 255, 255, .75); line-height: normal }
+[data-bz-node="utility"][data-bz-type] a:hover,
+[data-bz-node="utility"][data-bz-type] .bz-navitem > a:hover { color: #fff }
+[data-bz-node="utility-states"] a { letter-spacing: .04em }
+
+/* Header: 16px 32px, a 220x46 logo, white Oswald 600 nav centred in the gap. */
+[data-bz-node="header"][data-bz-type] { padding-block: 16px }
+[data-bz-node="header-logo"] img { height: 46px }
+[data-bz-node="header-row"][data-bz-type] { gap: 20px }
+[data-bz-node="header-nav"][data-bz-type],
+[data-bz-node="header"][data-bz-type] .bz-menu-wrap { flex: 1 1 0% }
+[data-bz-node="header"][data-bz-type] .bz-menu { flex: 1 1 0%; justify-content: center }
+[data-bz-node="header"][data-bz-type] .bz-nav { gap: 36px }
+[data-bz-node="header"][data-bz-type] .bz-navitem > a { color: #fff; font-weight: 600; letter-spacing: .06em }
+[data-bz-node="header"][data-bz-type] .bz-navitem > a:hover { color: var(--accent) }
+[data-bz-node="header-cta"][data-bz-type] { display: flex; align-items: center; justify-content: flex-end; gap: 20px }
+[data-bz-node="header-button"] .bz-btn { padding: 16px 32px; letter-spacing: .05em }
+/* The account mark: a 20px ring with a short stem, drawn in CSS as the
+   handoff does. Decorative, so it stays out of the accessibility tree. */
+[data-bz-node="header-account"][data-bz-type] {
+  display: block; width: 20px; height: 20px; flex: 0 0 auto;
+  border: 2px solid #fff; border-radius: 50%; position: relative;
+}
+[data-bz-node="header-account"][data-bz-type]::after {
+  content: ""; position: absolute; width: 2px; height: 9px; background: #fff;
+  bottom: -7px; right: -2px; transform: rotate(-45deg);
+}
+
+/* The homepage sets its body copy at 1.75; the rest of the site is 1.6. */
+.bz-block .bz-text p { line-height: 1.75 }
+[data-bz-node="utility"][data-bz-type] .bz-text p { line-height: normal }
+
 /* Homepage details the block props and the style panel cannot reach —
    image crops, the Elite Support lockup, and the news cards' photo scrim. */
 

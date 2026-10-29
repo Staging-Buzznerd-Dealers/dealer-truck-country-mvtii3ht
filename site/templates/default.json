@@ -8,7 +8,7 @@
       "ref": null
     }
   ],
-  "css": "[data-bz-node=\"utility\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:12px;letter-spacing:.04em;text-transform:none;color:#fff}\n[data-bz-node=\"utility\"] .bz-navitem > a:hover{color:#ff8da0}\n[data-bz-node=\"utility\"] .bz-nav{gap:24px}\n[data-bz-node=\"utility-states\"] a{color:#fff;text-decoration:none}\n[data-bz-node=\"utility-states\"] a:hover{color:#ff8da0}\n[data-bz-node=\"utility-states\"] p{margin:0}\n[data-bz-node=\"header\"] .bz-navitem > a{font-family:var(--font-heading);font-weight:500;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#14151A;padding-block:0}\n[data-bz-node=\"header\"] .bz-navitem > a:hover{color:#C41230}\n[data-bz-node=\"header\"] .bz-nav{gap:32px}\n[data-bz-node=\"header-logo\"] img{object-fit:contain;width:220px;max-width:60vw;height:auto}\n[data-bz-node=\"header-button\"] .bz-btn{padding:14px 24px;letter-spacing:.1em}\n[data-bz-node=\"header\"] .bz-menu-toggle{width:44px;height:44px;background:#14151A;color:#fff;border:0;border-radius:0;justify-content:center}\n[data-bz-node=\"header\"] .bz-menu-toggle span{width:18px;background:#fff}\n@media (max-width:1100px){\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] > .bz-menu{background:#14151A;border-bottom:0;padding:8px 32px 24px}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-nav{gap:0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem{width:100%;border-bottom:1px solid #45474E}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a{display:block;color:#fff;font-size:16px;padding:14px 0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a:hover{color:#fff}\n}\n[data-bz-node=\"footer-row\"] > .bz-col{grid-column:auto}\n[data-bz-node=\"footer-logo\"] img{width:260px;max-width:100%;height:auto}\n[data-bz-node=\"footer-blurb\"] p{font-size:14px;line-height:1.7;color:#D6D6D8;margin:0;max-width:280px}\n[data-bz-node=\"footer-links\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:14px;letter-spacing:0;text-transform:none;color:#D6D6D8}\n[data-bz-node=\"footer-links\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"footer-links\"] .bz-nav{gap:12px}\n[data-bz-node=\"footer-links-head\"] h2{font-family:var(--font-heading);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin:0 0 18px}\n[data-bz-node=\"footer-copy\"] p,[data-bz-node=\"footer-credit\"] p{font-size:12px;color:#D6D6D8;margin:0}\n[data-bz-node=\"footer-copy\"] a{color:#D6D6D8}\n[data-bz-node=\"footer-copy\"] a:hover{color:#fff}\n[data-bz-node=\"footer-credit-logo\"] img{width:auto;height:26px}\n[data-bz-section] .tc-social__a,[data-bz-node^=\"footer-social\"] .tc-social__a{width:44px;height:44px}",
+  "css": "[data-bz-node=\"utility\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:12px;letter-spacing:.04em;text-transform:none;color:#fff}\n[data-bz-node=\"utility\"] .bz-navitem > a:hover{color:#ff8da0}\n[data-bz-node=\"utility\"] .bz-nav{gap:24px}\n[data-bz-node=\"utility-states\"] a{color:#fff;text-decoration:none}\n[data-bz-node=\"utility-states\"] a:hover{color:#ff8da0}\n[data-bz-node=\"utility-states\"] p{margin:0}\n[data-bz-node=\"header\"] .bz-navitem > a{font-family:var(--font-heading);font-weight:500;font-size:14px;line-height:normal;letter-spacing:.1em;text-transform:uppercase;color:#14151A;padding-block:0}\n[data-bz-node=\"header\"] .bz-navitem > a:hover{color:#C41230}\n[data-bz-node=\"header\"] .bz-nav{gap:32px}\n[data-bz-node=\"header-button\"] .bz-btn{padding:14px 24px;letter-spacing:.1em}\n[data-bz-node=\"header\"] .bz-menu-toggle{width:44px;height:44px;background:#14151A;color:#fff;border:0;border-radius:0;justify-content:center}\n[data-bz-node=\"header\"] .bz-menu-toggle span{width:18px;background:#fff}\n@media (max-width:1100px){\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] > .bz-menu{background:#14151A;border-bottom:0;padding:8px 32px 24px}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-nav{gap:0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem{width:100%;border-bottom:1px solid #45474E}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a{display:block;color:#fff;font-size:16px;padding:14px 0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a:hover{color:#fff}\n}\n[data-bz-node=\"footer-row\"] > .bz-col{grid-column:auto}\n[data-bz-node=\"footer-logo\"] img{width:260px;max-width:100%;height:auto}\n[data-bz-node=\"footer-blurb\"] p{font-size:14px;line-height:1.7;color:#D6D6D8;margin:0;max-width:280px}\n[data-bz-node=\"footer-links\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:14px;letter-spacing:0;text-transform:none;color:#D6D6D8}\n[data-bz-node=\"footer-links\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"footer-links\"] .bz-nav{gap:12px}\n[data-bz-node=\"footer-links-head\"] h2{font-family:var(--font-heading);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin:0 0 18px}\n[data-bz-node=\"footer-copy\"] p,[data-bz-node=\"footer-credit\"] p{font-size:12px;color:#D6D6D8;margin:0}\n[data-bz-node=\"footer-copy\"] a{color:#D6D6D8}\n[data-bz-node=\"footer-copy\"] a:hover{color:#fff}\n[data-bz-node=\"footer-credit-logo\"] img{width:auto;height:26px}\n[data-bz-section] .tc-social__a,[data-bz-node^=\"footer-social\"] .tc-social__a{width:44px;height:44px}\n\n/* The chrome is a bar, not a stack of blocks: .bz-block adds 16px above and\n   below every block, which is what made the utility bar 80px and the header\n   149px against the reference's 39px and 78px. */\n[data-bz-node=\"utility\"] .bz-block,[data-bz-node=\"header\"] .bz-block{padding-block:0}\n[data-bz-node=\"header\"] .bz-menu-wrap{flex:0 1 auto}\n[data-bz-node=\"header-logo\"] img{object-fit:contain;width:220px;max-width:60vw;height:auto;display:block}\n[data-bz-node=\"header-logo\"],[data-bz-node=\"header-logo\"] .bz-brand{display:flex;line-height:0}\n@media (max-width:1100px){[data-bz-node=\"header-logo\"] img{height:36px;width:auto}}\n/* .bz-btns carries a 20px block margin for body copy; a bar does not want it\n   (blocks.css zeroes the same thing for its own .bz-bar__cell). */\n[data-bz-node=\"header\"] .bz-btns{margin-block:0}\n\n/* The utility bar is 12px/1.6 throughout, with no padding on its links. */\n[data-bz-node=\"utility\"]{font-size:12px;line-height:1.6}\n[data-bz-node=\"utility\"] p{margin:0}\n[data-bz-node=\"utility\"] .bz-navitem > a{padding-block:0;line-height:1.6}\n/* The 12px size has to reach the <p>/<a>, which carry their own font rules. */\n[data-bz-node=\"utility\"] p,[data-bz-node=\"utility\"] a{font-size:12px;line-height:1.6}\n[data-bz-node=\"utility-states\"] a{letter-spacing:.08em}\n\n/* Shell measurements live here, not in node styles, so the homepage can\n   restore its own (it is the one page the handoff draws differently). */\n[data-bz-node=\"utility\"]{padding-block:10px}\n[data-bz-node=\"utility\"] a,[data-bz-node=\"utility\"] p{color:#fff}\n[data-bz-node=\"header\"]{padding-block:14px}\n[data-bz-node=\"header-row\"]{gap:24px}\n/* The account mark is decorative and appears only in the homepage header. */\n[data-bz-node=\"header-account\"]{display:none}",
   "nodes": [
     {
       "id": "utility",
@@ -17,12 +17,6 @@
         "width": "boxed",
         "paddingY": 0,
         "background": "ink"
-      },
-      "styles": {
-        "base": {
-          "paddingTop": 10,
-          "paddingBottom": 10
-        }
       },
       "children": [
         {
@@ -49,13 +43,6 @@
                     "text": "<a href=\"#locations\">IA \u00b7 IL \u00b7 IN \u00b7 MI \u00b7 OH \u00b7 WI</a>",
                     "width": "full"
                   },
-                  "styles": {
-                    "base": {
-                      "fontSize": 12,
-                      "letterSpacing": 1,
-                      "textColor": "#ffffff"
-                    }
-                  },
                   "children": null
                 }
               ]
@@ -81,7 +68,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "styles": {
+            "base": {
+              "display": "flex",
+              "justifyContent": "between",
+              "alignItems": "center",
+              "gap": 16
+            }
+          }
         }
       ]
     },
@@ -101,9 +96,7 @@
           "borderColor": "#8f8f8f",
           "position": "sticky",
           "top": 0,
-          "zIndex": 50,
-          "paddingTop": 14,
-          "paddingBottom": 14
+          "zIndex": 50
         }
       },
       "children": [
@@ -141,7 +134,7 @@
                 }
               ],
               "styles": {
-                "tablet": {
+                "base": {
                   "flexShrink": 1
                 }
               }
@@ -168,9 +161,8 @@
                 }
               ],
               "styles": {
-                "tablet": {
-                  "flexGrow": 0,
-                  "flexShrink": 0
+                "base": {
+                  "flexShrink": 1
                 }
               }
             },
@@ -187,6 +179,13 @@
                 }
               },
               "children": [
+                {
+                  "id": "header-account",
+                  "type": "spacer",
+                  "props": {
+                    "size": 1
+                  }
+                },
                 {
                   "id": "header-button",
                   "type": "buttons",
@@ -210,11 +209,10 @@
             }
           ],
           "styles": {
-            "tablet": {
+            "base": {
               "display": "flex",
               "justifyContent": "between",
-              "alignItems": "center",
-              "gap": 16
+              "alignItems": "center"
             }
           }
         }
