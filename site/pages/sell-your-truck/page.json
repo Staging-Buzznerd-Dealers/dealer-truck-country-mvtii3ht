@@ -1,0 +1,411 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "Trucks",
+                        "url": "https://www.truckcountry.com/inventory/truck-inventory/"
+                      }
+                    ],
+                    "current": "Sell Your Truck"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Sell your semi truck",
+          "lead": "Request a truck valuation online. A Truck Country / Stoops team member reviews your details and contacts you about selling or trading in your truck.",
+          "cta1Label": "Get a Truck Valuation",
+          "cta1Url": "#valuation",
+          "cta2Label": "How It Works",
+          "cta2Url": "#process",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "Freightliner Cascadia semi truck parked at a Truck Country dealership",
+            "width": 2000,
+            "height": 1308
+          }
+        }
+      }
+    },
+    {
+      "id": "process",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "numbered-cards",
+        "values": {
+          "anchorId": "process",
+          "eyebrow": "The process",
+          "heading": "Selling your truck in four steps",
+          "items": [
+            {
+              "num": "01",
+              "title": "Submit your details",
+              "body": "Share your truck’s year, make, model, mileage and condition. Add photos if you have them."
+            },
+            {
+              "num": "02",
+              "title": "We review your truck",
+              "body": "A team member looks over the information and may ask for more details or an inspection."
+            },
+            {
+              "num": "03",
+              "title": "Receive an offer",
+              "body": "We contact you with next steps, and can discuss a trade-in toward another truck."
+            },
+            {
+              "num": "04",
+              "title": "Complete the sale",
+              "body": "Finalize the paperwork with your dealership contact."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "why",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "bullet-band",
+        "values": {
+          "eyebrow": "Why Truck Country / Stoops",
+          "heading": "A Freightliner dealer that knows your truck",
+          "items": [
+            {
+              "title": "Freightliner and Western Star specialists",
+              "body": "Our teams work with these brands every day, along with Autocar and Wabash."
+            },
+            {
+              "title": "Trade in toward your next truck",
+              "body": "Apply your truck toward new or used inventory, with financing available."
+            },
+            {
+              "title": "One point of contact",
+              "body": "A dealership team member handles your request from first contact to paperwork."
+            },
+            {
+              "title": "Dealerships across six states",
+              "body": "Locations in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin."
+            }
+          ],
+          "image": {
+            "src": "/img/model-ws-49x.jpg",
+            "alt": "Western Star 49X semi truck",
+            "width": 900,
+            "height": 503
+          }
+        }
+      }
+    },
+    {
+      "id": "valuation",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "valuation"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "val-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 64
+            },
+            "tablet": {
+              "gap": 40
+            },
+            "mobile": {
+              "gap": 32
+            }
+          },
+          "children": [
+            {
+              "id": "val-copy",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "val-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Tell us about your truck",
+                    "eyebrow": "Truck valuation",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "val-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "Complete the form and a team member will follow up. Fields marked with an asterisk (*) are required.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "val-aside",
+                  "type": "list",
+                  "props": {
+                    "heading": "Helpful to have on hand",
+                    "headingLevel": 3,
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "VIN, year, make and model"
+                      },
+                      {
+                        "label": "Current mileage"
+                      },
+                      {
+                        "label": "Condition and any known issues"
+                      },
+                      {
+                        "label": "Photos of the exterior, interior and engine bay"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "val-links",
+                  "type": "text",
+                  "props": {
+                    "text": "Looking for your next truck? Browse <a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">used truck inventory</a>, view <a href=\"https://www.truckcountry.com/trucks/truck-financing/\">semi-truck financing</a>, or <a href=\"https://www.truckcountry.com/about/contact-us/\">contact us</a>.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "val-form-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3",
+                  "paddingTop": 40,
+                  "paddingRight": 40,
+                  "paddingBottom": 40,
+                  "paddingLeft": 40
+                },
+                "mobile": {
+                  "paddingTop": 20,
+                  "paddingRight": 20,
+                  "paddingBottom": 20,
+                  "paddingLeft": 20
+                }
+              },
+              "children": [
+                {
+                  "id": "val-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "truck-valuation"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "faq-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "faq-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 960
+                }
+              },
+              "children": [
+                {
+                  "id": "faq-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Selling and trading in your truck",
+                    "eyebrow": "FAQs",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "faq-list",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "q": "How do I find out what my truck is worth?",
+                          "a": "Submit the valuation form with your truck’s year, make, model, mileage and condition. A team member reviews the details and contacts you. A final figure may depend on an in-person inspection."
+                        },
+                        {
+                          "q": "What types of trucks can I sell?",
+                          "a": "Tell us about your truck in the form, including Freightliner, Western Star, Autocar or other makes. Our team confirms which trucks we can purchase when they follow up."
+                        },
+                        {
+                          "q": "What information do I need to provide?",
+                          "a": "The VIN, year, make, model, mileage and overall condition help most. Photos and notes about recent service or known issues are also useful."
+                        },
+                        {
+                          "q": "Can I trade in my truck toward another one?",
+                          "a": "Yes. Mention in the notes field that you are interested in a trade-in, and a team member can discuss it alongside new or used truck inventory and financing options."
+                        },
+                        {
+                          "q": "Do I have to bring my truck to a dealership?",
+                          "a": "The form is the first step. Whether an inspection is needed, and where it takes place, is discussed when a team member contacts you."
+                        },
+                        {
+                          "q": "Which areas do you serve?",
+                          "a": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "next-steps",
+        "values": {
+          "heading": "Next steps",
+          "items": [
+            {
+              "title": "Used Inventory",
+              "body": "Browse used trucks available now.",
+              "linkLabel": "View used trucks →",
+              "url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/"
+            },
+            {
+              "title": "Financing",
+              "body": "Explore semi-truck financing.",
+              "linkLabel": "See financing →",
+              "url": "https://www.truckcountry.com/trucks/truck-financing/"
+            },
+            {
+              "title": "Locations",
+              "body": "Find a dealership near you.",
+              "linkLabel": "Find a location →",
+              "url": "https://www.truckcountry.com/locations/"
+            },
+            {
+              "title": "Contact Us",
+              "body": "Talk to a team member.",
+              "linkLabel": "Contact us →",
+              "url": "https://www.truckcountry.com/about/contact-us/"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

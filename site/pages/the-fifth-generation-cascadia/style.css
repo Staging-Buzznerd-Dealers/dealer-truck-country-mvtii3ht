@@ -1,0 +1,7 @@
+/* The inner-page system sets its headings in Oswald uppercase; the copy itself
+   is written in sentence case, exactly as the handoff has it. */
+.bz-block h2,
+.bz-block h3 { text-transform: uppercase }
+
+/* This form says "(Required)" in the label itself, as the live form does. */
+.bz-form .bz-req { display: none }

@@ -1,0 +1,184 @@
+{
+  "version": 2,
+  "id": "page-hero",
+  "name": "Page hero (photo behind)",
+  "description": "The inner-page hero: a full-bleed photo under a left-to-right scrim, with the eyebrow, H1, lead and two CTAs over it.",
+  "css": "[data-bz-node=\"ph\"]{color:#fff}\n[data-bz-node=\"ph-media\"]{position:absolute;inset:0;z-index:0}\n[data-bz-node=\"ph-media\"] .bz-block,[data-bz-node=\"ph-media\"] .bz-container,[data-bz-node=\"ph-media\"] .bz-figure,[data-bz-node=\"ph-media\"] > .bz-col{height:100%;padding:0;margin:0}\n[data-bz-node=\"ph-media\"] img{width:100%;height:100%;object-fit:cover;border-radius:0}\n[data-bz-node=\"ph-body\"]{background:linear-gradient(90deg,rgba(14,15,19,.92) 0%,rgba(14,15,19,.75) 45%,rgba(14,15,19,.25) 100%)}\n[data-bz-node=\"ph-copy\"] .bz-eyebrow{color:#fff;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;border-left:4px solid #C41230;padding-left:12px}\n[data-bz-node=\"ph-title\"] h1{font-family:var(--font-heading);font-weight:700;font-size:clamp(40px,6vw,80px);line-height:1;text-transform:uppercase;color:#fff;margin:0 0 24px;letter-spacing:0}\n[data-bz-node=\"ph-lead\"] p{font-size:18px;line-height:1.6;color:#fff;margin:0 0 32px;max-width:560px}\n[data-bz-node=\"ph-ctas\"] .bz-btns{display:flex;flex-wrap:wrap;gap:16px;margin:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn{font-family:var(--font-heading);font-weight:600;font-size:15px;letter-spacing:.1em;text-transform:uppercase;border-radius:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary{background:#C41230;color:#fff;padding:18px 32px;border:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary:hover{background:#8f0d21;color:#fff}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary{background:transparent;color:#fff;border:2px solid #fff;padding:16px 32px}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary:hover{background:rgba(255,255,255,.15);border-color:#fff;color:#fff}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Truck Country / Stoops"
+    },
+    {
+      "key": "headline",
+      "type": "text",
+      "label": "Headline",
+      "default": ""
+    },
+    {
+      "key": "lead",
+      "type": "textarea",
+      "label": "Lead paragraph",
+      "default": ""
+    },
+    {
+      "key": "cta1Label",
+      "type": "text",
+      "label": "Primary button",
+      "default": ""
+    },
+    {
+      "key": "cta1Url",
+      "type": "url",
+      "label": "Primary link",
+      "default": ""
+    },
+    {
+      "key": "cta2Label",
+      "type": "text",
+      "label": "Secondary button",
+      "default": ""
+    },
+    {
+      "key": "cta2Url",
+      "type": "url",
+      "label": "Secondary link",
+      "default": ""
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Hero photo"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ph",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0,
+        "background": "ink",
+        "anchor": "main-content"
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "overflow": "hidden",
+          "marginTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "ph-media",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ph-photo-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ph-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ph-body",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "position": "relative",
+              "zIndex": 2,
+              "paddingTop": 130,
+              "paddingBottom": 130,
+              "paddingLeft": 32,
+              "paddingRight": 32
+            },
+            "tablet": {
+              "paddingTop": 96,
+              "paddingBottom": 96
+            },
+            "mobile": {
+              "paddingTop": 64,
+              "paddingBottom": 64,
+              "paddingLeft": 20,
+              "paddingRight": 20
+            }
+          },
+          "children": [
+            {
+              "id": "ph-copy",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640
+                }
+              },
+              "children": [
+                {
+                  "id": "ph-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{headline}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "ph-lead",
+                  "type": "text",
+                  "props": {
+                    "text": "{{lead}}",
+                    "width": "prose"
+                  }
+                },
+                {
+                  "id": "ph-ctas",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{cta1Label}}",
+                        "url": "{{cta1Url}}",
+                        "style": "primary"
+                      },
+                      {
+                        "label": "{{cta2Label}}",
+                        "url": "{{cta2Url}}",
+                        "style": "secondary"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

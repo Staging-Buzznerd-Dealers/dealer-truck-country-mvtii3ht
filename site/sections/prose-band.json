@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "id": "prose-band",
+  "name": "Prose band",
+  "description": "An eyebrow, H2 and one or two paragraphs. Used wherever a page is simply saying something.",
+  "css": "[data-bz-node=\"pb-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"pb-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"pb-head\"] h2{margin:0 0 24px}\n[data-bz-node=\"pb-body\"] p{color:#54565C;font-size:16px;line-height:1.6;margin:0 0 16px;max-width:900px}\n[data-bz-node=\"pb-body\"] p:last-child{margin-bottom:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Paragraphs",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "pb-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "pb-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "pb-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "pb-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

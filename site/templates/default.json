@@ -8,7 +8,7 @@
       "ref": null
     }
   ],
-  "css": "[data-bz-node=\"utility\"] .bz-navitem > a{font-size:12px;letter-spacing:.04em;color:rgba(255,255,255,.75)}\n[data-bz-node=\"utility\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"utility-states\"] a{color:rgba(255,255,255,.75);text-decoration:none}\n[data-bz-node=\"utility-states\"] a:hover{color:#fff}\n[data-bz-node=\"header\"] .bz-navitem > a{color:#fff}\n[data-bz-node=\"header\"] .bz-navitem > a:hover{color:var(--accent)}\n[data-bz-node=\"header\"] .bz-menu-toggle{color:#fff}\n[data-bz-node=\"header\"] .bz-nav{gap:36px}\n[data-bz-node=\"header-logo\"] img{object-fit:contain}\n@media (max-width:1100px){[data-bz-node=\"header-logo\"] img{height:36px}}\n[data-bz-node=\"footer-blurb\"] p{font-size:14px;line-height:1.7;color:rgba(255,255,255,.65);margin:0}\n[data-bz-node=\"footer-links\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:14px;letter-spacing:0;text-transform:none;color:rgba(255,255,255,.65)}\n[data-bz-node=\"footer-links\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"footer-links-head\"] h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin:0 0 18px}\n[data-bz-node=\"footer-copy\"] p,[data-bz-node=\"footer-credit\"] p{font-size:12px;color:rgba(255,255,255,.65);margin:0}\n[data-bz-node=\"footer-credit\"] img{display:inline-block;width:90px;height:auto;vertical-align:middle;margin-left:8px}",
+  "css": "[data-bz-node=\"utility\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:12px;letter-spacing:.04em;text-transform:none;color:#fff}\n[data-bz-node=\"utility\"] .bz-navitem > a:hover{color:#ff8da0}\n[data-bz-node=\"utility\"] .bz-nav{gap:24px}\n[data-bz-node=\"utility-states\"] a{color:#fff;text-decoration:none}\n[data-bz-node=\"utility-states\"] a:hover{color:#ff8da0}\n[data-bz-node=\"utility-states\"] p{margin:0}\n[data-bz-node=\"header\"] .bz-navitem > a{font-family:var(--font-heading);font-weight:500;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#14151A;padding-block:0}\n[data-bz-node=\"header\"] .bz-navitem > a:hover{color:#C41230}\n[data-bz-node=\"header\"] .bz-nav{gap:32px}\n[data-bz-node=\"header-logo\"] img{object-fit:contain;width:220px;max-width:60vw;height:auto}\n[data-bz-node=\"header-button\"] .bz-btn{padding:14px 24px;letter-spacing:.1em}\n[data-bz-node=\"header\"] .bz-menu-toggle{width:44px;height:44px;background:#14151A;color:#fff;border:0;border-radius:0;justify-content:center}\n[data-bz-node=\"header\"] .bz-menu-toggle span{width:18px;background:#fff}\n@media (max-width:1100px){\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] > .bz-menu{background:#14151A;border-bottom:0;padding:8px 32px 24px}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-nav{gap:0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem{width:100%;border-bottom:1px solid #45474E}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a{display:block;color:#fff;font-size:16px;padding:14px 0}\n  [data-bz-node=\"header\"] .bz-menu-wrap[data-open] .bz-navitem > a:hover{color:#fff}\n}\n[data-bz-node=\"footer-row\"] > .bz-col{grid-column:auto}\n[data-bz-node=\"footer-logo\"] img{width:260px;max-width:100%;height:auto}\n[data-bz-node=\"footer-blurb\"] p{font-size:14px;line-height:1.7;color:#D6D6D8;margin:0;max-width:280px}\n[data-bz-node=\"footer-links\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:14px;letter-spacing:0;text-transform:none;color:#D6D6D8}\n[data-bz-node=\"footer-links\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"footer-links\"] .bz-nav{gap:12px}\n[data-bz-node=\"footer-links-head\"] h2{font-family:var(--font-heading);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin:0 0 18px}\n[data-bz-node=\"footer-copy\"] p,[data-bz-node=\"footer-credit\"] p{font-size:12px;color:#D6D6D8;margin:0}\n[data-bz-node=\"footer-copy\"] a{color:#D6D6D8}\n[data-bz-node=\"footer-copy\"] a:hover{color:#fff}\n[data-bz-node=\"footer-credit-logo\"] img{width:auto;height:26px}\n[data-bz-section] .tc-social__a,[data-bz-node^=\"footer-social\"] .tc-social__a{width:44px;height:44px}",
   "nodes": [
     {
       "id": "utility",
@@ -20,8 +20,8 @@
       },
       "styles": {
         "base": {
-          "paddingTop": 8,
-          "paddingBottom": 8
+          "paddingTop": 10,
+          "paddingBottom": 10
         }
       },
       "children": [
@@ -53,7 +53,7 @@
                     "base": {
                       "fontSize": 12,
                       "letterSpacing": 1,
-                      "textColor": "#ffffff@75%"
+                      "textColor": "#ffffff"
                     }
                   },
                   "children": null
@@ -102,8 +102,8 @@
           "position": "sticky",
           "top": 0,
           "zIndex": 50,
-          "paddingTop": 16,
-          "paddingBottom": 16
+          "paddingTop": 14,
+          "paddingBottom": 14
         }
       },
       "children": [
@@ -129,7 +129,7 @@
                   "type": "logo",
                   "props": {
                     "url": "/",
-                    "height": 46,
+                    "height": 35,
                     "image": {
                       "src": "/img/logo.png",
                       "alt": "Truck Country / Stoops Freightliner-Western Star",
@@ -139,7 +139,12 @@
                   },
                   "children": null
                 }
-              ]
+              ],
+              "styles": {
+                "tablet": {
+                  "flexShrink": 1
+                }
+              }
             },
             {
               "id": "header-nav",
@@ -161,7 +166,13 @@
                   },
                   "children": null
                 }
-              ]
+              ],
+              "styles": {
+                "tablet": {
+                  "flexGrow": 0,
+                  "flexShrink": 0
+                }
+              }
             },
             {
               "id": "header-cta",
@@ -197,7 +208,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "styles": {
+            "tablet": {
+              "display": "flex",
+              "justifyContent": "between",
+              "alignItems": "center",
+              "gap": 16
+            }
+          }
         }
       ]
     },
@@ -219,8 +238,8 @@
       "styles": {
         "base": {
           "background": "#0e0f13",
-          "paddingTop": 72,
-          "paddingBottom": 24
+          "paddingTop": 64,
+          "paddingBottom": 40
         }
       },
       "children": [
@@ -234,11 +253,12 @@
           },
           "styles": {
             "base": {
-              "borderWidth": 0,
-              "paddingBottom": 56,
-              "borderBottomWidth": 1,
-              "borderStyle": "solid",
-              "borderColor": "#ffffff@8%"
+              "gap": 40,
+              "gridColumns": "2fr 1fr 1fr 1fr",
+              "paddingBottom": 40
+            },
+            "tablet": {
+              "gap": 32
             }
           },
           "children": [
@@ -328,35 +348,35 @@
                     "links": [
                       {
                         "name": "Facebook",
+                        "url": "https://www.facebook.com/TruckCountryTechnicalInstitute/",
                         "icon": {
                           "src": "/icons/facebook.svg",
-                          "alt": "Facebook"
-                        },
-                        "url": "https://www.facebook.com/"
+                          "alt": "Truck Country on Facebook"
+                        }
                       },
                       {
                         "name": "YouTube",
+                        "url": "https://www.youtube.com/@TruckCountryTrucks",
                         "icon": {
                           "src": "/icons/youtube.svg",
-                          "alt": "YouTube"
-                        },
-                        "url": "https://www.youtube.com/"
+                          "alt": "Truck Country on YouTube"
+                        }
                       },
                       {
                         "name": "Instagram",
+                        "url": "https://www.instagram.com/truckcountry_freightliner/",
                         "icon": {
                           "src": "/icons/instagram.svg",
-                          "alt": "Instagram"
-                        },
-                        "url": "https://www.instagram.com/"
+                          "alt": "Truck Country on Instagram"
+                        }
                       },
                       {
                         "name": "LinkedIn",
+                        "url": "https://www.linkedin.com/company/truck-country/",
                         "icon": {
                           "src": "/icons/linkedin.svg",
-                          "alt": "LinkedIn"
-                        },
-                        "url": "https://www.linkedin.com/"
+                          "alt": "Truck Country on LinkedIn"
+                        }
                       }
                     ]
                   },
@@ -379,35 +399,35 @@
                     "links": [
                       {
                         "name": "Facebook",
+                        "url": "https://www.facebook.com/StoopsTraining",
                         "icon": {
                           "src": "/icons/facebook.svg",
-                          "alt": "Facebook"
-                        },
-                        "url": "https://www.facebook.com/"
+                          "alt": "Stoops on Facebook"
+                        }
                       },
                       {
                         "name": "YouTube",
+                        "url": "https://www.youtube.com/@stoopsfreightliner",
                         "icon": {
                           "src": "/icons/youtube.svg",
-                          "alt": "YouTube"
-                        },
-                        "url": "https://www.youtube.com/"
+                          "alt": "Stoops on YouTube"
+                        }
                       },
                       {
                         "name": "Instagram",
+                        "url": "https://www.instagram.com/stoopsfreightliner/",
                         "icon": {
                           "src": "/icons/instagram.svg",
-                          "alt": "Instagram"
-                        },
-                        "url": "https://www.instagram.com/"
+                          "alt": "Stoops on Instagram"
+                        }
                       },
                       {
                         "name": "LinkedIn",
+                        "url": "https://www.linkedin.com/company/stoops-freightliner-western-star/",
                         "icon": {
                           "src": "/icons/linkedin.svg",
-                          "alt": "LinkedIn"
-                        },
-                        "url": "https://www.linkedin.com/"
+                          "alt": "Stoops on LinkedIn"
+                        }
                       }
                     ]
                   },
@@ -427,6 +447,10 @@
           },
           "styles": {
             "base": {
+              "borderWidth": 0,
+              "borderTopWidth": 1,
+              "borderStyle": "solid",
+              "borderColor": "#2a2c33",
               "paddingTop": 24
             }
           },

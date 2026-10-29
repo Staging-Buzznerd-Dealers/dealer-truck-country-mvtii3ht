@@ -1,0 +1,74 @@
+{
+  "id": "cascadia-contact",
+  "name": "Contact Form - Fifth Generation Cascadia",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "request-info",
+  "submitLabel": "Submit",
+  "successMessage": "Thank you. A Truck Country / Stoops team member will contact you.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "Disclaimer (Required) By providing my phone number to \u201cTruck Country/Stoops Freightliner-Western Star\u201d, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying \u201cSTOP\u201d. For more information on how your data will be handled, please visit our <Privacy Policy>."
+  },
+  "fields": [
+    {
+      "id": "fc-first",
+      "type": "first_name",
+      "label": "First name (Required)",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "fc-last",
+      "type": "last_name",
+      "label": "Last name (Required)",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "fc-email",
+      "type": "email",
+      "label": "Email (Required)",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "fc-email2",
+      "type": "email",
+      "label": "Confirm email (Required)",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "fc-comments",
+      "type": "paragraph",
+      "label": "Comments",
+      "required": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "fc-sales",
+      "name": "Cascadia enquiries",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "sales-manager",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "fc-thanks",
+      "name": "Request received",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "heading": "Request received",
+      "message": "Thank you. A Truck Country / Stoops team member will contact you."
+    }
+  ]
+}

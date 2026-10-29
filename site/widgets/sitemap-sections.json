@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "sitemap-sections",
+  "label": "Site map sections",
+  "category": "section",
+  "origin": "ai",
+  "description": "The site map grid: one card per section, with its group links and sub-links.",
+  "props": [
+    {
+      "key": "sections",
+      "type": "list",
+      "label": "Sections",
+      "fields": [
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Section"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Section link"
+        },
+        {
+          "key": "rows",
+          "type": "list",
+          "label": "Links",
+          "fields": [
+            {
+              "key": "label",
+              "type": "text",
+              "label": "Label"
+            },
+            {
+              "key": "url",
+              "type": "url",
+              "label": "Links to"
+            },
+            {
+              "key": "status",
+              "type": "text",
+              "label": "Status"
+            },
+            {
+              "key": "sub",
+              "type": "boolean",
+              "label": "Indented sub-link"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "html": "<div class=\"tc-sm\">\n  {{#each sections}}\n  <section class=\"tc-sm__card\">\n    <a class=\"tc-sm__title\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"sitemap\">{{title}}</a>\n    <div class=\"tc-sm__rows\">\n      {{#each rows}}\n        {{#if sub}}\n          <a class=\"tc-sm__sub\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"sitemap\">{{label}}</a>\n        {{else}}\n          <a class=\"tc-sm__group{{#if status}} tc-sm__group--done{{/if}}\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"sitemap\"><span>{{label}}</span>{{#if status}}<span class=\"tc-sm__flag\">{{status}}</span>{{/if}}</a>\n        {{/if}}\n      {{/each}}\n    </div>\n  </section>\n  {{/each}}\n</div>",
+  "css": ".tc-sm{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;align-items:start}\n.tc-sm__card{background:#fff;border:1px solid #EDEBE3;border-top:4px solid #C41230;padding:24px}\n.tc-sm__title{display:block;font-family:var(--font-heading);font-weight:700;font-size:22px;letter-spacing:.02em;text-transform:uppercase;color:#14151A;text-decoration:none;margin-bottom:16px}\n.tc-sm__title:hover{color:#C41230}\n.tc-sm__rows{display:flex;flex-direction:column}\n.tc-sm__group{display:flex;align-items:center;justify-content:space-between;gap:10px;font-family:var(--font-heading);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:#14151A;text-decoration:none;padding:7px 0}\n.tc-sm__group:hover{color:#C41230}\n.tc-sm__group--done{background:#1E7A3C;color:#fff;padding:7px 10px;margin:4px 0}\n.tc-sm__group--done:hover{color:#fff}\n.tc-sm__flag{font-family:var(--font-body);font-weight:600;font-size:12px;letter-spacing:0;text-transform:none;white-space:nowrap}\n.tc-sm__sub{font-size:14px;color:#54565C;text-decoration:none;padding:5px 0 5px 14px}\n.tc-sm__sub:hover{color:#C41230}"
+}
