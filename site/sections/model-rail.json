@@ -1,0 +1,260 @@
+{
+  "version": 2,
+  "id": "model-rail",
+  "name": "Model rail",
+  "description": "The brand/model carousel — one card per model, edited as a list.",
+  "css": "[data-bz-node=\"rail-wrap\"]{position:relative}\n[data-bz-node=\"rail-track\"]{display:flex;gap:20px;padding-bottom:0;scrollbar-width:none}\n[data-bz-node=\"rail-track\"]::-webkit-scrollbar{display:none}\n[data-bz-node=\"rail-track\"]>.bz-col{grid-column:auto;flex:0 0 320px;overflow:hidden;box-shadow:0 12px 28px -18px rgba(0,0,0,.25);transition:transform .3s ease,box-shadow .3s ease;display:flex;flex-direction:column}\n[data-bz-node=\"rail-track\"]>.bz-col:hover{transform:translateY(-6px);box-shadow:0 24px 48px -20px rgba(0,0,0,.18)}\n[data-bz-node=\"rail-track\"] .bz-block,[data-bz-node=\"rail-track\"] .bz-container{padding:0}\n[data-bz-node=\"rail-track\"] .bz-figure img{width:100%;height:200px;object-fit:cover;border-radius:0}\n[data-bz-node=\"rail-track\"] .bz-text p{font-family:var(--font-heading);font-size:11px;letter-spacing:.08em;color:var(--accent);font-weight:700;text-transform:uppercase;margin:0 0 6px}\n[data-bz-node=\"rail-track\"] h3{font-weight:600;font-size:20px;margin:0 0 16px;color:var(--ink)}\n[data-bz-node=\"rail-track\"] .bz-btn{padding:10px 20px;font-size:12px}\n[data-bz-node=\"rail-prev\"],[data-bz-node=\"rail-next\"]{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:44px;padding:0}\n[data-bz-node=\"rail-prev\"]{left:-22px}\n[data-bz-node=\"rail-next\"]{right:-22px}\n[data-bz-node=\"rail-prev\"] .bz-block,[data-bz-node=\"rail-next\"] .bz-block{padding:0}\n@media (max-width:1100px){[data-bz-node=\"rail-track\"]>.bz-col{flex-basis:260px}[data-bz-node=\"rail-prev\"]{left:0}[data-bz-node=\"rail-next\"]{right:0}}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Truck Models & Brands"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "A LINEUP BUILT FOR EVERY JOB"
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Models",
+      "fields": [
+        {
+          "key": "photo",
+          "type": "image",
+          "label": "Photo"
+        },
+        {
+          "key": "brand",
+          "type": "text",
+          "label": "Brand"
+        },
+        {
+          "key": "model",
+          "type": "text",
+          "label": "Model"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "models",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "behaviour": "carousel",
+        "behaviourOptions": "{\"perMove\":1,\"label\":\"Truck models\"}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "rail-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "rail-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640,
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "textAlign": "center",
+                  "marginBottom": 48
+                }
+              },
+              "children": [
+                {
+                  "id": "rail-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rail-wrap",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "rail-viewport",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "rail-track",
+                  "type": "row",
+                  "props": {
+                    "gap": 5,
+                    "part": "track",
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "rail-card",
+                      "type": "column",
+                      "props": {
+                        "span": 3,
+                        "repeat": "items",
+                        "part": "slide"
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "card",
+                          "borderWidth": 1,
+                          "borderStyle": "solid",
+                          "borderColor": "line"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "rail-img",
+                          "type": "image",
+                          "props": {
+                            "image": "{{photo}}",
+                            "width": "full"
+                          }
+                        },
+                        {
+                          "id": "rail-body",
+                          "type": "row",
+                          "props": {
+                            "gap": 0
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 20,
+                              "paddingRight": 20,
+                              "paddingBottom": 20,
+                              "paddingLeft": 20
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "rail-body-col",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "rail-brand",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{brand}}",
+                                    "width": "full"
+                                  }
+                                },
+                                {
+                                  "id": "rail-model",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "{{model}}",
+                                    "headingLevel": 3
+                                  }
+                                },
+                                {
+                                  "id": "rail-cta",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Explore",
+                                        "url": "{{url}}",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rail-prev",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "part": "prev"
+              },
+              "children": [
+                {
+                  "id": "rail-prev-btn",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "‹",
+                    "label": "Previous models",
+                    "tone": "dark"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rail-next",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "part": "next"
+              },
+              "children": [
+                {
+                  "id": "rail-next-btn",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "›",
+                    "label": "More models",
+                    "tone": "dark"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

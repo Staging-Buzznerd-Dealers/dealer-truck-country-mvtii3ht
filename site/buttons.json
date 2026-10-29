@@ -1,10 +1,82 @@
 [
   {
     "id": "browse-inventory",
-    "label": "Browse inventory",
-    "url": "/store",
+    "label": "Shop Inventory",
+    "url": "/store/inventory",
     "style": "primary",
     "intent": "browse-inventory",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "find-a-location",
+    "label": "Find a Location",
+    "url": "#locations",
+    "style": "secondary",
+    "intent": "find-location",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "view-all-locations",
+    "label": "View All Locations",
+    "url": "#locations",
+    "style": "primary",
+    "intent": "find-location",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "about-us",
+    "label": "Learn More About Us",
+    "url": "#about",
+    "style": "primary",
+    "intent": "about",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "view-careers",
+    "label": "View Careers",
+    "url": "#careers",
+    "style": "primary",
+    "intent": "careers",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "explore-training",
+    "label": "Explore Training",
+    "url": "#careers",
+    "style": "secondary",
+    "intent": "careers",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "view-full-inventory",
+    "label": "View Full Inventory",
+    "url": "/store/inventory",
+    "style": "primary",
+    "intent": "browse-inventory",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "shop-trailers",
+    "label": "Shop Trailers",
+    "url": "/store/inventory?type=trailer",
+    "style": "primary",
+    "intent": "browse-inventory",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "elite-support",
+    "label": "Find an Elite Support Location",
+    "url": "#locations",
+    "style": "primary",
+    "intent": "find-location",
     "newTab": false,
     "active": true
   },
@@ -34,15 +106,6 @@
     "url": "tel:+15551234567",
     "style": "secondary",
     "intent": "call-dealer",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "about-us",
-    "label": "About us",
-    "url": "/about",
-    "style": "link",
-    "intent": "about",
     "newTab": false,
     "active": true
   }

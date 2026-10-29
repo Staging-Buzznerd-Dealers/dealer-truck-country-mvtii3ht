@@ -1,7 +1,86 @@
-.hero{padding:var(--space-7) 0 var(--space-6)}
-.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:var(--text-eyebrow);font-weight:700;color:var(--accent);margin:0 0 var(--space-3)}
-.hero h1{letter-spacing:-.02em}
-.hero .lede{font-size:var(--text-h3);color:var(--muted);max-width:60ch}
-.hero-actions{display:flex;gap:var(--space-3);margin-top:var(--space-6);flex-wrap:wrap}
-.btn-ghost{color:var(--ink);background:transparent;border-color:var(--line)}
-.btn-ghost:hover{background:var(--card)}
+/* Homepage details the block props and the style panel cannot reach —
+   image crops, the Elite Support lockup, and the news cards' photo scrim. */
+
+/* ---------------------------------------------------------------- about */
+[data-bz-node="about-photo"] img { width: 100%; height: 380px; object-fit: cover }
+[data-bz-node="about-cta"] .bz-btns { justify-content: center }
+
+/* ------------------------------------------------- careers & training */
+[data-bz-node="careers-photo"] img { width: 100%; height: 420px; object-fit: cover }
+[data-bz-node="careers"] :is(h1, h2, h3) { color: #fff }
+[data-bz-node="careers"] .bz-text p { color: rgba(255, 255, 255, .8) }
+/* The stat band supplies the figures and the two CTAs. Its own dark panel is
+   meant for a full-width band; here it sits inside this section's colour, and
+   the design puts the figures above the buttons. */
+[data-bz-node="careers-stats"] { background: none; padding: 0; color: inherit }
+[data-bz-node="careers-stats"] .bz-container { padding: 0 }
+[data-bz-node="careers-stats"] .bz-band { display: flex; flex-direction: column-reverse; gap: 0; align-items: stretch }
+[data-bz-node="careers-stats"] .bz-stats { display: flex; gap: 48px; flex-wrap: wrap; margin: 0 0 36px }
+[data-bz-node="careers-stats"] .bz-stat__v { font-family: var(--font-heading); font-weight: 700; font-size: 34px; color: #fff }
+[data-bz-node="careers-stats"] .bz-stat__l { font-size: 13px; color: rgba(255, 255, 255, .6); letter-spacing: .04em }
+[data-bz-node="careers-stats"] .bz-btns { gap: 16px; flex-wrap: wrap }
+
+/* -------------------------------------------------------------- trailers */
+[data-bz-node="trailers-photo"] img { width: 100%; height: 420px; object-fit: cover }
+
+/* -------------------------------------------------------- customer driven */
+[data-bz-node="driven"] :is(h1, h2, h3) { color: #fff }
+[data-bz-node="driven-copy"] .bz-text p { color: rgba(255, 255, 255, .8) }
+[data-bz-node="driven-head"] h2 { font-family: var(--font-heading); font-weight: 600; font-size: 24px; margin: 0 0 20px }
+[data-bz-node="driven-lockup"] p {
+  font-family: var(--font-heading); font-weight: 700; font-style: italic;
+  font-size: clamp(40px, 6vw, 68px); line-height: .98; color: #fff; margin: 0;
+}
+[data-bz-node="driven-lockup"] em { color: var(--accent); font-style: italic }
+[data-bz-node="driven-tag"] p {
+  font-family: var(--font-heading); font-size: 15px; letter-spacing: .1em;
+  color: rgba(255, 255, 255, .6); text-transform: uppercase; margin-top: 18px;
+}
+
+/* ---------------------------------------------------- featured inventory */
+[data-bz-node="featured-rail"] .bz-grid--4 { grid-template-columns: repeat(4, 1fr) }
+[data-bz-node="featured-rail"] .bz-card { border: 1px solid var(--line); background: #fff; padding: 20px }
+[data-bz-node="featured-rail"] .bz-card img { width: 100%; height: 180px; object-fit: cover; margin-bottom: 16px }
+[data-bz-node="featured-rail"] .bz-card__t { font-family: var(--font-heading); font-weight: 600; font-size: 18px; color: var(--ink) }
+[data-bz-node="featured-rail"] .bz-widget > p:last-child { text-align: center; margin-top: 44px }
+@media (max-width: 1100px) { [data-bz-node="featured-rail"] .bz-grid--4 { grid-template-columns: 1fr 1fr } }
+@media (max-width: 640px) { [data-bz-node="featured-rail"] .bz-grid--4 { grid-template-columns: 1fr } }
+
+/* ------------------------------------------------------ news & resources */
+/* The design's news card is one photo with the copy over a scrim at its foot.
+   postsList emits the cover image and the body as siblings, so the card
+   becomes the positioning context and the image fills it. */
+[data-bz-node="news-list"] .bz-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start }
+[data-bz-node="news-list"] .bz-post {
+  position: relative; min-height: 560px; overflow: hidden;
+  border: 0; background: var(--ink); text-decoration: none; display: block;
+}
+[data-bz-node="news-list"] .bz-post img,
+[data-bz-node="news-list"] .bz-post .bz-photo {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; margin: 0;
+}
+[data-bz-node="news-list"] .bz-post::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .75) 75%);
+}
+[data-bz-node="news-list"] .bz-card__body {
+  position: relative; z-index: 2; padding: 28px; min-height: 560px;
+  display: flex; flex-direction: column; justify-content: flex-end; color: #fff; gap: 10px;
+}
+[data-bz-node="news-list"] .bz-card__t { font-family: var(--font-heading); font-weight: 600; font-size: 22px; color: #fff }
+[data-bz-node="news-list"] .bz-post__d { font-size: 14px; line-height: 1.6; color: rgba(255, 255, 255, .85) }
+@media (max-width: 1100px) { [data-bz-node="news-list"] .bz-grid { grid-template-columns: 1fr } }
+
+/* ------------------------------------------------------- scroll reveal */
+/* Only ever active once script.js has set data-tc-reveal on <html>, so the
+   first paint, a JS-less visitor and the Design canvas all see the finished
+   layout rather than a page of invisible bands. */
+[data-tc-reveal] [data-tc-reveal-item] {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity .75s cubic-bezier(.19, 1, .22, 1), transform .75s cubic-bezier(.19, 1, .22, 1);
+}
+[data-tc-reveal] [data-tc-reveal-item][data-tc-shown] { opacity: 1; transform: none }
+@media (prefers-reduced-motion: reduce) {
+  [data-tc-reveal] [data-tc-reveal-item] { opacity: 1; transform: none; transition: none }
+}

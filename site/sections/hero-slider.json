@@ -1,0 +1,277 @@
+{
+  "version": 2,
+  "id": "hero-slider",
+  "name": "Hero slider",
+  "description": "The full-bleed homepage hero — a rotating photo behind fixed copy, with the inventory search bar riding up over its lower edge.",
+  "css": "[data-bz-section=\"hero-slider\"] [data-bz-node=\"hero\"]{color:#fff}\n[data-bz-node=\"hero-slides\"]{display:flex;gap:0}\n[data-bz-node=\"hero-slides\"]>.bz-col{grid-column:auto;flex:1 1 0;min-width:0;height:100%}\n[data-bz-node=\"hero-slides\"] .bz-block,[data-bz-node=\"hero-slides\"] .bz-container,[data-bz-node=\"hero-slides\"] .bz-figure{height:100%;padding:0;margin:0}\n[data-bz-node=\"hero-slides\"] img{width:100%;height:100%;object-fit:cover;border-radius:0}\n[data-bz-node=\"hero-body\"]{background:linear-gradient(180deg,rgba(12,12,12,.35) 0%,rgba(12,12,12,.5) 65%,rgba(12,12,12,.75) 100%)}\n[data-bz-section=\"hero-slider\"] [data-bz-node=\"hero-copy\"]{text-shadow:0 2px 24px rgba(0,0,0,.55)}\n[data-bz-section=\"hero-slider\"] [data-bz-node=\"hero-title\"] h1{color:#fff;margin:0 0 24px}\n[data-bz-section=\"hero-slider\"] [data-bz-node=\"hero-title\"] .bz-eyebrow{color:#fff;opacity:.85;letter-spacing:.18em;margin-bottom:18px}\n[data-bz-section=\"hero-slider\"] [data-bz-node=\"hero-sub\"] p{font-size:18px;line-height:1.6;color:rgba(255,255,255,.85);max-width:520px;margin:0}\n[data-bz-node=\"hero-controls\"] .bz-block{padding:0}\n[data-bz-node=\"finder-box\"] .bz-searchbar{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:stretch;margin:0}\n[data-bz-node=\"finder-box\"] .bz-input{background:#fff;border:1px solid #8f8f8f;color:var(--ink);padding:14px 16px;font-size:14px;font-family:var(--font-body);border-radius:0}\n[data-bz-node=\"finder-box\"] .bz-widget__h{display:none}\n[data-bz-node=\"finder-box\"] .bz-searchbar__chips{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}\n[data-bz-node=\"finder-box\"] .bz-chip{background:#fff;color:var(--ink);padding:8px 14px;font-size:12px;border:1px solid #8f8f8f}\n@media (max-width:640px){[data-bz-node=\"finder-box\"] .bz-searchbar{grid-template-columns:1fr}}\n[data-bz-node=\"hero-controls\"] .bz-block,[data-bz-node=\"hero-controls\"] .bz-widget{padding:0;margin:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Freightliner & Western Star Dealer"
+    },
+    {
+      "key": "headline",
+      "type": "text",
+      "label": "Headline",
+      "default": "BUILT FOR THE ROAD AHEAD"
+    },
+    {
+      "key": "subhead",
+      "type": "textarea",
+      "label": "Supporting copy",
+      "default": ""
+    },
+    {
+      "key": "slides",
+      "type": "list",
+      "label": "Hero photos",
+      "fields": [
+        {
+          "key": "photo",
+          "type": "image",
+          "label": "Photo"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hero",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0,
+        "background": "ink",
+        "behaviour": "rotator",
+        "behaviourOptions": "{\"autoplay\":7000}"
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "overflow": "hidden",
+          "minHeight": "88vh"
+        },
+        "mobile": {
+          "minHeight": "620px"
+        }
+      },
+      "children": [
+        {
+          "id": "hero-slides",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "inset": 0,
+              "zIndex": 0
+            }
+          },
+          "children": [
+            {
+              "id": "hero-slide",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "slides",
+                "part": "slide"
+              },
+              "children": [
+                {
+                  "id": "hero-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{photo}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hero-body",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "position": "relative",
+              "zIndex": 2,
+              "minHeight": "88vh",
+              "paddingLeft": 32,
+              "paddingRight": 32
+            },
+            "mobile": {
+              "minHeight": "620px",
+              "paddingLeft": 20,
+              "paddingRight": 20
+            }
+          },
+          "children": [
+            {
+              "id": "hero-copy",
+              "type": "column",
+              "props": {
+                "span": 9,
+                "align": "center"
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 760
+                }
+              },
+              "children": [
+                {
+                  "id": "hero-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{headline}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "hero-sub",
+                  "type": "text",
+                  "props": {
+                    "text": "{{subhead}}",
+                    "width": "prose"
+                  }
+                },
+                {
+                  "id": "hero-ctas",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory"
+                      },
+                      {
+                        "ctaId": "find-a-location"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": 20
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hero-controls",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "align": "end"
+              },
+              "styles": {
+                "base": {
+                  "display": "flex",
+                  "justifyContent": "end",
+                  "alignItems": "end",
+                  "gap": 12,
+                  "paddingBottom": 72
+                }
+              },
+              "children": [
+                {
+                  "id": "hero-prev",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "‹",
+                    "label": "Previous slide",
+                    "tone": "light",
+                    "part": "prev"
+                  }
+                },
+                {
+                  "id": "hero-next",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "›",
+                    "label": "Next slide",
+                    "tone": "light",
+                    "part": "next"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finder",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "zIndex": 3,
+          "marginTop": -46
+        }
+      },
+      "children": [
+        {
+          "id": "finder-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "finder-box",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#a6a6a6",
+                  "paddingTop": 36,
+                  "paddingRight": 36,
+                  "paddingBottom": 36,
+                  "paddingLeft": 36
+                },
+                "mobile": {
+                  "paddingTop": 20,
+                  "paddingRight": 20,
+                  "paddingBottom": 20,
+                  "paddingLeft": 20
+                }
+              },
+              "children": [
+                {
+                  "id": "finder-search",
+                  "type": "widget",
+                  "props": {
+                    "widget": "inventory-search",
+                    "config": {
+                      "placeholder": "Search inventory"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

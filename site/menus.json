@@ -5,28 +5,30 @@
       "id": "main",
       "name": "Main menu",
       "items": [
-        { "id": "home", "label": "Home", "type": "page", "ref": "home" },
-        { "id": "inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
-        {
-          "id": "about",
-          "label": "About",
-          "type": "url",
-          "url": "/about",
-          "children": [
-            { "id": "about-team", "label": "Our team", "type": "url", "url": "/about#team" },
-            { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
-          ]
-        },
-        { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
+        { "id": "vehicles", "label": "Vehicles", "type": "inventory", "ref": "inventory" },
+        { "id": "parts-service", "label": "Parts & Service", "type": "inventory", "ref": "parts" },
+        { "id": "locations", "label": "Locations", "type": "url", "url": "#locations" },
+        { "id": "careers", "label": "Careers & Training", "type": "url", "url": "#careers" },
+        { "id": "about-news", "label": "About & News", "type": "url", "url": "#about" }
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Utility menu",
+      "items": [
+        { "id": "contact", "label": "Contact Us", "type": "url", "url": "#locations" },
+        { "id": "account", "label": "My Account", "type": "inventory", "ref": "account" }
       ]
     },
     {
       "id": "footer",
       "name": "Footer menu",
       "items": [
-        { "id": "f-inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
-        { "id": "f-about", "label": "About", "type": "url", "url": "/about" },
-        { "id": "f-contact", "label": "Contact", "type": "url", "url": "/contact" }
+        { "id": "f-locations", "label": "Locations", "type": "url", "url": "#locations" },
+        { "id": "f-terms", "label": "Terms of Service", "type": "url", "url": "/terms" },
+        { "id": "f-privacy", "label": "Privacy Policy", "type": "url", "url": "/privacy" },
+        { "id": "f-sitemap", "label": "Site Map", "type": "url", "url": "/sitemap.xml" },
+        { "id": "f-disclosures", "label": "Disclosures", "type": "url", "url": "/disclosures" }
       ]
     },
     {
@@ -34,7 +36,8 @@
       "name": "Legal",
       "items": [
         { "id": "privacy", "label": "Privacy", "type": "url", "url": "/privacy" },
-        { "id": "terms", "label": "Terms", "type": "url", "url": "/terms" }
+        { "id": "terms", "label": "Terms", "type": "url", "url": "/terms" },
+        { "id": "accessibility", "label": "Accessibility", "type": "url", "url": "/accessibility" }
       ]
     }
   ]
