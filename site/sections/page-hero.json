@@ -3,7 +3,7 @@
   "id": "page-hero",
   "name": "Page hero (photo behind)",
   "description": "The inner-page hero: a full-bleed photo under a left-to-right scrim, with the eyebrow, H1, lead and two CTAs over it.",
-  "css": "[data-bz-node=\"ph\"]{color:#fff}\n[data-bz-node=\"ph-media\"]{position:absolute;inset:0;z-index:0}\n[data-bz-node=\"ph-media\"] .bz-block,[data-bz-node=\"ph-media\"] .bz-container,[data-bz-node=\"ph-media\"] .bz-figure,[data-bz-node=\"ph-media\"] > .bz-col{height:100%;padding:0;margin:0}\n[data-bz-node=\"ph-media\"] img{width:100%;height:100%;object-fit:cover;border-radius:0}\n[data-bz-node=\"ph-body\"]{background:linear-gradient(90deg,rgba(14,15,19,.92) 0%,rgba(14,15,19,.75) 45%,rgba(14,15,19,.25) 100%)}\n[data-bz-node=\"ph-copy\"] .bz-eyebrow{color:#fff;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;border-left:4px solid #C41230;padding-left:12px}\n[data-bz-node=\"ph-title\"] h1{font-family:var(--font-heading);font-weight:700;font-size:clamp(40px,6vw,80px);line-height:1;text-transform:uppercase;color:#fff;margin:0 0 24px;letter-spacing:0}\n[data-bz-node=\"ph-lead\"] p{font-size:18px;line-height:1.6;color:#fff;margin:0 0 32px;max-width:560px}\n[data-bz-node=\"ph-ctas\"] .bz-btns{display:flex;flex-wrap:wrap;gap:16px;margin:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn{font-family:var(--font-heading);font-weight:600;font-size:15px;letter-spacing:.1em;text-transform:uppercase;border-radius:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary{background:#C41230;color:#fff;padding:18px 32px;border:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary:hover{background:#8f0d21;color:#fff}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary{background:transparent;color:#fff;border:2px solid #fff;padding:16px 32px}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary:hover{background:rgba(255,255,255,.15);border-color:#fff;color:#fff}",
+  "css": "[data-bz-node=\"ph\"]{color:#fff}\n[data-bz-node=\"ph-media\"]{position:absolute;inset:0;z-index:0}\n/* The photo fills the band by being positioned against it. A height:100%\n   chain cannot resolve here: the column takes its height from grid stretch,\n   not an explicit value, so every percentage below it falls back to auto. */\n[data-bz-node=\"ph-media\"] .bz-col,[data-bz-node=\"ph-media\"] .bz-block,[data-bz-node=\"ph-media\"] .bz-container{position:static;padding:0;margin:0}\n[data-bz-node=\"ph-media\"] .bz-figure{position:absolute;inset:0;margin:0}\n[data-bz-node=\"ph-media\"] img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:0}\n/* The copy stack sets its own rhythm with margins; .bz-block's 16px top and\n   bottom made the band 32px taller than the reference. */\n[data-bz-node=\"ph-copy\"] .bz-block{padding-block:0}\n[data-bz-node=\"ph-body\"]{background:linear-gradient(90deg,rgba(14,15,19,.92) 0%,rgba(14,15,19,.75) 45%,rgba(14,15,19,.25) 100%)}\n[data-bz-node=\"ph-copy\"] .bz-eyebrow{color:#fff;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 16px;border-left:4px solid #C41230;padding-left:12px}\n[data-bz-node=\"ph-title\"] h1{font-family:var(--font-heading);font-weight:700;font-size:clamp(40px,6vw,80px);line-height:1;text-transform:uppercase;color:#fff;margin:0 0 24px;letter-spacing:0}\n[data-bz-node=\"ph-lead\"] p{font-size:18px;line-height:1.6;color:#fff;margin:0;max-width:560px}\n[data-bz-node=\"ph-ctas\"] .bz-btns{display:flex;flex-wrap:wrap;gap:16px;margin:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn{font-family:var(--font-heading);font-weight:600;font-size:15px;letter-spacing:.1em;text-transform:uppercase;border-radius:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary{background:#C41230;color:#fff;padding:18px 32px;border:0}\n[data-bz-node=\"ph-ctas\"] .bz-btn--primary:hover{background:#8f0d21;color:#fff}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary{background:transparent;color:#fff;border:2px solid #fff;padding:16px 32px}\n[data-bz-node=\"ph-ctas\"] .bz-btn--secondary:hover{background:rgba(255,255,255,.15);border-color:#fff;color:#fff}\n[data-bz-node=\"ph-copy\"] .bz-eyebrow{line-height:normal}\n[data-bz-node=\"ph-lead\"]{margin-bottom:32px}",
   "props": [
     {
       "key": "eyebrow",
@@ -60,14 +60,14 @@
       "props": {
         "width": "full",
         "paddingY": 0,
-        "background": "ink",
         "anchor": "main-content"
       },
       "styles": {
         "base": {
           "position": "relative",
           "overflow": "hidden",
-          "marginTop": 16
+          "marginTop": 16,
+          "background": "inkDark"
         }
       },
       "children": [
