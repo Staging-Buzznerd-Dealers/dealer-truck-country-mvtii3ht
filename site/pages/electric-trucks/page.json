@@ -364,6 +364,9 @@
                           "a": "Use the contact form on this page. A Truck Country / Stoops team member will follow up with the information you request."
                         }
                       ]
+                    },
+                    "snapshot": {
+                      "items": []
                     }
                   }
                 }

@@ -9,7 +9,7 @@
         "values": {
           "eyebrow": "Freightliner & Western Star Dealer",
           "headline": "BUILT FOR THE ROAD AHEAD",
-          "subhead": "New and used medium- and heavy-duty trucks, trailers, parts and service \u2014 trusted across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin for over 65 years.",
+          "subhead": "New and used medium- and heavy-duty trucks, trailers, parts and service — trusted across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin for over 65 years.",
           "slides": [
             {
               "photo": {
@@ -44,6 +44,11 @@
               }
             }
           ]
+        },
+        "snapshots": {
+          "finder-search": {
+            "types": []
+          }
         }
       }
     },
@@ -107,7 +112,7 @@
                   "id": "about-p1",
                   "type": "text",
                   "props": {
-                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
+                    "text": "Truck Country® / Stoops Freightliner-Western Star is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
                     "width": "full"
                   }
                 },
@@ -115,7 +120,7 @@
                   "id": "about-p2",
                   "type": "text",
                   "props": {
-                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
+                    "text": "Truck Country® / Stoops Freightliner-Western Star is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
                     "width": "full"
                   }
                 }
@@ -507,6 +512,9 @@
                     "widget": "inventory-carousel",
                     "config": {
                       "limit": 4
+                    },
+                    "snapshot": {
+                      "listings": []
                     }
                   }
                 }
@@ -589,7 +597,7 @@
                   "id": "trailers-head",
                   "type": "heading",
                   "props": {
-                    "text": "DRY VANS, FLATBEDS & REEFERS \u2014 READY TO HAUL",
+                    "text": "DRY VANS, FLATBEDS & REEFERS — READY TO HAUL",
                     "eyebrow": "Trailers",
                     "headingLevel": 2
                   }
@@ -776,6 +784,114 @@
             "config": {
               "pagePathPrefix": "/locations"
             }
+          }
+        },
+        "data": {
+          "locations": [
+            {
+              "id": "14",
+              "name": "Hampshire",
+              "subtitle": "",
+              "slug": "main",
+              "num": "01",
+              "href": "/locations/main",
+              "streetAddress": "205 Metrix Dr. Hampshire, IL 60140",
+              "city": "IL 60140",
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=205%20Metrix%20Dr.%20Hampshire%2C%20IL%2060140%2C%20IL%2060140",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            }
+          ]
+        },
+        "snapshots": {
+          "loc-pinmap": {
+            "locations": [
+              {
+                "id": "14",
+                "name": "Hampshire",
+                "subtitle": "",
+                "slug": "main",
+                "num": "01",
+                "href": "/locations/main",
+                "streetAddress": "205 Metrix Dr. Hampshire, IL 60140",
+                "city": "IL 60140",
+                "region": null,
+                "postalCode": null,
+                "country": null,
+                "latitude": null,
+                "longitude": null,
+                "phone": null,
+                "phoneUrl": null,
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=205%20Metrix%20Dr.%20Hampshire%2C%20IL%2060140%2C%20IL%2060140",
+                "email": null,
+                "brands": "",
+                "services": "",
+                "perks": "",
+                "brandKeys": "",
+                "perkKeys": "",
+                "perk1": null,
+                "perk2": null,
+                "perk3": null,
+                "departments": "",
+                "hours": "",
+                "phone2": null,
+                "phone2Url": null,
+                "phone3": null,
+                "phone3Url": null,
+                "group": null,
+                "groupKey": null,
+                "photo": {
+                  "src": "",
+                  "alt": ""
+                },
+                "banner": {
+                  "src": "",
+                  "alt": ""
+                },
+                "brandRows": [],
+                "serviceRows": [],
+                "perkRows": [],
+                "departmentRows": [],
+                "hoursRows": []
+              }
+            ],
+            "brandFacets": [],
+            "perkFacets": []
           }
         }
       }
