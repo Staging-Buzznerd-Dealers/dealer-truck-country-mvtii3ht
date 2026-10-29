@@ -1,14 +1,14 @@
 {
   "$schema": "./dealer.config.schema.json",
   "contractVersion": "5.0.0",
-  "name": "BuzzNerd Dealer",
-  "shortName": "BuzzNerd",
+  "name": "Truck Country / Stoops Freightliner-Western Star",
+  "shortName": "Truck Country",
   "channelToken": "truck-country-mvtii3ht",
   "domain": "dealer-truck-country-mvtii3ht.vercel.app",
   "url": "https://dealer-truck-country-mvtii3ht.vercel.app",
   "storefrontOrigin": "https://truck-country.ai4dealerships.com",
   "storefrontPrefix": "store",
-  "logo": "/logo.svg",
+  "logo": "/img/logo.png",
   "favicon": "/favicon.svg",
   "analytics": {
     "loaderUrl": null,
@@ -16,16 +16,16 @@
   },
   "business": {
     "type": "AutoDealer",
-    "legalName": "BuzzNerd Trucks LLC",
+    "legalName": "Truck Country / Stoops Freightliner-Western Star",
     "phone": "+1-800-555-0100",
     "email": "sales@example.com",
-    "streetAddress": "1234 Highway Dr",
-    "addressLocality": "Salt Lake City",
-    "addressRegion": "UT",
-    "postalCode": "84101",
+    "streetAddress": "TBC \u2014 head office address",
+    "addressLocality": "Dubuque",
+    "addressRegion": "IA",
+    "postalCode": "00000",
     "addressCountry": "US",
-    "latitude": 40.7608,
-    "longitude": -111.891,
+    "latitude": 42.5006,
+    "longitude": -90.6646,
     "priceRange": "$$",
     "openingHours": [
       "Mo-Fr 08:00-18:00",
@@ -33,11 +33,11 @@
     ]
   },
   "seo": {
-    "defaultTitle": "BuzzNerd Dealer | Trucks, Parts & Service",
-    "titleTemplate": "%s | BuzzNerd Dealer",
-    "defaultDescription": "New and used trucks, expert service, genuine parts, financing and leasing from a dealer you can trust.",
-    "ogImage": "/og-default.jpg",
+    "defaultTitle": "Truck Country / Stoops Freightliner-Western Star | Trucks, Trailers, Parts & Service",
+    "titleTemplate": "%s | Truck Country",
+    "defaultDescription": "New and used medium- and heavy-duty trucks, trailers, parts and service across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. Family-owned since 1958.",
+    "ogImage": "/img/hero-1.jpg",
     "locale": "en_US",
-    "themeColor": "#111c3a"
+    "themeColor": "#c41230"
   }
 }

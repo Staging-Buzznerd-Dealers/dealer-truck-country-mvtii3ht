@@ -1,0 +1,294 @@
+{
+  "version": 2,
+  "id": "locations-finder",
+  "name": "Locations finder",
+  "description": "The coverage map with a pin per rooftop, and the rooftop list beside it. The list comes from Admin → Locations.",
+  "css": "[data-bz-node=\"loc-map\"]{min-height:480px;background:#efeee7;position:relative}\n[data-bz-node=\"loc-map\"] .bz-block,[data-bz-node=\"loc-map\"] .bz-container{padding:0;height:100%}\n[data-bz-node=\"loc-map\"] .bz-pinmap{height:100%}\n[data-bz-node=\"loc-map\"] .bz-pinmap__art{width:100%;height:100%;object-fit:contain}\n[data-bz-node=\"loc-rows\"]{display:block}\n[data-bz-node=\"loc-rows\"]>.bz-col{grid-column:auto;transition:transform .3s ease,box-shadow .3s ease}\n[data-bz-node=\"loc-rows\"]>.bz-col:hover{transform:translateY(-6px);box-shadow:0 24px 48px -20px rgba(0,0,0,.18)}\n[data-bz-node=\"loc-rows\"] .bz-block,[data-bz-node=\"loc-rows\"] .bz-container{padding:0}\n[data-bz-node=\"loc-rows\"] .bz-row{align-items:baseline}\n[data-bz-node=\"loc-rows\"] .bz-text p{font-size:12px;color:var(--muted);margin:0}\n[data-bz-node=\"loc-rows\"] .bz-col:first-child .bz-text p{font-family:var(--font-heading);font-weight:700;font-size:22px;color:var(--accent);text-transform:uppercase}\n[data-bz-node=\"loc-rows\"] h3{font-weight:600;font-size:15px;margin:0}\n[data-bz-node=\"loc-rows\"] .bz-btn--link{padding:0;font-family:var(--font-body);font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;text-decoration:none;white-space:nowrap}\n[data-bz-node=\"loc-all\"] .bz-btns{justify-content:stretch}\n[data-bz-node=\"loc-all\"] .bz-btn{width:100%}\n@media (max-width:1100px){[data-bz-node=\"loc-map\"]{min-height:360px}}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "Locations"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "FIND A LOCATION NEAR YOU"
+    },
+    {
+      "key": "intro",
+      "type": "textarea",
+      "label": "Intro",
+      "default": ""
+    },
+    {
+      "key": "locations",
+      "type": "list",
+      "label": "Locations",
+      "description": "Point this at Locations so the list stays correct when a rooftop opens or moves.",
+      "fields": [
+        {
+          "key": "region",
+          "type": "text",
+          "label": "State"
+        },
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "city",
+          "type": "text",
+          "label": "City"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "href",
+          "type": "url",
+          "label": "Page link"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "locations",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "locations"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "loc-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "loc-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640,
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "textAlign": "center",
+                  "marginBottom": 48
+                }
+              },
+              "children": [
+                {
+                  "id": "loc-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "loc-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "{{intro}}",
+                    "width": "prose",
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loc-body",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "loc-map",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "loc-pinmap",
+                  "type": "widget",
+                  "props": {
+                    "widget": "locations-pinmap",
+                    "config": {
+                      "pagePathPrefix": "/locations",
+                      "label": "Truck Country and Stoops locations"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "loc-list",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "loc-rows",
+                  "type": "row",
+                  "props": {
+                    "gap": 0
+                  },
+                  "children": [
+                    {
+                      "id": "loc-row",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "locations"
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "card",
+                          "borderWidth": 1,
+                          "borderStyle": "solid",
+                          "borderColor": "line",
+                          "paddingTop": 28,
+                          "paddingRight": 20,
+                          "paddingBottom": 28,
+                          "paddingLeft": 20,
+                          "marginBottom": 14
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "loc-card",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "loc-abbr",
+                              "type": "column",
+                              "props": {
+                                "span": 2
+                              },
+                              "children": [
+                                {
+                                  "id": "loc-state",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{region}}",
+                                    "width": "full"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "loc-info",
+                              "type": "column",
+                              "props": {
+                                "span": 7
+                              },
+                              "children": [
+                                {
+                                  "id": "loc-name",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "{{name}}",
+                                    "headingLevel": 3
+                                  }
+                                },
+                                {
+                                  "id": "loc-meta",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{city}} · {{phone}}",
+                                    "width": "full"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "loc-link",
+                              "type": "column",
+                              "props": {
+                                "span": 3
+                              },
+                              "children": [
+                                {
+                                  "id": "loc-view",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "View →",
+                                        "url": "{{href}}",
+                                        "style": "link"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "loc-all",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "view-all-locations"
+                      }
+                    ],
+                    "align": "center"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": 14,
+                      "display": "flex"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

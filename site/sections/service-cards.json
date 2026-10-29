@@ -1,0 +1,193 @@
+{
+  "version": 2,
+  "id": "service-cards",
+  "name": "Service cards",
+  "description": "The dark \"everything under one roof\" band \u2014 one card per department, edited as a list.",
+  "css": "[data-bz-section=\"service-cards\"] [data-bz-node=\"svc-head\"] h2{color:#fff}\n[data-bz-node=\"svc-grid\"]>.bz-col{grid-column:auto;transition:transform .3s ease,box-shadow .3s ease}\n[data-bz-node=\"svc-grid\"]>.bz-col:hover{transform:translateY(-6px);box-shadow:0 24px 48px -20px rgba(0,0,0,.18)}\n[data-bz-node=\"svc-grid\"] .bz-block,[data-bz-node=\"svc-grid\"] .bz-container{padding:0}\n[data-bz-node=\"svc-grid\"] .bz-figure{width:56px;height:56px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center}\n[data-bz-node=\"svc-grid\"] .bz-figure img{width:auto;height:32px;max-width:54px;object-fit:contain;filter:brightness(0) invert(1);border-radius:0}\n[data-bz-node=\"svc-grid\"] h3{font-weight:600;font-size:19px;color:var(--ink);margin:0}\n[data-bz-node=\"svc-grid\"] .bz-text p{font-size:14px;line-height:1.6;color:var(--muted);margin:0}\n[data-bz-node=\"svc-grid\"] .bz-text{flex:1}\n[data-bz-node=\"svc-grid\"] .bz-btn--link{padding:0;font-family:var(--font-body);font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;text-decoration:none;color:var(--accent)}\n[data-bz-node=\"svc-grid\"] .bz-btn--link:hover{color:var(--accent-dark)}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": "What We Offer"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "EVERYTHING YOU NEED, UNDER ONE ROOF"
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Departments",
+      "fields": [
+        {
+          "key": "icon",
+          "type": "image",
+          "label": "Icon"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "desc",
+          "type": "textarea",
+          "label": "Description"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "services",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#0e0f13",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "svc-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "svc-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640,
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "textAlign": "center",
+                  "marginBottom": 48
+                }
+              },
+              "children": [
+                {
+                  "id": "svc-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "svc-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "gridColumns": "1fr 1fr 1fr 1fr 1fr"
+            },
+            "tablet": {
+              "gridColumns": "1fr 1fr"
+            },
+            "mobile": {
+              "gridColumns": "1fr"
+            }
+          },
+          "children": [
+            {
+              "id": "svc-card",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "line",
+                  "paddingTop": 32,
+                  "paddingRight": 24,
+                  "paddingBottom": 32,
+                  "paddingLeft": 24,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 16
+                }
+              },
+              "children": [
+                {
+                  "id": "svc-icon",
+                  "type": "image",
+                  "props": {
+                    "image": "{{icon}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "svc-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "svc-desc",
+                  "type": "text",
+                  "props": {
+                    "text": "{{desc}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "svc-link",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Learn More \u2192",
+                        "url": "{{url}}",
+                        "style": "link"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

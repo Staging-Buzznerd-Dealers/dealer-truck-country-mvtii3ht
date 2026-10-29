@@ -1,14 +1,14 @@
 [
   {
     "slug": "home",
-    "title": "Home",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
+    "title": "Built for the Road Ahead",
+    "description": "New and used medium- and heavy-duty trucks, trailers, parts and service across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin.",
     "path": "/",
     "out": "index.html",
     "dir": "home",
     "status": "published",
     "seo": {
-      "ogImage": null,
+      "ogImage": "/img/hero-1.jpg",
       "noindex": false
     },
     "templates": {

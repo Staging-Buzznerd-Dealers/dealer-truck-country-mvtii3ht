@@ -1,107 +1,867 @@
 {
-  "version": 1,
-  "blocks": [
+  "version": 2,
+  "nodes": [
     {
-      "id": "hero",
-      "type": "hero",
+      "id": "hero-band",
+      "type": "sharedSection",
       "props": {
-        "headingLevel": 1,
-        "eyebrow": "Trucks · Parts · Service",
-        "headline": "Your trusted partner on the road.",
-        "subhead": "New and used trucks, expert service, and genuine parts — all from one dealer you can rely on.",
-        "showSearch": true,
-        "ctas": [{ "ctaId": "browse-inventory" }, { "ctaId": "request-quote", "style": "secondary" }]
+        "sectionId": "hero-slider",
+        "values": {
+          "eyebrow": "Freightliner & Western Star Dealer",
+          "headline": "BUILT FOR THE ROAD AHEAD",
+          "subhead": "New and used medium- and heavy-duty trucks, trailers, parts and service \u2014 trusted across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin for over 65 years.",
+          "slides": [
+            {
+              "photo": {
+                "src": "/img/hero-1.jpg",
+                "alt": "Freightliner truck lineup",
+                "width": 2000,
+                "height": 950
+              }
+            },
+            {
+              "photo": {
+                "src": "/img/hero-2.jpg",
+                "alt": "Truck lineup on the highway",
+                "width": 2000,
+                "height": 1356
+              }
+            },
+            {
+              "photo": {
+                "src": "/img/hero-3.jpg",
+                "alt": "Freightliner Cascadia exterior",
+                "width": 2000,
+                "height": 1308
+              }
+            },
+            {
+              "photo": {
+                "src": "/img/about.jpg",
+                "alt": "Truck Country dealership facility",
+                "width": 1400,
+                "height": 401
+              }
+            }
+          ]
+        }
       }
     },
     {
-      "id": "quick",
-      "type": "iconGrid",
+      "id": "about",
+      "type": "section",
       "props": {
-        "heading": "How can we help?",
-        "items": [
-          {
-            "label": "In-stock inventory",
-            "desc": "New and used trucks and trailers, priced and ready to move.",
-            "url": "/store"
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "about"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 54,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 40,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "about-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
           },
-          {
-            "label": "Parts counter",
-            "desc": "OEM and aftermarket parts, shipped or ready at the counter.",
-            "url": "/store"
+          "styles": {
+            "base": {
+              "gap": 80
+            },
+            "mobile": {
+              "gap": 24
+            },
+            "tablet": {
+              "gap": 40
+            }
           },
-          {
-            "label": "Service & repair",
-            "desc": "Factory-trained technicians for inspections, warranty and repair.",
-            "url": "/contact"
-          },
-          {
-            "label": "Financing",
-            "desc": "Flexible terms for owner-operators, with fast pre-approval.",
-            "url": "/contact"
-          }
-        ]
+          "children": [
+            {
+              "id": "about-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "about-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "FAMILY-OWNED. FREIGHTLINER STRONG. SINCE 1958.",
+                    "eyebrow": "About Truck Country",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "about-p1",
+                  "type": "text",
+                  "props": {
+                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "about-p2",
+                  "type": "text",
+                  "props": {
+                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "about-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "about-photo",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/about.jpg",
+                      "alt": "A Truck Country dealership",
+                      "width": 1400,
+                      "height": 401
+                    },
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "about-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "about-us"
+                      }
+                    ],
+                    "align": "center"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": 24
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "service-cards",
+        "values": {
+          "eyebrow": "What We Offer",
+          "heading": "EVERYTHING YOU NEED, UNDER ONE ROOF",
+          "items": [
+            {
+              "icon": {
+                "src": "/icons/body-shops.png",
+                "alt": "",
+                "width": 150,
+                "height": 100
+              },
+              "title": "Body Shops",
+              "desc": "Certified collision and repair work at our full-service body shop locations, keeping your fleet on the road.",
+              "url": "#locations"
+            },
+            {
+              "icon": {
+                "src": "/icons/trailers.png",
+                "alt": "",
+                "width": 150,
+                "height": 100
+              },
+              "title": "Trailers",
+              "desc": "A large selection of new and used semi trailers from some of the top brands in the industry.",
+              "url": "/store/inventory?type=trailer"
+            },
+            {
+              "icon": {
+                "src": "/icons/parts.png",
+                "alt": "",
+                "width": 150,
+                "height": 100
+              },
+              "title": "Parts",
+              "desc": "Full service dealerships with comprehensive parts inventory for truck and trailer classes 6, 7 and 8.",
+              "url": "/store/parts"
+            },
+            {
+              "icon": {
+                "src": "/icons/service.png",
+                "alt": "",
+                "width": 150,
+                "height": 100
+              },
+              "title": "Service",
+              "desc": "Expert repairs and maintenance for truck and trailer classes 6, 7 and 8 at every location.",
+              "url": "#locations"
+            },
+            {
+              "icon": {
+                "src": "/icons/training.png",
+                "alt": "",
+                "width": 150,
+                "height": 100
+              },
+              "title": "Careers & Training",
+              "desc": "A 3-year technician program covering everything needed to launch a career with Truck Country.",
+              "url": "#careers"
+            }
+          ]
+        }
       }
+    },
+    {
+      "id": "models-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "model-rail",
+        "values": {
+          "eyebrow": "Truck Models & Brands",
+          "heading": "A LINEUP BUILT FOR EVERY JOB",
+          "items": [
+            {
+              "photo": {
+                "src": "/img/model-cascadia.jpg",
+                "alt": "Freightliner Cascadia",
+                "width": 900,
+                "height": 450
+              },
+              "brand": "Freightliner",
+              "model": "Cascadia",
+              "url": "/store/inventory?model=cascadia"
+            },
+            {
+              "photo": {
+                "src": "/img/model-m2-106.jpg",
+                "alt": "Freightliner M2 106",
+                "width": 900,
+                "height": 375
+              },
+              "brand": "Freightliner",
+              "model": "M2 106",
+              "url": "/store/inventory?model=m2-106"
+            },
+            {
+              "photo": {
+                "src": "/img/model-ws-49x.jpg",
+                "alt": "Western Star 49X",
+                "width": 900,
+                "height": 503
+              },
+              "brand": "Western Star",
+              "model": "49X",
+              "url": "/store/inventory?model=49x"
+            },
+            {
+              "photo": {
+                "src": "/img/model-ws-47x.jpg",
+                "alt": "Western Star 47X",
+                "width": 683,
+                "height": 449
+              },
+              "brand": "Western Star",
+              "model": "47X",
+              "url": "/store/inventory?model=47x"
+            },
+            {
+              "photo": {
+                "src": "/img/model-autocar-acx.jpg",
+                "alt": "Autocar ACX",
+                "width": 900,
+                "height": 600
+              },
+              "brand": "Autocar",
+              "model": "ACX",
+              "url": "/store/inventory?model=acx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "careers",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "careers"
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "careers-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 80
+            },
+            "mobile": {
+              "gap": 24
+            },
+            "tablet": {
+              "gap": 40
+            }
+          },
+          "children": [
+            {
+              "id": "careers-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "careers-photo",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/careers.jpg",
+                      "alt": "Technician training at a Truck Country facility",
+                      "width": 1200,
+                      "height": 900
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "careers-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "careers-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "BUILD A CAREER, NOT JUST A JOB",
+                    "eyebrow": "Careers & Training",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "careers-p1",
+                  "type": "text",
+                  "props": {
+                    "text": "We're hiring diesel technicians, parts specialists and sales professionals across our dealership network in Illinois, Iowa, Wisconsin, Michigan, Indiana and Ohio. Benefits include paid training, weekly pay, health/dental/vision insurance, paid time off, 401K with employer match, company-provided gear and tuition reimbursement.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "careers-p2",
+                  "type": "text",
+                  "props": {
+                    "text": "Our Technical Training Institute runs two state-of-the-art centers, in Dubuque, IA and Indianapolis, IN, backed by over 100 years of combined industry experience. Technicians train and certify in Freightliner, Detroit and more, with paid training, lodging and travel along the way.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "careers-stats",
+                  "type": "statBand",
+                  "props": {
+                    "stats": [
+                      {
+                        "value": "2",
+                        "label": "Training Centers"
+                      },
+                      {
+                        "value": "6",
+                        "label": "States Served"
+                      },
+                      {
+                        "value": "500+",
+                        "label": "Employees"
+                      }
+                    ],
+                    "ctas": [
+                      {
+                        "ctaId": "view-careers"
+                      },
+                      {
+                        "ctaId": "explore-training"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "featured",
-      "type": "widget",
+      "type": "section",
       "props": {
-        "widget": "inventory-carousel",
-        "config": { "heading": "Featured inventory", "limit": 4 }
-      }
-    },
-    {
-      "id": "band",
-      "type": "statBand",
-      "props": {
-        "heading": "Keeping your fleet on the road",
-        "body": "Every unit we sell is inspected in our own shop. When you buy from us you get a direct line to the people who worked on it.",
-        "ctas": [{ "ctaId": "about-us" }],
-        "stats": [
-          { "value": "39", "label": "Years in business" },
-          { "value": "12k+", "label": "Units delivered" },
-          { "value": "4", "label": "Sales & service centers" },
-          { "value": "48hr", "label": "Avg. parts turnaround" }
-        ]
-      }
-    },
-    {
-      "id": "locations",
-      "type": "widget",
-      "props": {
-        "widget": "locations-map",
-        "config": { "heading": "Find a location", "showMap": true }
-      }
-    },
-    {
-      "id": "contact-row",
-      "type": "row",
-      "props": {
-        "align": "start",
-        "columns": [
-          [
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "featured-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
             {
-              "id": "contact-copy",
-              "type": "heading",
-              "props": { "text": "Talk to someone who knows the equipment", "headingLevel": 2 }
-            },
-            {
-              "id": "contact-text",
-              "type": "text",
+              "id": "featured-head-col",
+              "type": "column",
               "props": {
-                "text": "Tell us what the job needs and we will spec it, price it and tell you honestly what is in stock.\n\nPrefer the phone? <a href=\"tel:+15551234567\">Call us</a> during business hours."
-              }
-            }
-          ],
-          [
-            {
-              "id": "contact-form",
-              "type": "form",
-              "props": { "formId": "request-info" }
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640,
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "textAlign": "center",
+                  "marginBottom": 48
+                }
+              },
+              "children": [
+                {
+                  "id": "featured-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "READY TO ROLL",
+                    "eyebrow": "Featured Inventory",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                }
+              ]
             }
           ]
-        ]
+        },
+        {
+          "id": "featured-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "featured-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "featured-rail",
+                  "type": "widget",
+                  "props": {
+                    "widget": "inventory-carousel",
+                    "config": {
+                      "limit": 4
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trailers",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "trailers-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 80
+            },
+            "mobile": {
+              "gap": 24
+            },
+            "tablet": {
+              "gap": 40
+            }
+          },
+          "children": [
+            {
+              "id": "trailers-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "trailers-photo",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/trailers.jpg",
+                      "alt": "Dry van and flatbed trailer lineup",
+                      "width": 1600,
+                      "height": 1200
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "trailers-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "trailers-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "DRY VANS, FLATBEDS & REEFERS \u2014 READY TO HAUL",
+                    "eyebrow": "Trailers",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "trailers-p1",
+                  "type": "text",
+                  "props": {
+                    "text": "A large selection of new and used semi trailers from some of the top brands in the industry, including Wabash. Whatever the load, we have a trailer built to move it.",
+                    "width": "prose"
+                  }
+                },
+                {
+                  "id": "trailers-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "shop-trailers"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": 20
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "driven",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#0e0f13",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "driven-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 60
+            },
+            "mobile": {
+              "gap": 24
+            },
+            "tablet": {
+              "gap": 40
+            }
+          },
+          "children": [
+            {
+              "id": "driven-mark",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "driven-diamond",
+                  "type": "spacer",
+                  "props": {
+                    "size": 1
+                  },
+                  "styles": {
+                    "base": {
+                      "width": 64,
+                      "height": 64,
+                      "background": "accent",
+                      "rotate": 45,
+                      "marginBottom": 36,
+                      "marginTop": 24
+                    }
+                  }
+                },
+                {
+                  "id": "driven-lockup",
+                  "type": "text",
+                  "props": {
+                    "text": "CUSTOMER<br><em>DRIVEN.</em>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "driven-tag",
+                  "type": "text",
+                  "props": {
+                    "text": "Every Customer. Every Time.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "driven-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "driven-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "We put our customers first.",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "driven-p1",
+                  "type": "text",
+                  "props": {
+                    "text": "Many Truck Country / Stoops locations are Elite Support certified. The Elite Support certification is earned only by superior Freightliner and Western Star dealerships committed to providing the industry's best truck maintenance and repairs, backed by an unmatched level of customer service.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "driven-p2",
+                  "type": "text",
+                  "props": {
+                    "text": "Every Elite Support dealership is regularly recertified, so you experience a higher standard with every visit.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "driven-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "elite-support"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": 20
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locations-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "locations-finder",
+        "values": {
+          "eyebrow": "Locations",
+          "heading": "FIND A LOCATION NEAR YOU",
+          "intro": "Truck Country and Stoops Freightliner-Western Star locations across the Midwest.",
+          "locations": {
+            "source": "locations",
+            "config": {
+              "pagePathPrefix": "/locations"
+            }
+          }
+        }
       }
+    },
+    {
+      "id": "news",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "news-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "news-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 640,
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "textAlign": "center",
+                  "marginBottom": 48
+                }
+              },
+              "children": [
+                {
+                  "id": "news-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "NEWS & RESOURCES",
+                    "eyebrow": "Industry Insights",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "news-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "news-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "news-list",
+                  "type": "postsList",
+                  "props": {
+                    "count": 3,
+                    "showDates": false
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

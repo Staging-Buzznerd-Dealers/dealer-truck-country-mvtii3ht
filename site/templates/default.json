@@ -2,45 +2,82 @@
   "version": 2,
   "id": "default",
   "name": "Site template",
-  "conditions": [{ "type": "entireSite", "ref": null }],
+  "conditions": [
+    {
+      "type": "entireSite",
+      "ref": null
+    }
+  ],
+  "css": "[data-bz-node=\"utility\"] .bz-navitem > a{font-size:12px;letter-spacing:.04em;color:rgba(255,255,255,.75)}\n[data-bz-node=\"utility\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"utility-states\"] a{color:rgba(255,255,255,.75);text-decoration:none}\n[data-bz-node=\"utility-states\"] a:hover{color:#fff}\n[data-bz-node=\"header\"] .bz-navitem > a{color:#fff}\n[data-bz-node=\"header\"] .bz-navitem > a:hover{color:var(--accent)}\n[data-bz-node=\"header\"] .bz-menu-toggle{color:#fff}\n[data-bz-node=\"header\"] .bz-nav{gap:36px}\n[data-bz-node=\"header-logo\"] img{object-fit:contain}\n@media (max-width:1100px){[data-bz-node=\"header-logo\"] img{height:36px}}\n[data-bz-node=\"footer-blurb\"] p{font-size:14px;line-height:1.7;color:rgba(255,255,255,.65);margin:0}\n[data-bz-node=\"footer-links\"] .bz-navitem > a{font-family:var(--font-body);font-weight:400;font-size:14px;letter-spacing:0;text-transform:none;color:rgba(255,255,255,.65)}\n[data-bz-node=\"footer-links\"] .bz-navitem > a:hover{color:#fff}\n[data-bz-node=\"footer-links-head\"] h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin:0 0 18px}\n[data-bz-node=\"footer-copy\"] p,[data-bz-node=\"footer-credit\"] p{font-size:12px;color:rgba(255,255,255,.65);margin:0}\n[data-bz-node=\"footer-credit\"] img{display:inline-block;width:90px;height:auto;vertical-align:middle;margin-left:8px}",
   "nodes": [
     {
-      "id": "header",
+      "id": "utility",
       "type": "section",
-      "props": { "width": "boxed", "paddingY": 3, "background": "card" },
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "background": "ink"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 8,
+          "paddingBottom": 8
+        }
+      },
       "children": [
         {
-          "id": "header-row",
+          "id": "utility-row",
           "type": "row",
-          "props": { "gap": 5, "align": "center", "stackOn": "mobile" },
+          "props": {
+            "gap": 4,
+            "align": "center",
+            "stackOn": "never"
+          },
           "children": [
             {
-              "id": "header-brand",
+              "id": "utility-left",
               "type": "column",
-              "props": { "span": 3, "align": "center" },
-              "children": [{ "id": "logo", "type": "logo", "props": { "url": "/", "height": 34 } }]
-            },
-            {
-              "id": "header-nav",
-              "type": "column",
-              "props": { "span": 6, "align": "center" },
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
               "children": [
                 {
-                  "id": "main-nav",
-                  "type": "menu",
-                  "props": { "menuId": "main", "layout": "horizontal", "align": "center", "collapseOnMobile": true }
+                  "id": "utility-states",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"#locations\">IA \u00b7 IL \u00b7 IN \u00b7 MI \u00b7 OH \u00b7 WI</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "fontSize": 12,
+                      "letterSpacing": 1,
+                      "textColor": "#ffffff@75%"
+                    }
+                  },
+                  "children": null
                 }
               ]
             },
             {
-              "id": "header-cta",
+              "id": "utility-right",
               "type": "column",
-              "props": { "span": 3, "align": "center" },
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
               "children": [
                 {
-                  "id": "header-button",
-                  "type": "buttons",
-                  "props": { "items": [{ "ctaId": "browse-inventory" }], "align": "left" }
+                  "id": "utility-nav",
+                  "type": "menu",
+                  "props": {
+                    "menuId": "utility",
+                    "layout": "horizontal",
+                    "align": "end",
+                    "depth": 1
+                  },
+                  "children": null
                 }
               ]
             }
@@ -48,38 +85,424 @@
         }
       ]
     },
-    { "id": "content", "type": "contentArea", "props": { "label": "Page content" } },
+    {
+      "id": "header",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "borderWidth": 0,
+          "background": "#a6a6a6",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid",
+          "borderColor": "#8f8f8f",
+          "position": "sticky",
+          "top": 0,
+          "zIndex": 50,
+          "paddingTop": 16,
+          "paddingBottom": 16
+        }
+      },
+      "children": [
+        {
+          "id": "header-row",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "center",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "header-brand",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "header-logo",
+                  "type": "logo",
+                  "props": {
+                    "url": "/",
+                    "height": 46,
+                    "image": {
+                      "src": "/img/logo.png",
+                      "alt": "Truck Country / Stoops Freightliner-Western Star",
+                      "width": 640,
+                      "height": 102
+                    }
+                  },
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "header-nav",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "main-nav",
+                  "type": "menu",
+                  "props": {
+                    "menuId": "main",
+                    "layout": "horizontal",
+                    "align": "center",
+                    "collapseOnMobile": true,
+                    "depth": 1
+                  },
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "header-cta",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "align": "center"
+              },
+              "styles": {
+                "tablet": {
+                  "hide": true
+                }
+              },
+              "children": [
+                {
+                  "id": "header-button",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "display": "flex",
+                      "justifyContent": "end"
+                    }
+                  },
+                  "children": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "type": "contentArea",
+      "props": {
+        "label": "Page content"
+      },
+      "children": null
+    },
     {
       "id": "footer",
       "type": "section",
-      "props": { "width": "boxed", "paddingY": 7, "background": "ink" },
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#0e0f13",
+          "paddingTop": 72,
+          "paddingBottom": 24
+        }
+      },
       "children": [
         {
           "id": "footer-row",
           "type": "row",
-          "props": { "gap": 6, "align": "start" },
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "borderWidth": 0,
+              "paddingBottom": 56,
+              "borderBottomWidth": 1,
+              "borderStyle": "solid",
+              "borderColor": "#ffffff@8%"
+            }
+          },
           "children": [
             {
               "id": "footer-brand",
               "type": "column",
-              "props": { "span": 4 },
-              "children": [{ "id": "footer-logo", "type": "logo", "props": { "url": "/", "height": 28 } }]
-            },
-            {
-              "id": "footer-links",
-              "type": "column",
-              "props": { "span": 4 },
+              "props": {
+                "span": 5
+              },
               "children": [
-                { "id": "footer-nav", "type": "menu", "props": { "menuId": "footer", "layout": "vertical" } }
+                {
+                  "id": "footer-logo",
+                  "type": "logo",
+                  "props": {
+                    "url": "/",
+                    "height": 42,
+                    "image": {
+                      "src": "/img/logo-white.png",
+                      "alt": "Truck Country / Stoops Freightliner-Western Star",
+                      "width": 640,
+                      "height": 100
+                    }
+                  },
+                  "styles": {
+                    "base": {
+                      "marginBottom": 20
+                    }
+                  },
+                  "children": null
+                },
+                {
+                  "id": "footer-blurb",
+                  "type": "text",
+                  "props": {
+                    "text": "Family-owned since 1958. Trucks, trailers, parts, service and training across the Midwest.",
+                    "width": "prose"
+                  },
+                  "styles": {
+                    "base": {
+                      "maxWidth": 280
+                    }
+                  },
+                  "children": null
+                }
               ]
             },
             {
-              "id": "footer-legal",
+              "id": "footer-company",
               "type": "column",
-              "props": { "span": 4 },
+              "props": {
+                "span": 3
+              },
               "children": [
-                { "id": "legal-nav", "type": "menu", "props": { "menuId": "legal", "layout": "vertical" } }
+                {
+                  "id": "footer-links-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Company",
+                    "headingLevel": 2
+                  },
+                  "children": null
+                },
+                {
+                  "id": "footer-links",
+                  "type": "menu",
+                  "props": {
+                    "menuId": "footer",
+                    "layout": "vertical",
+                    "depth": 1
+                  },
+                  "children": null
+                }
               ]
+            },
+            {
+              "id": "footer-social-tc",
+              "type": "column",
+              "props": {
+                "span": 2
+              },
+              "children": [
+                {
+                  "id": "footer-social-a",
+                  "type": "social-icons",
+                  "props": {
+                    "heading": "Truck Country",
+                    "links": [
+                      {
+                        "name": "Facebook",
+                        "icon": {
+                          "src": "/icons/facebook.svg",
+                          "alt": "Facebook"
+                        },
+                        "url": "https://www.facebook.com/"
+                      },
+                      {
+                        "name": "YouTube",
+                        "icon": {
+                          "src": "/icons/youtube.svg",
+                          "alt": "YouTube"
+                        },
+                        "url": "https://www.youtube.com/"
+                      },
+                      {
+                        "name": "Instagram",
+                        "icon": {
+                          "src": "/icons/instagram.svg",
+                          "alt": "Instagram"
+                        },
+                        "url": "https://www.instagram.com/"
+                      },
+                      {
+                        "name": "LinkedIn",
+                        "icon": {
+                          "src": "/icons/linkedin.svg",
+                          "alt": "LinkedIn"
+                        },
+                        "url": "https://www.linkedin.com/"
+                      }
+                    ]
+                  },
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "footer-social-stoops",
+              "type": "column",
+              "props": {
+                "span": 2
+              },
+              "children": [
+                {
+                  "id": "footer-social-b",
+                  "type": "social-icons",
+                  "props": {
+                    "heading": "Stoops",
+                    "links": [
+                      {
+                        "name": "Facebook",
+                        "icon": {
+                          "src": "/icons/facebook.svg",
+                          "alt": "Facebook"
+                        },
+                        "url": "https://www.facebook.com/"
+                      },
+                      {
+                        "name": "YouTube",
+                        "icon": {
+                          "src": "/icons/youtube.svg",
+                          "alt": "YouTube"
+                        },
+                        "url": "https://www.youtube.com/"
+                      },
+                      {
+                        "name": "Instagram",
+                        "icon": {
+                          "src": "/icons/instagram.svg",
+                          "alt": "Instagram"
+                        },
+                        "url": "https://www.instagram.com/"
+                      },
+                      {
+                        "name": "LinkedIn",
+                        "icon": {
+                          "src": "/icons/linkedin.svg",
+                          "alt": "LinkedIn"
+                        },
+                        "url": "https://www.linkedin.com/"
+                      }
+                    ]
+                  },
+                  "children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "align": "center",
+            "stackOn": "mobile"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 24
+            }
+          },
+          "children": [
+            {
+              "id": "footer-copy",
+              "type": "column",
+              "props": {
+                "span": 8,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "footer-legal",
+                  "type": "text",
+                  "props": {
+                    "text": "\u00a9 2026 Truck Country \u2014 All Rights Reserved | <a href=\"/accessibility\">Accessibility</a>",
+                    "width": "full"
+                  },
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "footer-credit",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "footer-credit-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Designed & Powered by",
+                    "width": "full",
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "whiteSpace": "nowrap"
+                    }
+                  },
+                  "children": null
+                },
+                {
+                  "id": "footer-credit-logo",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/buzznerd.png",
+                      "alt": "BuzzNerd",
+                      "width": 360,
+                      "height": 117
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "width": 90
+                    }
+                  }
+                }
+              ],
+              "styles": {
+                "base": {
+                  "display": "flex",
+                  "alignItems": "center",
+                  "justifyContent": "end",
+                  "gap": 8
+                },
+                "mobile": {
+                  "justifyContent": "start"
+                }
+              }
             }
           ]
         }
