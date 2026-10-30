@@ -410,16 +410,16 @@
                           {
                             "label": "Parts Credit App",
                             "url": "/parts-credit-application",
-                            "status": "",
+                            "status": "✓ Page complete",
                             "sub": false,
-                            "partial": "Partial — step flow pending"
+                            "partial": ""
                           },
                           {
                             "label": "Parts Request",
                             "url": "/parts-request",
-                            "status": "",
+                            "status": "✓ Page complete",
                             "sub": false,
-                            "partial": "Partial — form headings pending"
+                            "partial": ""
                           },
                           {
                             "label": "Specials",
@@ -472,9 +472,9 @@
                           {
                             "label": "Schedule Service",
                             "url": "/schedule-service",
-                            "status": "",
+                            "status": "✓ Page complete",
                             "sub": false,
-                            "partial": "Partial — form headings pending"
+                            "partial": ""
                           },
                           {
                             "label": "Semi-Truck Mobile Repair Service",
@@ -486,9 +486,9 @@
                           {
                             "label": "Service Credit App",
                             "url": "/service-credit-application",
-                            "status": "",
+                            "status": "✓ Page complete",
                             "sub": false,
-                            "partial": "Partial — step flow pending"
+                            "partial": ""
                           },
                           {
                             "label": "Specials",

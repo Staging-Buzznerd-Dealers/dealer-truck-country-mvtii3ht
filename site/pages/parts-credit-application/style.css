@@ -27,3 +27,15 @@
 [data-bz-node="s3c13"][data-bz-node]{border-style:solid;padding-top:clamp(24px, 4vw, 48px);padding-right:clamp(24px, 4vw, 48px);padding-bottom:clamp(24px, 4vw, 48px);padding-left:clamp(24px, 4vw, 48px);border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}
 [data-bz-node="s3c13"][data-bz-node]{box-sizing:content-box}
 [data-bz-node="s3"][data-bz-node]{padding-top:clamp(48px, 7vw, 90px);padding-bottom:clamp(48px, 7vw, 90px)}
+
+/* ------------------------------------------------ three-step wizard (script.js) */
+.tc-wiz-head { margin: 0 0 32px }
+.tc-wiz-head__row { display: flex; justify-content: space-between; font: 600 15px var(--font-heading); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px }
+.tc-wiz-head progress { display: block; width: 100%; height: 10px; accent-color: #C41230 }
+.tc-wiz-h { font: 700 24px/1.1 var(--font-heading); text-transform: uppercase; margin: 12px 0 0; padding-top: 24px; border-top: 1px solid #EDEBE3 }
+.tc-wiz-nav { display: flex; gap: 16px; margin-top: 40px }
+.tc-wiz-nav button { font: 600 15px var(--font-heading); letter-spacing: .1em; text-transform: uppercase; padding: 18px 36px; cursor: pointer; border: 2px solid #C41230; background: #C41230; color: #fff; border-radius: 0 }
+.tc-wiz-nav button:hover { background: #8f0d21; border-color: #8f0d21 }
+.tc-wiz-nav .tc-wiz-back { background: transparent; color: #14151A; border-color: #14151A }
+.tc-wiz-nav .tc-wiz-back:hover { background: #14151A; color: #fff }
+.tc-wiz-nav [hidden] { display: none }
