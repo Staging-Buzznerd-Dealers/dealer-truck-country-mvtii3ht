@@ -70,7 +70,40 @@
           "ref": "inventory",
           "url": null,
           "newTab": false,
-          "children": []
+          "children": [
+            {
+              "id": "item-17",
+              "label": "Trailer Locations",
+              "type": "url",
+              "url": " /trailer-locations",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-18",
+              "label": "Trailer Services",
+              "type": "url",
+              "url": "/trailer-services/",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-19",
+              "label": "Trailer Parts",
+              "type": "url",
+              "url": "/trailer-parts",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-20",
+              "label": "Trailer Financing",
+              "type": "url",
+              "url": "/trailer-financing",
+              "ref": null,
+              "children": []
+            }
+          ]
         },
         {
           "id": "locations",
