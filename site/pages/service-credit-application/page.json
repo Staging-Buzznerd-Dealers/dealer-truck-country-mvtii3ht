@@ -161,7 +161,7 @@
       },
       "children": [
         {
-          "id": "s3r10",
+          "id": "s3r12",
           "type": "row",
           "props": {
             "gap": 0,
@@ -169,7 +169,7 @@
           },
           "children": [
             {
-              "id": "s3c11",
+              "id": "s3c13",
               "type": "column",
               "props": {
                 "span": 12
@@ -205,7 +205,7 @@
                   }
                 },
                 {
-                  "id": "s3r7",
+                  "id": "s3r9",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -213,7 +213,7 @@
                   },
                   "children": [
                     {
-                      "id": "s3c8",
+                      "id": "s3c10",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -228,32 +228,55 @@
                       },
                       "children": [
                         {
-                          "id": "s3r3",
+                          "id": "s3r2",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "justifyContent": "between",
+                              "marginBottom": "8"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s3c4",
+                              "id": "s3c3",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "justifyContent": "between",
-                                  "marginBottom": "8"
+                              "children": [
+                                {
+                                  "id": "s3t4",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Step 1 of 3",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s3c5",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s3t2",
+                                  "id": "s3t6",
                                   "type": "text",
                                   "props": {
-                                    "text": "Step 1 of 333%",
+                                    "text": "33%",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -268,7 +291,7 @@
                           ]
                         },
                         {
-                          "id": "s3r5",
+                          "id": "s3r7",
                           "type": "row",
                           "props": {
                             "gap": 0,
@@ -276,7 +299,7 @@
                           },
                           "children": [
                             {
-                              "id": "s3c6",
+                              "id": "s3c8",
                               "type": "column",
                               "props": {
                                 "span": 12
@@ -297,7 +320,7 @@
                   ]
                 },
                 {
-                  "id": "s3f9",
+                  "id": "s3f11",
                   "type": "form",
                   "props": {
                     "formId": "service-credit-application"

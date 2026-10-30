@@ -101,7 +101,7 @@
           }
         },
         {
-          "id": "s2r11",
+          "id": "s2r13",
           "type": "row",
           "props": {
             "gap": 0,
@@ -109,7 +109,7 @@
           },
           "children": [
             {
-              "id": "s2c12",
+              "id": "s2c14",
               "type": "column",
               "props": {
                 "span": 12
@@ -123,7 +123,7 @@
               },
               "children": [
                 {
-                  "id": "s2r9",
+                  "id": "s2r11",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -131,7 +131,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c10",
+                      "id": "s2c12",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -185,34 +185,69 @@
                           }
                         },
                         {
-                          "id": "s2r7",
+                          "id": "s2r6",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c8",
+                              "id": "s2c7",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b8",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Parts Request Form",
+                                        "url": "/parts-request",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t6",
-                                  "type": "text",
+                                  "id": "s2b10",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"/parts-request\">Parts Request Form</a><a href=\"https://www.truckcountry.com/parts/specials/\">Specials</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Specials",
+                                        "url": "https://www.truckcountry.com/parts/specials/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {

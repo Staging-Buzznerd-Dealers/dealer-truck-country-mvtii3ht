@@ -125,7 +125,7 @@
           }
         },
         {
-          "id": "s2r12",
+          "id": "s2r14",
           "type": "row",
           "props": {
             "gap": 0,
@@ -133,7 +133,7 @@
           },
           "children": [
             {
-              "id": "s2c13",
+              "id": "s2c15",
               "type": "column",
               "props": {
                 "span": 12
@@ -147,7 +147,7 @@
               },
               "children": [
                 {
-                  "id": "s2r10",
+                  "id": "s2r12",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -155,7 +155,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c11",
+                      "id": "s2c13",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -209,34 +209,69 @@
                           }
                         },
                         {
-                          "id": "s2r8",
+                          "id": "s2r7",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c9",
+                              "id": "s2c8",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Watch the Videos",
+                                        "url": "#videos",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t7",
-                                  "type": "text",
+                                  "id": "s2b11",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"#videos\">Watch the Videos</a> <a href=\"#contact\">Contact Us</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Contact Us",
+                                        "url": "#contact",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {
@@ -1894,7 +1929,7 @@
                   "id": "s8f7",
                   "type": "form",
                   "props": {
-                    "formId": "request-info"
+                    "formId": "cascadia-contact"
                   },
                   "styles": {
                     "base": {

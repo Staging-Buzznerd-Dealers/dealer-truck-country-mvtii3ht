@@ -125,7 +125,7 @@
           }
         },
         {
-          "id": "s2r12",
+          "id": "s2r14",
           "type": "row",
           "props": {
             "gap": 0,
@@ -133,7 +133,7 @@
           },
           "children": [
             {
-              "id": "s2c13",
+              "id": "s2c15",
               "type": "column",
               "props": {
                 "span": 12
@@ -147,7 +147,7 @@
               },
               "children": [
                 {
-                  "id": "s2r10",
+                  "id": "s2r12",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -155,7 +155,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c11",
+                      "id": "s2c13",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -209,34 +209,69 @@
                           }
                         },
                         {
-                          "id": "s2r8",
+                          "id": "s2r7",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c9",
+                              "id": "s2c8",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Get a Truck Valuation",
+                                        "url": "#valuation",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t7",
-                                  "type": "text",
+                                  "id": "s2b11",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"#valuation\">Get a Truck Valuation</a> <a href=\"#process\">How It Works</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "How It Works",
+                                        "url": "#process",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {
@@ -1468,28 +1503,28 @@
                     "config": {
                       "items": [
                         {
-                          "question": "How do I find out what my truck is worth?",
-                          "answer": "Submit the valuation form with your truck’s year, make, model, mileage and condition. A team member reviews the details and contacts you. A final figure may depend on an in-person inspection."
+                          "q": "How do I find out what my truck is worth?",
+                          "a": "Submit the valuation form with your truck’s year, make, model, mileage and condition. A team member reviews the details and contacts you. A final figure may depend on an in-person inspection."
                         },
                         {
-                          "question": "What types of trucks can I sell?",
-                          "answer": "Tell us about your truck in the form, including Freightliner, Western Star, Autocar or other makes. Our team confirms which trucks we can purchase when they follow up."
+                          "q": "What types of trucks can I sell?",
+                          "a": "Tell us about your truck in the form, including Freightliner, Western Star, Autocar or other makes. Our team confirms which trucks we can purchase when they follow up."
                         },
                         {
-                          "question": "What information do I need to provide?",
-                          "answer": "The VIN, year, make, model, mileage and overall condition help most. Photos and notes about recent service or known issues are also useful."
+                          "q": "What information do I need to provide?",
+                          "a": "The VIN, year, make, model, mileage and overall condition help most. Photos and notes about recent service or known issues are also useful."
                         },
                         {
-                          "question": "Can I trade in my truck toward another one?",
-                          "answer": "Yes. Mention in the notes field that you are interested in a trade-in, and a team member can discuss it alongside new or used truck inventory and financing options."
+                          "q": "Can I trade in my truck toward another one?",
+                          "a": "Yes. Mention in the notes field that you are interested in a trade-in, and a team member can discuss it alongside new or used truck inventory and financing options."
                         },
                         {
-                          "question": "Do I have to bring my truck to a dealership?",
-                          "answer": "The form is the first step. Whether an inspection is needed, and where it takes place, is discussed when a team member contacts you."
+                          "q": "Do I have to bring my truck to a dealership?",
+                          "a": "The form is the first step. Whether an inspection is needed, and where it takes place, is discussed when a team member contacts you."
                         },
                         {
-                          "question": "Which areas do you serve?",
-                          "answer": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
+                          "q": "Which areas do you serve?",
+                          "a": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
                         }
                       ]
                     }
@@ -1536,32 +1571,477 @@
           }
         },
         {
-          "id": "s7r3",
+          "id": "s7r2",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
           "children": [
             {
-              "id": "s7c4",
+              "id": "s7c3",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
               },
               "styles": {
                 "base": {
-                  "display": "grid",
-                  "rowGap": "20",
-                  "columnGap": "20"
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
                 }
               },
               "children": [
                 {
-                  "id": "s7t2",
+                  "id": "s7r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t4",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">Used Inventory</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r8",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t7",
+                          "type": "text",
+                          "props": {
+                            "text": "Browse used trucks available now.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t10",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\"> Used Inventory Browse used trucks available now. View used trucks → </a> <a href=\"/semi-truck-financing\"> Financing Explore semi-truck financing. See financing → </a> <a href=\"https://www.truckcountry.com/locations/\"> Locations Find a dealership near you. Find a location → </a> <a href=\"/contact-us\"> Contact Us Talk to a team member. Contact us → </a>",
+                    "text": "View used trucks →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c11",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r13",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t12",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"/semi-truck-financing\">Financing</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r16",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c17",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t15",
+                          "type": "text",
+                          "props": {
+                            "text": "Explore semi-truck financing.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t18",
+                  "type": "text",
+                  "props": {
+                    "text": "See financing →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c19",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r21",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c22",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t20",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.truckcountry.com/locations/\">Locations</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t23",
+                          "type": "text",
+                          "props": {
+                            "text": "Find a dealership near you.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t26",
+                  "type": "text",
+                  "props": {
+                    "text": "Find a location →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c27",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r29",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c30",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t28",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"/contact-us\">Contact Us</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r32",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c33",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t31",
+                          "type": "text",
+                          "props": {
+                            "text": "Talk to a team member.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t34",
+                  "type": "text",
+                  "props": {
+                    "text": "Contact us →",
                     "width": "full"
                   },
                   "styles": {

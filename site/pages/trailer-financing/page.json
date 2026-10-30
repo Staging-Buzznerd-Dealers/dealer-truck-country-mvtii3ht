@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "s2r10",
+          "id": "s2r12",
           "type": "row",
           "props": {
             "gap": 0,
@@ -113,7 +113,7 @@
           },
           "children": [
             {
-              "id": "s2c11",
+              "id": "s2c13",
               "type": "column",
               "props": {
                 "span": 12
@@ -127,7 +127,7 @@
               },
               "children": [
                 {
-                  "id": "s2r8",
+                  "id": "s2r10",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -135,7 +135,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c9",
+                      "id": "s2c11",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -175,34 +175,69 @@
                           }
                         },
                         {
-                          "id": "s2r6",
+                          "id": "s2r5",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c7",
+                              "id": "s2c6",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Truck Country Credit App",
+                                        "url": "https://www.truckcountry.com/truck-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t5",
-                                  "type": "text",
+                                  "id": "s2b9",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"https://www.truckcountry.com/truck-credit-app/\">Truck Country Credit App</a> <a href=\"https://www.truckcountry.com/stoop-credit-app/\">Stoops Credit App</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Stoops Credit App",
+                                        "url": "https://www.truckcountry.com/stoop-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {
@@ -837,407 +872,20 @@
           }
         },
         {
-          "id": "s5r2",
-          "type": "row",
+          "id": "s5w2",
+          "type": "loan-calculator",
           "props": {
-            "gap": 0,
-            "stackOn": "never"
+            "note": "* Required"
           },
           "styles": {
             "base": {
-              "display": "grid",
-              "alignItems": "start"
+              "paddingTop": 0,
+              "paddingBottom": 0
             }
-          },
-          "children": [
-            {
-              "id": "s5c3",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s5f4",
-                  "type": "form",
-                  "props": {
-                    "formId": "request-info"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "id": "s5c5",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#0e0f13"
-                }
-              },
-              "children": [
-                {
-                  "id": "s5r10",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s5c11",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "paddingTop": "16",
-                          "paddingRight": "0",
-                          "paddingBottom": "16",
-                          "paddingLeft": "0",
-                          "borderBottomWidth": "1",
-                          "borderColor": "#6b6d74",
-                          "borderTopWidth": "0",
-                          "borderRightWidth": "0",
-                          "borderLeftWidth": "0"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s5t6",
-                          "type": "text",
-                          "props": {
-                            "text": "Estimated Monthly Payment",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        },
-                        {
-                          "id": "s5r8",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s5c9",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "marginTop": "4",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s5t7",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "$0.00",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "s5r16",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s5c17",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "paddingTop": "16",
-                          "paddingRight": "0",
-                          "paddingBottom": "16",
-                          "paddingLeft": "0",
-                          "borderBottomWidth": "1",
-                          "borderColor": "#6b6d74",
-                          "borderTopWidth": "0",
-                          "borderRightWidth": "0",
-                          "borderLeftWidth": "0"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s5t12",
-                          "type": "text",
-                          "props": {
-                            "text": "Total Principal Paid",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        },
-                        {
-                          "id": "s5r14",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s5c15",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "marginTop": "4",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s5t13",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "$0.00",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "s5r22",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s5c23",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "paddingTop": "16",
-                          "paddingRight": "0",
-                          "paddingBottom": "16",
-                          "paddingLeft": "0",
-                          "borderBottomWidth": "1",
-                          "borderColor": "#6b6d74",
-                          "borderTopWidth": "0",
-                          "borderRightWidth": "0",
-                          "borderLeftWidth": "0"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s5t18",
-                          "type": "text",
-                          "props": {
-                            "text": "Total Interest Paid",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        },
-                        {
-                          "id": "s5r20",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s5c21",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "marginTop": "4",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s5t19",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "$0.00",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "s5r28",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s5c29",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "paddingTop": "16",
-                          "paddingRight": "0",
-                          "paddingBottom": "16",
-                          "paddingLeft": "0",
-                          "borderBottomWidth": "1",
-                          "borderColor": "#6b6d74",
-                          "borderTopWidth": "0",
-                          "borderRightWidth": "0",
-                          "borderLeftWidth": "0"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s5t24",
-                          "type": "text",
-                          "props": {
-                            "text": "Total",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        },
-                        {
-                          "id": "s5r26",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s5c27",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "marginTop": "4",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s5t25",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "$0.00",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          }
         },
         {
-          "id": "s5t30",
+          "id": "s5t3",
           "type": "text",
           "props": {
             "text": "*Please note that this payment calculator tool is provided only as a convenience in order to test payment scenarios and estimate possible payments. Truck Country/Stoops Freightliner is not liable for any damages or losses including special, incidental, punitive, indirect or consequential damages or monetary losses of any kind arising out of or in connection with the use of this calculator tool and any information derived from the results. Actual truck payments will be confirmed by Truck Country/Stoops Freightliner sales representatives and/or your chosen financing company once final price and terms are established. Please seek professional financial guidance as necessary.",

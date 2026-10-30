@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "s2r13",
+          "id": "s2r15",
           "type": "row",
           "props": {
             "gap": 0,
@@ -113,7 +113,7 @@
           },
           "children": [
             {
-              "id": "s2c14",
+              "id": "s2c16",
               "type": "column",
               "props": {
                 "span": 12
@@ -127,7 +127,7 @@
               },
               "children": [
                 {
-                  "id": "s2r11",
+                  "id": "s2r13",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -135,7 +135,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c12",
+                      "id": "s2c14",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -220,34 +220,69 @@
                           }
                         },
                         {
-                          "id": "s2r9",
+                          "id": "s2r8",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c10",
+                              "id": "s2c9",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b10",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Request Excelerator Parts Account",
+                                        "url": "https://www.truckcountry.com/exceleratorrequest/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c11",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t8",
-                                  "type": "text",
+                                  "id": "s2b12",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"https://www.truckcountry.com/exceleratorrequest/\">Request Excelerator Parts Account</a><a href=\"#videos\">Watch the Videos</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Watch the Videos",
+                                        "url": "#videos",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {

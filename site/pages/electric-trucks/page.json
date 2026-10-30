@@ -130,34 +130,69 @@
                   }
                 },
                 {
-                  "id": "s2r7",
+                  "id": "s2r6",
                   "type": "row",
                   "props": {
                     "gap": 0,
                     "stackOn": "never"
                   },
+                  "styles": {
+                    "base": {
+                      "display": "flex",
+                      "flexWrap": "wrap",
+                      "rowGap": "16",
+                      "columnGap": "16"
+                    }
+                  },
                   "children": [
                     {
-                      "id": "s2c8",
+                      "id": "s2c7",
                       "type": "column",
                       "props": {
                         "span": 12
                       },
-                      "styles": {
-                        "base": {
-                          "display": "flex",
-                          "flexWrap": "wrap",
-                          "rowGap": "16",
-                          "columnGap": "16"
+                      "children": [
+                        {
+                          "id": "s2b8",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Ask About Electric Trucks",
+                                "url": "#contact",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
                         }
+                      ]
+                    },
+                    {
+                      "id": "s2c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
                       },
                       "children": [
                         {
-                          "id": "s2t6",
-                          "type": "text",
+                          "id": "s2b10",
+                          "type": "buttons",
                           "props": {
-                            "text": "<a href=\"#contact\">Ask About Electric Trucks</a> <a href=\"#models\">View Models</a>",
-                            "width": "full"
+                            "items": [
+                              {
+                                "label": "View Models",
+                                "url": "#models",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
                           },
                           "styles": {
                             "base": {
@@ -173,14 +208,14 @@
               ]
             },
             {
-              "id": "s2c9",
+              "id": "s2c11",
               "type": "column",
               "props": {
                 "span": 1
               },
               "children": [
                 {
-                  "id": "s2i10",
+                  "id": "s2i12",
                   "type": "image",
                   "props": {
                     "image": {
@@ -968,19 +1003,22 @@
                       "props": {
                         "span": 12
                       },
+                      "styles": {
+                        "base": {
+                          "background": "#c41230",
+                          "paddingTop": "16",
+                          "paddingRight": "28",
+                          "paddingBottom": "16",
+                          "paddingLeft": "28"
+                        }
+                      },
                       "children": [
                         {
-                          "id": "s3b49",
-                          "type": "buttons",
+                          "id": "s3t49",
+                          "type": "text",
                           "props": {
-                            "items": [
-                              {
-                                "label": "eCascadia specs, videos & photos (opens eCascadia page)",
-                                "url": "https://www.truckcountry.com/freightliner-ecascadia-specs/",
-                                "style": "primary"
-                              }
-                            ],
-                            "align": "left"
+                            "text": "<a href=\"https://www.truckcountry.com/freightliner-ecascadia-specs/\">eCascadia specs, videos & photos</a>",
+                            "width": "full"
                           },
                           "styles": {
                             "base": {
@@ -988,6 +1026,45 @@
                               "paddingBottom": 0
                             }
                           }
+                        },
+                        {
+                          "id": "s3r51",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c52",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "position": "absolute",
+                                  "left": "-999"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s3t50",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "(opens eCascadia page)",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -996,7 +1073,7 @@
               ]
             },
             {
-              "id": "s3c50",
+              "id": "s3c53",
               "type": "column",
               "props": {
                 "span": 1
@@ -1016,7 +1093,7 @@
               },
               "children": [
                 {
-                  "id": "s3i51",
+                  "id": "s3i54",
                   "type": "image",
                   "props": {
                     "image": {
@@ -1035,7 +1112,7 @@
                   }
                 },
                 {
-                  "id": "s3r52",
+                  "id": "s3r55",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -1051,14 +1128,14 @@
                   },
                   "children": [
                     {
-                      "id": "s3c53",
+                      "id": "s3c56",
                       "type": "column",
                       "props": {
                         "span": 12
                       },
                       "children": [
                         {
-                          "id": "s3h54",
+                          "id": "s3h57",
                           "type": "heading",
                           "props": {
                             "text": "eM2",
@@ -1074,14 +1151,14 @@
                       ]
                     },
                     {
-                      "id": "s3c55",
+                      "id": "s3c58",
                       "type": "column",
                       "props": {
                         "span": 12
                       },
                       "children": [
                         {
-                          "id": "s3t56",
+                          "id": "s3t59",
                           "type": "text",
                           "props": {
                             "text": "A practical electric box truck and delivery truck.",
@@ -1097,7 +1174,7 @@
                       ]
                     },
                     {
-                      "id": "s3c57",
+                      "id": "s3c60",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -1119,52 +1196,6 @@
                       },
                       "children": [
                         {
-                          "id": "s3r59",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s3c60",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "paddingTop": "12",
-                                  "paddingRight": "0",
-                                  "paddingBottom": "12",
-                                  "paddingLeft": "0",
-                                  "borderBottomWidth": "1",
-                                  "borderColor": "#edebe3",
-                                  "borderTopWidth": "0",
-                                  "borderRightWidth": "0",
-                                  "borderLeftWidth": "0"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s3t58",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "Class",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
                           "id": "s3r62",
                           "type": "row",
                           "props": {
@@ -1180,10 +1211,6 @@
                               },
                               "styles": {
                                 "base": {
-                                  "marginTop": "0",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1200,7 +1227,7 @@
                                   "id": "s3t61",
                                   "type": "text",
                                   "props": {
-                                    "text": "Class 6 – Class 7",
+                                    "text": "Class",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1230,6 +1257,10 @@
                               },
                               "styles": {
                                 "base": {
+                                  "marginTop": "0",
+                                  "marginRight": "0",
+                                  "marginBottom": "0",
+                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1246,7 +1277,7 @@
                                   "id": "s3t64",
                                   "type": "text",
                                   "props": {
-                                    "text": "Horsepower",
+                                    "text": "Class 6 – Class 7",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1276,10 +1307,6 @@
                               },
                               "styles": {
                                 "base": {
-                                  "marginTop": "0",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1296,7 +1323,7 @@
                                   "id": "s3t67",
                                   "type": "text",
                                   "props": {
-                                    "text": "Up to 255 hp (188 kW)",
+                                    "text": "Horsepower",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1326,6 +1353,10 @@
                               },
                               "styles": {
                                 "base": {
+                                  "marginTop": "0",
+                                  "marginRight": "0",
+                                  "marginBottom": "0",
+                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1342,7 +1373,7 @@
                                   "id": "s3t70",
                                   "type": "text",
                                   "props": {
-                                    "text": "GVWR",
+                                    "text": "Up to 255 hp (188 kW)",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1372,10 +1403,6 @@
                               },
                               "styles": {
                                 "base": {
-                                  "marginTop": "0",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1392,7 +1419,7 @@
                                   "id": "s3t73",
                                   "type": "text",
                                   "props": {
-                                    "text": "26,000–33,000 lbs.",
+                                    "text": "GVWR",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1422,6 +1449,10 @@
                               },
                               "styles": {
                                 "base": {
+                                  "marginTop": "0",
+                                  "marginRight": "0",
+                                  "marginBottom": "0",
+                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1438,7 +1469,7 @@
                                   "id": "s3t76",
                                   "type": "text",
                                   "props": {
-                                    "text": "Typical range",
+                                    "text": "26,000–33,000 lbs.",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1468,10 +1499,6 @@
                               },
                               "styles": {
                                 "base": {
-                                  "marginTop": "0",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1488,7 +1515,7 @@
                                   "id": "s3t79",
                                   "type": "text",
                                   "props": {
-                                    "text": "180 or 250 miles",
+                                    "text": "Typical range",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1518,6 +1545,10 @@
                               },
                               "styles": {
                                 "base": {
+                                  "marginTop": "0",
+                                  "marginRight": "0",
+                                  "marginBottom": "0",
+                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1534,7 +1565,7 @@
                                   "id": "s3t82",
                                   "type": "text",
                                   "props": {
-                                    "text": "Usable capacity",
+                                    "text": "180 or 250 miles",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1564,10 +1595,6 @@
                               },
                               "styles": {
                                 "base": {
-                                  "marginTop": "0",
-                                  "marginRight": "0",
-                                  "marginBottom": "0",
-                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1584,7 +1611,7 @@
                                   "id": "s3t85",
                                   "type": "text",
                                   "props": {
-                                    "text": "194 kWh or 291 kWh",
+                                    "text": "Usable capacity",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1614,6 +1641,10 @@
                               },
                               "styles": {
                                 "base": {
+                                  "marginTop": "0",
+                                  "marginRight": "0",
+                                  "marginBottom": "0",
+                                  "marginLeft": "0",
                                   "paddingTop": "12",
                                   "paddingRight": "0",
                                   "paddingBottom": "12",
@@ -1630,7 +1661,7 @@
                                   "id": "s3t88",
                                   "type": "text",
                                   "props": {
-                                    "text": "Recharge",
+                                    "text": "194 kWh or 291 kWh",
                                     "width": "full"
                                   },
                                   "styles": {
@@ -1660,6 +1691,52 @@
                               },
                               "styles": {
                                 "base": {
+                                  "paddingTop": "12",
+                                  "paddingRight": "0",
+                                  "paddingBottom": "12",
+                                  "paddingLeft": "0",
+                                  "borderBottomWidth": "1",
+                                  "borderColor": "#edebe3",
+                                  "borderTopWidth": "0",
+                                  "borderRightWidth": "0",
+                                  "borderLeftWidth": "0"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s3t91",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Recharge",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3r95",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c96",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
                                   "marginTop": "0",
                                   "marginRight": "0",
                                   "marginBottom": "0",
@@ -1677,7 +1754,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "s3t91",
+                                  "id": "s3t94",
                                   "type": "text",
                                   "props": {
                                     "text": "80% in ~60 min.",
@@ -1697,24 +1774,27 @@
                       ]
                     },
                     {
-                      "id": "s3c94",
+                      "id": "s3c97",
                       "type": "column",
                       "props": {
                         "span": 12
                       },
+                      "styles": {
+                        "base": {
+                          "background": "#c41230",
+                          "paddingTop": "16",
+                          "paddingRight": "28",
+                          "paddingBottom": "16",
+                          "paddingLeft": "28"
+                        }
+                      },
                       "children": [
                         {
-                          "id": "s3b95",
-                          "type": "buttons",
+                          "id": "s3t98",
+                          "type": "text",
                           "props": {
-                            "items": [
-                              {
-                                "label": "eM2 specs, videos & photos (opens eM2 page)",
-                                "url": "https://www.truckcountry.com/freightliner-em2-specs/",
-                                "style": "primary"
-                              }
-                            ],
-                            "align": "left"
+                            "text": "<a href=\"https://www.truckcountry.com/freightliner-em2-specs/\">eM2 specs, videos & photos</a>",
+                            "width": "full"
                           },
                           "styles": {
                             "base": {
@@ -1722,6 +1802,45 @@
                               "paddingBottom": 0
                             }
                           }
+                        },
+                        {
+                          "id": "s3r100",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c101",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "position": "absolute",
+                                  "left": "-999"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s3t99",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "(opens eM2 page)",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -2063,20 +2182,20 @@
                     "config": {
                       "items": [
                         {
-                          "question": "Which electric trucks are available?",
-                          "answer": "The Freightliner eCascadia is a Class 8 electric semi truck, and the Freightliner eM2 is a Class 6–7 electric box and delivery truck."
+                          "q": "Which electric trucks are available?",
+                          "a": "The Freightliner eCascadia is a Class 8 electric semi truck, and the Freightliner eM2 is a Class 6–7 electric box and delivery truck."
                         },
                         {
-                          "question": "What is the typical range?",
-                          "answer": "The eCascadia has a typical range of up to 230 miles. The eM2 has a typical range of 180 or 250 miles, depending on battery capacity."
+                          "q": "What is the typical range?",
+                          "a": "The eCascadia has a typical range of up to 230 miles. The eM2 has a typical range of 180 or 250 miles, depending on battery capacity."
                         },
                         {
-                          "question": "How long does it take to recharge?",
-                          "answer": "The eCascadia recharges to 80% in about 90 minutes. The eM2 recharges to 80% in about 60 minutes."
+                          "q": "How long does it take to recharge?",
+                          "a": "The eCascadia recharges to 80% in about 90 minutes. The eM2 recharges to 80% in about 60 minutes."
                         },
                         {
-                          "question": "How do I get pricing or availability?",
-                          "answer": "Use the contact form on this page. A Truck Country / Stoops team member will follow up with the information you request."
+                          "q": "How do I get pricing or availability?",
+                          "a": "Use the contact form on this page. A Truck Country / Stoops team member will follow up with the information you request."
                         }
                       ]
                     }
@@ -2123,32 +2242,477 @@
           }
         },
         {
-          "id": "s7r3",
+          "id": "s7r2",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
           "children": [
             {
-              "id": "s7c4",
+              "id": "s7c3",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
               },
               "styles": {
                 "base": {
-                  "display": "grid",
-                  "rowGap": "20",
-                  "columnGap": "20"
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
                 }
               },
               "children": [
                 {
-                  "id": "s7t2",
+                  "id": "s7r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t4",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.truckcountry.com/the-fifth-generation-cascadia/\">Fifth Gen Cascadia</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r8",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t7",
+                          "type": "text",
+                          "props": {
+                            "text": "Explore the latest Cascadia.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t10",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"https://www.truckcountry.com/the-fifth-generation-cascadia/\"> Fifth Gen Cascadia Explore the latest Cascadia. Learn more → </a> <a href=\"https://www.truckcountry.com/inventory/truck-inventory/new-inventory/freightliner-inventory/\"> New Inventory Browse new Freightliner trucks. View inventory → </a> <a href=\"/semi-truck-financing\"> Financing Explore semi-truck financing. See financing → </a> <a href=\"https://www.truckcountry.com/locations/\"> Locations Find a dealership near you. Find a location → </a>",
+                    "text": "Learn more →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c11",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r13",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t12",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/new-inventory/freightliner-inventory/\">New Inventory</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r16",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c17",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t15",
+                          "type": "text",
+                          "props": {
+                            "text": "Browse new Freightliner trucks.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t18",
+                  "type": "text",
+                  "props": {
+                    "text": "View inventory →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c19",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r21",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c22",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t20",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"/semi-truck-financing\">Financing</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t23",
+                          "type": "text",
+                          "props": {
+                            "text": "Explore semi-truck financing.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t26",
+                  "type": "text",
+                  "props": {
+                    "text": "See financing →",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s7c27",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "block",
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7r29",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c30",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t28",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.truckcountry.com/locations/\">Locations</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7r32",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s7c33",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "12"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s7t31",
+                          "type": "text",
+                          "props": {
+                            "text": "Find a dealership near you.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s7t34",
+                  "type": "text",
+                  "props": {
+                    "text": "Find a location →",
                     "width": "full"
                   },
                   "styles": {

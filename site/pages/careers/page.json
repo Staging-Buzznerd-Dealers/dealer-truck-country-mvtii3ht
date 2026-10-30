@@ -101,7 +101,7 @@
           }
         },
         {
-          "id": "s2r10",
+          "id": "s2r14",
           "type": "row",
           "props": {
             "gap": 0,
@@ -109,7 +109,7 @@
           },
           "children": [
             {
-              "id": "s2c11",
+              "id": "s2c15",
               "type": "column",
               "props": {
                 "span": 12
@@ -123,7 +123,7 @@
               },
               "children": [
                 {
-                  "id": "s2r8",
+                  "id": "s2r12",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -131,7 +131,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c9",
+                      "id": "s2c13",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -171,34 +171,98 @@
                           }
                         },
                         {
-                          "id": "s2r6",
+                          "id": "s2r5",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c7",
+                              "id": "s2c6",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Current Openings",
+                                        "url": "https://www.truckcountry.com/careers/current-opening/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t5",
-                                  "type": "text",
+                                  "id": "s2b9",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"https://www.truckcountry.com/careers/current-opening/\">Current Openings</a><a href=\"/training\">Training</a><a href=\"https://www.truckcountry.com/apply-for-job/\">General Application</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Training",
+                                        "url": "/training",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b11",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "General Application",
+                                        "url": "https://www.truckcountry.com/apply-for-job/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {
@@ -486,23 +550,48 @@
                   }
                 },
                 {
-                  "id": "s5t5",
-                  "type": "text",
+                  "id": "s5r6",
+                  "type": "row",
                   "props": {
-                    "text": "<a href=\"/diesel-technicians\">Learn More</a>",
-                    "width": "full"
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
+                  "children": [
+                    {
+                      "id": "s5c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s5b5",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Learn More",
+                                "url": "/diesel-technicians",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ]
                 }
               ]
             },
             {
-              "id": "s5c6",
+              "id": "s5c8",
               "type": "column",
               "props": {
                 "span": 1
@@ -521,7 +610,7 @@
               },
               "children": [
                 {
-                  "id": "s5h7",
+                  "id": "s5h9",
                   "type": "heading",
                   "props": {
                     "text": "Parts",
@@ -535,7 +624,7 @@
                   }
                 },
                 {
-                  "id": "s5t8",
+                  "id": "s5t10",
                   "type": "text",
                   "props": {
                     "text": "Our highly regarded Parts Team supports both our customers and our service departments with their knowledge, dedication and top notch customer service.",
@@ -549,23 +638,48 @@
                   }
                 },
                 {
-                  "id": "s5t9",
-                  "type": "text",
+                  "id": "s5r12",
+                  "type": "row",
                   "props": {
-                    "text": "<a href=\"https://www.truckcountry.com/careers/current-opening/\">Current Openings</a>",
-                    "width": "full"
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
+                  "children": [
+                    {
+                      "id": "s5c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s5b11",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Current Openings",
+                                "url": "https://www.truckcountry.com/careers/current-opening/",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ]
                 }
               ]
             },
             {
-              "id": "s5c10",
+              "id": "s5c14",
               "type": "column",
               "props": {
                 "span": 1
@@ -584,7 +698,7 @@
               },
               "children": [
                 {
-                  "id": "s5h11",
+                  "id": "s5h15",
                   "type": "heading",
                   "props": {
                     "text": "Sales/Admin",
@@ -598,7 +712,7 @@
                   }
                 },
                 {
-                  "id": "s5t12",
+                  "id": "s5t16",
                   "type": "text",
                   "props": {
                     "text": "Interested in Truck Sales? We sell the best heavy duty vehicles in the industry and have opportunities for both On Highway and Vocational Truck Sales Professionals.",
@@ -612,18 +726,43 @@
                   }
                 },
                 {
-                  "id": "s5t13",
-                  "type": "text",
+                  "id": "s5r18",
+                  "type": "row",
                   "props": {
-                    "text": "<a href=\"https://www.truckcountry.com/careers/current-opening/\">Current Openings</a>",
-                    "width": "full"
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
+                  "children": [
+                    {
+                      "id": "s5c19",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s5b17",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Current Openings",
+                                "url": "https://www.truckcountry.com/careers/current-opening/",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ]
                 }
               ]
             }

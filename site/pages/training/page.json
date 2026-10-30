@@ -375,23 +375,48 @@
                   }
                 },
                 {
-                  "id": "s4t6",
-                  "type": "text",
+                  "id": "s4r7",
+                  "type": "row",
                   "props": {
-                    "text": "<a href=\"/truck-country-training\">Click Here</a>",
-                    "width": "full"
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
+                  "children": [
+                    {
+                      "id": "s4c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s4b6",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Click Here",
+                                "url": "/truck-country-training",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ]
                 }
               ]
             },
             {
-              "id": "s4c7",
+              "id": "s4c9",
               "type": "column",
               "props": {
                 "span": 1
@@ -410,7 +435,7 @@
               },
               "children": [
                 {
-                  "id": "s4t8",
+                  "id": "s4t10",
                   "type": "text",
                   "props": {
                     "text": "Stoops",
@@ -424,7 +449,7 @@
                   }
                 },
                 {
-                  "id": "s4h9",
+                  "id": "s4h11",
                   "type": "heading",
                   "props": {
                     "text": "Stoops",
@@ -438,7 +463,7 @@
                   }
                 },
                 {
-                  "id": "s4t10",
+                  "id": "s4t12",
                   "type": "text",
                   "props": {
                     "text": "Indianapolis, IN",
@@ -452,18 +477,43 @@
                   }
                 },
                 {
-                  "id": "s4t11",
-                  "type": "text",
+                  "id": "s4r14",
+                  "type": "row",
                   "props": {
-                    "text": "<a href=\"/stoops-training\">Click Here</a>",
-                    "width": "full"
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
+                  "children": [
+                    {
+                      "id": "s4c15",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s4b13",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Click Here",
+                                "url": "/stoops-training",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ]
                 }
               ]
             }

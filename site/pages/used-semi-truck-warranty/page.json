@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "s2r11",
+          "id": "s2r13",
           "type": "row",
           "props": {
             "gap": 0,
@@ -113,7 +113,7 @@
           },
           "children": [
             {
-              "id": "s2c12",
+              "id": "s2c14",
               "type": "column",
               "props": {
                 "span": 12
@@ -127,7 +127,7 @@
               },
               "children": [
                 {
-                  "id": "s2r9",
+                  "id": "s2r11",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -135,7 +135,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c10",
+                      "id": "s2c12",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -189,34 +189,69 @@
                           }
                         },
                         {
-                          "id": "s2r7",
+                          "id": "s2r6",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c8",
+                              "id": "s2c7",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b8",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Browse Used Inventory",
+                                        "url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t6",
-                                  "type": "text",
+                                  "id": "s2b10",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">Browse Used Inventory</a> <a href=\"https://www.truckcountry.com/locations/\">Find a Location</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Find a Location",
+                                        "url": "https://www.truckcountry.com/locations/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {

@@ -1661,8 +1661,8 @@
                     "config": {
                       "items": [
                         {
-                          "question": "What information will you need from me when I contact Mobile Service?",
-                          "answer": "When customers call to schedule Mobile Service, they should be prepared to provide the following details:Vehicle VIN numberAddress of where the vehicle is locatedContact phone number"
+                          "q": "What information will you need from me when I contact Mobile Service?",
+                          "a": "When customers call to schedule Mobile Service, they should be prepared to provide the following details:Vehicle VIN numberAddress of where the vehicle is locatedContact phone number"
                         }
                       ]
                     }
@@ -1691,8 +1691,8 @@
                     "config": {
                       "items": [
                         {
-                          "question": "What is the estimate turnaround time will be for repairs with Mobile Service?",
-                          "answer": "Technicians can typically be onsite within 24 hours or less. Depending on the repair, technicians can complete work the same day."
+                          "q": "What is the estimate turnaround time will be for repairs with Mobile Service?",
+                          "a": "Technicians can typically be onsite within 24 hours or less. Depending on the repair, technicians can complete work the same day."
                         }
                       ]
                     }
@@ -1721,8 +1721,8 @@
                     "config": {
                       "items": [
                         {
-                          "question": "Do I need a contract or account to use Mobile Service?",
-                          "answer": "No, you do not need a contract or an account. If you would like to setup an account we can certainly do that, otherwise you have the option to prepay or apply for credit. We are also able to check warranty status to see if the service event would be covered."
+                          "q": "Do I need a contract or account to use Mobile Service?",
+                          "a": "No, you do not need a contract or an account. If you would like to setup an account we can certainly do that, otherwise you have the option to prepay or apply for credit. We are also able to check warranty status to see if the service event would be covered."
                         }
                       ]
                     }
@@ -1751,8 +1751,8 @@
                     "config": {
                       "items": [
                         {
-                          "question": "Do you only serve a certain radius around the cities listed?",
-                          "answer": "Yes. Technicians will travel roughly up to an hour and a half from one of our dealership locations in Indiana, Ohio and Michigan to perform repairs."
+                          "q": "Do you only serve a certain radius around the cities listed?",
+                          "a": "Yes. Technicians will travel roughly up to an hour and a half from one of our dealership locations in Indiana, Ohio and Michigan to perform repairs."
                         }
                       ]
                     }
@@ -1781,8 +1781,8 @@
                     "config": {
                       "items": [
                         {
-                          "question": "Can you provide Mobile Service at my business location?",
-                          "answer": "Yes. Our Mobile Service is designed to come directly to your business location. Our mechanics are equipped with the tools and expertise to handle repairs and maintenance on-site, saving you the time and hassle of transporting vehicles to our shop. Whether you need assistance with a single truck or an entire fleet, we provide convenient, efficient service wherever you need it."
+                          "q": "Can you provide Mobile Service at my business location?",
+                          "a": "Yes. Our Mobile Service is designed to come directly to your business location. Our mechanics are equipped with the tools and expertise to handle repairs and maintenance on-site, saving you the time and hassle of transporting vehicles to our shop. Whether you need assistance with a single truck or an entire fleet, we provide convenient, efficient service wherever you need it."
                         }
                       ]
                     }

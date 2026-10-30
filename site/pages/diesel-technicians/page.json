@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "s2r10",
+          "id": "s2r14",
           "type": "row",
           "props": {
             "gap": 0,
@@ -113,7 +113,7 @@
           },
           "children": [
             {
-              "id": "s2c11",
+              "id": "s2c15",
               "type": "column",
               "props": {
                 "span": 12
@@ -127,7 +127,7 @@
               },
               "children": [
                 {
-                  "id": "s2r8",
+                  "id": "s2r12",
                   "type": "row",
                   "props": {
                     "gap": 0,
@@ -135,7 +135,7 @@
                   },
                   "children": [
                     {
-                      "id": "s2c9",
+                      "id": "s2c13",
                       "type": "column",
                       "props": {
                         "span": 12
@@ -175,34 +175,98 @@
                           }
                         },
                         {
-                          "id": "s2r6",
+                          "id": "s2r5",
                           "type": "row",
                           "props": {
                             "gap": 0,
                             "stackOn": "never"
                           },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
                           "children": [
                             {
-                              "id": "s2c7",
+                              "id": "s2c6",
                               "type": "column",
                               "props": {
                                 "span": 12
                               },
-                              "styles": {
-                                "base": {
-                                  "display": "flex",
-                                  "flexWrap": "wrap",
-                                  "rowGap": "16",
-                                  "columnGap": "16"
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Current Openings",
+                                        "url": "https://www.truckcountry.com/careers/current-opening/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
                                 }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
                               },
                               "children": [
                                 {
-                                  "id": "s2t5",
-                                  "type": "text",
+                                  "id": "s2b9",
+                                  "type": "buttons",
                                   "props": {
-                                    "text": "<a href=\"https://www.truckcountry.com/careers/current-opening/\">Current Openings</a><a href=\"/training\">Technician Program</a><a href=\"https://www.truckcountry.com/blog-how-to-become-a-diesel-technician/\">How to Get Started</a>",
-                                    "width": "full"
+                                    "items": [
+                                      {
+                                        "label": "Technician Program",
+                                        "url": "/training",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b11",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "How to Get Started",
+                                        "url": "https://www.truckcountry.com/blog-how-to-become-a-diesel-technician/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
                                   },
                                   "styles": {
                                     "base": {
