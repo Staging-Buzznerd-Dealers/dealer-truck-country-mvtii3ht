@@ -276,30 +276,27 @@
       },
       "children": [
         {
-          "id": "s3r1",
+          "id": "s3r3",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "maxWidth": "960",
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20"
-            }
-          },
           "children": [
             {
-              "id": "s3c2",
+              "id": "s3c4",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s3t3",
+                  "id": "s3t1",
                   "type": "text",
                   "props": {
                     "text": "We work with several lenders who specialize in lending to fleets and owner operators. Our funding sources truly understand today’s trucking and farming industries and help us to offer proven financing options to our customers. Our inventory includes new and used hoppers and trailers for lease or purchase to fit any semi trailer need your fleet may have. Trust the team at Stoops Freightliner/Truck Country to secure the trailer credit you need and to answer any trailer financing questions you may have.",
@@ -308,21 +305,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c4",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t5",
+                  "id": "s3t2",
                   "type": "text",
                   "props": {
                     "text": "We finance vans, dump trailers, tractor trailers, flatbed trailers, semi trailers, refrigerated trailers (reefers), and hoppers for Midwest farmers. Whatever your equipment or financing needs, the Stoops Freightliner/Truck Country finance team is here to help you get the necessary funding for your semi trailer or hopper purchase. If you are an owner operator or fleet and you are ready to get started, simply fill out our credit application. We appreciate the opportunity to serve you.",

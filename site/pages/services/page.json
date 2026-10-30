@@ -263,30 +263,27 @@
           }
         },
         {
-          "id": "s3r3",
+          "id": "s3r6",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20",
-              "maxWidth": "960"
-            }
-          },
           "children": [
             {
-              "id": "s3c4",
+              "id": "s3c7",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s3t5",
+                  "id": "s3t3",
                   "type": "text",
                   "props": {
                     "text": "Parts Saving Zone program aims to keep parts prices low to allow drivers to stay on budget. Our goal is to keep as many parts in stock as possible to reduce wait times. Because we have multiple locations across the Midwest; including locations in Iowa, Indiana, Illinois, Ohio, Michigan, and Wisconsin, we’re able to maintain a larger inventory than many other dealerships with fewer locations.",
@@ -295,21 +292,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c6",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t7",
+                  "id": "s3t4",
                   "type": "text",
                   "props": {
                     "text": "For trucking companies that regularly order parts in volume, we’ll bring the parts to your location to save you time. Our extensive line includes parts from Freightliner, Western Star, and many others. If we don’t have what you need, we can get it quickly.",
@@ -318,21 +307,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c8",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t9",
+                  "id": "s3t5",
                   "type": "text",
                   "props": {
                     "text": "With great customer service and fast repairs, Truck Country and Stoops is the perfect resource for any driver. Our goal is to make sure trucks are back on the road as quickly as possible. With daily stock replenishment and low prices, drivers know we’ll have the parts and professional talent necessary to get their vehicles repaired quickly. Because our service is reliable, drivers know repairs will keep their trucks running for many miles.",
@@ -381,30 +362,27 @@
           }
         },
         {
-          "id": "s4r2",
+          "id": "s4r4",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20",
-              "maxWidth": "960"
-            }
-          },
           "children": [
             {
-              "id": "s4c3",
+              "id": "s4c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s4t4",
+                  "id": "s4t2",
                   "type": "text",
                   "props": {
                     "text": "But that’s not all – Truck Country/Stoops takes this higher standard even further. All of our locations are dedicated to moving your truck through our service department as quickly as possible.",
@@ -413,21 +391,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s4c5",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s4t6",
+                  "id": "s4t3",
                   "type": "text",
                   "props": {
                     "text": "When your truck needs service, turn to Truck Country/Stoops for the best uptime possible. We’re committed to getting you back on the road – EVERY CUSTOMER, EVERY TIME.",

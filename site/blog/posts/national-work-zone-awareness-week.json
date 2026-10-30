@@ -3,7 +3,461 @@
   "title": "National Work Zone Awareness Week",
   "date": "2026-04-14",
   "description": "Respect the Zone: What Every Driver Needs to Know During National Work Zone Awareness Week Every spring, as construction season kicks into gear, roads across",
-  "coverImage": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2026/04/shutterstock_1556245136-1024x576.jpg",
+  "coverImage": null,
   "status": "published",
-  "body": "<h2>Respect the Zone: What Every Driver Needs to Know During National Work Zone Awareness Week</h2>\n      <p>Every spring, as construction season kicks into gear, roads across the country become busier — and more dangerous. That’s why National Work Zone Awareness Week (NWZAW), running April 20–24, 2026, exists: to remind drivers of every kind to slow down, stay focused, and treat work zones with the respect they deserve.</p>\n      <p>The message is simple but powerful: extra caution in work zones saves lives. Whether you’re behind the wheel of a passenger car or an 80,000-pound semi, the choices you make while passing through a construction zone can mean the difference between a safe commute and a tragedy.</p>\n      <h3>Here are five tips to help you drive safely through work zones this season — and every season.</h3>\n      <p><strong>1. Slow Down and Obey Posted Speed Limits –</strong> Work zone speed limits aren’t suggestions — they’re set to protect both drivers and workers. Reduced speeds give you more time to react to sudden stops, unexpected lane shifts, and construction workers who may be just feet from your vehicle. When in doubt, slow down.</p>\n      <p><strong>2. Put the Phone Down –</strong> Distracted driving is one of the leading causes of work zone crashes. A quick glance at a text or notification can have devastating consequences at highway speeds. Keep your eyes on the road and your full attention on what’s ahead — no message is worth a life.</p>\n      <p><strong>3. Increase Your Following Distance –</strong> This tip is especially critical for commercial truck drivers. Large trucks require significantly more braking distance than passenger vehicles, and work zones with narrow lanes and unexpected shifts make stopping even more challenging. Leave plenty of space between yourself and the vehicle in front of you, and never tailgate through a construction area.</p>\n      <p><strong>4. Merge Early and Stay Patient –</strong> When you see signs indicating a lane closure ahead, don’t wait until the last second to merge. Merging early keeps traffic flowing more smoothly and significantly reduces the risk of rear-end collisions — one of the most common types of work zone crashes. A little patience goes a long way.</p>\n      <p><strong>5. Stay Alert for Workers and Signage –</strong> Flaggers and construction workers are doing their jobs in incredibly close proximity to moving traffic. Pay close attention to their directions, follow all posted signs, and stay aware of your surroundings throughout the entire work zone — not just at the entrance.</p>\n      <p>Work zone safety isn’t just a week-long campaign — it’s a year-round responsibility. As we recognize National Work Zone Awareness Week, let’s all commit to doing our part to protect the workers who build and maintain the roads we depend on every day.</p>\n      <p>Remember: “Respect the zone so we all get home.”</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "National Work Zone Awareness Week"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r12",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2h1",
+                  "type": "heading",
+                  "props": {
+                    "text": "Respect the Zone: What Every Driver Needs to Know During National Work Zone Awareness Week",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t2",
+                  "type": "text",
+                  "props": {
+                    "text": "Every spring, as construction season kicks into gear, roads across the country become busier — and more dangerous. That’s why National Work Zone Awareness Week (NWZAW), running April 20–24, 2026, exists: to remind drivers of every kind to slow down, stay focused, and treat work zones with the respect they deserve.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "The message is simple but powerful: extra caution in work zones saves lives. Whether you’re behind the wheel of a passenger car or an 80,000-pound semi, the choices you make while passing through a construction zone can mean the difference between a safe commute and a tragedy.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Here are five tips to help you drive safely through work zones this season — and every season.",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>1. Slow Down and Obey Posted Speed Limits –</strong> Work zone speed limits aren’t suggestions — they’re set to protect both drivers and workers. Reduced speeds give you more time to react to sudden stops, unexpected lane shifts, and construction workers who may be just feet from your vehicle. When in doubt, slow down.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>2. Put the Phone Down –</strong> Distracted driving is one of the leading causes of work zone crashes. A quick glance at a text or notification can have devastating consequences at highway speeds. Keep your eyes on the road and your full attention on what’s ahead — no message is worth a life.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>3. Increase Your Following Distance –</strong> This tip is especially critical for commercial truck drivers. Large trucks require significantly more braking distance than passenger vehicles, and work zones with narrow lanes and unexpected shifts make stopping even more challenging. Leave plenty of space between yourself and the vehicle in front of you, and never tailgate through a construction area.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>4. Merge Early and Stay Patient –</strong> When you see signs indicating a lane closure ahead, don’t wait until the last second to merge. Merging early keeps traffic flowing more smoothly and significantly reduces the risk of rear-end collisions — one of the most common types of work zone crashes. A little patience goes a long way.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>5. Stay Alert for Workers and Signage –</strong> Flaggers and construction workers are doing their jobs in incredibly close proximity to moving traffic. Pay close attention to their directions, follow all posted signs, and stay aware of your surroundings throughout the entire work zone — not just at the entrance.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t10",
+                  "type": "text",
+                  "props": {
+                    "text": "Work zone safety isn’t just a week-long campaign — it’s a year-round responsibility. As we recognize National Work Zone Awareness Week, let’s all commit to doing our part to protect the workers who build and maintain the roads we depend on every day.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t11",
+                  "type": "text",
+                  "props": {
+                    "text": "Remember: “Respect the zone so we all get home.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/news/stoops-freightliner-western-star-announces-new-state-of-the-art-dealership-in-grayling-michigan\">Stoops Freightliner-Western Star Announces New State-of-the-Art Dealership in Grayling, Michigan</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/news/shave-for-the-troops-fundraiser-nets-11200-for-local-veterans-group\">Shave for the Troops: Fundraiser nets $11,200 for local veterans group</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2h1\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(26px, 3.4vw, 36px);font-weight:700;font-style:normal;line-height:1.15;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h4\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:20px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t10\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:clamp(20px, 2.4vw, 26px);font-weight:600;font-style:normal;line-height:1.3;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:8px;margin-right:0px;margin-bottom:0px;margin-left:0px;background:rgb(255, 255, 255);border-top-width:4px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-style:solid;border-top-color:rgb(196, 18, 48);border-right-color:rgb(237, 235, 227);border-bottom-color:rgb(237, 235, 227);border-left-color:rgb(237, 235, 227);border-image:none;padding-top:24px;padding-right:28px;padding-bottom:24px;padding-left:28px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  3:58 pm \\00b7  By sarah\"}\narticle > .bz-block:first-child{position:relative;overflow:hidden;background:#0E0F13 url(\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2026/04/shutterstock_1556245136-1024x576.jpg\") center/cover no-repeat;border-bottom:0;padding-block:0}\narticle > .bz-block:first-child::before{content:\"\";position:absolute;inset:0;background:linear-gradient(90deg, rgba(14, 15, 19, 0.92) 0%, rgba(14, 15, 19, 0.75) 55%, rgba(14, 15, 19, 0.35) 100%)}\narticle > .bz-block:first-child > .bz-container{position:relative;padding-block:clamp(64px, 10vw, 130px)}\narticle > .bz-block:first-child h1{font-size:clamp(36px, 5.4vw, 72px);line-height:1;max-width:900px}\n"
 }

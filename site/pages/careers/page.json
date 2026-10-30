@@ -320,30 +320,27 @@
           }
         },
         {
-          "id": "s3r2",
+          "id": "s3r5",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20",
-              "maxWidth": "960"
-            }
-          },
           "children": [
             {
-              "id": "s3c3",
+              "id": "s3c6",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s3t4",
+                  "id": "s3t2",
                   "type": "text",
                   "props": {
                     "text": "At Truck Country/ Stoops Freightliner-Western Star, we build our team with the best employees. Our highly skilled employees not only keep our locations running but also provide the highest level of service to our customers by acting with the utmost efficiency, safety, and reliability. We offer a variety of career opportunities across our dealership network in <strong>Illinois, Iowa, Wisconsin, Michigan, Indiana, and Ohio.</strong>",
@@ -352,21 +349,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c5",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t6",
+                  "id": "s3t3",
                   "type": "text",
                   "props": {
                     "text": "In addition, we have competitive benefits that include paid training, weekly pay, insurance (health, dental, vision, short & long term), paid time off (vacation, personal days, holidays), 401K (with employer match), gear (company provided uniforms and safety gear/ PPE with reimbursement for relevant roles), and tuition reimbursement (provided for relevant roles).",
@@ -375,21 +364,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c7",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t8",
+                  "id": "s3t4",
                   "type": "text",
                   "props": {
                     "text": "We are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",

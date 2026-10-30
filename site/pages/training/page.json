@@ -210,30 +210,27 @@
           }
         },
         {
-          "id": "s3r2",
+          "id": "s3r4",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20",
-              "maxWidth": "960"
-            }
-          },
           "children": [
             {
-              "id": "s3c3",
+              "id": "s3c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s3t4",
+                  "id": "s3t2",
                   "type": "text",
                   "props": {
                     "text": "Truck Country and Stoops have two state of the art training centers, with over a 100 years of combined experience in the industry, that ensure all of our employees receive nothing but the best in quality and staying current with today’s technology. We train our technicians to be certified in Freightliner, Detroit and more. We also offer continuous training for our employees in service and parts to develop and grow to be specialists in the field.",
@@ -242,21 +239,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c5",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t6",
+                  "id": "s3t3",
                   "type": "text",
                   "props": {
                     "text": "Become a team member of one of the largest family-owned dealerships today, to be the best in the industry and train with the best.",

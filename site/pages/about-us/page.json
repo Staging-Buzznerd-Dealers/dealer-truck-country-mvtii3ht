@@ -157,35 +157,32 @@
       },
       "children": [
         {
-          "id": "s3r1",
+          "id": "s3r4",
           "type": "row",
           "props": {
             "gap": 0,
             "stackOn": "never"
           },
-          "styles": {
-            "base": {
-              "maxWidth": "960",
-              "background": "#ffffff",
-              "borderTopWidth": "4",
-              "borderRightWidth": "1",
-              "borderBottomWidth": "1",
-              "borderLeftWidth": "1",
-              "display": "grid",
-              "rowGap": "24",
-              "columnGap": "24"
-            }
-          },
           "children": [
             {
-              "id": "s3c2",
+              "id": "s3c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1"
+                }
+              },
               "children": [
                 {
-                  "id": "s3i3",
+                  "id": "s3i1",
                   "type": "image",
                   "props": {
                     "image": {
@@ -199,21 +196,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "24"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c4",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t5",
+                  "id": "s3t2",
                   "type": "text",
                   "props": {
                     "text": "<strong>Truck Country® / Stoops Freightliner-Western Star</strong> is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
@@ -222,21 +211,13 @@
                   "styles": {
                     "base": {
                       "paddingTop": 0,
-                      "paddingBottom": 0
+                      "paddingBottom": 0,
+                      "marginBottom": "24"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "id": "s3c6",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
+                },
                 {
-                  "id": "s3t7",
+                  "id": "s3t3",
                   "type": "text",
                   "props": {
                     "text": "<strong>Truck Country® / Stoops Freightliner-Western Star</strong> is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
