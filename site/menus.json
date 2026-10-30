@@ -77,7 +77,32 @@
               "type": "url",
               "url": " /trailer-locations",
               "ref": null,
-              "children": []
+              "children": [
+                {
+                  "id": "item-21",
+                  "label": "Indy Trailer",
+                  "type": "url",
+                  "url": "/indy-trailer",
+                  "ref": null,
+                  "children": []
+                },
+                {
+                  "id": "item-22",
+                  "label": "Laf Trailer",
+                  "type": "url",
+                  "url": "/laf-trailer",
+                  "ref": null,
+                  "children": []
+                },
+                {
+                  "id": "item-23",
+                  "label": "Wayne Trailer",
+                  "type": "url",
+                  "url": "/wayne-trailer-repair",
+                  "ref": null,
+                  "children": []
+                }
+              ]
             },
             {
               "id": "item-18",
