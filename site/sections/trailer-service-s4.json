@@ -1,0 +1,172 @@
+{
+  "version": 2,
+  "id": "trailer-service-s4",
+  "name": "Mobile Trailer Service (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s4r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Mobile Trailer Service",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Count on Stoops’ On-Site Mobile Trailer Service to get you back on the road. Whether for emergency breakdowns, roadside repair, preventive maintenance, DOT inspections, or scheduled onsite repairs, our Mobile Service Truck is ready and at your service!",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s4c5",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "Services Provided:",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingLeft": "22",
+                      "display": "grid",
+                      "rowGap": "12",
+                      "columnGap": "12"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c8-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "children": [
+                        {
+                          "id": "s4t9-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s4r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(min(100%, 380px), 1fr))}\n[data-bz-node=\"s4h3\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s4t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s4c5\"][data-bz-node]{padding-top:clamp(24px, 3vw, 40px);padding-right:clamp(24px, 3vw, 40px);padding-bottom:clamp(24px, 3vw, 40px);padding-left:clamp(24px, 3vw, 40px)}\n[data-bz-node=\"s4h6\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.2;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:16px;margin-left:0px}\n[data-bz-node^=\"s4t9-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4\"][data-bz-node]{margin-top:clamp(56px, 8vw, 100px);padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

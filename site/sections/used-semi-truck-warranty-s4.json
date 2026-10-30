@@ -1,0 +1,842 @@
+{
+  "version": 2,
+  "id": "used-semi-truck-warranty-s4",
+  "name": "Select Limited Warranty (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    },
+    {
+      "key": "items2",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    },
+    {
+      "key": "items3",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        },
+        {
+          "key": "f1",
+          "type": "text",
+          "label": "Text 2"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Select Limited Warranty",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4h2",
+          "type": "heading",
+          "props": {
+            "text": "Term Lengths",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "20",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c4-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items3"
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r5-r",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c6-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s4t7-r",
+                  "type": "text",
+                  "props": {
+                    "text": "{{f0}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t8-r",
+                  "type": "text",
+                  "props": {
+                    "text": "{{f1}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s4t19",
+          "type": "text",
+          "props": {
+            "text": "Vehicle eligibility based on specified model year and mileage requirements.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4h20",
+          "type": "heading",
+          "props": {
+            "text": "Covered Components",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r21",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c22",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h23",
+                  "type": "heading",
+                  "props": {
+                    "text": "Engine*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "block",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c25-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items2"
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r26-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c27-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t28-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c105",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h106",
+                  "type": "heading",
+                  "props": {
+                    "text": "Cab/Frame",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r107",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c108",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r109",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c110",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t111",
+                          "type": "text",
+                          "props": {
+                            "text": "Cab Structure and Sheet Metal Panels",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c112",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r113",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c114",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t115",
+                          "type": "text",
+                          "props": {
+                            "text": "Frame Rails and Crossmembers",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c116",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h117",
+                  "type": "heading",
+                  "props": {
+                    "text": "Transmission*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r118",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c119",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r120",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c121",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t122",
+                          "type": "text",
+                          "props": {
+                            "text": "All Internally Lubricated Parts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c123",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r124",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c125",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t126",
+                          "type": "text",
+                          "props": {
+                            "text": "Transmission Housing",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c127",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h128",
+                  "type": "heading",
+                  "props": {
+                    "text": "Rear Axle*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r129",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c130-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r131-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c132-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t133-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s4h1\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s4h2\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.14em;text-transform:uppercase;text-align:start;color:rgb(196, 18, 48);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px}\n[data-bz-node=\"s4r3\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(240px, 1fr))}\n[data-bz-node^=\"s4t7-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:clamp(28px, 3vw, 36px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"s4t8-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(84, 86, 92);margin-top:6px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s4t19\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:700;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:40px;margin-left:0px}\n[data-bz-node=\"s4h20\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.14em;text-transform:uppercase;text-align:start;color:rgb(196, 18, 48);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px}\n[data-bz-node=\"s4r21\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr))}\n[data-bz-node=\"s4c22\"][data-bz-node]{grid-column:1 / -1}\n[data-bz-node=\"s4h23\"][data-bz-node] h4{font-family:Oswald, sans-serif;font-size:20px;font-weight:600;font-style:normal;line-height:1.2;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:16px;margin-left:0px}\n[data-bz-node=\"s4r24\"][data-bz-node]{columns:220px 2}\n[data-bz-node^=\"s4c25-r\"][data-bz-node]{break-inside:avoid}\n[data-bz-node^=\"s4t28-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4h106\"][data-bz-node] h4{font-family:Oswald, sans-serif;font-size:20px;font-weight:600;font-style:normal;line-height:1.2;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:16px;margin-left:0px}\n[data-bz-node=\"s4t111\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4t115\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4h117\"][data-bz-node] h4{font-family:Oswald, sans-serif;font-size:20px;font-weight:600;font-style:normal;line-height:1.2;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:16px;margin-left:0px}\n[data-bz-node=\"s4t122\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4t126\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4h128\"][data-bz-node] h4{font-family:Oswald, sans-serif;font-size:20px;font-weight:600;font-style:normal;line-height:1.2;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:16px;margin-left:0px}\n[data-bz-node^=\"s4t133-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s4\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n"
+}

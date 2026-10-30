@@ -1,0 +1,183 @@
+{
+  "version": 2,
+  "id": "semi-truck-mobile-repair-service-s5",
+  "name": "Semi-Truck Mobile Repair Capabilities (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Semi-Truck Mobile Repair Capabilities",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s5c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "marginBottom": "40"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5t2",
+                  "type": "text",
+                  "props": {
+                    "text": "Our dedicated mobile service technicians come directly to your location to deliver a comprehensive range of essential services. Using advanced diagnostic tools, they quickly identify engine, electrical, and mechanical issues. Our team performs scheduled inspections and preventative maintenance on-site, helping your fleet maintain peak condition without the need for shop visits. We also handle official factory recalls and warranty repairs at your location, ensuring compliance and safety. Our services include repairs for cooling systems, suspension, tire rotations, and cab heaters—all performed with professionalism and efficiency.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "s5t3",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong><em>Please contact us for availability of services in your area.</em></strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5h6",
+          "type": "heading",
+          "props": {
+            "text": "Mobile repair services we provide:",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r7",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "16",
+              "columnGap": "16"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c8-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5t9-r",
+                  "type": "text",
+                  "props": {
+                    "text": "{{f0}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s5h1\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s5t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s5t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s5h6\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px}\n[data-bz-node=\"s5r7\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(260px, 1fr))}\n[data-bz-node^=\"s5c8-r\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node^=\"s5t9-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s5\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n"
+}

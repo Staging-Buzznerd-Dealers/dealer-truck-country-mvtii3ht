@@ -1,0 +1,239 @@
+{
+  "version": 2,
+  "id": "sell-your-truck-s4",
+  "name": "A Freightliner dealer that knows your truck (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        },
+        {
+          "key": "f1",
+          "type": "text",
+          "label": "Text 2"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s4r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "center"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Why Truck Country / Stoops",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "A Freightliner dealer that knows your truck",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "20",
+                      "columnGap": "20"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c6-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "16",
+                          "columnGap": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r7-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c8-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "12",
+                                  "height": "12",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4r11-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c12-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s4h9-r",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "{{f0}}",
+                                    "headingLevel": 3
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "s4t10-r",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{f1}}",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c34",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4i35",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/brand-westernstar-49x.png",
+                      "alt": "Western Star 49X semi truck",
+                      "width": 1200,
+                      "height": 670
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s4r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));row-gap:clamp(32px, 6vw, 80px);column-gap:clamp(32px, 6vw, 80px)}\n[data-bz-node=\"s4t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.14em;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px;border-left-width:4px;border-left-style:solid;border-left-color:rgb(196, 18, 48);padding-left:12px}\n[data-bz-node=\"s4h4\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:28px;margin-left:0px}\n[data-bz-node^=\"s4h9-r\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.3;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:4px;margin-left:0px}\n[data-bz-node^=\"s4t10-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s4i35\"][data-bz-node] img{width:100%;height:auto;display:block}\n[data-bz-node=\"s4i35\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s4\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

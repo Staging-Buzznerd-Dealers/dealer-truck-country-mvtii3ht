@@ -199,1077 +199,159 @@
       ]
     },
     {
-      "id": "s3",
-      "type": "section",
+      "id": "s3-band",
+      "type": "sharedSection",
       "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "marginTop": "0",
-          "marginBottom": "0"
-        }
-      },
-      "children": [
-        {
-          "id": "s3r1",
-          "type": "row",
-          "props": {
-            "gap": 0,
-            "stackOn": "never"
-          },
-          "styles": {
-            "base": {
-              "marginTop": "0",
-              "marginRight": "0",
-              "marginBottom": "0",
-              "marginLeft": "0",
-              "paddingTop": "0",
-              "paddingRight": "0",
-              "paddingBottom": "0",
-              "paddingLeft": "0",
-              "display": "grid",
-              "rowGap": "16",
-              "columnGap": "16"
-            }
-          },
-          "children": [
+        "sectionId": "trailer-parts-s3",
+        "values": {
+          "items": [
             {
-              "id": "s3c2",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i3",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/wabash.png",
-                      "alt": "Wabash"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/wabash.png",
+                "alt": "Wabash"
+              }
             },
             {
-              "id": "s3c4",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i5",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/mac-trailer.png",
-                      "alt": "Mac Trailer"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/mac-trailer.png",
+                "alt": "Mac Trailer"
+              }
             },
             {
-              "id": "s3c6",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i7",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/stoughton.png",
-                      "alt": "Stoughton"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/stoughton.png",
+                "alt": "Stoughton"
+              }
             },
             {
-              "id": "s3c8",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i9",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/transcraft.png",
-                      "alt": "Transcraft"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/transcraft.png",
+                "alt": "Transcraft"
+              }
             },
             {
-              "id": "s3c10",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i11",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/leyman.png",
-                      "alt": "Leyman"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/leyman.png",
+                "alt": "Leyman"
+              }
             },
             {
-              "id": "s3c12",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i13",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/ancra-cargo.png",
-                      "alt": "Ancra Cargo"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/ancra-cargo.png",
+                "alt": "Ancra Cargo"
+              }
             },
             {
-              "id": "s3c14",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i15",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/tse-brakes.png",
-                      "alt": "TSE Brakes"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/tse-brakes.png",
+                "alt": "TSE Brakes"
+              }
             },
             {
-              "id": "s3c16",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i17",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/maxon.png",
-                      "alt": "Maxon"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/maxon.png",
+                "alt": "Maxon"
+              }
             },
             {
-              "id": "s3c18",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i19",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/trail-king.png",
-                      "alt": "Trail King Industries"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/trail-king.png",
+                "alt": "Trail King Industries"
+              }
             },
             {
-              "id": "s3c20",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i21",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/aurora.png",
-                      "alt": "Aurora Parts"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/aurora.png",
+                "alt": "Aurora Parts"
+              }
             },
             {
-              "id": "s3c22",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i23",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/interlift-palfinger.png",
-                      "alt": "MBB Interlift Palfinger Company"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/interlift-palfinger.png",
+                "alt": "MBB Interlift Palfinger Company"
+              }
             },
             {
-              "id": "s3c24",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i25",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/waltco.png",
-                      "alt": "Waltco"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/waltco.png",
+                "alt": "Waltco"
+              }
             },
             {
-              "id": "s3c26",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i27",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/sealco.png",
-                      "alt": "Air Sealco Controls"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/sealco.png",
+                "alt": "Air Sealco Controls"
+              }
             },
             {
-              "id": "s3c28",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i29",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/shurco.png",
-                      "alt": "Genuine Shurco"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/shurco.png",
+                "alt": "Genuine Shurco"
+              }
             },
             {
-              "id": "s3c30",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i31",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/strick.png",
-                      "alt": "Strick"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/strick.png",
+                "alt": "Strick"
+              }
             },
             {
-              "id": "s3c32",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i33",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/stemco.png",
-                      "alt": "STEMCO"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/stemco.png",
+                "alt": "STEMCO"
+              }
             },
             {
-              "id": "s3c34",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i35",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/saf-holland.png",
-                      "alt": "SAF Holland"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/saf-holland.png",
+                "alt": "SAF Holland"
+              }
             },
             {
-              "id": "s3c36",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i37",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/fleet-engineers.png",
-                      "alt": "Fleet Engineers"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/fleet-engineers.png",
+                "alt": "Fleet Engineers"
+              }
             },
             {
-              "id": "s3c38",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i39",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/aero.png",
-                      "alt": "Aero"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/aero.png",
+                "alt": "Aero"
+              }
             },
             {
-              "id": "s3c40",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i41",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/hendrickson.png",
-                      "alt": "Hendrickson"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/hendrickson.png",
+                "alt": "Hendrickson"
+              }
             },
             {
-              "id": "s3c42",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i43",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/reyco-granning.png",
-                      "alt": "Reyco Granning"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/reyco-granning.png",
+                "alt": "Reyco Granning"
+              }
             },
             {
-              "id": "s3c44",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i45",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/jost.png",
-                      "alt": "Jost International"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/jost.png",
+                "alt": "Jost International"
+              }
             },
             {
-              "id": "s3c46",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i47",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/hutchens.png",
-                      "alt": "Hutchens Industries"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/hutchens.png",
+                "alt": "Hutchens Industries"
+              }
             },
             {
-              "id": "s3c48",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderRightWidth": "1",
-                  "borderBottomWidth": "1",
-                  "borderLeftWidth": "1",
-                  "height": "120",
-                  "paddingTop": "16",
-                  "paddingRight": "20",
-                  "paddingBottom": "16",
-                  "paddingLeft": "20",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center"
-                }
-              },
-              "children": [
-                {
-                  "id": "s3i49",
-                  "type": "image",
-                  "props": {
-                    "image": {
-                      "src": "/img/brands/pro-par.png",
-                      "alt": "Pro-Par OEM Heavy Duty Parts"
-                    },
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": {
+                "src": "/img/brands/pro-par.png",
+                "alt": "Pro-Par OEM Heavy Duty Parts"
+              }
             }
           ]
         }
-      ]
+      }
     },
     {
       "id": "s4",

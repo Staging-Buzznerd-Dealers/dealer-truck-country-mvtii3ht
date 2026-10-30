@@ -1,0 +1,441 @@
+{
+  "version": 2,
+  "id": "semi-truck-mobile-repair-service-s6",
+  "name": "Service Locations (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s6r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s6h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Service Locations",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Our Mobile Services are available through various Stoops locations across Indiana, Michigan, and Ohio.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t5",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Call or email us today to schedule your service!</strong><br><a href=\"tel:317-907-8095\">317-907-8095</a><br><a href=\"mailto:CorporateMobileAdmins@truckcountry.com\">CorporateMobileAdmins@truckcountry.com</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "display": "grid",
+                      "rowGap": "16",
+                      "columnGap": "16"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s6c7",
+                      "type": "column",
+                      "props": {
+                        "span": 1
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "24",
+                          "paddingRight": "24",
+                          "paddingBottom": "24",
+                          "paddingLeft": "24"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s6h8",
+                          "type": "heading",
+                          "props": {
+                            "text": "Indiana",
+                            "headingLevel": 3
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6r9",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "marginTop": "0",
+                              "marginRight": "0",
+                              "marginBottom": "0",
+                              "marginLeft": "0",
+                              "paddingLeft": "20",
+                              "display": "grid",
+                              "rowGap": "6",
+                              "columnGap": "6"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s6c10-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12,
+                                "repeat": "items"
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t11-r",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{f0}}",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s6c22",
+                      "type": "column",
+                      "props": {
+                        "span": 1
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "24",
+                          "paddingRight": "24",
+                          "paddingBottom": "24",
+                          "paddingLeft": "24"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s6h23",
+                          "type": "heading",
+                          "props": {
+                            "text": "Michigan",
+                            "headingLevel": 3
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6r24",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "marginTop": "0",
+                              "marginRight": "0",
+                              "marginBottom": "0",
+                              "marginLeft": "0",
+                              "paddingLeft": "20",
+                              "display": "grid",
+                              "rowGap": "6",
+                              "columnGap": "6"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s6c25",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t26",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Grayling",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s6c27",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t28",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Traverse City",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s6c29",
+                      "type": "column",
+                      "props": {
+                        "span": 1
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "24",
+                          "paddingRight": "24",
+                          "paddingBottom": "24",
+                          "paddingLeft": "24"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s6h30",
+                          "type": "heading",
+                          "props": {
+                            "text": "Ohio",
+                            "headingLevel": 3
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6r31",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "marginTop": "0",
+                              "marginRight": "0",
+                              "marginBottom": "0",
+                              "marginLeft": "0",
+                              "paddingLeft": "20",
+                              "display": "grid",
+                              "rowGap": "6",
+                              "columnGap": "6"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s6c32",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t33",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Dayton",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s6c34",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t35",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Lima",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s6c36",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s6i37",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2026/07/Stoops_MobileServiceMap_2026-768x987.png",
+                      "alt": "Stoops_MobileServiceMap_2026",
+                      "width": 768,
+                      "height": 987
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s6r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(min(100%, 380px), 1fr))}\n[data-bz-node=\"s6h3\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s6t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:24px;margin-left:0px}\n[data-bz-node=\"s6t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:24px;margin-left:0px}\n[data-bz-node=\"s6t5\"][data-bz-node] a:nth-of-type(1){color:rgb(255, 255, 255)}\n[data-bz-node=\"s6t5\"][data-bz-node] a:nth-of-type(2){color:rgb(255, 255, 255)}\n[data-bz-node=\"s6r6\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(180px, 1fr))}\n[data-bz-node=\"s6c7\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s6h8\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.2;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px}\n[data-bz-node^=\"s6t11-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s6c22\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s6h23\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.2;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px}\n[data-bz-node=\"s6t26\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s6t28\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s6c29\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s6h30\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.2;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:12px;margin-left:0px}\n[data-bz-node=\"s6t33\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s6t35\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:17px;font-weight:400;font-style:normal;line-height:27.2px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s6i37\"][data-bz-node] img{display:block;width:100%;max-width:560px;height:auto;background:rgb(255, 255, 255);justify-self:center}\n[data-bz-node=\"s6i37\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s6\"][data-bz-node]{margin-top:clamp(56px, 8vw, 100px);padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "id": "body-shop-lima-s4",
+  "name": "body-shop-lima (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s4t1",
+          "type": "text",
+          "props": {
+            "text": "Get your semi-truck back on the road faster by entrusting the Stoops Freightliner semi-truck body shop in Lima, Ohio, conveniently located and accessible from interstate 75. Our semi-truck body shop team is solely focused on your repair and maintenance needs. Our shop specializes in working on Freightliner and Western Star brands but we can work on just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–all from a single location. From semi-truck body work to complete detailing of all makes and models, it pays to give the team of experts at Lima a call!",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c3-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "s4i4-r",
+                  "type": "image",
+                  "props": {
+                    "image": "{{f0}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s4t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:40px;margin-left:0px;max-width:960px}\n[data-bz-node=\"s4r2\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(220px, 1fr))}\n[data-bz-node^=\"s4i4-r\"][data-bz-node] img{display:block;width:100%;height:auto;aspect-ratio:3 / 2;object-fit:cover}\n[data-bz-node^=\"s4i4-r\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s4\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n"
+}

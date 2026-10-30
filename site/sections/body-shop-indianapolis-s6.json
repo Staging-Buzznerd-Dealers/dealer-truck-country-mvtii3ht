@@ -1,0 +1,234 @@
+{
+  "version": 2,
+  "id": "body-shop-indianapolis-s6",
+  "name": "Our Team (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        },
+        {
+          "key": "f1",
+          "type": "text",
+          "label": "Text 2"
+        },
+        {
+          "key": "f2",
+          "type": "text",
+          "label": "Text 3"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s6h1",
+          "type": "heading",
+          "props": {
+            "text": "Our Team",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c3-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "16",
+                  "paddingRight": "16",
+                  "paddingBottom": "16",
+                  "paddingLeft": "16",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6r7-r",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c8-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s6r5-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s6c6-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "100%",
+                                  "height": "100%",
+                                  "background": "#edebe3",
+                                  "borderTopWidth": "1",
+                                  "borderRightWidth": "1",
+                                  "borderBottomWidth": "1",
+                                  "borderLeftWidth": "1",
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "textAlign": "center",
+                                  "paddingTop": "8",
+                                  "paddingRight": "8",
+                                  "paddingBottom": "8",
+                                  "paddingLeft": "8",
+                                  "borderColor": "#8f8f8f",
+                                  "borderStyle": "dashed"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t4-r",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{f0}}",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s6r11-r",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c12-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s6t9-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f1}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6t10-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f2}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s6h1\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s6r2\"][data-bz-node]{grid-template-columns:repeat(auto-fill, minmax(180px, 1fr))}\n[data-bz-node^=\"s6t4-r\"][data-bz-node] p{font-family:Inter,sans-serif;font-size:14px;font-weight:500;font-style:normal;line-height:normal;letter-spacing:normal;text-transform:none;text-align:center;color:#54565C;margin:0}\n[data-bz-node^=\"s6c6-r\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node^=\"s6c6-r\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node^=\"s6c8-r\"][data-bz-node]{aspect-ratio:124 / 160}\n[data-bz-node^=\"s6t9-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:20px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"s6t10-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:14px;font-weight:400;font-style:normal;line-height:22.4px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(84, 86, 92);margin-top:2px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s6\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

@@ -417,658 +417,77 @@
       ]
     },
     {
-      "id": "s5",
-      "type": "section",
+      "id": "s5-band",
+      "type": "sharedSection",
       "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "background": "#45474e"
-        }
-      },
-      "children": [
-        {
-          "id": "s5r1",
-          "type": "row",
-          "props": {
-            "gap": 0,
-            "stackOn": "never"
-          },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "48",
-              "columnGap": "48",
-              "alignItems": "start"
-            }
-          },
-          "children": [
+        "sectionId": "services-s5",
+        "values": {
+          "items": [
             {
-              "id": "s5c2",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s5h3",
-                  "type": "heading",
-                  "props": {
-                    "text": "OASIS Service Network",
-                    "headingLevel": 2
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                },
-                {
-                  "id": "s5r7",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s5c8",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "width": "100%",
-                          "maxWidth": "320",
-                          "aspectRatio": "2/1",
-                          "marginBottom": "24"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s5r5",
-                          "type": "row",
-                          "props": {
-                            "gap": 0,
-                            "stackOn": "never"
-                          },
-                          "children": [
-                            {
-                              "id": "s5c6",
-                              "type": "column",
-                              "props": {
-                                "span": 12
-                              },
-                              "styles": {
-                                "base": {
-                                  "width": "100%",
-                                  "height": "100%",
-                                  "background": "#edebe3",
-                                  "borderTopWidth": "1",
-                                  "borderRightWidth": "1",
-                                  "borderBottomWidth": "1",
-                                  "borderLeftWidth": "1",
-                                  "display": "flex",
-                                  "alignItems": "center",
-                                  "justifyContent": "center",
-                                  "textAlign": "center",
-                                  "paddingTop": "8",
-                                  "paddingRight": "8",
-                                  "paddingBottom": "8",
-                                  "paddingLeft": "8",
-                                  "borderColor": "#8f8f8f",
-                                  "borderStyle": "dashed"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "id": "s5t4",
-                                  "type": "text",
-                                  "props": {
-                                    "text": "Drop the Oasis logo",
-                                    "width": "full"
-                                  },
-                                  "styles": {
-                                    "base": {
-                                      "paddingTop": 0,
-                                      "paddingBottom": 0
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "s5t9",
-                  "type": "text",
-                  "props": {
-                    "text": "Want great service or chassis repair for your RV? Truck Country/Stoops has several dealerships that are Oasis certified, which feature accommodations just for the RV owner, such as:",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                },
-                {
-                  "id": "s5r10",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "styles": {
-                    "base": {
-                      "marginTop": "0",
-                      "marginRight": "0",
-                      "marginBottom": "28",
-                      "marginLeft": "0",
-                      "paddingLeft": "22",
-                      "display": "grid",
-                      "rowGap": "8",
-                      "columnGap": "8"
-                    }
-                  },
-                  "children": [
-                    {
-                      "id": "s5c11",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t12",
-                          "type": "text",
-                          "props": {
-                            "text": "Dedicated motorhome facilities and service bays",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "id": "s5c13",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t14",
-                          "type": "text",
-                          "props": {
-                            "text": "Specially trained service technicians",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "id": "s5c15",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t16",
-                          "type": "text",
-                          "props": {
-                            "text": "Secure parking",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "id": "s5c17",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t18",
-                          "type": "text",
-                          "props": {
-                            "text": "Amenities exclusively for motorhome owners",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "s5b19",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Rate your RV service",
-                        "url": "https://www.fcccrv.com/service-survey-for-app/",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Dedicated motorhome facilities and service bays"
             },
             {
-              "id": "s5c20",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "styles": {
-                "base": {
-                  "background": "#ffffff",
-                  "borderTopWidth": "4",
-                  "borderColor": "#c41230",
-                  "borderRightWidth": "0",
-                  "borderBottomWidth": "0",
-                  "borderLeftWidth": "0",
-                  "borderStyle": "solid"
-                }
-              },
-              "children": [
-                {
-                  "id": "s5h21",
-                  "type": "heading",
-                  "props": {
-                    "text": "WHAT IF SURVEY SHOWS IT’S COMPLETED?",
-                    "headingLevel": 3
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                },
-                {
-                  "id": "s5r22",
-                  "type": "row",
-                  "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "styles": {
-                    "base": {
-                      "marginTop": "0",
-                      "marginRight": "0",
-                      "marginBottom": "0",
-                      "marginLeft": "0",
-                      "paddingLeft": "22",
-                      "display": "grid",
-                      "rowGap": "12",
-                      "columnGap": "12"
-                    }
-                  },
-                  "children": [
-                    {
-                      "id": "s5c23",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t24",
-                          "type": "text",
-                          "props": {
-                            "text": "Please click on the Owners tab at the top of the page.",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "id": "s5c25",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t26",
-                          "type": "text",
-                          "props": {
-                            "text": "Scroll to the bottom of the page on the right where it says <em>SERVICE SURVEY.</em>",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "id": "s5c27",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "children": [
-                        {
-                          "id": "s5t28",
-                          "type": "text",
-                          "props": {
-                            "text": "Click <em>VIEW SURVEY</em>, complete survey and submit.",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "f0": "Specially trained service technicians"
+            },
+            {
+              "f0": "Secure parking"
+            },
+            {
+              "f0": "Amenities exclusively for motorhome owners"
+            }
+          ],
+          "items2": [
+            {
+              "f0": "Please click on the Owners tab at the top of the page."
+            },
+            {
+              "f0": "Scroll to the bottom of the page on the right where it says <em>SERVICE SURVEY.</em>"
+            },
+            {
+              "f0": "Click <em>VIEW SURVEY</em>, complete survey and submit."
             }
           ]
         }
-      ]
+      }
     },
     {
-      "id": "s6",
-      "type": "section",
+      "id": "s6-band",
+      "type": "sharedSection",
       "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "marginTop": "0",
-          "marginBottom": "0"
-        }
-      },
-      "children": [
-        {
-          "id": "s6r1",
-          "type": "row",
-          "props": {
-            "gap": 0,
-            "stackOn": "never"
-          },
-          "styles": {
-            "base": {
-              "marginTop": "0",
-              "marginRight": "0",
-              "marginBottom": "0",
-              "marginLeft": "0",
-              "paddingTop": "0",
-              "paddingRight": "0",
-              "paddingBottom": "0",
-              "paddingLeft": "0",
-              "display": "grid",
-              "rowGap": "16",
-              "columnGap": "16"
-            }
-          },
-          "children": [
+        "sectionId": "services-s6",
+        "values": {
+          "items": [
             {
-              "id": "s6c2",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b3",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Body Shop services",
-                        "url": "/body-shop",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Body Shop services",
+              "f1": "/body-shop"
             },
             {
-              "id": "s6c4",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b5",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Elite Support",
-                        "url": "/elite-support",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Elite Support",
+              "f1": "/elite-support"
             },
             {
-              "id": "s6c6",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b7",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Invoice Statement Form",
-                        "url": "/invoice-statement",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Invoice Statement Form",
+              "f1": "/invoice-statement"
             },
             {
-              "id": "s6c8",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b9",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Service credit app",
-                        "url": "/service-credit-application",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Service credit app",
+              "f1": "/service-credit-application"
             },
             {
-              "id": "s6c10",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b11",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Semi-Truck Mobile Repair Service",
-                        "url": "/semi-truck-mobile-repair-service",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Semi-Truck Mobile Repair Service",
+              "f1": "/semi-truck-mobile-repair-service"
             },
             {
-              "id": "s6c12",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b13",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "specials",
-                        "url": "https://www.truckcountry.com/services/specials/",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "specials",
+              "f1": "https://www.truckcountry.com/services/specials/"
             },
             {
-              "id": "s6c14",
-              "type": "column",
-              "props": {
-                "span": 1
-              },
-              "children": [
-                {
-                  "id": "s6b15",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "label": "Trailer services",
-                        "url": "/trailer-service",
-                        "style": "primary"
-                      }
-                    ],
-                    "align": "left"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Trailer services",
+              "f1": "/trailer-service"
             }
           ]
         }
-      ]
+      }
     }
   ]
 }

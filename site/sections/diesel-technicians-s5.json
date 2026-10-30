@@ -1,0 +1,230 @@
+{
+  "version": 2,
+  "id": "diesel-technicians-s5",
+  "name": "Paid Training (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "image",
+          "label": "Image"
+        },
+        {
+          "key": "f1",
+          "type": "text",
+          "label": "Text 2"
+        },
+        {
+          "key": "f2",
+          "type": "text",
+          "label": "Text 3"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#111214"
+        }
+      },
+      "children": [
+        {
+          "id": "s5r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "40",
+              "columnGap": "24",
+              "textAlign": "center"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "14",
+                  "columnGap": "14"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5i3",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/icons/benefits/paid-training.png",
+                      "alt": " ",
+                      "width": 120,
+                      "height": 120
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Paid Training",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c5",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "14",
+                  "columnGap": "14"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5i6",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/icons/benefits/weekly-pay.png",
+                      "alt": " ",
+                      "width": 120,
+                      "height": 120
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5h7",
+                  "type": "heading",
+                  "props": {
+                    "text": "Weekly Pay",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c8-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "14",
+                  "columnGap": "14"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5i9-r",
+                  "type": "image",
+                  "props": {
+                    "image": "{{f0}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5h10-r",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{f1}}",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t11-r",
+                  "type": "text",
+                  "props": {
+                    "text": "{{f2}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s5r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(170px, 1fr))}\n[data-bz-node=\"s5c2\"][data-bz-node]{justify-items:center;align-content:start}\n[data-bz-node=\"s5i3\"][data-bz-node] img{display:block;width:120px;height:120px}\n[data-bz-node=\"s5i3\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s5h4\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.15;letter-spacing:0.04em;text-transform:uppercase;text-align:center;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s5c5\"][data-bz-node]{justify-items:center;align-content:start}\n[data-bz-node=\"s5i6\"][data-bz-node] img{display:block;width:120px;height:120px}\n[data-bz-node=\"s5i6\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s5h7\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.15;letter-spacing:0.04em;text-transform:uppercase;text-align:center;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"s5c8-r\"][data-bz-node]{justify-items:center;align-content:start}\n[data-bz-node^=\"s5i9-r\"][data-bz-node] img{display:block;width:120px;height:120px}\n[data-bz-node^=\"s5i9-r\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node^=\"s5h10-r\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.15;letter-spacing:0.04em;text-transform:uppercase;text-align:center;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"s5t11-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:1.5;letter-spacing:normal;text-transform:none;text-align:center;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s5\"][data-bz-node]{margin-top:clamp(56px, 8vw, 100px);padding-top:clamp(48px, 7vw, 90px);padding-bottom:clamp(48px, 7vw, 90px)}\n"
+}

@@ -511,128 +511,24 @@
       ]
     },
     {
-      "id": "s5",
-      "type": "section",
+      "id": "s5-band",
+      "type": "sharedSection",
       "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "background": "#45474e"
-        }
-      },
-      "children": [
-        {
-          "id": "s5r1",
-          "type": "row",
-          "props": {
-            "gap": 0,
-            "stackOn": "never"
-          },
-          "styles": {
-            "base": {
-              "display": "grid",
-              "rowGap": "20",
-              "columnGap": "20"
-            }
-          },
-          "children": [
+        "sectionId": "training-s5",
+        "values": {
+          "items": [
             {
-              "id": "s5c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s5t3",
-                  "type": "text",
-                  "props": {
-                    "text": "Earn an industry-leading wage, learn a trade on the job, build your toolbox with high-quality tools and be reimbursed for them by the company!",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "Earn an industry-leading wage, learn a trade on the job, build your toolbox with high-quality tools and be reimbursed for them by the company!"
             },
             {
-              "id": "s5c4",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s5t5",
-                  "type": "text",
-                  "props": {
-                    "text": "All while earning paid time-off and benefits with the largest Freightliner dealer in the U.S.",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "All while earning paid time-off and benefits with the largest Freightliner dealer in the U.S."
             },
             {
-              "id": "s5c6",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s5t7",
-                  "type": "text",
-                  "props": {
-                    "text": "<strong>Experienced and trained technicians earn a very competitive wage.</strong>",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "id": "s5c8",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s5h9",
-                  "type": "heading",
-                  "props": {
-                    "text": "PAID training, lodging, and travel.",
-                    "headingLevel": 2
-                  },
-                  "styles": {
-                    "base": {
-                      "paddingTop": 0,
-                      "paddingBottom": 0
-                    }
-                  }
-                }
-              ]
+              "f0": "<strong>Experienced and trained technicians earn a very competitive wage.</strong>"
             }
           ]
         }
-      ]
+      }
     }
   ]
 }
