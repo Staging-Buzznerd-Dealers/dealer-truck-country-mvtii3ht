@@ -675,6 +675,9 @@
                           "a": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
                         }
                       ]
+                    },
+                    "snapshot": {
+                      "items": []
                     }
                   },
                   "styles": {

@@ -44,6 +44,11 @@
               }
             }
           ]
+        },
+        "snapshots": {
+          "finder-search": {
+            "types": []
+          }
         }
       }
     },
@@ -507,6 +512,9 @@
                     "widget": "inventory-carousel",
                     "config": {
                       "limit": 4
+                    },
+                    "snapshot": {
+                      "listings": []
                     }
                   }
                 }
@@ -776,6 +784,114 @@
             "config": {
               "pagePathPrefix": "/locations"
             }
+          }
+        },
+        "data": {
+          "locations": [
+            {
+              "id": "14",
+              "name": "Hampshire",
+              "subtitle": "",
+              "slug": "main",
+              "num": "01",
+              "href": "/locations/main",
+              "streetAddress": "205 Metrix Dr. Hampshire, IL 60140",
+              "city": "IL 60140",
+              "region": null,
+              "postalCode": null,
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": null,
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=205%20Metrix%20Dr.%20Hampshire%2C%20IL%2060140%2C%20IL%2060140",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": null,
+              "groupKey": null,
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [],
+              "hoursRows": []
+            }
+          ]
+        },
+        "snapshots": {
+          "loc-pinmap": {
+            "locations": [
+              {
+                "id": "14",
+                "name": "Hampshire",
+                "subtitle": "",
+                "slug": "main",
+                "num": "01",
+                "href": "/locations/main",
+                "streetAddress": "205 Metrix Dr. Hampshire, IL 60140",
+                "city": "IL 60140",
+                "region": null,
+                "postalCode": null,
+                "country": null,
+                "latitude": null,
+                "longitude": null,
+                "phone": null,
+                "phoneUrl": null,
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=205%20Metrix%20Dr.%20Hampshire%2C%20IL%2060140%2C%20IL%2060140",
+                "email": null,
+                "brands": "",
+                "services": "",
+                "perks": "",
+                "brandKeys": "",
+                "perkKeys": "",
+                "perk1": null,
+                "perk2": null,
+                "perk3": null,
+                "departments": "",
+                "hours": "",
+                "phone2": null,
+                "phone2Url": null,
+                "phone3": null,
+                "phone3Url": null,
+                "group": null,
+                "groupKey": null,
+                "photo": {
+                  "src": "",
+                  "alt": ""
+                },
+                "banner": {
+                  "src": "",
+                  "alt": ""
+                },
+                "brandRows": [],
+                "serviceRows": [],
+                "perkRows": [],
+                "departmentRows": [],
+                "hoursRows": []
+              }
+            ],
+            "brandFacets": [],
+            "perkFacets": []
           }
         },
         "anchor": "locations"

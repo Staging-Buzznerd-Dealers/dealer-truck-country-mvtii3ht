@@ -454,6 +454,9 @@
                           "a": "Yes. Our Mobile Service is designed to come directly to your business location. Our mechanics are equipped with the tools and expertise to handle repairs and maintenance on-site, saving you the time and hassle of transporting vehicles to our shop. Whether you need assistance with a single truck or an entire fleet, we provide convenient, efficient service wherever you need it."
                         }
                       ]
+                    },
+                    "snapshot": {
+                      "items": []
                     }
                   },
                   "styles": {

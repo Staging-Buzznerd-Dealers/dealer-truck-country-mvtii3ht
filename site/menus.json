@@ -6,345 +6,251 @@
       "name": "Main menu",
       "items": [
         {
-          "id": "veh",
-          "label": "Vehicles",
+          "id": "vehicles",
+          "label": "Truck",
           "type": "inventory",
           "ref": "inventory",
+          "url": null,
+          "newTab": false,
           "children": [
             {
-              "id": "veh-trucks",
-              "label": "Trucks",
-              "type": "label",
-              "children": [
-                {
-                  "id": "t-new",
-                  "label": "New Inventory",
-                  "type": "inventory",
-                  "ref": "inventory?condition=new"
-                },
-                {
-                  "id": "t-used",
-                  "label": "Used Inventory",
-                  "type": "inventory",
-                  "ref": "inventory?condition=used"
-                },
-                {
-                  "id": "t-sell",
-                  "label": "Sell Your Truck",
-                  "type": "page",
-                  "ref": "sell-your-truck"
-                },
-                {
-                  "id": "t-electric",
-                  "label": "Electric Trucks",
-                  "type": "page",
-                  "ref": "electric-trucks"
-                },
-                {
-                  "id": "t-cascadia",
-                  "label": "Fifth Generation Cascadia",
-                  "type": "page",
-                  "ref": "the-fifth-generation-cascadia"
-                },
-                {
-                  "id": "t-spotter",
-                  "label": "Spotter Trucks",
-                  "type": "page",
-                  "ref": "spotter-trucks"
-                },
-                {
-                  "id": "t-warranty",
-                  "label": "Used Semi-Truck Warranty",
-                  "type": "page",
-                  "ref": "used-semi-truck-warranty"
-                },
-                {
-                  "id": "t-finance",
-                  "label": "Semi-Truck Financing",
-                  "type": "page",
-                  "ref": "semi-truck-financing"
-                }
-              ]
+              "id": "item-11",
+              "label": "Sell Your Truck",
+              "type": "url",
+              "url": "/sell-your-truck",
+              "ref": null,
+              "children": []
             },
             {
-              "id": "veh-trailers",
-              "label": "Trailers",
-              "type": "label",
-              "children": [
-                {
-                  "id": "tr-locations",
-                  "label": "Trailer Locations",
-                  "type": "page",
-                  "ref": "trailer-locations"
-                },
-                {
-                  "id": "tr-indy",
-                  "label": "Indy – Trailer Repair",
-                  "type": "page",
-                  "ref": "indianapolis-trailer-repair"
-                },
-                {
-                  "id": "tr-laf",
-                  "label": "Lafayette – Trailer Repair",
-                  "type": "page",
-                  "ref": "lafayette-trailer-repair"
-                },
-                {
-                  "id": "tr-wayne",
-                  "label": "Wayne – Trailer Repair",
-                  "type": "page",
-                  "ref": "wayne-trailer-repair"
-                },
-                {
-                  "id": "tr-services",
-                  "label": "Trailer Services",
-                  "type": "page",
-                  "ref": "trailer-services"
-                },
-                {
-                  "id": "tr-parts",
-                  "label": "Trailer Parts",
-                  "type": "page",
-                  "ref": "trailer-parts"
-                },
-                {
-                  "id": "tr-finance",
-                  "label": "Trailer Financing",
-                  "type": "page",
-                  "ref": "trailer-financing"
-                }
-              ]
+              "id": "item-12",
+              "label": "Electric Trucks",
+              "type": "url",
+              "url": "/electric-trucks",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-13",
+              "label": "Fifth Generation Cascadia",
+              "type": "url",
+              "url": "/the-fifth-generation-cascadia",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-14",
+              "label": "Spotter Trucks",
+              "type": "url",
+              "url": "/spotter-trucks",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-15",
+              "label": "Used Truck Warranty",
+              "type": "url",
+              "url": "/used-semi-truck-warranty",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-16",
+              "label": "Semi-Truck Financing ",
+              "type": "url",
+              "url": "/semi-truck-financing",
+              "ref": null,
+              "children": []
             }
           ]
         },
         {
-          "id": "ps",
-          "label": "Parts & Service",
-          "type": "page",
-          "ref": "services",
+          "id": "parts-service",
+          "label": "Trailers",
+          "type": "inventory",
+          "ref": "inventory",
+          "url": null,
+          "newTab": false,
           "children": [
             {
-              "id": "ps-parts",
-              "label": "Parts",
-              "type": "page",
-              "ref": "parts",
+              "id": "item-17",
+              "label": "Trailer Locations",
+              "type": "url",
+              "url": "/trailer-locations",
+              "ref": null,
               "children": [
                 {
-                  "id": "p-excel",
-                  "label": "Excelerator Parts",
-                  "type": "page",
-                  "ref": "excelerator-parts"
-                },
-                {
-                  "id": "p-request",
-                  "label": "Parts Request",
-                  "type": "page",
-                  "ref": "parts-request"
-                },
-                {
-                  "id": "p-credit",
-                  "label": "Parts Credit App",
-                  "type": "page",
-                  "ref": "parts-credit-application"
-                },
-                {
-                  "id": "p-invoice",
-                  "label": "Invoice Statement Form",
-                  "type": "page",
-                  "ref": "invoice-statement"
-                },
-                {
-                  "id": "p-tax",
-                  "label": "Tax Exempt Form",
-                  "type": "page",
-                  "ref": "tax-exempt-form"
-                },
-                {
-                  "id": "p-trailer",
-                  "label": "Trailer Parts",
-                  "type": "page",
-                  "ref": "trailer-parts"
-                },
-                {
-                  "id": "p-allin",
-                  "label": "All-In Truck Parts",
+                  "id": "item-21",
+                  "label": "Indy Trailer",
                   "type": "url",
-                  "url": "https://allintruckparts.com/"
+                  "url": "/indianapolis-trailer-repair",
+                  "ref": null,
+                  "children": []
+                },
+                {
+                  "id": "item-22",
+                  "label": "Laf Trailer",
+                  "type": "url",
+                  "url": "/lafayette-trailer-repair",
+                  "ref": null,
+                  "children": []
+                },
+                {
+                  "id": "item-23",
+                  "label": "Wayne Trailer",
+                  "type": "url",
+                  "url": "/wayne-trailer-repair",
+                  "ref": null,
+                  "children": []
                 }
               ]
             },
             {
-              "id": "ps-services",
-              "label": "Services",
-              "type": "page",
-              "ref": "services",
-              "children": [
-                {
-                  "id": "s-schedule",
-                  "label": "Schedule Service",
-                  "type": "page",
-                  "ref": "schedule-service"
-                },
-                {
-                  "id": "s-elite",
-                  "label": "Elite Support",
-                  "type": "page",
-                  "ref": "elite-support"
-                },
-                {
-                  "id": "s-mobile",
-                  "label": "Semi-Truck Mobile Repair Service",
-                  "type": "page",
-                  "ref": "semi-truck-mobile-repair-service"
-                },
-                {
-                  "id": "s-credit",
-                  "label": "Service Credit App",
-                  "type": "page",
-                  "ref": "service-credit-application"
-                },
-                {
-                  "id": "s-invoice",
-                  "label": "Invoice Statement Form",
-                  "type": "page",
-                  "ref": "invoice-statement"
-                },
-                {
-                  "id": "s-trailers",
-                  "label": "Trailer Services",
-                  "type": "page",
-                  "ref": "trailer-service"
-                }
-              ]
+              "id": "item-18",
+              "label": "Trailer Services",
+              "type": "url",
+              "url": "/trailer-services/",
+              "ref": null,
+              "children": []
             },
             {
-              "id": "ps-body",
-              "label": "Body Shops",
-              "type": "page",
-              "ref": "body-shop",
-              "children": [
-                {
-                  "id": "b-indy",
-                  "label": "Indianapolis",
-                  "type": "page",
-                  "ref": "body-shop-indianapolis"
-                },
-                {
-                  "id": "b-lima",
-                  "label": "Lima",
-                  "type": "page",
-                  "ref": "body-shop-lima"
-                },
-                {
-                  "id": "b-shull",
-                  "label": "Shullsburg",
-                  "type": "page",
-                  "ref": "body-shop-shullsburg"
-                }
-              ]
+              "id": "item-19",
+              "label": "Trailer Parts",
+              "type": "url",
+              "url": "/trailer-parts",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-20",
+              "label": "Trailer Financing",
+              "type": "url",
+              "url": "/trailer-financing",
+              "ref": null,
+              "children": []
             }
           ]
         },
         {
-          "id": "loc",
+          "id": "locations",
+          "label": "Body Shops",
+          "type": "url",
+          "ref": null,
+          "url": "/body-shop",
+          "newTab": false,
+          "children": [
+            {
+              "id": "item-24",
+              "label": "Indianapolis, IN ",
+              "type": "url",
+              "url": "/body-shop-indianapolis",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-25",
+              "label": "Lima, Ohio ",
+              "type": "url",
+              "url": "/body-shop-lima",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-26",
+              "label": "Shullsburg, WI ",
+              "type": "url",
+              "url": "/body-shop-shullsburg",
+              "ref": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "careers",
+          "label": "Parts",
+          "type": "url",
+          "ref": null,
+          "url": "/parts",
+          "newTab": false,
+          "children": [
+            {
+              "id": "item-27",
+              "label": "Excelerator Parts",
+              "type": "url",
+              "url": "/excelerator-parts",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-28",
+              "label": "Invoice Statement Form",
+              "type": "url",
+              "url": "/invoice-statement",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-30",
+              "label": "Parts Credit App",
+              "type": "url",
+              "url": "/parts-credit-application",
+              "ref": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "about-news",
+          "label": "Services ",
+          "type": "url",
+          "ref": null,
+          "url": "/services",
+          "newTab": false,
+          "children": []
+        },
+        {
+          "id": "item-6",
           "label": "Locations",
           "type": "url",
-          "url": "/#locations"
+          "ref": null,
+          "url": "#hn",
+          "newTab": false,
+          "children": []
         },
         {
-          "id": "ct",
-          "label": "Careers & Training",
-          "type": "page",
-          "ref": "careers",
-          "children": [
-            {
-              "id": "ct-careers",
-              "label": "Careers",
-              "type": "page",
-              "ref": "careers",
-              "children": [
-                {
-                  "id": "c-diesel",
-                  "label": "Diesel Technicians",
-                  "type": "page",
-                  "ref": "diesel-technicians"
-                }
-              ]
-            },
-            {
-              "id": "ct-training",
-              "label": "Training",
-              "type": "page",
-              "ref": "training",
-              "children": [
-                {
-                  "id": "c-stoops",
-                  "label": "Stoops Training",
-                  "type": "page",
-                  "ref": "stoops-training"
-                },
-                {
-                  "id": "c-tc",
-                  "label": "Truck Country Training",
-                  "type": "page",
-                  "ref": "truck-country-training"
-                }
-              ]
-            }
-          ]
+          "id": "item-7",
+          "label": "Careers",
+          "type": "url",
+          "ref": null,
+          "url": "/careers",
+          "newTab": false,
+          "children": []
         },
         {
-          "id": "an",
-          "label": "About & News",
-          "type": "page",
-          "ref": "about-us",
-          "children": [
-            {
-              "id": "an-about",
-              "label": "About",
-              "type": "page",
-              "ref": "about-us",
-              "children": [
-                {
-                  "id": "a-history",
-                  "label": "History",
-                  "type": "page",
-                  "ref": "history"
-                },
-                {
-                  "id": "a-sister",
-                  "label": "Sister Companies",
-                  "type": "page",
-                  "ref": "sister-companies"
-                },
-                {
-                  "id": "a-contact",
-                  "label": "Contact Us",
-                  "type": "page",
-                  "ref": "contact-us"
-                },
-                {
-                  "id": "a-safety",
-                  "label": "Safety Training",
-                  "type": "url",
-                  "url": "http://truckcountry.infinit-i.net/"
-                }
-              ]
-            },
-            {
-              "id": "an-news",
-              "label": "News",
-              "type": "label",
-              "children": [
-                {
-                  "id": "n-index",
-                  "label": "News and Blog",
-                  "type": "url",
-                  "url": "/news"
-                }
-              ]
-            }
-          ]
+          "id": "item-8",
+          "label": "Training ",
+          "type": "url",
+          "ref": null,
+          "url": "/training",
+          "newTab": false,
+          "children": []
+        },
+        {
+          "id": "item-9",
+          "label": "About",
+          "type": "url",
+          "ref": null,
+          "url": "/about-us",
+          "newTab": false,
+          "children": []
+        },
+        {
+          "id": "item-10",
+          "label": "News",
+          "type": "url",
+          "ref": null,
+          "url": "/news",
+          "newTab": false,
+          "children": []
         }
       ]
     },
