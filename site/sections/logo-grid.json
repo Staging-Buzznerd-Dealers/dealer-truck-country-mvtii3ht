@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "id": "logo-grid",
+  "name": "Logo grid",
+  "description": "A wall of supplier or brand logos. One logo per list row.",
+  "css": "[data-bz-node=\"lg-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"lg-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 24px}\n[data-bz-node=\"lg-head\"] h2{margin:0 0 40px}\n[data-bz-node=\"lg-grid\"]{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:20px}\n[data-bz-node=\"lg-grid\"]>.bz-col{grid-column:auto;background:#fff;border:1px solid #EDEBE3;padding:24px;display:flex;align-items:center;justify-content:center;min-height:120px}\n[data-bz-node=\"lg-grid\"] .bz-block,[data-bz-node=\"lg-grid\"] .bz-container,[data-bz-node=\"lg-grid\"] .bz-figure{padding:0;margin:0;width:100%}\n[data-bz-node=\"lg-grid\"] img{width:100%;max-width:150px;height:auto;margin:0 auto;display:block;border-radius:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Logos",
+      "fields": [
+        {
+          "key": "image",
+          "type": "image",
+          "label": "Logo"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lg",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "lg-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "lg-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lg-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lg-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lg-item",
+              "type": "column",
+              "props": {
+                "span": 2,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "lg-img",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "url": "{{url}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

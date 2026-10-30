@@ -1,0 +1,179 @@
+{
+  "version": 2,
+  "id": "split-band",
+  "name": "Split band (copy and photo)",
+  "description": "Two columns: copy on one side, a photograph on the other. The side the photo sits on is a setting.",
+  "css": "\n\n[data-bz-node^=\"sb-pt\"]{position:relative;padding-left:24px;margin:0 0 10px}\n[data-bz-node^=\"sb-pt\"]:last-child{margin-bottom:0}\n[data-bz-node^=\"sb-pt\"]::before{content:\"\";position:absolute;left:4px;top:.62em;width:7px;height:7px;background:var(--color-accent);border-radius:50%}\n[data-bz-node^=\"sb-pt\"] p{margin:0}\n",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Paragraphs",
+      "default": ""
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Photo"
+    },
+    {
+      "key": "ctaLabel",
+      "type": "text",
+      "label": "Button",
+      "default": ""
+    },
+    {
+      "key": "ctaUrl",
+      "type": "url",
+      "label": "Button links to",
+      "default": ""
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    },
+    {
+      "key": "points",
+      "type": "list",
+      "label": "Bulleted points",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Line"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sb",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "sb-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "styles": {
+            "base": {
+              "gap": 80
+            },
+            "tablet": {
+              "gap": 40
+            },
+            "mobile": {
+              "gap": 32
+            }
+          },
+          "children": [
+            {
+              "id": "sb-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "sb-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "sb-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "sb-pt",
+                  "type": "text",
+                  "props": {
+                    "text": "{{label}}",
+                    "width": "full",
+                    "repeat": "points"
+                  }
+                },
+                {
+                  "id": "sb-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{ctaLabel}}",
+                        "url": "{{ctaUrl}}",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "sb-media",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "sb-photo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

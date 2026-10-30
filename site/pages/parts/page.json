@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "Parts"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Truck/Trailer Parts",
+          "lead": "With 26 locations, our dealership family parts departments are your #1 destination for Freightliner and all-make truck parts. Our certified staff maintain a comprehensive inventory of truck parts and accessories for all makes and models.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Parts Request Form",
+          "cta1Url": "https://www.truckcountry.com/partsrequest-2/",
+          "cta2Label": "Specials",
+          "cta2Url": "https://www.truckcountry.com/parts/specials/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band-reverse",
+        "values": {
+          "eyebrow": "",
+          "heading": "Parts Saving Zone",
+          "body": "Parts Saving Zone program aims to keep parts prices low to allow drivers to stay on budget. Our goal is to keep as many parts in stock as possible to reduce wait times. Because we have multiple locations across the Midwest; including locations in Iowa, Indiana, Illinois, Ohio, Michigan, and Wisconsin, we’re able to maintain a larger inventory than many other dealerships with fewer locations.\n\nFor trucking companies that regularly order parts in volume, we’ll bring the parts to your location to save you time. Our extensive line includes parts from Freightliner, Western Star, and many others. If we don’t have what you need, we can get it quickly.\n\nWith great customer service and fast repairs, Truck Country and Stoops is the perfect resource for any driver. Our goal is to make sure trucks are back on the road as quickly as possible. With daily stock replenishment and low prices, drivers know we’ll have the parts and professional talent necessary to get their vehicles repaired quickly. Because our service is reliable, drivers know repairs will keep their trucks running for many miles.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/parts_banner2-1024x289.jpg",
+            "alt": "Parts",
+            "width": 1024,
+            "height": 289
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Major Parts Suppliers",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Stemco logo"
+            },
+            {
+              "label": "Bendix logo"
+            },
+            {
+              "label": "Power Service logo"
+            },
+            {
+              "label": "Meritor logo"
+            },
+            {
+              "label": "Donaldson logo"
+            },
+            {
+              "label": "Alliance logo"
+            },
+            {
+              "label": "Caterpillar logo"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "heading": "Resources",
+          "items": [
+            {
+              "label": "All-in truck parts",
+              "url": "https://allintruckparts.com/"
+            },
+            {
+              "label": "Excelerator",
+              "url": "https://www.truckcountry.com/parts/excelerator-parts/"
+            },
+            {
+              "label": "Invoice statement form",
+              "url": "https://www.truckcountry.com/email-submission-invoice-statement/"
+            },
+            {
+              "label": "Parts credit app",
+              "url": "https://www.truckcountry.com/parts-credit-app/"
+            },
+            {
+              "label": "Parts request form",
+              "url": "https://www.truckcountry.com/partsrequest-2/"
+            },
+            {
+              "label": "Specials",
+              "url": "https://www.truckcountry.com/parts/specials/"
+            },
+            {
+              "label": "Tax exempt forms",
+              "url": "https://www.truckcountry.com/tax-exempt-froms/"
+            },
+            {
+              "label": "Trailer parts",
+              "url": "https://www.truckcountry.com/trailers/trailer-parts/"
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "Training"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Kick-start your career in gear",
+          "headline": "Technical Training Institute",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Are you looking for a career, not just a job?",
+          "body": "Truck Country and Stoops have two state of the art training centers, with over a 100 years of combined experience in the industry, that ensure all of our employees receive nothing but the best in quality and staying current with today’s technology. We train our technicians to be certified in Freightliner, Detroit and more. We also offer continuous training for our employees in service and parts to develop and grow to be specialists in the field.\n\nBecome a team member of one of the largest family-owned dealerships today, to be the best in the industry and train with the best.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "Truck Country",
+          "heading": "",
+          "body": "Truck Country",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Truck Country",
+          "body": "Dubuque, IA\n\nStoops",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Stoops",
+          "body": "Indianapolis, IN",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s4-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s4-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s4-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "PAID training, lodging, and travel.",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s4-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Earn an industry-leading wage, learn a trade on the job, build your toolbox with high-quality tools and be reimbursed for them by the company!\n\nAll while earning paid time-off and benefits with the largest Freightliner dealer in the U.S.\n\n<strong>Experienced and trained technicians earn a very competitive wage.</strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

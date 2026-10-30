@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "basePath": "/blog",
-  "title": "News & Resources",
-  "description": "Industry news, market insight and technology for fleets across the Midwest."
+  "basePath": "/news",
+  "title": "News and Blog",
+  "description": "News, technician spotlights and maintenance guidance from Truck Country / Stoops Freightliner-Western Star."
 }

@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "Services"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Truck/Trailer Service and Repair",
+          "lead": "Drivers need a parts and service vendor they can rely on. Truck Country and Stoops is a full service dealership, providing repairs and parts for truck and trailer classes 6, 7 and 8. Our commitment is to provide the best service possible to drivers, with competitive pricing that helps them stay on budget. While we’re working, you can even wait in our customer lounges, which come equipped with all of the amenities you need to pass the time.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Schedule Service Now",
+          "cta1Url": "https://www.truckcountry.com/services/service-schedule-request/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band-reverse",
+        "values": {
+          "eyebrow": "",
+          "heading": "Need Service Now?",
+          "body": "Parts Saving Zone program aims to keep parts prices low to allow drivers to stay on budget. Our goal is to keep as many parts in stock as possible to reduce wait times. Because we have multiple locations across the Midwest; including locations in Iowa, Indiana, Illinois, Ohio, Michigan, and Wisconsin, we’re able to maintain a larger inventory than many other dealerships with fewer locations.\n\nFor trucking companies that regularly order parts in volume, we’ll bring the parts to your location to save you time. Our extensive line includes parts from Freightliner, Western Star, and many others. If we don’t have what you need, we can get it quickly.\n\nWith great customer service and fast repairs, Truck Country and Stoops is the perfect resource for any driver. Our goal is to make sure trucks are back on the road as quickly as possible. With daily stock replenishment and low prices, drivers know we’ll have the parts and professional talent necessary to get their vehicles repaired quickly. Because our service is reliable, drivers know repairs will keep their trucks running for many miles.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/Service_banner2-min-1024x289.jpg",
+            "alt": "Service",
+            "width": 1024,
+            "height": 289
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "We Take Excellence To A New Level",
+          "body": "But that’s not all – Truck Country/Stoops takes this higher standard even further. All of our locations are dedicated to moving your truck through our service department as quickly as possible.\n\nWhen your truck needs service, turn to Truck Country/Stoops for the best uptime possible. We’re committed to getting you back on the road – EVERY CUSTOMER, EVERY TIME.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s4-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s4-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s4-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "OASIS Service Network",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s4-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Want great service or chassis repair for your RV? Truck Country/Stoops has several dealerships that are Oasis certified, which feature accommodations just for the RV owner, such as:",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s4-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Dedicated motorhome facilities and service bays"
+                      },
+                      {
+                        "label": "Specially trained service technicians"
+                      },
+                      {
+                        "label": "Secure parking"
+                      },
+                      {
+                        "label": "Amenities exclusively for motorhome owners"
+                      },
+                      {
+                        "label": "Please click on the Owners tab at the top of the page."
+                      },
+                      {
+                        "label": "Scroll to the bottom of the page on the right where it says SERVICE SURVEY."
+                      },
+                      {
+                        "label": "Click VIEW SURVEY , complete survey and submit."
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "heading": "Resources",
+          "items": [
+            {
+              "label": "Body Shop services",
+              "url": "https://www.truckcountry.com/body-shop/"
+            },
+            {
+              "label": "Elite Support",
+              "url": "https://www.truckcountry.com/services/elite/"
+            },
+            {
+              "label": "Invoice Statement Form",
+              "url": "https://www.truckcountry.com/email-submission-invoice-statement/"
+            },
+            {
+              "label": "Service credit app",
+              "url": "https://www.truckcountry.com/service-credit-app/"
+            },
+            {
+              "label": "Semi-Truck Mobile Repair Service",
+              "url": "https://www.truckcountry.com/semi-truck-mobile-repair-service/"
+            },
+            {
+              "label": "specials",
+              "url": "https://www.truckcountry.com/services/specials/"
+            },
+            {
+              "label": "Trailer services",
+              "url": "https://www.truckcountry.com/services/trailers/"
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

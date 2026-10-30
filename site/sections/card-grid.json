@@ -1,0 +1,202 @@
+{
+  "version": 2,
+  "id": "card-grid",
+  "name": "Card grid",
+  "description": "A grid of cards, each a title, a line or two and an optional link. One card per list row.",
+  "css": "[data-bz-node=\"cg-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"cg-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 24px}\n[data-bz-node=\"cg-head\"] h2{margin:0 0 40px}\n[data-bz-node=\"cg-grid\"]>.bz-col{grid-column:auto;transition:border-color .2s ease,box-shadow .3s ease}\n[data-bz-node=\"cg-grid\"]>.bz-col:hover{border-color:#C41230;box-shadow:0 24px 48px -20px rgba(0,0,0,.18)}\n[data-bz-node=\"cg-grid\"] .bz-block,[data-bz-node=\"cg-grid\"] .bz-container{padding:0}\n[data-bz-node=\"cg-grid\"] h3{font-family:var(--font-heading);font-weight:600;font-size:20px;line-height:1.25;letter-spacing:.04em;text-transform:uppercase;margin:0 0 10px}\n[data-bz-node=\"cg-grid\"] .bz-text p{margin:0;color:#54565C;font-size:16px;line-height:1.6}\n[data-bz-node=\"cg-grid\"] .bz-btn--link{padding:0;font-family:var(--font-body);font-size:15px;font-weight:600;letter-spacing:0;text-transform:none;color:#C41230;text-decoration:underline}\n[data-bz-node=\"cg-grid\"] .bz-btn--link:hover{color:#8f0d21}\n[data-bz-node=\"cg-grid\"] .bz-btns{margin-block:14px 0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "columns",
+      "type": "select",
+      "label": "Columns",
+      "options": [
+        {
+          "value": "4",
+          "label": "Four"
+        },
+        {
+          "value": "3",
+          "label": "Three"
+        },
+        {
+          "value": "2",
+          "label": "Two"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Cards",
+      "fields": [
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "body",
+          "type": "textarea",
+          "label": "Text"
+        },
+        {
+          "key": "linkLabel",
+          "type": "text",
+          "label": "Link label"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cg",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "cg-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "cg-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "cg-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cg-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "gridColumns": "1fr 1fr 1fr"
+            },
+            "tablet": {
+              "gridColumns": "1fr 1fr"
+            },
+            "mobile": {
+              "gridColumns": "1fr"
+            }
+          },
+          "children": [
+            {
+              "id": "cg-card",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "styles": {
+                "base": {
+                  "background": "card",
+                  "borderWidth": 1,
+                  "borderStyle": "solid",
+                  "borderColor": "#EDEBE3",
+                  "paddingTop": 28,
+                  "paddingRight": 28,
+                  "paddingBottom": 28,
+                  "paddingLeft": 28
+                }
+              },
+              "children": [
+                {
+                  "id": "cg-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "cg-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "cg-link",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{linkLabel}}",
+                        "url": "{{url}}",
+                        "style": "link"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

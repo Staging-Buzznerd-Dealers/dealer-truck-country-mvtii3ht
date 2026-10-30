@@ -1,0 +1,257 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trucks",
+                        "url": "https://www.truckcountry.com/inventory/truck-inventory/"
+                      }
+                    ],
+                    "current": "Spotter Trucks"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Spotter Trucks",
+          "lead": "Explore the unmatched capabilities of Autocar spotter trucks also known as yard dogs. From industry-leading maneuverability and operator comfort to rugged durability and compliance with stringent safety standards, Autocar delivers reliability and efficiency at every turn. Whether navigating tight spaces or tackling demanding tasks, Autocar spotter trucks are engineered to maximize productivity while prioritizing operator well-being.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Browse Inventory",
+          "cta1Url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/autocar-inventory/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "General Features:",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Unmatched Maneuverability",
+          "body": "Autocar’s industry-leading turning radius ensures easy navigation in tight spaces and around trailers, maximizing efficiency in any environment.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Operator Comfort",
+          "body": "Enjoy a smoother ride with exclusive four-point premium cab air suspension and ergonomic controls that minimize fatigue and enhance productivity.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Built to Last",
+          "body": "Renowned for rugged construction and dependable performance, Autocar trucks are designed to withstand the toughest demands of terminal operations.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "DOT-Compliant Model:",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Safety and Compliance",
+          "body": "Meets all DOT regulations with features like excellent visibility, intuitive controls, and a durable steel cab construction.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Dependable Performance",
+          "body": "Reliable engines minimize downtime, ensuring maximum productivity while adhering to safety standards.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Advanced Powertrain Options",
+          "body": "Tailor engine choice to optimize performance and fuel efficiency, maintaining compliance with DOT emissions standards.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Non-DOT Model:",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Enhanced Performance",
+          "body": "Powerful engine options tackle demanding tasks in non-regulated environments, ensuring maximum efficiency.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Operator Comfort",
+          "body": "Premium cab features and ergonomic design support all-day comfort and productivity.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Built for Durability",
+          "body": "Rugged construction guarantees longevity and reliability under rigorous operational conditions.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Visibility",
+          "body": "Enhanced visibility with strategically placed mirrors and spacious cab design for safe operation.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "For more information on why you need a spotter truck, <a href=\"https://www.truckcountry.com/blog-the-top-6-reasons-to-buy-a-yard-dog-terminal-spotter-truck/\">click here</a>",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

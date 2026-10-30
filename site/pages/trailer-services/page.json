@@ -1,0 +1,267 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trailers",
+                        "url": "https://www.truckcountry.com/trailers/"
+                      }
+                    ],
+                    "current": "Trailer Services"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Trailer Services",
+          "lead": "From routine maintenance, upgrades and accessory installs, to damage repairs, Truck Country/Stoops can handle the job. With multiple locations offering onsite service for light duty and commercial trailers, we get you back on the road fast. We are proud to service the best trailers in the industry including MAC Trailer, Stoughton, Wabash, and Transcraft/Benson, to name a few.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "card-grid",
+        "values": {
+          "eyebrow": "",
+          "heading": "Trailer Services Provided:",
+          "columns": "3",
+          "items": [
+            {
+              "title": "",
+              "body": "General Repairs",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Decaling up to Including Full Wraps",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "DOT Inspections",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Install Skirt, Wings, and Other Aerodynamic Devices",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Patching Walls & Roofs",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Replacing Partial and up to Full Roofs",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Bogie Repairs & Replacements",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Install Scales",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Install PSI Systems",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Install Vents and Placards",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Install Lift Gates and Lift Pads",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Repair and Install Doors",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Repair and Install Brakes and Systems",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Floor Repairs and Installs",
+              "linkLabel": "",
+              "url": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s3-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s3-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Mobile Trailer Service",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Count on Stoops’ On-Site Mobile Trailer Service to get you back on the road. Whether for emergency breakdowns, roadside repair, preventive maintenance, DOT inspections, or scheduled onsite repairs, our Mobile Service Truck is ready and at your service!\n\nPreventative Maintenance\n\nFHWA inspections, repair DOT (Violations), etc.\n\nBrakes\n\nReplace brake shoes/drums, adjust brakes, replace wheel seals\n\nElectrical\n\nRepair/replace lights/wiring, ABS diagnostics, troubleshooting\n\nBody Work\n\nRoof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear\n\nSuspension\n\nSlider pins, airbags, brake chambers, air valves, shocks",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Preventative Maintenance FHWA inspections, repair DOT (Violations), etc."
+                      },
+                      {
+                        "label": "Brakes Replace brake shoes/drums, adjust brakes, replace wheel seals"
+                      },
+                      {
+                        "label": "Electrical Repair/replace lights/wiring, ABS diagnostics, troubleshooting"
+                      },
+                      {
+                        "label": "Body Work Roof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear"
+                      },
+                      {
+                        "label": "Suspension Slider pins, airbags, brake chambers, air valves, shocks"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

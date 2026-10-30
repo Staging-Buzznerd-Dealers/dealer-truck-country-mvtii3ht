@@ -1,0 +1,211 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Training",
+                        "url": "https://www.truckcountry.com/training/"
+                      }
+                    ],
+                    "current": "Truck Country Training"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Truck Country Training",
+          "lead": "10819 Wood Gate Dr. Dubuque, IA 52003",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Truck Country Technical Institute Certified Diesel Technician Employee Program",
+          "body": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.\n\nThe Truck Country Technical Institute provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.\n\nStudents will attend all courses at the Truck Country Training Center in Dubuque, Iowa, then return to their home dealerships, located throughout Iowa and Wisconsin, to put what they’ve learned in the classroom into practice.\n\nUpon graduation, students earn the recognition of <strong>Freightliner Certified Technician</strong> and receive a nationally recognized <strong>Apprenticeship Certification.</strong>",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "Truck Country Tech Training Course Curriculum",
+          "body": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Heavy Duty Truck Systems"
+            },
+            {
+              "label": "Electronic Systems"
+            },
+            {
+              "label": "Cascadia/New Cascadia"
+            },
+            {
+              "label": "Western Star"
+            },
+            {
+              "label": "DD Major Repair"
+            },
+            {
+              "label": "DD Fuel Systems"
+            },
+            {
+              "label": "DT12 Transmission"
+            },
+            {
+              "label": "Electrical Troubleshooting"
+            },
+            {
+              "label": "HVAC"
+            },
+            {
+              "label": "M2"
+            },
+            {
+              "label": "DD Basic Diagnostics"
+            },
+            {
+              "label": "DD Air and ATS"
+            },
+            {
+              "label": "DD Medium Duty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": ""
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s4-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s4-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s4-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Ready to start your career!",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "s4-lead",
+                  "type": "text",
+                  "props": {
+                    "text": "Contact us today to connect with our recruiters.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "s4-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "truck-country-training-request"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "id": "loan-calculator",
+  "name": "Loan payment estimator",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Paragraphs",
+      "default": ""
+    },
+    {
+      "key": "note",
+      "type": "text",
+      "label": "Small print",
+      "default": "* Required"
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "lc-head",
+          "type": "heading",
+          "props": {
+            "text": "{{heading}}",
+            "eyebrow": "{{eyebrow}}",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "lc-body",
+          "type": "text",
+          "props": {
+            "text": "{{body}}",
+            "width": "full"
+          }
+        },
+        {
+          "id": "lc-widget",
+          "type": "loan-calculator",
+          "props": {
+            "note": "{{note}}"
+          }
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"lc-head\"]{margin-bottom:16px}\n[data-bz-node=\"lc-body\"]{margin-bottom:40px;max-width:760px}\n",
+  "js": "/* Loan payment estimator.\n   A behaviour cannot do this: the eight move, show, hide and filter existing\n   DOM, and none of them computes an amortised payment. Scoped to the band's\n   own node so a second calculator on the page keeps its own figures. */\n(function () {\n  var money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });\n  var num = function (el) {\n    var v = parseFloat(String(el && el.value || '').replace(/[^0-9.\\-]/g, ''));\n    return isFinite(v) ? v : 0;\n  };\n\n  function wire(root) {\n    var calc = root.querySelector('.tc-calc');\n    if (!calc || calc.dataset.tcWired) return;\n    calc.dataset.tcWired = '1';\n\n    var loan = calc.querySelector('[name=\"loan\"]');\n    var down = calc.querySelector('[name=\"down\"]');\n    var rate = calc.querySelector('[name=\"rate\"]');\n    var term = calc.querySelector('[name=\"term\"]');\n    var unit = calc.querySelector('[name=\"unit\"]');\n    var out = {};\n    calc.querySelectorAll('[data-out]').forEach(function (el) { out[el.dataset.out] = el; });\n\n    function render() {\n      var principal = Math.max(0, num(loan) - num(down));\n      var months = Math.round(num(term) * (unit && unit.value === 'months' ? 1 : 12));\n      var monthlyRate = num(rate) / 100 / 12;\n      var payment;\n      if (!principal || months <= 0) payment = 0;\n      else if (monthlyRate <= 0) payment = principal / months;\n      else {\n        var growth = Math.pow(1 + monthlyRate, months);\n        payment = principal * monthlyRate * growth / (growth - 1);\n      }\n      var paid = payment * (months > 0 ? months : 0);\n      var interest = Math.max(0, paid - principal);\n      if (out.monthly) out.monthly.textContent = money.format(payment || 0);\n      if (out.principal) out.principal.textContent = money.format(principal);\n      if (out.interest) out.interest.textContent = money.format(interest);\n      if (out.total) out.total.textContent = money.format(principal + interest);\n    }\n\n    [loan, down, rate, term, unit].forEach(function (el) {\n      if (!el) return;\n      el.addEventListener('input', render);\n      el.addEventListener('change', render);\n    });\n    render();\n  }\n\n  document.querySelectorAll('[data-bz-section=\"loan-calculator\"], [data-bz-node^=\"lc\"]').forEach(wire);\n})();"
+}

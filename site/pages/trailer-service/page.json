@@ -1,0 +1,310 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Services",
+                        "url": "https://www.truckcountry.com/services/"
+                      }
+                    ],
+                    "current": "Trailer Services"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Trailer Service",
+          "lead": "From routine maintenance, upgrades and accessory installs, to damage repairs, Truck Country/Stoops can handle the job. With multiple locations offering onsite service for light duty and commercial trailers, we get you back on the road fast. We are proud to service the best trailers in the industry including MAC Trailer, Stoughton, Wabash, and Transcraft/Benson, to name a few.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "Trailer Services Provided:",
+          "body": "",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/trailer_banner-1-1024x289.jpg",
+            "alt": "trailer",
+            "width": 1024,
+            "height": 289
+          },
+          "anchorId": "",
+          "points": [
+            {
+              "label": "General Repairs"
+            },
+            {
+              "label": "Decaling up to Including Full Wraps"
+            },
+            {
+              "label": "DOT Inspections"
+            },
+            {
+              "label": "Install Skirt, Wings, and Other Aerodynamic Devices"
+            },
+            {
+              "label": "Patching Walls & Roofs"
+            },
+            {
+              "label": "Replacing Partial and up to Full Roofs"
+            },
+            {
+              "label": "Bogie Repairs & Replacements"
+            },
+            {
+              "label": "Install Scales"
+            },
+            {
+              "label": "Install PSI Systems"
+            },
+            {
+              "label": "Install Vents and Placards"
+            },
+            {
+              "label": "Install Lift Gates and Lift Pads"
+            },
+            {
+              "label": "Repair and Install Doors"
+            },
+            {
+              "label": "Repair and Install Brakes and Systems"
+            },
+            {
+              "label": "Floor Repairs and Installs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s3-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s3-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Mobile Trailer Service",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Count on Stoops’ On-Site Mobile Trailer Service to get you back on the road. Whether for emergency breakdowns, roadside repair, preventive maintenance, DOT inspections, or scheduled onsite repairs, our Mobile Service Truck is ready and at your service!",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Preventative Maintenance - FHWA inspections, repair DOT (Violations), etc."
+                      },
+                      {
+                        "label": "Brakes - Replace brake shoes/drums, adjust brakes, replace wheel seals"
+                      },
+                      {
+                        "label": "Electrical - Repair/replace lights/wiring, ABS diagnostics, troubleshooting"
+                      },
+                      {
+                        "label": "Body Work - Roof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear"
+                      },
+                      {
+                        "label": "Suspension - Slider pins, airbags, brake chambers, air valves, shocks"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Trailer Parts",
+          "body": "Truck Country/Stoops has the trailer parts and accessories you need to get the most out of your trailer. We offer a huge selection of cross-application trailer parts such as: tail lights, tires, wheels, axles, leaf springs, frame hardware, tongue jacks, couplers, safety chains, towing equipment, brakes and much more from top name brand manufacturers.",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "MAC Trailer logo"
+            },
+            {
+              "label": "Stoughton logo"
+            },
+            {
+              "label": "Wabash logo"
+            },
+            {
+              "label": "Transcraft/Benson logo"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Lafayette Indiana",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "765-477-2278",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "800-899-1533",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "734-729-9700",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

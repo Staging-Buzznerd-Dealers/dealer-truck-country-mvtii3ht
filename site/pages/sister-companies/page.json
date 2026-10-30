@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "About",
+                        "url": "https://www.truckcountry.com/about/"
+                      }
+                    ],
+                    "current": "Sister Companies"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Sister Companies",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2000,
+            "height": 1308
+          },
+          "cta1Label": "",
+          "cta1Url": "",
+          "cta2Label": "",
+          "cta2Url": ""
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "<a href=\"https://www.mccoygroup.com/\" class=\"scp1\" style=\"color: rgb(20, 21, 26);\"><strong>The McCoy Group</strong></a> was founded in 1958 by Robert McCoy in Shullsburg, Wisconsin. Today the company is still family owned and is operated under the leadership of the McCoy family. Corporate offices are located in Dubuque, Iowa.\n\n<a href=\"http://www.foodliner.com/\" class=\"scp1\" style=\"color: rgb(20, 21, 26);\"><strong>Foodliner®</strong></a> is the largest Bulk Food Grade carrier in the country and a Transport Topic Top 100 carrier. Our customized transportation system utilizes the latest technology and provides individualized service throughout North America. We have an outstanding on time performance record and a reputation for being a professional organization with a commitment to operating safely.\n\n<a href=\"http://www.questliner.com/\" class=\"scp1\" style=\"color: rgb(20, 21, 26);\"><strong>Quest Liner®</strong></a> targets the chemical and biofuels markets, specializing in total transportation management. With locations in the Gulf Coast, Southeast, Midwest, and Mexico, we provide bulk transportation services to all of North America. Quest Liner has received numerous carrier awards, and is a Transport Topics Top 100 carrier.\n\n<a href=\"http://foodliner.com.mx/foodliner/\" class=\"scp1\" style=\"color: rgb(20, 21, 26);\"><strong>Foodliner®</strong></a> Mexico and Quest Liner® Mexico expand our horizons to the international markets and creates infrastructure that will allow our customers to import and export products using our network of terminals.\n\n<a href=\"http://mccoycf.com/\" class=\"scp1\" style=\"color: rgb(20, 21, 26);\"><strong>McCoy Construction & Forestry</strong></a> is YOUR John Deere Construction and Forestry equipment dealer. Backed by certified parts advisors, factory-trained technicians and an extensive parts inventory, our specialties include new and used equipment sales, equipment rental, product support, parts and service.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/McCoyGroup_CMYK-300x63-1.webp",
+            "alt": "McCoy Group Logo",
+            "width": 300,
+            "height": 63
+          },
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2L0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "items": [
+            {
+              "label": "The McCoy Group",
+              "url": "https://www.mccoygroup.com/",
+              "description": ""
+            },
+            {
+              "label": "Foodliner®",
+              "url": "http://www.foodliner.com/",
+              "description": ""
+            },
+            {
+              "label": "Quest Liner®",
+              "url": "http://www.questliner.com/",
+              "description": ""
+            },
+            {
+              "label": "Foodliner®",
+              "url": "http://foodliner.com.mx/foodliner/",
+              "description": ""
+            },
+            {
+              "label": "McCoy Construction & Forestry",
+              "url": "http://mccoycf.com/",
+              "description": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

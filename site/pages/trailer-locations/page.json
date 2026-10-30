@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trailers",
+                        "url": "https://www.truckcountry.com/trailers/"
+                      }
+                    ],
+                    "current": "Trailer Locations"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Trailer Locations",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "Lafayette Indiana",
+          "body": "<a href=\"tel:+17654772278\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">765-477-2278</a>\n\n<a href=\"tel:+13177887533\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">317-788-7533</a>\n\n<a href=\"tel:+17347299700\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">734-729-9700</a>",
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2L0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "items": [
+            {
+              "label": "Lafayette Indiana",
+              "url": "https://maps.app.goo.gl/w5N8vRVNMRfnz58s5",
+              "description": ""
+            },
+            {
+              "label": "Indianapolis Indiana",
+              "url": "https://maps.app.goo.gl/S2qiR8vwKfaYK98C7",
+              "description": ""
+            },
+            {
+              "label": "Wayne Michigan",
+              "url": "https://maps.app.goo.gl/psQAbACgQuDy9RiL8",
+              "description": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

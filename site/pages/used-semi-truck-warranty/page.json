@@ -1,0 +1,415 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trucks",
+                        "url": "https://www.truckcountry.com/inventory/truck-inventory/"
+                      }
+                    ],
+                    "current": "Used Semi-Truck Warranty"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Used Semi-Truck Limited Warranty",
+          "lead": "OEM Used Semi-Truck Warranty Available for qualifying Freightliner and Western Star used semi-trucks!",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Browse Used Inventory",
+          "cta1Url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/",
+          "cta2Label": "Find a Location",
+          "cta2Url": "https://www.truckcountry.com/locations/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "bullet-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "ZERO Deductible",
+          "items": [
+            {
+              "title": "Warrantable Repairs are Covered 100%",
+              "body": ""
+            },
+            {
+              "title": "No Aggregate Limits",
+              "body": ""
+            },
+            {
+              "title": "Same Coverage Throughout Term",
+              "body": ""
+            },
+            {
+              "title": "No Reduction to Major Component Coverages (Castings)",
+              "body": ""
+            },
+            {
+              "title": "Transferable Without Fee",
+              "body": ""
+            },
+            {
+              "title": "Seamless Warranty Administration Through Freightliner",
+              "body": ""
+            }
+          ],
+          "image": {
+            "src": "/img/trailers.jpg",
+            "alt": "",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "Term Lengths 12 months",
+          "heading": "Select Limited Warranty",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Term Lengths",
+          "body": "12 months\n\n100,000 miles\n\n24 months\n\n200,000 miles\n\n36 months\n\n300,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements.",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "12 months 100,000 miles"
+            },
+            {
+              "label": "24 months 200,000 miles"
+            },
+            {
+              "label": "36 months 300,000 miles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s3g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Covered Components",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Engine*",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Cylinder Heads"
+            },
+            {
+              "label": "Engine Block"
+            },
+            {
+              "label": "Exhaust Manifold"
+            },
+            {
+              "label": "Injector Sleeves"
+            },
+            {
+              "label": "Oil Pump"
+            },
+            {
+              "label": "Pistons"
+            },
+            {
+              "label": "Piston Rings and Pins"
+            },
+            {
+              "label": "Progressive Damage (caused by covered components)"
+            },
+            {
+              "label": "All Internally Lubricated Parts"
+            },
+            {
+              "label": "Camshaft and Bearings"
+            },
+            {
+              "label": "Connecting Rods, Caps and Capscrews"
+            },
+            {
+              "label": "Crankshaft and Bearings"
+            },
+            {
+              "label": "Cylinder Block Casting"
+            },
+            {
+              "label": "Cylinder Head Casting and Capscrews"
+            },
+            {
+              "label": "Cylinder Head Gaskets"
+            },
+            {
+              "label": "Rocker Arms and Shafts"
+            },
+            {
+              "label": "Spacer Plate or Block"
+            },
+            {
+              "label": "Timing Cover and Gears"
+            },
+            {
+              "label": "Valve Lifters and Push Rods"
+            },
+            {
+              "label": "Valves, Valve Springs and Valve Keepers"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s3g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Cab/Frame",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Cab Structure and Sheet Metal Panels"
+            },
+            {
+              "label": "Frame Rails and Crossmembers"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s3g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Transmission*",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "All Internally Lubricated Parts"
+            },
+            {
+              "label": "Transmission Housing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s3g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Rear Axle*",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "All Internally Lubricated Parts"
+            },
+            {
+              "label": "Axle Housing"
+            },
+            {
+              "label": "Axle Shafts"
+            },
+            {
+              "label": "Differential Housing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "Term Lengths 6 months",
+          "heading": "Select Extra Limited Warranty",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Term Lengths",
+          "body": "6 months\n\n50,000 miles\n\n12 months\n\n100,000 miles\n\n18 months\n\n150,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "6 months 50,000 miles"
+            },
+            {
+              "label": "12 months 100,000 miles"
+            },
+            {
+              "label": "18 months 150,000 miles"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Covered Components",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Engine*",
+          "body": "Coverage only available when Select Limited Warranty is purchased. *Some exclusions may apply.",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Air Conditioning Compressor/Clutch"
+            },
+            {
+              "label": "Charge Air Cooler"
+            },
+            {
+              "label": "EGR Valve, Cooler and Actuator"
+            },
+            {
+              "label": "Fan Clutch"
+            },
+            {
+              "label": "Fan Hub"
+            },
+            {
+              "label": "Fuel Injectors"
+            },
+            {
+              "label": "Fuel Pump"
+            },
+            {
+              "label": "Oil Pan"
+            },
+            {
+              "label": "Rocker Cover"
+            },
+            {
+              "label": "Turbocharger, Actuator, VPOD and Axial Power Turbine"
+            },
+            {
+              "label": "Vibration Damper"
+            },
+            {
+              "label": "Water Pump"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

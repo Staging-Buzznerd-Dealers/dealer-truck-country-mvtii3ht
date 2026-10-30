@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "About",
+                        "url": "https://www.truckcountry.com/about/"
+                      }
+                    ],
+                    "current": "History"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Bob McCoy, Sr.",
+          "lead": "",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/History_Image_sm-1024x289.jpg",
+            "alt": "History",
+            "width": 1024,
+            "height": 289
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "Bob was well known in and around the rural Southwest Wisconsin community, having lived in the region his entire 35 years. A decade earlier, he drove his own milk route, collecting Grade B milk from the region’s abundant dairy farms for delivery to Brewery Hill Cheese factory. He used to be a cheese-maker, before becoming a long-distance trucker. He later co-owned Mc-Mor-Han Trucking Company, which had been hauling livestock and fertilizer for eight years, and had been selling GMC pick-up trucks since 1958.\n\nMore than 60 years after Shullsburg, the McCoy Group has grown into a corporation with five subsidiaries that reaches across North America.\n\nCurrently, the McCoy Group consists of Truck Country/Stoops Freightliner-Western Star, Foodliner, Quest Liner, Foodliner Mexico/Quest Liner Mexico and McCoy Construction & Forestry, employing more than 3,600 people.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/GMC-red-Bob1-848x585-1.webp",
+            "alt": "Bob McCoy Sr. in front of ared GMC truck",
+            "width": 848,
+            "height": 585
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

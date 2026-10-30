@@ -1,0 +1,409 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Parts",
+                        "url": "https://www.truckcountry.com/parts/"
+                      }
+                    ],
+                    "current": "Excelerator Parts"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Excelerator Parts",
+          "lead": "Search. Find. Buy. Deliver.\nExcelerator Parts is your one-stop solution for all your truck parts needs. Find the best selection of parts from the most trusted brands in the industry, customer-specific parts pricing,and advanced ordering capabilities.\n<strong>Free to sign up. Free to order.</strong>",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Request Excelerator Parts Account",
+          "cta1Url": "https://www.truckcountry.com/exceleratorrequest/",
+          "cta2Label": "Watch the Videos",
+          "cta2Url": "#videos"
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Optimized Part Search",
+          "body": "search by VIN, Part Number, Description, VMRS and more…",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Customer Specific Pricing",
+          "body": "including core charge and add to cart functionality",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "PDC & Dealer Availability",
+          "body": "real time stocking information",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Integrated Parts Alternatives",
+          "body": "Alliance and Reman offering for factory fit parts",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Parts Multi-Supersedure",
+          "body": "easy to read supersedure parts information",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Parts Features",
+          "body": "138,000 parts with technical attributes and features",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g6",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Breadcrumb & Module Navigation",
+          "body": "user-friendly search, find and buy",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g7",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Fast Moving Parts Images",
+          "body": "130,000 parts / 250,000 images",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g8",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "VIN Verification",
+          "body": "for customers without parts catalog VIN permissions",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g9",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Enhanced VIN Landing Page",
+          "body": "vehicle, engine and major components spec details",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g10",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Improved BOM Documentation",
+          "body": "easier to read and more concise parts list",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g11",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "EZ Wiring",
+          "body": "E-Z wiring items linked\n\nReady to start ordering parts? <a href=\"https://www.truckcountry.com/exceleratorrequest/\" class=\"scp6\" style=\"color: rgb(196, 18, 48); font-weight: 700;\">CLICK HERE</a> to request your account.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "video-grid",
+        "values": {
+          "heading": "Playlist 25 Videos",
+          "items": [
+            {
+              "title": "Navigation in Excelerator",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Vin To Boom Keyword Search",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Parts Catalog Multi-Search Menu",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Vehicle Landing Page in Excelerator",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Product Categories Search",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Favorites List for PartsPro X Only Users Feature",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Improved Commerce Parts Search",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Cross Reference",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "VMRS Category Search",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Parts Search",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Save VIN Serial Info in Favorite List",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Parts Alternatives Sorted by Availability",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "PartsProX Mega BOM Loading Feature",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Print & Save as PDF",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "My Garage Part 1",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Facets Part 1",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "My Garage Part 2",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Design Group Number",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Facets Part 2",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "BOM Display Page Grid View",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "BOM Image Zoom",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Part Variants (Similar Substitute)",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "BOM Display Page Image View",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Frequently Brought Together With",
+              "url": "",
+              "note": "Video link needed"
+            },
+            {
+              "title": "Multiple Artwork on a BOM",
+              "url": "",
+              "note": "Video link needed"
+            }
+          ],
+          "featuredTitle": "",
+          "featuredUrl": "",
+          "featuredNote": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Major Parts Suppliers",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Stemco logo"
+            },
+            {
+              "label": "Bendix logo"
+            },
+            {
+              "label": "Power Service logo"
+            },
+            {
+              "label": "Meritor logo"
+            },
+            {
+              "label": "Donaldson logo"
+            },
+            {
+              "label": "Alliance logo"
+            },
+            {
+              "label": "Caterpillar logo"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

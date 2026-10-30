@@ -93,5 +93,670 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "about-us",
+    "title": "About Us - Truck Country",
+    "description": "About Us - For nearly 60 years, Truck Country/Stoops has offered new &amp; used medium &amp; heavy duty trucks, expert service, parts inventory, &amp; financing options.",
+    "path": "/about-us",
+    "out": "about-us/index.html",
+    "dir": "about-us",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "history",
+    "title": "History",
+    "description": "With 60 years of experience, Truck Country/Stoops offers expert sales, service, and parts for all your trucking needs. Trust our legacy of excellence.",
+    "path": "/history",
+    "out": "history/index.html",
+    "dir": "history",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "sister-companies",
+    "title": "Sister Companies",
+    "description": "McCoy Group consists of Truck Country/Stoops, Foodliner, Quest Liner, Foodliner Mexico/Quest Liner Mexico and McCoy Construction &amp; Forestry, employing over 2,600 people.",
+    "path": "/sister-companies",
+    "out": "sister-companies/index.html",
+    "dir": "sister-companies",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "careers",
+    "title": "Career Opportunities: Apply Today!",
+    "description": "Ready to advance your career? Check out our career opportunities and join a company that values innovation and growth.",
+    "path": "/careers",
+    "out": "careers/index.html",
+    "dir": "careers",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "training",
+    "title": "Top Technical Training Institute - Enroll Today",
+    "description": "Discover your potential at Technical Training Institute. We offer hands-on training and certification in various technical disciplines. Sign up now!",
+    "path": "/training",
+    "out": "training/index.html",
+    "dir": "training",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "services",
+    "title": "Semi Truck and Trailer Service and Repair",
+    "description": "Expert heavy truck repair services to keep your fleet running smoothly. Contact us for reliable repairs and maintenance.",
+    "path": "/services",
+    "out": "services/index.html",
+    "dir": "services",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "elite-support",
+    "title": "Elite Support",
+    "description": "Elite Support is a high performing group of Daimler Trucks North America dealers, delivering a superior customer service experience, in a consistent manner, at a good value as experienced by the customer. Read More",
+    "path": "/elite-support",
+    "out": "elite-support/index.html",
+    "dir": "elite-support",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "parts",
+    "title": "Heavy-Duty Parts",
+    "description": "Drivers need a parts and service vendor they can rely on. Truck Country and Stoops is a full service dealership, providing repairs and parts for truck.",
+    "path": "/parts",
+    "out": "parts/index.html",
+    "dir": "parts",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "excelerator-parts",
+    "title": "Excelerator Parts",
+    "description": "Excelerator Parts is your one-stop solution for all your truck parts needs. Find the best selection of parts from the most trusted brands in the industry, customer-specific parts pricing,and advanced ordering capabilities.",
+    "path": "/excelerator-parts",
+    "out": "excelerator-parts/index.html",
+    "dir": "excelerator-parts",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "body-shop",
+    "title": "Semi-Truck Body Shop",
+    "description": "Get top-quality body work and detailing for your vehicle or semi truck. Visit our leading body shops in Wisconsin, Indiana, and Ohio for exceptional service!",
+    "path": "/body-shop",
+    "out": "body-shop/index.html",
+    "dir": "body-shop",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "body-shop-indianapolis",
+    "title": "Semi-Truck Body Shop in Indianapolis, IN",
+    "description": "Get back on the road fast with our expert semi-truck body shop in Indianapolis, Indiana. Convenient, efficient repairs for your big rig!",
+    "path": "/body-shop-indianapolis",
+    "out": "body-shop-indianapolis/index.html",
+    "dir": "body-shop-indianapolis",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "body-shop-lima",
+    "title": "Semi-Truck Body Shop in Lima, Ohio",
+    "description": "Trust the leading body shop in Lima, Ohio, for all your collision repair needs. We ensure high-quality workmanship and quick turnaround times. Contact us now.",
+    "path": "/body-shop-lima",
+    "out": "body-shop-lima/index.html",
+    "dir": "body-shop-lima",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "body-shop-shullsburg",
+    "title": "Semi-Truck Body Shop in Shullsburg, WI",
+    "description": "Get your semi-truck back on the road faster by entrusting the Truck Country semi-truck body shop in Shullsburg, Wisconsin. Our experienced technicians provide top-notch repairs and customer satisfaction.",
+    "path": "/body-shop-shullsburg",
+    "out": "body-shop-shullsburg/index.html",
+    "dir": "body-shop-shullsburg",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "spotter-trucks",
+    "title": "Spotter Trucks",
+    "description": "Explore the unmatched capabilities of Autocar spotter trucks also known as yard dogs. From industry-leading maneuverability and operator comfort.",
+    "path": "/spotter-trucks",
+    "out": "spotter-trucks/index.html",
+    "dir": "spotter-trucks",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "used-semi-truck-warranty",
+    "title": "Used Semi-Truck Warranty",
+    "description": "Available warranty for qualifying. Freightliner and Western Star used trucks! ZERO Deductible. • Warrantable repairs are covered 100% • No aggregate limits",
+    "path": "/used-semi-truck-warranty",
+    "out": "used-semi-truck-warranty/index.html",
+    "dir": "used-semi-truck-warranty",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "semi-truck-mobile-repair-service",
+    "title": "Semi-Truck Mobile Repair Service - Truck Country",
+    "description": "At Truck Country and Stoops Freightliner-Western Star, we provide comprehensive mobile repair services to minimize downtime for medium - and heavy-duty trucks",
+    "path": "/semi-truck-mobile-repair-service",
+    "out": "semi-truck-mobile-repair-service/index.html",
+    "dir": "semi-truck-mobile-repair-service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "trailer-locations",
+    "title": "Semi-Truck Trailer Locations",
+    "description": "Truck Country has 26 convenient locations throughout Illinois, Indiana, Iowa, Ohio and Wisconsin. View Truck Country locations hours, local services and contact information.",
+    "path": "/trailer-locations",
+    "out": "trailer-locations/index.html",
+    "dir": "trailer-locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "indianapolis-trailer-repair",
+    "title": "Semi-Truck Trailer Repair in Indianapolis, IN",
+    "description": "Discover top-notch trailer repair services in Indianapolis. Our skilled technicians ensure your trailer is road-ready. Call us now for an appointment!",
+    "path": "/indianapolis-trailer-repair",
+    "out": "indianapolis-trailer-repair/index.html",
+    "dir": "indianapolis-trailer-repair",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "lafayette-trailer-repair",
+    "title": "Semi-Truck Trailer Repair in Lafayette, IN",
+    "description": "Searching for trailer repair in Lafayette, Indiana? We offer reliable, efficient services to keep your trailer in optimal condition year-round.",
+    "path": "/lafayette-trailer-repair",
+    "out": "lafayette-trailer-repair/index.html",
+    "dir": "lafayette-trailer-repair",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "wayne-trailer-repair",
+    "title": "Semi-Truck Trailer Repair in Wayne, MI",
+    "description": "Your go-to trailer dealer and repair in Wayne, Michigan. Offering exceptional service and expert repairs for all your trailer needs.",
+    "path": "/wayne-trailer-repair",
+    "out": "wayne-trailer-repair/index.html",
+    "dir": "wayne-trailer-repair",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "trailer-services",
+    "title": "Semi-Truck Trailer Service and Repair",
+    "description": "Trust our experienced team for your semi-trailer repair needs. We offer comprehensive services to enhance your trailer’s safety and reliability.",
+    "path": "/trailer-services",
+    "out": "trailer-services/index.html",
+    "dir": "trailer-services",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "trailer-service",
+    "title": "Semi-Truck Trailer Service",
+    "description": "Contact us today for your trailer services! Find your closet Truck Country or Stoops location today.",
+    "path": "/trailer-service",
+    "out": "trailer-service/index.html",
+    "dir": "trailer-service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "trailer-parts",
+    "title": "Find Semi-Truck Trailer Parts",
+    "description": "Contact us today for your trailer repairs and parts! Find your closet Truck Country or Stoops location today.",
+    "path": "/trailer-parts",
+    "out": "trailer-parts/index.html",
+    "dir": "trailer-parts",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "tax-exempt-form",
+    "title": "Tax Exempt Form",
+    "description": "Tax Exempt Form The following forms are authorized by the State Department of Taxation for use by the consumers when making exempt purchases. Other than as",
+    "path": "/tax-exempt-form",
+    "out": "tax-exempt-form/index.html",
+    "dir": "tax-exempt-form",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "diesel-technicians",
+    "title": "Top Diesel Mechanic Jobs: Join Our Team",
+    "description": "Explore diesel mechanic jobs with competitive pay and benefits. Start your career with us. Apply today for exciting opportunities!",
+    "path": "/diesel-technicians",
+    "out": "diesel-technicians/index.html",
+    "dir": "diesel-technicians",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "stoops-training",
+    "title": "Stoops Training Academy",
+    "description": "The Stoops Training Academy provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.",
+    "path": "/stoops-training",
+    "out": "stoops-training/index.html",
+    "dir": "stoops-training",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "truck-country-training",
+    "title": "Truck Country Training",
+    "description": "The Truck Country Technical Institute provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one",
+    "path": "/truck-country-training",
+    "out": "truck-country-training/index.html",
+    "dir": "truck-country-training",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "contact-us",
+    "title": "Contact Us",
+    "description": "Contact Us - Truck Country/Stoops offers top-tier semi trucking solutions. Our team is ready to assist you with all your trucking needs. Reach out today!",
+    "path": "/contact-us",
+    "out": "contact-us/index.html",
+    "dir": "contact-us",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "parts-request",
+    "title": "Parts Request",
+    "description": "&quot;*&quot; indicates required fields",
+    "path": "/parts-request",
+    "out": "parts-request/index.html",
+    "dir": "parts-request",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "invoice-statement",
+    "title": "Invoice Statement",
+    "description": "Invoice Statement - Email Submission",
+    "path": "/invoice-statement",
+    "out": "invoice-statement/index.html",
+    "dir": "invoice-statement",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "schedule-service",
+    "title": "Schedule Service",
+    "description": "Schedule Service in Truck Country",
+    "path": "/schedule-service",
+    "out": "schedule-service/index.html",
+    "dir": "schedule-service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "semi-truck-financing",
+    "title": "Semi-Truck Financing",
+    "description": "Our financing is available for both new and pre-owned semi trucks and trailers, which means you can pick whatever you want from our lot.",
+    "path": "/semi-truck-financing",
+    "out": "semi-truck-financing/index.html",
+    "dir": "semi-truck-financing",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "trailer-financing",
+    "title": "Trailer Financing - Credit App",
+    "description": "In order to make money, businesses need trailers. But even the most affordable trailers cost a lot. Therefore, financing can get a business started.",
+    "path": "/trailer-financing",
+    "out": "trailer-financing/index.html",
+    "dir": "trailer-financing",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "parts-credit-application",
+    "title": "Parts Credit Application",
+    "description": "Our financing and insurance options complement our sales, parts and service departments to provide complete one-stop shopping for all your trucking needs.",
+    "path": "/parts-credit-application",
+    "out": "parts-credit-application/index.html",
+    "dir": "parts-credit-application",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
+  },
+  {
+    "slug": "service-credit-application",
+    "title": "Service Credit App",
+    "description": "Our financing and insurance options complement our sales, parts and service departments to provide complete one-stop shopping for all your trucking needs.",
+    "path": "/service-credit-application",
+    "out": "service-credit-application/index.html",
+    "dir": "service-credit-application",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
   }
 ]

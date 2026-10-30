@@ -3,7 +3,7 @@
   "id": "prose-band",
   "name": "Prose band",
   "description": "An eyebrow, H2 and one or two paragraphs. Used wherever a page is simply saying something.",
-  "css": "[data-bz-node=\"pb-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"pb-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"pb-head\"] h2{margin:0 0 24px}\n[data-bz-node=\"pb-body\"] p{color:#54565C;font-size:16px;line-height:1.6;margin:0 0 16px;max-width:900px}\n[data-bz-node=\"pb-body\"] p:last-child{margin-bottom:0}",
+  "css": "[data-bz-node=\"pb-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"pb-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0}\n[data-bz-node=\"pb-head\"] h2{margin:0 0 24px}\n[data-bz-node=\"pb-body\"] p{color:#54565C;font-size:16px;line-height:1.6;margin:0 0 16px;max-width:900px}\n[data-bz-node=\"pb-body\"] p:last-child{margin-bottom:0}\n\n[data-bz-node^=\"pb-pt\"]{position:relative;padding-left:24px;margin:0 0 10px}\n[data-bz-node^=\"pb-pt\"]:last-child{margin-bottom:0}\n[data-bz-node^=\"pb-pt\"]::before{content:\"\";position:absolute;left:4px;top:.62em;width:7px;height:7px;background:var(--color-accent);border-radius:50%}\n[data-bz-node^=\"pb-pt\"] p{margin:0}\n",
   "props": [
     {
       "key": "eyebrow",
@@ -22,6 +22,18 @@
       "type": "textarea",
       "label": "Paragraphs",
       "default": ""
+    },
+    {
+      "key": "points",
+      "type": "list",
+      "label": "Bulleted points",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Line"
+        }
+      ]
     }
   ],
   "nodes": [
@@ -76,6 +88,15 @@
                   "props": {
                     "text": "{{body}}",
                     "width": "full"
+                  }
+                },
+                {
+                  "id": "pb-pt",
+                  "type": "text",
+                  "props": {
+                    "text": "{{label}}",
+                    "width": "full",
+                    "repeat": "points"
                   }
                 }
               ]

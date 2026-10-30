@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "id": "content-card",
+  "name": "Content card",
+  "description": "A white card with a red top rule holding a paragraph or two, and optionally a logo above them.",
+  "css": "[data-bz-node=\"cc-col\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"cc-col\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 24px}\n[data-bz-node=\"cc-col\"]{max-width:960px;background:#fff;border:1px solid #EDEBE3;border-top:4px solid #C41230;padding:clamp(24px,4vw,56px)}\n[data-bz-node=\"cc-logo\"] img{display:block;width:100%;max-width:480px;height:auto;margin-bottom:24px;border-radius:0}\n[data-bz-node=\"cc-logo\"] .bz-block,[data-bz-node=\"cc-logo\"] .bz-container{padding:0}\n[data-bz-node=\"cc-body\"] p{font-size:18px;line-height:1.6;margin:0 0 24px;color:#14151A}\n[data-bz-node=\"cc-body\"] p:last-child{margin-bottom:0}\n[data-bz-node=\"cc-col\"] .bz-block{padding-block:0}\n\n[data-bz-node^=\"cc-pt\"]{position:relative;padding-left:24px;margin:0 0 10px}\n[data-bz-node^=\"cc-pt\"]:last-child{margin-bottom:0}\n[data-bz-node^=\"cc-pt\"]::before{content:\"\";position:absolute;left:4px;top:.62em;width:7px;height:7px;background:var(--color-accent);border-radius:50%}\n[data-bz-node^=\"cc-pt\"] p{margin:0}\n",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "image",
+      "type": "image",
+      "label": "Logo or photo"
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Paragraphs",
+      "default": ""
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    },
+    {
+      "key": "points",
+      "type": "list",
+      "label": "Bulleted points",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Line"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "cc-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "cc-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "cc-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "cc-logo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "cc-body",
+                  "type": "text",
+                  "props": {
+                    "text": "{{body}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "cc-pt",
+                  "type": "text",
+                  "props": {
+                    "text": "{{label}}",
+                    "width": "full",
+                    "repeat": "points"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

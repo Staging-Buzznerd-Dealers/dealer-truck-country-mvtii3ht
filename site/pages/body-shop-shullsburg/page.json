@@ -1,0 +1,353 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Body Shops",
+                        "url": "https://www.truckcountry.com/body-shop/"
+                      }
+                    ],
+                    "current": "Shullsburg"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Semi-Truck Body Shop in Shullsburg, WI",
+          "lead": "347 State Highway 11<br>Shullsburg, WI 53586\n<strong>OFFICE:</strong> <a href=\"tel:608-975-7659\" style=\"color: rgb(255, 255, 255);\">608-975-7659</a>\n<strong>TOLL - FREE:</strong> <a href=\"tel:866-895-0996\" style=\"color: rgb(255, 255, 255);\">866-895-0996</a>\n<strong>FAX:</strong> 608-965-3800\n<a href=\"https://www.truckcountry.com/locations/wisconsin/shullsburg/\" style=\"color: rgb(255, 255, 255);\"><strong>WEBSITE</strong></a>",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "608-975-7659",
+          "cta1Url": "tel:608-975-7659",
+          "cta2Label": "866-895-0996",
+          "cta2Url": "tel:866-895-0996"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-truck body shop hours",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Monday – Friday",
+          "body": "7:00 am – Midnight",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Closed All Majors Holidays",
+          "body": "Limited hours on Christmas Eve and New Years Eve",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "Get your semi-truck back on the road faster by entrusting the Truck Country semi-truck body shop in Shullsburg, Wisconsin. Our shop is conveniently located on highway 11 and can service semi-trucks in the Wisconsin, Iowa and Illinois areas. Our semi-truck body show team is solely focused on your repair and maintenance needs. Our Shullsburg semi-truck body shop specializes in working on Freightliner and Western Star brands and just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–from a single location. Technicians use the latest in technology such as the state-of-the-art frame straightening machine, Josam Play Detectors and the heated Devilbliss paint booth. From semi-truck body work to complete detailing of all makes and models, it pays to give the team of experts at Shullsburg a call!",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
+            "alt": "Body shop work 1",
+            "width": 300,
+            "height": 200
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Body Shop Services",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "8 Body Shop Bays",
+          "body": "Our location has ample space for your truck and our technicians to perform maintenance, repairs, and inspections.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Complete or Partial Painting",
+          "body": "Our experienced techs offer complete or partial paint jobs.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Day Cab Conversions",
+          "body": "A day cab conversion is when a semi-truck sleeper cab is transformed into a day cab.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Fiberglass and SMC Repair",
+          "body": "Fiberglass and SMC Repair can become damaged on your semi-truck. We will repair these components.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Frame Straightening",
+          "body": "Your semi-truck’s alignment is essential for safety on the road. Our team will assess and fix your vehicle’s alignment.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Glass Replacement",
+          "body": "Our skilled techs will replace damaged and broken glass on your vehicle.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g6",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Professional Detailing",
+          "body": "Our techs thoroughly clean and detail your vehicle, reaching all those hard-to-reach areas.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g7",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Sandblasting",
+          "body": "Sandblasting is the process where we clean the surface of your semi-truck with high-pressure.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g8",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Wheel Balancing",
+          "body": "Wheel balancing refers to the process of adjusting the weight distribution of your vehicle’s wheel assembly.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s5-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s5-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s5-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Our Team",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Blake Burlison\n\nBody Shop Foreman\n\nChad Martensen\n\nBody Shop Manager",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Drop photo Blake Burlison Body Shop Foreman"
+                      },
+                      {
+                        "label": "Drop photo Chad Martensen Body Shop Manager"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

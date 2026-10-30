@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "Careers"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Career Opportunities",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Current Openings",
+          "cta1Url": "https://www.truckcountry.com/careers/current-opening/",
+          "cta2Label": "Training",
+          "cta2Url": "https://www.truckcountry.com/training/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band-reverse",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "At Truck Country/ Stoops Freightliner-Western Star, we build our team with the best employees. Our highly skilled employees not only keep our locations running but also provide the highest level of service to our customers by acting with the utmost efficiency, safety, and reliability. We offer a variety of career opportunities across our dealership network in <strong>Illinois, Iowa, Wisconsin, Michigan, Indiana, and Ohio.</strong>\n\nIn addition, we have competitive benefits that include paid training, weekly pay, insurance (health, dental, vision, short & long term), paid time off (vacation, personal days, holidays), 401K (with employer match), gear (company provided uniforms and safety gear/ PPE with reimbursement for relevant roles), and tuition reimbursement (provided for relevant roles).\n\nWe are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/career_banner2-1-1024x289.jpg",
+            "alt": "career_banner",
+            "width": 1024,
+            "height": 289
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s3-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s3-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Interested in taking the next step?",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Learn more about our different departments below or contact us today!\n\nCall: <a href=\"tel:800-251-9569\" style=\"color: rgb(255, 255, 255);\">800-251-9569</a> Select Option #2<br>Email: <a href=\"mailto:recruiting@truckcountry.com\" style=\"color: rgb(255, 255, 255);\">recruiting@truckcountry.com</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Diesel Tech",
+          "body": "Our Diesel Technicians use their knowledge, skills and experience to keep heavy duty vehicles on the road. Whether you’re a new tech or master mechanic, we have opportunities.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Parts",
+          "body": "Our highly regarded Parts Team supports both our customers and our service departments with their knowledge, dedication and top notch customer service.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Sales/Admin",
+          "body": "Interested in Truck Sales? We sell the best heavy duty vehicles in the industry and have opportunities for both On Highway and Vocational Truck Sales Professionals.",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

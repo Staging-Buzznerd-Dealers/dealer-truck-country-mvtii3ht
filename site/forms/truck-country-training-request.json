@@ -1,0 +1,106 @@
+{
+  "id": "truck-country-training-request",
+  "name": "Truck Country training request",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "careers",
+  "submitLabel": "Send request",
+  "successMessage": "Thanks — the training team will be in touch.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit our Privacy Policy."
+  },
+  "fields": [
+    {
+      "id": "tct-first-name",
+      "type": "first_name",
+      "label": "First Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-last-name",
+      "type": "last_name",
+      "label": "Last Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-city",
+      "type": "single_line",
+      "label": "City",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-phone",
+      "type": "phone",
+      "label": "Phone",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-position",
+      "type": "single_line",
+      "label": "Position Interested In",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "tct-experience",
+      "type": "single_line",
+      "label": "Years of Experience",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "tct-resume",
+      "type": "file",
+      "label": "Attach Resume (optional)",
+      "required": false
+    },
+    {
+      "id": "tct-disclaimer",
+      "type": "checkboxes",
+      "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "tct-notify",
+      "name": "Truck Country training request submissions",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "service-advisor",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "tct-confirm",
+      "name": "What the visitor sees",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "message": "Thanks — the training team will be in touch."
+    }
+  ]
+}

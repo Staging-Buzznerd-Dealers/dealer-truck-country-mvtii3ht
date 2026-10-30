@@ -1,0 +1,317 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Services",
+                        "url": "https://www.truckcountry.com/services/"
+                      }
+                    ],
+                    "current": "Semi-Truck Mobile Repair Service"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Semi-Truck Mobile Repair Service",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Call 317-907-8095",
+          "cta1Url": "tel:317-907-8095"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "photo-strip",
+        "values": {
+          "heading": "",
+          "items": [],
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Comprehensive Mobile Repair Services",
+          "body": "At Truck Country and Stoops Freightliner-Western Star, we provide comprehensive mobile repair services to minimize downtime for medium – and heavy-duty trucks across the midwest. As part of one of the largest dealership groups in the U.S., our mobile teams bring dealership-quality expertise directly to you. <strong><em>Mobile Service is not a roadside or emergency response service.</em></strong>\n\nOur professional Mobile Service team provides scheduled on-site support. We diagnose issues, perform necessary repairs, and ensure your equipment or vehicles are operating safely and efficiently, minimizing downtime and maximizing convenience. Whether you need urgent repairs, routine maintenance, or installation services, our team is equipped to handle a wide range of tasks at your site. We are committed to delivering reliable, high-quality service wherever you are.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-Truck Mobile Repair Capabilities",
+          "body": "Our dedicated mobile service technicians come directly to your location to deliver a comprehensive range of essential services. Using advanced diagnostic tools, they quickly identify engine, electrical, and mechanical issues. Our team performs scheduled inspections and preventative maintenance on-site, helping your fleet maintain peak condition without the need for shop visits. We also handle official factory recalls and warranty repairs at your location, ensuring compliance and safety. Our services include repairs for cooling systems, suspension, tire rotations, and cab heaters—all performed with professionalism and efficiency.\n\n<strong><em>Please contact us for availability of services in your area.</em></strong>",
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Aftertreatment"
+            },
+            {
+              "label": "Block Cutting and Reconditioning"
+            },
+            {
+              "label": "DOT Inspections"
+            },
+            {
+              "label": "Electrical Repair"
+            },
+            {
+              "label": "Recalls and Campaigns"
+            },
+            {
+              "label": "Software Updates and Parameter Changes"
+            },
+            {
+              "label": "Vehicle Maintenance and Repairs"
+            },
+            {
+              "label": "Warranty"
+            },
+            {
+              "label": "Other Miscellaneous Services"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Service Locations",
+          "body": "Our Mobile Services are available through various Stoops locations across Indiana, Michigan, and Ohio.\n\n<strong>Call or email us today to schedule your service!</strong><br><a href=\"tel:317-907-8095\" style=\"color: rgb(255, 255, 255);\">317-907-8095</a><br><a href=\"mailto:CorporateMobileAdmins@truckcountry.com\" style=\"color: rgb(255, 255, 255);\">CorporateMobileAdmins@truckcountry.com</a>",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Indiana",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Anderson"
+            },
+            {
+              "label": "Edinburgh"
+            },
+            {
+              "label": "Fort Wayne"
+            },
+            {
+              "label": "Fremont"
+            },
+            {
+              "label": "Lafayette"
+            },
+            {
+              "label": "Indianapolis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Michigan",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Grayling"
+            },
+            {
+              "label": "Traverse City"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Ohio",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Dayton"
+            },
+            {
+              "label": "Lima"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s6-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s6-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": 960
+                }
+              },
+              "children": [
+                {
+                  "id": "s6-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Frequently Asked Questions",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "s6-faq",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "q": "What information will you need from me when I contact Mobile Service?",
+                          "a": "When customers call to schedule Mobile Service, they should be prepared to provide the following details:"
+                        },
+                        {
+                          "q": "What is the estimate turnaround time will be for repairs with Mobile Service?",
+                          "a": "Technicians can typically be onsite within 24 hours or less. Depending on the repair, technicians can complete work the same day."
+                        },
+                        {
+                          "q": "Do I need a contract or account to use Mobile Service?",
+                          "a": "No, you do not need a contract or an account. If you would like to setup an account we can certainly do that, otherwise you have the option to prepay or apply for credit. We are also able to check warranty status to see if the service event would be covered."
+                        },
+                        {
+                          "q": "Do you only serve a certain radius around the cities listed?",
+                          "a": "Yes. Technicians will travel roughly up to an hour and a half from one of our dealership locations in Indiana, Ohio and Michigan to perform repairs."
+                        },
+                        {
+                          "q": "Can you provide Mobile Service at my business location?",
+                          "a": "Yes. Our Mobile Service is designed to come directly to your business location. Our mechanics are equipped with the tools and expertise to handle repairs and maintenance on-site, saving you the time and hassle of transporting vehicles to our shop. Whether you need assistance with a single truck or an entire fleet, we provide convenient, efficient service wherever you need it."
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

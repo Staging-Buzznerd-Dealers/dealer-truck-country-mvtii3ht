@@ -1,0 +1,307 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Body Shops",
+                        "url": "https://www.truckcountry.com/body-shop/"
+                      }
+                    ],
+                    "current": "Lima"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Semi-Truck Body Shop – Lima, Ohio",
+          "lead": "Lima, OH\n598 E. Hanthorn Road<br>Lima, OH 45804\n<strong>OFFICE:</strong> <a href=\"tel:419-228-4334\" style=\"color: rgb(255, 255, 255);\">419-228-4334</a>\n<strong>TOLL - FREE:</strong> <a href=\"tel:800-444-1589\" style=\"color: rgb(255, 255, 255);\">800-444-1589</a>\n<strong>FAX:</strong> 419-228-2782",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2000,
+            "height": 1308
+          },
+          "cta1Label": "",
+          "cta1Url": "",
+          "cta2Label": "",
+          "cta2Url": ""
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-truck body shop hours",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Monday – Friday",
+          "body": "7:00 am – 4:00 pm",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Closed All Majors Holidays",
+          "body": "Limited hours on Christmas Eve and New Years Eve",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "Get your semi-truck back on the road faster by entrusting the Stoops Freightliner semi-truck body shop in Lima, Ohio, conveniently located and accessible from interstate 75. Our semi-truck body shop team is solely focused on your repair and maintenance needs. Our shop specializes in working on Freightliner and Western Star brands but we can work on just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–all from a single location. From semi-truck body work to complete detailing of all makes and models, it pays to give the team of experts at Lima a call!",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
+            "alt": "Body shop work 1",
+            "width": 300,
+            "height": 200
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "card-grid",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-Truck Body Shop Services",
+          "columns": "3",
+          "items": [
+            {
+              "title": "",
+              "body": "15 Body Shop Bays",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "2 Detail Bays",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "1 Paint Booth (74 feet)",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Frame Rail Replacement",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Glass Replacement",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Fiberglass and SMC Repair",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Complete or Partial Painting",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Day Cab Conversions",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Sandblasting",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Professional Detailing",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Body Repairs",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Replacement Panels",
+              "linkLabel": "",
+              "url": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s5-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s5-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s5-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Our Team",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Jeremy\n\nBody Shop Manager",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Drop photo Jeremy Body Shop Manager"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
