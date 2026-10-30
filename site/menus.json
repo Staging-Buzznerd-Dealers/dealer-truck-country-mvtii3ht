@@ -171,7 +171,32 @@
           "ref": null,
           "url": "/parts",
           "newTab": false,
-          "children": []
+          "children": [
+            {
+              "id": "item-27",
+              "label": "Excelerator Parts",
+              "type": "url",
+              "url": "excelerator-parts",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-28",
+              "label": "Invoice Statement Form",
+              "type": "url",
+              "url": "/invoice-statement",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-30",
+              "label": "Parts Credit App",
+              "type": "url",
+              "url": "/parts-credit-app",
+              "ref": null,
+              "children": []
+            }
+          ]
         },
         {
           "id": "about-news",
