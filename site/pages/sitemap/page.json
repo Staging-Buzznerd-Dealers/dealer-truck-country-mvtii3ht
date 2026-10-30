@@ -388,7 +388,7 @@
                         "rows": [
                           {
                             "label": "All-In Truck Parts",
-                            "url": "/",
+                            "url": "https://allintruckparts.com/",
                             "status": "",
                             "sub": false,
                             "partial": ""
@@ -838,7 +838,7 @@
                           },
                           {
                             "label": "Safety Training",
-                            "url": "/",
+                            "url": "http://truckcountry.infinit-i.net/",
                             "status": "",
                             "sub": false,
                             "partial": ""

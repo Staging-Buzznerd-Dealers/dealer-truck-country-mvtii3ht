@@ -127,7 +127,7 @@
                   "type": "menu",
                   "props": {
                     "menuId": "main",
-                    "layout": "mega",
+                    "layout": "horizontal",
                     "align": "center",
                     "collapseOnMobile": true,
                     "depth": 3
@@ -435,5 +435,6 @@
         }
       ]
     }
-  ]
+  ],
+  "js": "/* Header menus: close an open submenu on Escape or on a tap outside it.\n   The platform opens a submenu on hover, on focus and on the first tap, but nothing closes\n   one that was opened by a tap, so on a touch screen it stayed open over the page. */\n(function () {\n  function closeAll(except) {\n    document.querySelectorAll('[data-bz-node=\"header\"] .bz-navitem[data-open]').forEach(function (item) {\n      if (!except || !item.contains(except)) item.removeAttribute('data-open');\n    });\n  }\n  document.addEventListener('click', function (e) { closeAll(e.target); });\n  document.addEventListener('keydown', function (e) {\n    if (e.key !== 'Escape') return;\n    var open = document.querySelector('[data-bz-node=\"header\"] .bz-navitem[data-open], [data-bz-node=\"header\"] .bz-navitem:focus-within');\n    if (!open) return;\n    closeAll();\n    if (document.activeElement && open.contains(document.activeElement)) document.activeElement.blur();\n  });\n})();\n"
 }
