@@ -37,7 +37,7 @@
           "label": "Parts",
           "type": "url",
           "ref": null,
-          "url": "#careers",
+          "url": "/parts",
           "newTab": false,
           "children": []
         },
@@ -46,7 +46,7 @@
           "label": "Services ",
           "type": "url",
           "ref": null,
-          "url": "#about",
+          "url": "#services",
           "newTab": false,
           "children": []
         },
