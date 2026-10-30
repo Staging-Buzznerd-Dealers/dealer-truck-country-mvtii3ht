@@ -28,7 +28,7 @@
           "label": "Body Shops",
           "type": "url",
           "ref": null,
-          "url": "#locations",
+          "url": "/body-shop",
           "newTab": false,
           "children": []
         },
@@ -54,40 +54,45 @@
           "id": "item-6",
           "label": "Locations",
           "type": "url",
-          "url": "#hn",
           "ref": null,
+          "url": "#hn",
+          "newTab": false,
           "children": []
         },
         {
           "id": "item-7",
           "label": "Careers",
           "type": "url",
-          "url": "#dd",
           "ref": null,
+          "url": "#dd",
+          "newTab": false,
           "children": []
         },
         {
           "id": "item-8",
           "label": "Training ",
           "type": "url",
-          "url": "#tt",
           "ref": null,
+          "url": "#tt",
+          "newTab": false,
           "children": []
         },
         {
           "id": "item-9",
           "label": "About",
           "type": "url",
-          "url": "/",
           "ref": null,
+          "url": "/",
+          "newTab": false,
           "children": []
         },
         {
           "id": "item-10",
           "label": "News",
           "type": "url",
-          "url": "/",
           "ref": null,
+          "url": "/",
+          "newTab": false,
           "children": []
         }
       ]
