@@ -75,6 +75,56 @@
     },
     {
       "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": ""
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s2-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s2-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s2-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "contact-us"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
       "type": "sharedSection",
       "props": {
         "sectionId": "prose-band",

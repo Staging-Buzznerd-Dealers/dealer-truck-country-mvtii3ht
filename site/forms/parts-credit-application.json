@@ -1,0 +1,3010 @@
+{
+  "id": "parts-credit-application",
+  "name": "Parts credit application",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "financing",
+  "submitLabel": "Submit application",
+  "successMessage": "Thanks — our credit department will review your application and be in touch.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted by Truck Country / Stoops about this request. Your information is used to respond to this request and is handled under our privacy policy."
+  },
+  "fields": [
+    {
+      "id": "pca-company-or-individual-name",
+      "type": "single_line",
+      "label": "Company or Individual Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-billing-mailing-address",
+      "type": "single_line",
+      "label": "Billing/Mailing Address",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-billing-city",
+      "type": "single_line",
+      "label": "City",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-billing-state",
+      "type": "dropdown",
+      "label": "State",
+      "required": true,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-billing-zip",
+      "type": "single_line",
+      "label": "Zip",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-shipsame",
+      "type": "radio",
+      "label": "Shipping Address - Same as Billing Address",
+      "required": false,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "pca-shipping-address",
+      "type": "single_line",
+      "label": "Shipping Address",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-shipping-city",
+      "type": "single_line",
+      "label": "City",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-shipping-state",
+      "type": "dropdown",
+      "label": "State",
+      "required": true,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-shipping-zip",
+      "type": "single_line",
+      "label": "Zip",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-business-phone",
+      "type": "phone",
+      "label": "Business Phone",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-ext",
+      "type": "single_line",
+      "label": "Ext.",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-fax",
+      "type": "phone",
+      "label": "Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-cell-phone",
+      "type": "phone",
+      "label": "Cell Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-yrs-in-business",
+      "type": "single_line",
+      "label": "Yrs. in Business",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trucks-in-fleet",
+      "type": "single_line",
+      "label": "Trucks in Fleet",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-federal-employer-id-no-fein",
+      "type": "single_line",
+      "label": "Federal Employer ID No./FEIN #",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-no-of-employees",
+      "type": "single_line",
+      "label": "No. of Employees",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-business-email",
+      "type": "email",
+      "label": "Business Email",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-biztype",
+      "type": "radio",
+      "label": "Business Type",
+      "required": false,
+      "options": [
+        {
+          "value": "C Corp",
+          "label": "C Corp"
+        },
+        {
+          "value": "S Corp",
+          "label": "S Corp"
+        },
+        {
+          "value": "LLC",
+          "label": "LLC"
+        },
+        {
+          "value": "Partnership",
+          "label": "Partnership"
+        },
+        {
+          "value": "Proprietor",
+          "label": "Proprietor"
+        },
+        {
+          "value": "Government Entity",
+          "label": "Government Entity"
+        }
+      ]
+    },
+    {
+      "id": "pca-ctype",
+      "type": "radio",
+      "label": "If your business is classified under C Corp, please complete.",
+      "required": false,
+      "options": [
+        {
+          "value": "Publicly Traded",
+          "label": "Publicly Traded"
+        },
+        {
+          "value": "Private Company",
+          "label": "Private Company"
+        }
+      ]
+    },
+    {
+      "id": "pca-if-publicly-traded-state-your-stock-ticker",
+      "type": "single_line",
+      "label": "If Publicly Traded, state your stock ticker.",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-domicile-city",
+      "type": "single_line",
+      "label": "Domicile of Lease/Rental Truck–City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-domicile-state",
+      "type": "dropdown",
+      "label": "State",
+      "required": false,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-accts-payable-contact-name",
+      "type": "single_line",
+      "label": "Accts Payable Contact Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-a-p-phone",
+      "type": "phone",
+      "label": "A/P Phone",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-a-p-fax",
+      "type": "phone",
+      "label": "A/P Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-accts-payable-e-mail",
+      "type": "email",
+      "label": "Accts Payable E-Mail",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-requested-line-of-credit",
+      "type": "single_line",
+      "label": "Requested Line of Credit",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-leased",
+      "type": "radio",
+      "label": "Are you leased out?",
+      "required": false,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "pca-if-yes-to-whom",
+      "type": "single_line",
+      "label": "If yes, to whom?",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-leased-street",
+      "type": "single_line",
+      "label": "Street Address",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-leased-city",
+      "type": "single_line",
+      "label": "City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-leased-state",
+      "type": "dropdown",
+      "label": "State",
+      "required": false,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-leased-zip",
+      "type": "single_line",
+      "label": "Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-division",
+      "type": "radio",
+      "label": "What Division of Truck Country and Stoops Freightliner will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Truck Country of Iowa",
+          "label": "Truck Country of Iowa"
+        },
+        {
+          "value": "Truck Country of Illinois",
+          "label": "Truck Country of Illinois"
+        },
+        {
+          "value": "Truck Country of Wisconsin",
+          "label": "Truck Country of Wisconsin"
+        },
+        {
+          "value": "Truck Country of Indiana - dba Stoops Freightliner",
+          "label": "Truck Country of Indiana - dba Stoops Freightliner"
+        },
+        {
+          "value": "Truck Country of Michigan - dba Stoops Freightliner",
+          "label": "Truck Country of Michigan - dba Stoops Freightliner"
+        },
+        {
+          "value": "Truck Country of Ohio - dba Stoops Freightliner",
+          "label": "Truck Country of Ohio - dba Stoops Freightliner"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-iowa",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Cedar Rapids",
+          "label": "Cedar Rapids"
+        },
+        {
+          "value": "Davenport",
+          "label": "Davenport"
+        },
+        {
+          "value": "Decorah",
+          "label": "Decorah"
+        },
+        {
+          "value": "Dubuque",
+          "label": "Dubuque"
+        },
+        {
+          "value": "Dyersville",
+          "label": "Dyersville"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-illinois",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "North Chicago",
+          "label": "North Chicago"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-wisconsin",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Appleton",
+          "label": "Appleton"
+        },
+        {
+          "value": "Madison/De Forest",
+          "label": "Madison/De Forest"
+        },
+        {
+          "value": "Marinette",
+          "label": "Marinette"
+        },
+        {
+          "value": "Milwaukee",
+          "label": "Milwaukee"
+        },
+        {
+          "value": "North Milwaukee",
+          "label": "North Milwaukee"
+        },
+        {
+          "value": "Minocqua",
+          "label": "Minocqua"
+        },
+        {
+          "value": "Sheboygan",
+          "label": "Sheboygan"
+        },
+        {
+          "value": "Shullsburg",
+          "label": "Shullsburg"
+        },
+        {
+          "value": "Wausau/Rothschild",
+          "label": "Wausau/Rothschild"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-indiana",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Indianapolis",
+          "label": "Indianapolis"
+        },
+        {
+          "value": "Anderson",
+          "label": "Anderson"
+        },
+        {
+          "value": "Edinburgh",
+          "label": "Edinburgh"
+        },
+        {
+          "value": "Fremont",
+          "label": "Fremont"
+        },
+        {
+          "value": "Fort Wayne",
+          "label": "Fort Wayne"
+        },
+        {
+          "value": "Lafayette",
+          "label": "Lafayette"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-michigan",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Traverse City",
+          "label": "Traverse City"
+        },
+        {
+          "value": "Grayling",
+          "label": "Grayling"
+        },
+        {
+          "value": "Wayne",
+          "label": "Wayne"
+        }
+      ]
+    },
+    {
+      "id": "pca-location-ohio",
+      "type": "dropdown",
+      "label": "What Truck Country location will you primarily be doing business with?",
+      "required": false,
+      "options": [
+        {
+          "value": "Lima",
+          "label": "Lima"
+        },
+        {
+          "value": "Dayton",
+          "label": "Dayton"
+        },
+        {
+          "value": "Wapakoneta",
+          "label": "Wapakoneta"
+        }
+      ]
+    },
+    {
+      "id": "pca-owner1-name",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 1. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner1-ssn",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 1. — S.S. No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner1-title",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 1. — Title",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner1-address",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 1. — Address, City, State, Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner2-name",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 2. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner2-ssn",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 2. — S.S. No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner2-title",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 2. — Title",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner2-address",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 2. — Address, City, State, Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner3-name",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 3. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner3-ssn",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 3. — S.S. No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner3-title",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 3. — Title",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-owner3-address",
+      "type": "single_line",
+      "label": "Owners, Partners or Officers 3. — Address, City, State, Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-taxex",
+      "type": "radio",
+      "label": "Tax Exempt — Are you tax exempt?",
+      "required": false,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxall",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Select All",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Select All"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Alabama",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Alabama"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-2",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Alaska",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Alaska"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-3",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Arizona",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Arizona"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-4",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Arkansas",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Arkansas"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-5",
+      "type": "checkboxes",
+      "label": "Tax Exempt — California",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "California"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-6",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Colorado",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Colorado"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-7",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Connecticut",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Connecticut"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-8",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Delaware",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Delaware"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-9",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Florida",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Florida"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-10",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Georgia",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Georgia"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-11",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Hawaii",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Hawaii"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-12",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Idaho",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Idaho"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-13",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Illinois",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Illinois"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-14",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Indiana",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Indiana"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-15",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Iowa",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Iowa"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-16",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Kansas",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Kansas"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-17",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Kentucky",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Kentucky"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-18",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Louisiana",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Louisiana"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-19",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Maine",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Maine"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-20",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Maryland",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Maryland"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-21",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Massachusetts",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Massachusetts"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-22",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Michigan",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Michigan"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-23",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Minnesota",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Minnesota"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-24",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Mississippi",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Mississippi"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-25",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Missouri",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Missouri"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-26",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Montana",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Montana"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-27",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Nebraska",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Nebraska"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-28",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Nevada",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Nevada"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-29",
+      "type": "checkboxes",
+      "label": "Tax Exempt — New Hampshire",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "New Hampshire"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-30",
+      "type": "checkboxes",
+      "label": "Tax Exempt — New Jersey",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "New Jersey"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-31",
+      "type": "checkboxes",
+      "label": "Tax Exempt — New Mexico",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "New Mexico"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-32",
+      "type": "checkboxes",
+      "label": "Tax Exempt — New York",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "New York"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-33",
+      "type": "checkboxes",
+      "label": "Tax Exempt — North Carolina",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "North Carolina"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-34",
+      "type": "checkboxes",
+      "label": "Tax Exempt — North Dakota",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "North Dakota"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-35",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Ohio",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Ohio"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-36",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Oklahoma",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Oklahoma"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-37",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Oregon",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Oregon"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-38",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Pennsylvania",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Pennsylvania"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-39",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Rhode Island",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Rhode Island"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-40",
+      "type": "checkboxes",
+      "label": "Tax Exempt — South Carolina",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "South Carolina"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-41",
+      "type": "checkboxes",
+      "label": "Tax Exempt — South Dakota",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "South Dakota"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-42",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Tennessee",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Tennessee"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-43",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Texas",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Texas"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-44",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Utah",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Utah"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-45",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Vermont",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Vermont"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-46",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Virginia",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Virginia"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-47",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Washington",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Washington"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-48",
+      "type": "checkboxes",
+      "label": "Tax Exempt — West Virginia",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "West Virginia"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-49",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Wisconsin",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Wisconsin"
+        }
+      ]
+    },
+    {
+      "id": "pca-taxstate-50",
+      "type": "checkboxes",
+      "label": "Tax Exempt — Wyoming",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-po",
+      "type": "radio",
+      "label": "Tax Exempt — Do you require purchase order numbers on your invoices?",
+      "required": false,
+      "options": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "id": "pca-bank1-name",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Bank Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-type",
+      "type": "radio",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Account Type",
+      "required": false,
+      "options": [
+        {
+          "value": "Checking",
+          "label": "Checking"
+        },
+        {
+          "value": "Savings",
+          "label": "Savings"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ]
+    },
+    {
+      "id": "pca-bank1-street",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Street Address",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-city",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-phone",
+      "type": "phone",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-state",
+      "type": "dropdown",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — State",
+      "required": false,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-bank1-zip",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-acct",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Account No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank1-contact",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 1. — Contact",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-name",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Bank Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-type",
+      "type": "radio",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Account Type",
+      "required": false,
+      "options": [
+        {
+          "value": "Checking",
+          "label": "Checking"
+        },
+        {
+          "value": "Savings",
+          "label": "Savings"
+        },
+        {
+          "value": "Loan",
+          "label": "Loan"
+        }
+      ]
+    },
+    {
+      "id": "pca-bank2-street",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Street Address",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-city",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-state",
+      "type": "dropdown",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — State",
+      "required": false,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-bank2-zip",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-phone",
+      "type": "phone",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-acct",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Account No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank2-contact",
+      "type": "single_line",
+      "label": "Credit References - Please Provide Two Bank References (Confidential) 2. — Contact",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-bank-finance-company",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — Bank/Finance Company",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-street",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — Street Address",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-city",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-state",
+      "type": "dropdown",
+      "label": "Truck Payment (if applicable) made to — State",
+      "required": false,
+      "options": [
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "pca-tp-zip",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-phone",
+      "type": "phone",
+      "label": "Truck Payment (if applicable) made to — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-acct",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — Account No",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-tp-contact",
+      "type": "single_line",
+      "label": "Truck Payment (if applicable) made to — Contact",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade1-name",
+      "type": "single_line",
+      "label": "Major Trade References 1. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade1-citystate",
+      "type": "single_line",
+      "label": "Major Trade References 1. — City/State",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade1-fax",
+      "type": "phone",
+      "label": "Major Trade References 1. — Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade1-phone",
+      "type": "phone",
+      "label": "Major Trade References 1. — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade2-name",
+      "type": "single_line",
+      "label": "Major Trade References 2. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade2-citystate",
+      "type": "single_line",
+      "label": "Major Trade References 2. — City/State",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade2-fax",
+      "type": "phone",
+      "label": "Major Trade References 2. — Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade2-phone",
+      "type": "phone",
+      "label": "Major Trade References 2. — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade3-name",
+      "type": "single_line",
+      "label": "Major Trade References 3. — Name",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade3-citystate",
+      "type": "single_line",
+      "label": "Major Trade References 3. — City/State",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade3-fax",
+      "type": "phone",
+      "label": "Major Trade References 3. — Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-trade3-phone",
+      "type": "phone",
+      "label": "Major Trade References 3. — Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "pca-print-name",
+      "type": "single_line",
+      "label": "Major Trade References 3. — Print Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-customer-signature",
+      "type": "single_line",
+      "label": "Major Trade References 3. — Customer Signature",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-date",
+      "type": "single_line",
+      "label": "Major Trade References 3. — Date",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "pca-agree1",
+      "type": "checkboxes",
+      "label": "Major Trade References 3. — I agree",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "I agree"
+        }
+      ],
+      "help": "The above signee has permission to sign on behalf of the applicant and the applicant is fully aware they are authorizing that their personal credit report may be accessed."
+    },
+    {
+      "id": "pca-agree2",
+      "type": "checkboxes",
+      "label": "Major Trade References 3. — I agree",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "I agree"
+        }
+      ],
+      "help": "The above signed hereby authorizes Truck Country to fully investigate all credit information available on applicant, and set reasonable credit limits on their account, if established. The above signed agrees to the following terms: Statements are rendered the 1st of the month and they are due by the 10th of the month. If we have not received payment by the 20th of the following month, the account will be classified as delinquent, and it will be placed on a credit hold status. Accounts past 30 days will be assessed a finance charge of 1.5% per month (18% APR). All collection and/or attorney fees will be added to account balance. If customer is tax exempt and does not provide the appropriate tax exempt certificates, then customer will be responsible for all taxes on invoices until the appropriate signed and dated tax exempt certificate is provided to Truck Country. All invoices and statements will be emailed to the Accts-Payable contact provided. If customer would like to opt out of receiving invoices and statements through email they need to send the request to the Truck Country AR team at arcredit@truckcountry.com to opt out. The above signed understands that Truck Country and/or its assignees will not process a credit order until after Truck Country or such assignees have conducted a credit investigation and determined, in its or their sole discretion, to approve the extension of credit to the above signed. By submitting this Credit Application, the above signed hereby authorizes a full and complete investigation by Truck Country and its assignees into the above signed’s credit history. The above signed further authorizes Truck Country and its assignees to conduct an investigation into the credit history of the above signed’s proprietors, partners, shareholders, members and/or principals as Truck Country and/or its assignees see fit in its or their sole discretion. The above signed hereby grants permission to all of the above credit references and further authorizes the use of this document (or a facsimile thereof) as consent for the release to Truck Country and its assignees of credit information by credit reporting agencies, credit bureaus, and the credit, banking and trade references supplied to Truck Country and its assignees by the above signed. Truck Country and its assignees shall be further authorized to conduct periodic credit checks and reviews of the credit history of the above signed and its proprietors, partners, shareholders, members and/or principals in order to continue the extension of credit to the above signed."
+    },
+    {
+      "id": "pca-agree3",
+      "type": "checkboxes",
+      "label": "Major Trade References 3. — By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "pca-notify",
+      "name": "Parts credit application submissions",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "parts-manager",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "pca-confirm",
+      "name": "What the visitor sees",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "message": "Thanks — our credit department will review your application and be in touch."
+    }
+  ]
+}

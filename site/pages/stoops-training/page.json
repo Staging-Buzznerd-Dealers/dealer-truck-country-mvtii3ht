@@ -147,6 +147,73 @@
           ]
         }
       }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": ""
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s4-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s4-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s4-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Ready to start your career!",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "s4-lead",
+                  "type": "text",
+                  "props": {
+                    "text": "Contact us today to connect with our recruiters.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "s4-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "stoops-training-request"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

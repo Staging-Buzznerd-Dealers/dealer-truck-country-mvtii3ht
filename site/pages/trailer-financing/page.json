@@ -142,6 +142,20 @@
           "anchorId": ""
         }
       }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "loan-calculator",
+        "values": {
+          "eyebrow": "",
+          "heading": "Loan Payment Estimator",
+          "body": "",
+          "note": "* Required",
+          "anchorId": "calculator"
+        }
+      }
     }
   ]
 }

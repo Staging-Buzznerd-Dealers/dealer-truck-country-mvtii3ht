@@ -1,0 +1,1552 @@
+{
+  "id": "schedule-service",
+  "name": "Schedule service",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "service",
+  "submitLabel": "Request appointment",
+  "successMessage": "Thanks — a service advisor will confirm your appointment.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted by Truck Country / Stoops about this request. Your information is used to respond to this request and is handled under our privacy policy."
+  },
+  "fields": [
+    {
+      "id": "ss-year",
+      "type": "single_line",
+      "label": "Year",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-make",
+      "type": "single_line",
+      "label": "Make",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-model",
+      "type": "single_line",
+      "label": "Model",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-miles-hours",
+      "type": "single_line",
+      "label": "Miles/Hours",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-vin",
+      "type": "single_line",
+      "label": "V.I.N.:",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-service",
+      "type": "checkboxes",
+      "label": "Type of Service(s) Needed",
+      "required": false,
+      "options": [
+        {
+          "value": "Air Conditioning",
+          "label": "Air Conditioning"
+        },
+        {
+          "value": "Brakes",
+          "label": "Brakes"
+        },
+        {
+          "value": "DOT Inspection",
+          "label": "DOT Inspection"
+        },
+        {
+          "value": "Electrical",
+          "label": "Electrical"
+        },
+        {
+          "value": "Engine",
+          "label": "Engine"
+        },
+        {
+          "value": "Follow-Up Appt",
+          "label": "Follow-Up Appt"
+        },
+        {
+          "value": "Front Axle",
+          "label": "Front Axle"
+        },
+        {
+          "value": "Oil Change",
+          "label": "Oil Change"
+        },
+        {
+          "value": "Rear Axle",
+          "label": "Rear Axle"
+        },
+        {
+          "value": "Suspension",
+          "label": "Suspension"
+        },
+        {
+          "value": "Transmission",
+          "label": "Transmission"
+        },
+        {
+          "value": "Wheel Alignment",
+          "label": "Wheel Alignment"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "id": "ss-details",
+      "type": "paragraph",
+      "label": "Explain Details of Repair Needed",
+      "required": true
+    },
+    {
+      "id": "ss-service-location",
+      "type": "dropdown",
+      "label": "Service Location",
+      "required": true,
+      "options": [
+        {
+          "value": "North Chicago,IL",
+          "label": "North Chicago,IL"
+        },
+        {
+          "value": "Anderson, IN",
+          "label": "Anderson, IN"
+        },
+        {
+          "value": "Edinburgh, IN",
+          "label": "Edinburgh, IN"
+        },
+        {
+          "value": "Fort Wayne, IN",
+          "label": "Fort Wayne, IN"
+        },
+        {
+          "value": "Fremont, IN",
+          "label": "Fremont, IN"
+        },
+        {
+          "value": "Indianapolis, IN",
+          "label": "Indianapolis, IN"
+        },
+        {
+          "value": "Lafayette, IN",
+          "label": "Lafayette, IN"
+        },
+        {
+          "value": "Grayling, MI",
+          "label": "Grayling, MI"
+        },
+        {
+          "value": "Traverse City, MI",
+          "label": "Traverse City, MI"
+        },
+        {
+          "value": "Cedar Rapids, IA",
+          "label": "Cedar Rapids, IA"
+        },
+        {
+          "value": "Davenport, IA",
+          "label": "Davenport, IA"
+        },
+        {
+          "value": "Decorah, IA",
+          "label": "Decorah, IA"
+        },
+        {
+          "value": "Dubuque, IA",
+          "label": "Dubuque, IA"
+        },
+        {
+          "value": "Dyersville, IA",
+          "label": "Dyersville, IA"
+        },
+        {
+          "value": "Dayton, OH",
+          "label": "Dayton, OH"
+        },
+        {
+          "value": "Lima, OH",
+          "label": "Lima, OH"
+        },
+        {
+          "value": "Wapakoneta, OH",
+          "label": "Wapakoneta, OH"
+        },
+        {
+          "value": "Appleton, WI",
+          "label": "Appleton, WI"
+        },
+        {
+          "value": "Madison, WI",
+          "label": "Madison, WI"
+        },
+        {
+          "value": "Marinette, WI",
+          "label": "Marinette, WI"
+        },
+        {
+          "value": "Milwaukee, WI",
+          "label": "Milwaukee, WI"
+        },
+        {
+          "value": "Minocqua, WI",
+          "label": "Minocqua, WI"
+        },
+        {
+          "value": "North Milwaukee, WI",
+          "label": "North Milwaukee, WI"
+        },
+        {
+          "value": "Sheboygan, WI",
+          "label": "Sheboygan, WI"
+        },
+        {
+          "value": "Shullsburg, WI",
+          "label": "Shullsburg, WI"
+        },
+        {
+          "value": "Wausau / Rothschild, WI",
+          "label": "Wausau / Rothschild, WI"
+        }
+      ]
+    },
+    {
+      "id": "ss-month",
+      "type": "dropdown",
+      "label": "Preferred Date — Month",
+      "required": false,
+      "options": [
+        {
+          "value": "Month",
+          "label": "Month"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        },
+        {
+          "value": "7",
+          "label": "7"
+        },
+        {
+          "value": "8",
+          "label": "8"
+        },
+        {
+          "value": "9",
+          "label": "9"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        },
+        {
+          "value": "11",
+          "label": "11"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        }
+      ]
+    },
+    {
+      "id": "ss-day",
+      "type": "dropdown",
+      "label": "Preferred Date — Day",
+      "required": false,
+      "options": [
+        {
+          "value": "Day",
+          "label": "Day"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        },
+        {
+          "value": "7",
+          "label": "7"
+        },
+        {
+          "value": "8",
+          "label": "8"
+        },
+        {
+          "value": "9",
+          "label": "9"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        },
+        {
+          "value": "11",
+          "label": "11"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        },
+        {
+          "value": "13",
+          "label": "13"
+        },
+        {
+          "value": "14",
+          "label": "14"
+        },
+        {
+          "value": "15",
+          "label": "15"
+        },
+        {
+          "value": "16",
+          "label": "16"
+        },
+        {
+          "value": "17",
+          "label": "17"
+        },
+        {
+          "value": "18",
+          "label": "18"
+        },
+        {
+          "value": "19",
+          "label": "19"
+        },
+        {
+          "value": "20",
+          "label": "20"
+        },
+        {
+          "value": "21",
+          "label": "21"
+        },
+        {
+          "value": "22",
+          "label": "22"
+        },
+        {
+          "value": "23",
+          "label": "23"
+        },
+        {
+          "value": "24",
+          "label": "24"
+        },
+        {
+          "value": "25",
+          "label": "25"
+        },
+        {
+          "value": "26",
+          "label": "26"
+        },
+        {
+          "value": "27",
+          "label": "27"
+        },
+        {
+          "value": "28",
+          "label": "28"
+        },
+        {
+          "value": "29",
+          "label": "29"
+        },
+        {
+          "value": "30",
+          "label": "30"
+        },
+        {
+          "value": "31",
+          "label": "31"
+        }
+      ]
+    },
+    {
+      "id": "ss-year-pref",
+      "type": "dropdown",
+      "label": "Preferred Date — Year",
+      "required": false,
+      "options": [
+        {
+          "value": "Year",
+          "label": "Year"
+        },
+        {
+          "value": "2027",
+          "label": "2027"
+        },
+        {
+          "value": "2026",
+          "label": "2026"
+        },
+        {
+          "value": "2025",
+          "label": "2025"
+        },
+        {
+          "value": "2024",
+          "label": "2024"
+        },
+        {
+          "value": "2023",
+          "label": "2023"
+        },
+        {
+          "value": "2022",
+          "label": "2022"
+        },
+        {
+          "value": "2021",
+          "label": "2021"
+        },
+        {
+          "value": "2020",
+          "label": "2020"
+        },
+        {
+          "value": "2019",
+          "label": "2019"
+        },
+        {
+          "value": "2018",
+          "label": "2018"
+        },
+        {
+          "value": "2017",
+          "label": "2017"
+        },
+        {
+          "value": "2016",
+          "label": "2016"
+        },
+        {
+          "value": "2015",
+          "label": "2015"
+        },
+        {
+          "value": "2014",
+          "label": "2014"
+        },
+        {
+          "value": "2013",
+          "label": "2013"
+        },
+        {
+          "value": "2012",
+          "label": "2012"
+        },
+        {
+          "value": "2011",
+          "label": "2011"
+        },
+        {
+          "value": "2010",
+          "label": "2010"
+        },
+        {
+          "value": "2009",
+          "label": "2009"
+        },
+        {
+          "value": "2008",
+          "label": "2008"
+        },
+        {
+          "value": "2007",
+          "label": "2007"
+        },
+        {
+          "value": "2006",
+          "label": "2006"
+        },
+        {
+          "value": "2005",
+          "label": "2005"
+        },
+        {
+          "value": "2004",
+          "label": "2004"
+        },
+        {
+          "value": "2003",
+          "label": "2003"
+        },
+        {
+          "value": "2002",
+          "label": "2002"
+        },
+        {
+          "value": "2001",
+          "label": "2001"
+        },
+        {
+          "value": "2000",
+          "label": "2000"
+        },
+        {
+          "value": "1999",
+          "label": "1999"
+        },
+        {
+          "value": "1998",
+          "label": "1998"
+        },
+        {
+          "value": "1997",
+          "label": "1997"
+        },
+        {
+          "value": "1996",
+          "label": "1996"
+        },
+        {
+          "value": "1995",
+          "label": "1995"
+        },
+        {
+          "value": "1994",
+          "label": "1994"
+        },
+        {
+          "value": "1993",
+          "label": "1993"
+        },
+        {
+          "value": "1992",
+          "label": "1992"
+        },
+        {
+          "value": "1991",
+          "label": "1991"
+        },
+        {
+          "value": "1990",
+          "label": "1990"
+        },
+        {
+          "value": "1989",
+          "label": "1989"
+        },
+        {
+          "value": "1988",
+          "label": "1988"
+        },
+        {
+          "value": "1987",
+          "label": "1987"
+        },
+        {
+          "value": "1986",
+          "label": "1986"
+        },
+        {
+          "value": "1985",
+          "label": "1985"
+        },
+        {
+          "value": "1984",
+          "label": "1984"
+        },
+        {
+          "value": "1983",
+          "label": "1983"
+        },
+        {
+          "value": "1982",
+          "label": "1982"
+        },
+        {
+          "value": "1981",
+          "label": "1981"
+        },
+        {
+          "value": "1980",
+          "label": "1980"
+        },
+        {
+          "value": "1979",
+          "label": "1979"
+        },
+        {
+          "value": "1978",
+          "label": "1978"
+        },
+        {
+          "value": "1977",
+          "label": "1977"
+        },
+        {
+          "value": "1976",
+          "label": "1976"
+        },
+        {
+          "value": "1975",
+          "label": "1975"
+        },
+        {
+          "value": "1974",
+          "label": "1974"
+        },
+        {
+          "value": "1973",
+          "label": "1973"
+        },
+        {
+          "value": "1972",
+          "label": "1972"
+        },
+        {
+          "value": "1971",
+          "label": "1971"
+        },
+        {
+          "value": "1970",
+          "label": "1970"
+        },
+        {
+          "value": "1969",
+          "label": "1969"
+        },
+        {
+          "value": "1968",
+          "label": "1968"
+        },
+        {
+          "value": "1967",
+          "label": "1967"
+        },
+        {
+          "value": "1966",
+          "label": "1966"
+        },
+        {
+          "value": "1965",
+          "label": "1965"
+        },
+        {
+          "value": "1964",
+          "label": "1964"
+        },
+        {
+          "value": "1963",
+          "label": "1963"
+        },
+        {
+          "value": "1962",
+          "label": "1962"
+        },
+        {
+          "value": "1961",
+          "label": "1961"
+        },
+        {
+          "value": "1960",
+          "label": "1960"
+        },
+        {
+          "value": "1959",
+          "label": "1959"
+        },
+        {
+          "value": "1958",
+          "label": "1958"
+        },
+        {
+          "value": "1957",
+          "label": "1957"
+        },
+        {
+          "value": "1956",
+          "label": "1956"
+        },
+        {
+          "value": "1955",
+          "label": "1955"
+        },
+        {
+          "value": "1954",
+          "label": "1954"
+        },
+        {
+          "value": "1953",
+          "label": "1953"
+        },
+        {
+          "value": "1952",
+          "label": "1952"
+        },
+        {
+          "value": "1951",
+          "label": "1951"
+        },
+        {
+          "value": "1950",
+          "label": "1950"
+        },
+        {
+          "value": "1949",
+          "label": "1949"
+        },
+        {
+          "value": "1948",
+          "label": "1948"
+        },
+        {
+          "value": "1947",
+          "label": "1947"
+        },
+        {
+          "value": "1946",
+          "label": "1946"
+        },
+        {
+          "value": "1945",
+          "label": "1945"
+        },
+        {
+          "value": "1944",
+          "label": "1944"
+        },
+        {
+          "value": "1943",
+          "label": "1943"
+        },
+        {
+          "value": "1942",
+          "label": "1942"
+        },
+        {
+          "value": "1941",
+          "label": "1941"
+        },
+        {
+          "value": "1940",
+          "label": "1940"
+        },
+        {
+          "value": "1939",
+          "label": "1939"
+        },
+        {
+          "value": "1938",
+          "label": "1938"
+        },
+        {
+          "value": "1937",
+          "label": "1937"
+        },
+        {
+          "value": "1936",
+          "label": "1936"
+        },
+        {
+          "value": "1935",
+          "label": "1935"
+        },
+        {
+          "value": "1934",
+          "label": "1934"
+        },
+        {
+          "value": "1933",
+          "label": "1933"
+        },
+        {
+          "value": "1932",
+          "label": "1932"
+        },
+        {
+          "value": "1931",
+          "label": "1931"
+        },
+        {
+          "value": "1930",
+          "label": "1930"
+        },
+        {
+          "value": "1929",
+          "label": "1929"
+        },
+        {
+          "value": "1928",
+          "label": "1928"
+        },
+        {
+          "value": "1927",
+          "label": "1927"
+        },
+        {
+          "value": "1926",
+          "label": "1926"
+        },
+        {
+          "value": "1925",
+          "label": "1925"
+        },
+        {
+          "value": "1924",
+          "label": "1924"
+        },
+        {
+          "value": "1923",
+          "label": "1923"
+        },
+        {
+          "value": "1922",
+          "label": "1922"
+        },
+        {
+          "value": "1921",
+          "label": "1921"
+        },
+        {
+          "value": "1920",
+          "label": "1920"
+        }
+      ]
+    },
+    {
+      "id": "ss-hours",
+      "type": "dropdown",
+      "label": "Preferred Time — Hours",
+      "required": false,
+      "options": [
+        {
+          "value": "Hours",
+          "label": "Hours"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        },
+        {
+          "value": "7",
+          "label": "7"
+        },
+        {
+          "value": "8",
+          "label": "8"
+        },
+        {
+          "value": "9",
+          "label": "9"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        },
+        {
+          "value": "11",
+          "label": "11"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        }
+      ]
+    },
+    {
+      "id": "ss-minutes",
+      "type": "dropdown",
+      "label": "Preferred Time — Minutes",
+      "required": false,
+      "options": [
+        {
+          "value": "Minutes",
+          "label": "Minutes"
+        },
+        {
+          "value": "00",
+          "label": "00"
+        },
+        {
+          "value": "01",
+          "label": "01"
+        },
+        {
+          "value": "02",
+          "label": "02"
+        },
+        {
+          "value": "03",
+          "label": "03"
+        },
+        {
+          "value": "04",
+          "label": "04"
+        },
+        {
+          "value": "05",
+          "label": "05"
+        },
+        {
+          "value": "06",
+          "label": "06"
+        },
+        {
+          "value": "07",
+          "label": "07"
+        },
+        {
+          "value": "08",
+          "label": "08"
+        },
+        {
+          "value": "09",
+          "label": "09"
+        },
+        {
+          "value": "10",
+          "label": "10"
+        },
+        {
+          "value": "11",
+          "label": "11"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        },
+        {
+          "value": "13",
+          "label": "13"
+        },
+        {
+          "value": "14",
+          "label": "14"
+        },
+        {
+          "value": "15",
+          "label": "15"
+        },
+        {
+          "value": "16",
+          "label": "16"
+        },
+        {
+          "value": "17",
+          "label": "17"
+        },
+        {
+          "value": "18",
+          "label": "18"
+        },
+        {
+          "value": "19",
+          "label": "19"
+        },
+        {
+          "value": "20",
+          "label": "20"
+        },
+        {
+          "value": "21",
+          "label": "21"
+        },
+        {
+          "value": "22",
+          "label": "22"
+        },
+        {
+          "value": "23",
+          "label": "23"
+        },
+        {
+          "value": "24",
+          "label": "24"
+        },
+        {
+          "value": "25",
+          "label": "25"
+        },
+        {
+          "value": "26",
+          "label": "26"
+        },
+        {
+          "value": "27",
+          "label": "27"
+        },
+        {
+          "value": "28",
+          "label": "28"
+        },
+        {
+          "value": "29",
+          "label": "29"
+        },
+        {
+          "value": "30",
+          "label": "30"
+        },
+        {
+          "value": "31",
+          "label": "31"
+        },
+        {
+          "value": "32",
+          "label": "32"
+        },
+        {
+          "value": "33",
+          "label": "33"
+        },
+        {
+          "value": "34",
+          "label": "34"
+        },
+        {
+          "value": "35",
+          "label": "35"
+        },
+        {
+          "value": "36",
+          "label": "36"
+        },
+        {
+          "value": "37",
+          "label": "37"
+        },
+        {
+          "value": "38",
+          "label": "38"
+        },
+        {
+          "value": "39",
+          "label": "39"
+        },
+        {
+          "value": "40",
+          "label": "40"
+        },
+        {
+          "value": "41",
+          "label": "41"
+        },
+        {
+          "value": "42",
+          "label": "42"
+        },
+        {
+          "value": "43",
+          "label": "43"
+        },
+        {
+          "value": "44",
+          "label": "44"
+        },
+        {
+          "value": "45",
+          "label": "45"
+        },
+        {
+          "value": "46",
+          "label": "46"
+        },
+        {
+          "value": "47",
+          "label": "47"
+        },
+        {
+          "value": "48",
+          "label": "48"
+        },
+        {
+          "value": "49",
+          "label": "49"
+        },
+        {
+          "value": "50",
+          "label": "50"
+        },
+        {
+          "value": "51",
+          "label": "51"
+        },
+        {
+          "value": "52",
+          "label": "52"
+        },
+        {
+          "value": "53",
+          "label": "53"
+        },
+        {
+          "value": "54",
+          "label": "54"
+        },
+        {
+          "value": "55",
+          "label": "55"
+        },
+        {
+          "value": "56",
+          "label": "56"
+        },
+        {
+          "value": "57",
+          "label": "57"
+        },
+        {
+          "value": "58",
+          "label": "58"
+        },
+        {
+          "value": "59",
+          "label": "59"
+        }
+      ]
+    },
+    {
+      "id": "ss-ampm",
+      "type": "dropdown",
+      "label": "Preferred Time — AM/PM",
+      "required": false,
+      "options": [
+        {
+          "value": "AM/PM",
+          "label": "AM/PM"
+        },
+        {
+          "value": "AM",
+          "label": "AM"
+        },
+        {
+          "value": "PM",
+          "label": "PM"
+        }
+      ]
+    },
+    {
+      "id": "ss-first-name",
+      "type": "first_name",
+      "label": "First Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-last-name",
+      "type": "last_name",
+      "label": "Last Name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-company",
+      "type": "single_line",
+      "label": "Company",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-address",
+      "type": "single_line",
+      "label": "Address",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-city",
+      "type": "single_line",
+      "label": "City",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-state",
+      "type": "dropdown",
+      "label": "State",
+      "required": false,
+      "options": [
+        {
+          "value": "Iowa",
+          "label": "Iowa"
+        },
+        {
+          "value": "Illinois",
+          "label": "Illinois"
+        },
+        {
+          "value": "Wisconsin",
+          "label": "Wisconsin"
+        },
+        {
+          "value": "Alabama",
+          "label": "Alabama"
+        },
+        {
+          "value": "Alaska",
+          "label": "Alaska"
+        },
+        {
+          "value": "Arizona",
+          "label": "Arizona"
+        },
+        {
+          "value": "Arkansas",
+          "label": "Arkansas"
+        },
+        {
+          "value": "California",
+          "label": "California"
+        },
+        {
+          "value": "Colorado",
+          "label": "Colorado"
+        },
+        {
+          "value": "Connecticut",
+          "label": "Connecticut"
+        },
+        {
+          "value": "Delaware",
+          "label": "Delaware"
+        },
+        {
+          "value": "Florida",
+          "label": "Florida"
+        },
+        {
+          "value": "Georgia",
+          "label": "Georgia"
+        },
+        {
+          "value": "Hawaii",
+          "label": "Hawaii"
+        },
+        {
+          "value": "Idaho",
+          "label": "Idaho"
+        },
+        {
+          "value": "Indiana",
+          "label": "Indiana"
+        },
+        {
+          "value": "Kansas",
+          "label": "Kansas"
+        },
+        {
+          "value": "Kentucky",
+          "label": "Kentucky"
+        },
+        {
+          "value": "Louisiana",
+          "label": "Louisiana"
+        },
+        {
+          "value": "Maine",
+          "label": "Maine"
+        },
+        {
+          "value": "Maryland",
+          "label": "Maryland"
+        },
+        {
+          "value": "Massachusetts",
+          "label": "Massachusetts"
+        },
+        {
+          "value": "Michigan",
+          "label": "Michigan"
+        },
+        {
+          "value": "Minnesota",
+          "label": "Minnesota"
+        },
+        {
+          "value": "Mississippi",
+          "label": "Mississippi"
+        },
+        {
+          "value": "Missouri",
+          "label": "Missouri"
+        },
+        {
+          "value": "Montana",
+          "label": "Montana"
+        },
+        {
+          "value": "Nebraska",
+          "label": "Nebraska"
+        },
+        {
+          "value": "Nevada",
+          "label": "Nevada"
+        },
+        {
+          "value": "New Hampshire",
+          "label": "New Hampshire"
+        },
+        {
+          "value": "New Jersey",
+          "label": "New Jersey"
+        },
+        {
+          "value": "New Mexico",
+          "label": "New Mexico"
+        },
+        {
+          "value": "New York",
+          "label": "New York"
+        },
+        {
+          "value": "North Carolina",
+          "label": "North Carolina"
+        },
+        {
+          "value": "North Dakota",
+          "label": "North Dakota"
+        },
+        {
+          "value": "Ohio",
+          "label": "Ohio"
+        },
+        {
+          "value": "Oklahoma",
+          "label": "Oklahoma"
+        },
+        {
+          "value": "Oregon",
+          "label": "Oregon"
+        },
+        {
+          "value": "Pennsylvania",
+          "label": "Pennsylvania"
+        },
+        {
+          "value": "Rhode Island",
+          "label": "Rhode Island"
+        },
+        {
+          "value": "South Carolina",
+          "label": "South Carolina"
+        },
+        {
+          "value": "South Dakota",
+          "label": "South Dakota"
+        },
+        {
+          "value": "Tennessee",
+          "label": "Tennessee"
+        },
+        {
+          "value": "Texas",
+          "label": "Texas"
+        },
+        {
+          "value": "Utah",
+          "label": "Utah"
+        },
+        {
+          "value": "Vermont",
+          "label": "Vermont"
+        },
+        {
+          "value": "Virginia",
+          "label": "Virginia"
+        },
+        {
+          "value": "Washington",
+          "label": "Washington"
+        },
+        {
+          "value": "West Virginia",
+          "label": "West Virginia"
+        },
+        {
+          "value": "Wyoming",
+          "label": "Wyoming"
+        }
+      ]
+    },
+    {
+      "id": "ss-zip",
+      "type": "single_line",
+      "label": "Zip",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "ss-additional-email",
+      "type": "email",
+      "label": "Additional Email",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-phone-day",
+      "type": "phone",
+      "label": "Phone (Day)",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-phone-evening",
+      "type": "phone",
+      "label": "Phone (Evening)",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-cell-phone",
+      "type": "phone",
+      "label": "Cell Phone",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-fax",
+      "type": "phone",
+      "label": "Fax",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "ss-contact-method",
+      "type": "dropdown",
+      "label": "Preferred Contact Method",
+      "required": true,
+      "options": [
+        {
+          "value": "Phone (Day)",
+          "label": "Phone (Day)"
+        },
+        {
+          "value": "Phone (Evening)",
+          "label": "Phone (Evening)"
+        },
+        {
+          "value": "Phone (Cell)",
+          "label": "Phone (Cell)"
+        },
+        {
+          "value": "E-Mail",
+          "label": "E-Mail"
+        }
+      ]
+    },
+    {
+      "id": "ss-disclaimer",
+      "type": "checkboxes",
+      "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ss-notify",
+      "name": "Schedule service submissions",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "service-advisor",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "ss-confirm",
+      "name": "What the visitor sees",
+      "logic": "AND",
+      "rules": [],
+      "type": "message",
+      "message": "Thanks — a service advisor will confirm your appointment."
+    }
+  ]
+}
