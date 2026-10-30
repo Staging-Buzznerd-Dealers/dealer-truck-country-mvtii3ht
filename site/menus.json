@@ -12,7 +12,56 @@
           "ref": "inventory",
           "url": null,
           "newTab": false,
-          "children": []
+          "children": [
+            {
+              "id": "item-11",
+              "label": "Sell Your Truck",
+              "type": "url",
+              "url": "/sell-your-truck",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-12",
+              "label": "Electric Trucks",
+              "type": "url",
+              "url": "/electric-trucks",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-13",
+              "label": "Fifth Generation Cascadia",
+              "type": "url",
+              "url": "/the-fifth-generation-cascadia",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-14",
+              "label": "Spotter Trucks",
+              "type": "url",
+              "url": "/spotter-trucks",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-15",
+              "label": "Used Truck Warranty",
+              "type": "url",
+              "url": "/used-truck-warranty",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-16",
+              "label": "Semi-Truck Financing ",
+              "type": "url",
+              "url": "/semi-truck-financing",
+              "ref": null,
+              "children": []
+            }
+          ]
         },
         {
           "id": "parts-service",
