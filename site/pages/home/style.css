@@ -128,3 +128,24 @@
 @media (prefers-reduced-motion: reduce) {
   [data-tc-reveal] [data-tc-reveal-item] { opacity: 1; transform: none; transition: none }
 }
+
+/* ------------------------------------------- homepage type and buttons
+   Values from the homepage handoff's own stylesheet (css/styles.css). */
+/* Eyebrows are Oswald 400 at 13px, tracked .14em; the hero's is .18em. */
+[data-bz-type] .bz-eyebrow { font-size: 13px; font-weight: 400; letter-spacing: .14em }
+[data-bz-section="hero-slider"] [data-bz-type] .bz-eyebrow { letter-spacing: .18em }
+/* The hero title tops out at 96px. */
+[data-bz-section="hero-slider"] [data-bz-node="hero-title"] h1 { font-size: clamp(44px, 7vw, 96px); line-height: .98; letter-spacing: -.01em }
+/* Body copy on a light band is the mid grey. */
+[data-bz-node="about"] .bz-text p,
+[data-bz-node="trailers"] .bz-text p,
+[data-bz-node="driven"] .bz-text p { color: #54565C }
+/* Buttons centre their label. */
+.bz-btn { text-align: center; justify-content: center }
+/* "Find a location" is the outline button on the photo. */
+[data-bz-node="hero-ctas"] .bz-btn--secondary { background: transparent; border: 1.5px solid rgba(255, 255, 255, .6); color: #fff }
+[data-bz-node="hero-ctas"] .bz-btn--secondary:hover { background: rgba(255, 255, 255, .12); border-color: #fff; color: #fff }
+/* The finder's submit reads "Search Inventory" in the button face; the widget's own
+   label is "Search", so the visible word comes from the pseudo-element. */
+[data-bz-node="finder-box"] .bz-searchbar .bz-btn { font-size: 0; padding: 16px 32px }
+[data-bz-node="finder-box"] .bz-searchbar .bz-btn::after { content: "Search Inventory"; font: 600 14px var(--font-heading); letter-spacing: .05em; text-transform: uppercase }

@@ -59,7 +59,7 @@
                   "id": "sm-count",
                   "type": "text",
                   "props": {
-                    "text": "104 pages across 11 main sections. Source: current site navigation.",
+                    "text": "110 pages across 11 main sections. Source: current site navigation.",
                     "width": "full"
                   }
                 }
@@ -128,10 +128,10 @@
       },
       "styles": {
         "base": {
-          "paddingBottom": 72
+          "paddingBottom": 32
         },
         "mobile": {
-          "paddingBottom": 48
+          "paddingBottom": 32
         }
       },
       "children": [
@@ -162,109 +162,127 @@
                             "label": "Showrooms",
                             "url": "https://www.truckcountry.com/showroom/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Freightliner",
                             "url": "https://www.truckcountry.com/showroom/freightliner/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Western Star",
                             "url": "https://www.truckcountry.com/showroom/western-star/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Autocar",
                             "url": "https://www.truckcountry.com/showroom/autocar/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wabash",
                             "url": "https://www.truckcountry.com/showroom/wabash/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "New Inventory",
                             "url": "/store/inventory?condition=new",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Freightliner",
                             "url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/freightliner-inventory/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Western Star",
                             "url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/western-star-inventory/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Autocar",
                             "url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/autocar-inventory/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Rollover Protection System",
                             "url": "https://www.truckcountry.com/inventory/truck-inventory/new-inventory/rollover-protection-system/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Used Inventory",
                             "url": "/store/inventory?condition=used",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Sell Your Truck",
                             "url": "/sell-your-truck",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Electric Trucks",
                             "url": "/electric-trucks",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Build Your Cascadia",
                             "url": "https://www.truckcountry.com/trucks/build-your-cascadia/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Fifth Generation Cascadia",
                             "url": "/the-fifth-generation-cascadia",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Spotter Trucks",
                             "url": "/spotter-trucks",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Used Semi-Truck Warranty",
                             "url": "/used-semi-truck-warranty",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Semi-Truck Financing",
                             "url": "/semi-truck-financing",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -276,55 +294,64 @@
                             "label": "Trailer Locations",
                             "url": "/trailer-locations",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Indy – Trailer Repair",
                             "url": "/indianapolis-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Lafayette – Trailer Repair",
                             "url": "/lafayette-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wayne – Trailer",
                             "url": "/wayne-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Trailer Services",
                             "url": "/trailer-services",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Trailer Parts",
                             "url": "/trailer-parts",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "New Inventory",
                             "url": "/store/inventory?condition=new",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Used Inventory",
                             "url": "/store/inventory?condition=used",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Trailer Financing",
                             "url": "/trailer-financing",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -336,19 +363,22 @@
                             "label": "Indianapolis",
                             "url": "/body-shop-indianapolis",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Lima",
                             "url": "/body-shop-lima",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Shullsburg",
                             "url": "/body-shop-shullsburg",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -360,49 +390,57 @@
                             "label": "All-In Truck Parts",
                             "url": "/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Excelerator Parts",
                             "url": "/excelerator-parts",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Invoice Statement Form",
                             "url": "/invoice-statement",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Parts Credit App",
                             "url": "/parts-credit-application",
-                            "status": "✓ Page complete",
-                            "sub": false
+                            "status": "",
+                            "sub": false,
+                            "partial": "Partial — step flow pending"
                           },
                           {
                             "label": "Parts Request",
                             "url": "/parts-request",
-                            "status": "✓ Page complete",
-                            "sub": false
+                            "status": "",
+                            "sub": false,
+                            "partial": "Partial — form headings pending"
                           },
                           {
                             "label": "Specials",
                             "url": "https://www.truckcountry.com/parts/specials/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Tax Exempt Form",
                             "url": "/tax-exempt-form",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Trailer Parts",
                             "url": "/trailer-parts",
-                            "status": "",
-                            "sub": false
+                            "status": "✓ Page complete",
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -414,49 +452,57 @@
                             "label": "Body Shop Services",
                             "url": "/body-shop",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Elite Support",
                             "url": "/elite-support",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Invoice Statement Form",
                             "url": "/invoice-statement",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Schedule Service",
                             "url": "/schedule-service",
-                            "status": "✓ Page complete",
-                            "sub": false
+                            "status": "",
+                            "sub": false,
+                            "partial": "Partial — form headings pending"
                           },
                           {
                             "label": "Semi-Truck Mobile Repair Service",
                             "url": "/semi-truck-mobile-repair-service",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Service Credit App",
                             "url": "/service-credit-application",
-                            "status": "✓ Page complete",
-                            "sub": false
+                            "status": "",
+                            "sub": false,
+                            "partial": "Partial — step flow pending"
                           },
                           {
                             "label": "Specials",
                             "url": "https://www.truckcountry.com/services/specials/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Trailer Services",
                             "url": "/trailer-services",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -468,211 +514,246 @@
                             "label": "Illinois",
                             "url": "https://www.truckcountry.com/locations/illinois/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "North Chicago",
                             "url": "https://www.truckcountry.com/locations/illinois/north-chicago/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Indiana",
                             "url": "https://www.truckcountry.com/locations/indiana/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Anderson",
                             "url": "https://www.truckcountry.com/locations/indiana/anderson/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Edinburgh",
                             "url": "https://www.truckcountry.com/locations/indiana/edinburgh/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Fort Wayne",
                             "url": "https://www.truckcountry.com/locations/indiana/fort-wayne/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Fremont",
                             "url": "https://www.truckcountry.com/locations/indiana/fremont/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Indianapolis",
                             "url": "https://www.truckcountry.com/locations/indiana/indianapolis/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Indy – Trailer Repair",
                             "url": "/indianapolis-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Lafayette",
                             "url": "https://www.truckcountry.com/locations/indiana/lafayette/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Lafayette – Trailer Repair",
                             "url": "/lafayette-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Iowa",
                             "url": "https://www.truckcountry.com/locations/iowa/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Cedar Rapids",
                             "url": "https://www.truckcountry.com/locations/iowa/cedar-rapids/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Davenport",
                             "url": "https://www.truckcountry.com/locations/iowa/davenport/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Decorah",
                             "url": "https://www.truckcountry.com/locations/iowa/decorah/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Dubuque",
                             "url": "https://www.truckcountry.com/locations/iowa/dubuque/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Dyersville",
                             "url": "https://www.truckcountry.com/locations/iowa/dyersville/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Michigan",
                             "url": "https://www.truckcountry.com/locations/michigan2/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Grayling",
                             "url": "https://www.truckcountry.com/locations/michigan2/grayling/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Traverse City",
                             "url": "https://www.truckcountry.com/locations/michigan2/traverse-city-2/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wayne – Trailer Repair",
                             "url": "/wayne-trailer-repair",
                             "status": "✓ Page complete",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Ohio",
                             "url": "https://www.truckcountry.com/locations/ohio/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Dayton",
                             "url": "https://www.truckcountry.com/locations/ohio/dayton/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Lima",
                             "url": "https://www.truckcountry.com/locations/ohio/lima/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wapakoneta",
                             "url": "https://www.truckcountry.com/locations/ohio/wapakoneta/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wisconsin",
                             "url": "https://www.truckcountry.com/locations/wisconsin/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Appleton",
                             "url": "https://www.truckcountry.com/locations/wisconsin/appleton/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Madison",
                             "url": "https://www.truckcountry.com/locations/wisconsin/madison/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Marinette",
                             "url": "https://www.truckcountry.com/locations/wisconsin/marinette/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Milwaukee",
                             "url": "https://www.truckcountry.com/locations/wisconsin/milwaukee/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Minocqua",
                             "url": "https://www.truckcountry.com/locations/wisconsin/minocqua/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "North Milwaukee",
                             "url": "https://www.truckcountry.com/locations/wisconsin/new-location/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Sheboygan",
                             "url": "https://www.truckcountry.com/locations/wisconsin/sheboygan/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Shullsburg",
                             "url": "https://www.truckcountry.com/locations/wisconsin/shullsburg/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           },
                           {
                             "label": "Wausau / Rothschild",
                             "url": "https://www.truckcountry.com/locations/wisconsin/wausau-rothschild/",
                             "status": "",
-                            "sub": true
+                            "sub": true,
+                            "partial": ""
                           }
                         ]
                       },
@@ -684,19 +765,22 @@
                             "label": "Diesel Technicians",
                             "url": "/diesel-technicians",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Current Openings",
                             "url": "https://www.truckcountry.com/careers/current-opening/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "General Application",
                             "url": "https://www.truckcountry.com/apply-for-job/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -708,13 +792,15 @@
                             "label": "Stoops Training",
                             "url": "/stoops-training",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Truck Country Training",
                             "url": "/truck-country-training",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -726,31 +812,36 @@
                             "label": "History",
                             "url": "/history",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Sister Companies",
                             "url": "/sister-companies",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Contact Us",
                             "url": "/contact-us",
                             "status": "✓ Page complete",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Podcast",
                             "url": "https://www.truckcountry.com/about/podcast/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Safety Training",
                             "url": "/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       },
@@ -767,79 +858,50 @@
                             "label": "Profile",
                             "url": "https://www.truckcountry.com/fe-edit-profile/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Saved Trucks",
                             "url": "https://www.truckcountry.com/fe-saved-trucks/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Saved Trailers",
                             "url": "https://www.truckcountry.com/fe-saved-trailers/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Saved Parts",
                             "url": "https://www.truckcountry.com/fe-saved-parts/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Exclusive Posts",
                             "url": "https://www.truckcountry.com/fe-exclusive-posts-2/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Register",
                             "url": "https://www.truckcountry.com/fe-register/",
                             "status": "",
-                            "sub": false
+                            "sub": false,
+                            "partial": ""
                           },
                           {
                             "label": "Forgot Password",
                             "url": "https://www.truckcountry.com/fe-forget-password/",
                             "status": "",
-                            "sub": false
-                          },
-                          {
-                            "label": "Locations",
-                            "url": "https://www.truckcountry.com/locations/",
-                            "status": "",
-                            "sub": true
-                          },
-                          {
-                            "label": "Terms of Service",
-                            "url": "https://www.truckcountry.com/terms-and-conditions/",
-                            "status": "",
-                            "sub": true
-                          },
-                          {
-                            "label": "Privacy Policy",
-                            "url": "https://www.truckcountry.com/privacy-policy/",
-                            "status": "",
-                            "sub": true
-                          },
-                          {
-                            "label": "Site Map",
-                            "url": "https://www.truckcountry.com/site-map/",
-                            "status": "",
-                            "sub": true
-                          },
-                          {
-                            "label": "Disclosures",
-                            "url": "https://www.truckcountry.com/disclosures/",
-                            "status": "",
-                            "sub": true
-                          },
-                          {
-                            "label": "Accessibility",
-                            "url": "https://www.truckcountry.com/accessibility/",
-                            "status": "",
-                            "sub": true
+                            "sub": false,
+                            "partial": ""
                           }
                         ]
                       }
@@ -861,10 +923,10 @@
       },
       "styles": {
         "base": {
-          "paddingBottom": 72
+          "paddingBottom": 80
         },
         "mobile": {
-          "paddingBottom": 48
+          "paddingBottom": 56
         }
       },
       "children": [
@@ -883,14 +945,16 @@
               },
               "styles": {
                 "base": {
-                  "background": "card",
-                  "borderWidth": 1,
+                  "borderTopWidth": 1,
+                  "borderRightWidth": 0,
+                  "borderBottomWidth": 0,
+                  "borderLeftWidth": 0,
                   "borderStyle": "solid",
                   "borderColor": "#EDEBE3",
                   "paddingTop": 20,
-                  "paddingRight": 24,
-                  "paddingBottom": 20,
-                  "paddingLeft": 24
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0
                 }
               },
               "children": [
