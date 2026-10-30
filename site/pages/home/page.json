@@ -9,7 +9,7 @@
         "values": {
           "eyebrow": "Freightliner & Western Star Dealer",
           "headline": "BUILT FOR THE ROAD AHEAD",
-          "subhead": "New and used medium- and heavy-duty trucks, trailers, parts and service \u2014 trusted across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin for over 65 years.",
+          "subhead": "New and used medium- and heavy-duty trucks, trailers, parts and service — trusted across Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin for over 65 years.",
           "slides": [
             {
               "photo": {
@@ -107,7 +107,7 @@
                   "id": "about-p1",
                   "type": "text",
                   "props": {
-                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
+                    "text": "Truck Country® / Stoops Freightliner-Western Star is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.",
                     "width": "full"
                   }
                 },
@@ -115,7 +115,7 @@
                   "id": "about-p2",
                   "type": "text",
                   "props": {
-                    "text": "Truck Country\u00ae / Stoops Freightliner-Western Star is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
+                    "text": "Truck Country® / Stoops Freightliner-Western Star is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
                     "width": "full"
                   }
                 }
@@ -589,7 +589,7 @@
                   "id": "trailers-head",
                   "type": "heading",
                   "props": {
-                    "text": "DRY VANS, FLATBEDS & REEFERS \u2014 READY TO HAUL",
+                    "text": "DRY VANS, FLATBEDS & REEFERS — READY TO HAUL",
                     "eyebrow": "Trailers",
                     "headingLevel": 2
                   }
@@ -777,7 +777,8 @@
               "pagePathPrefix": "/locations"
             }
           }
-        }
+        },
+        "anchor": "locations"
       }
     },
     {

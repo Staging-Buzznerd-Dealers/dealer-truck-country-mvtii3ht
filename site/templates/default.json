@@ -40,7 +40,7 @@
                   "id": "utility-states",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"#locations\">IA \u00b7 IL \u00b7 IN \u00b7 MI \u00b7 OH \u00b7 WI</a>",
+                    "text": "<a href=\"/#locations\">IA · IL · IN · MI · OH · WI</a>",
                     "width": "full"
                   },
                   "children": null
@@ -127,10 +127,10 @@
                   "type": "menu",
                   "props": {
                     "menuId": "main",
-                    "layout": "horizontal",
+                    "layout": "mega",
                     "align": "center",
                     "collapseOnMobile": true,
-                    "depth": 1
+                    "depth": 3
                   },
                   "children": null
                 }
@@ -381,7 +381,7 @@
                   "id": "footer-legal",
                   "type": "text",
                   "props": {
-                    "text": "\u00a9 2026 Truck Country \u2014 All Rights Reserved | <a href=\"/accessibility\">Accessibility</a>",
+                    "text": "© 2026 Truck Country — All Rights Reserved",
                     "width": "full"
                   },
                   "children": null
