@@ -36,5 +36,5 @@
     }
   ],
   "html": "<div class=\"tc-social\">\n  {{#if heading}}<p class=\"tc-social__h\">{{heading}}</p>{{/if}}\n  <ul class=\"tc-social__list\">\n    {{#each links}}\n    <li><a class=\"tc-social__a\" href=\"{{link url}}\" aria-label=\"{{name}}\" data-bz-el=\"link\" data-bz-intent=\"social-profile\">{{img icon}}</a></li>\n    {{/each}}\n  </ul>\n</div>",
-  "css": ".tc-social__h{font:600 14px/normal var(--font-heading);color:#fff;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n.tc-social__list{display:flex;gap:12px;flex-wrap:wrap;list-style:none;margin:0;padding:0}\n.tc-social__a{display:block;width:44px;height:44px}\n.tc-social__a img{display:block;width:44px;height:44px;filter:brightness(0) invert(1)}"
+  "css": ".tc-social__h{font:600 14px/normal var(--font-heading);color:#fff;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n.tc-social__list{display:flex;gap:12px;flex-wrap:wrap;list-style:none;margin:0;padding:0}\n.tc-social__a{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid rgba(255,255,255,.25);border-radius:50%;transition:border-color .2s}\n.tc-social__a:hover,.tc-social__a:focus-visible{border-color:#fff}\n.tc-social__a img{display:block;width:20px;height:20px;filter:brightness(0) invert(1)}"
 }
