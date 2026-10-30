@@ -7,33 +7,88 @@
       "items": [
         {
           "id": "vehicles",
-          "label": "Vehicles",
+          "label": "Truck",
           "type": "inventory",
-          "ref": "inventory"
+          "ref": "inventory",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "parts-service",
-          "label": "Parts & Service",
+          "label": "Trailers",
           "type": "inventory",
-          "ref": "parts"
+          "ref": "inventory",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "locations",
-          "label": "Locations",
+          "label": "Body Shops",
           "type": "url",
-          "url": "#locations"
+          "ref": null,
+          "url": "#locations",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "careers",
-          "label": "Careers & Training",
+          "label": "Parts",
           "type": "url",
-          "url": "#careers"
+          "ref": null,
+          "url": "#careers",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "about-news",
-          "label": "About & News",
+          "label": "Services ",
           "type": "url",
-          "url": "#about"
+          "ref": null,
+          "url": "#about",
+          "newTab": false,
+          "children": []
+        },
+        {
+          "id": "item-6",
+          "label": "Locations",
+          "type": "url",
+          "url": "#hn",
+          "ref": null,
+          "children": []
+        },
+        {
+          "id": "item-7",
+          "label": "Careers",
+          "type": "url",
+          "url": "#dd",
+          "ref": null,
+          "children": []
+        },
+        {
+          "id": "item-8",
+          "label": "Training ",
+          "type": "url",
+          "url": "#tt",
+          "ref": null,
+          "children": []
+        },
+        {
+          "id": "item-9",
+          "label": "About",
+          "type": "url",
+          "url": "/",
+          "ref": null,
+          "children": []
+        },
+        {
+          "id": "item-10",
+          "label": "News",
+          "type": "url",
+          "url": "/",
+          "ref": null,
+          "children": []
         }
       ]
     },
@@ -45,13 +100,19 @@
           "id": "contact",
           "label": "Contact Us",
           "type": "url",
-          "url": "#locations"
+          "ref": null,
+          "url": "#locations",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "account",
           "label": "My Account",
           "type": "inventory",
-          "ref": "account"
+          "ref": "account",
+          "url": null,
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -63,31 +124,46 @@
           "id": "f-locations",
           "label": "Locations",
           "type": "url",
-          "url": "#locations"
+          "ref": null,
+          "url": "#locations",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "f-terms",
           "label": "Terms of Service",
           "type": "url",
-          "url": "/terms"
+          "ref": null,
+          "url": "/terms",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "f-privacy",
           "label": "Privacy Policy",
           "type": "url",
-          "url": "/privacy"
+          "ref": null,
+          "url": "/privacy",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "f-sitemap",
           "label": "Site Map",
           "type": "url",
-          "url": "/sitemap"
+          "ref": null,
+          "url": "/sitemap",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "f-disclosures",
           "label": "Disclosures",
           "type": "url",
-          "url": "/disclosures"
+          "ref": null,
+          "url": "/disclosures",
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -99,19 +175,28 @@
           "id": "privacy",
           "label": "Privacy",
           "type": "url",
-          "url": "/privacy"
+          "ref": null,
+          "url": "/privacy",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "terms",
           "label": "Terms",
           "type": "url",
-          "url": "/terms"
+          "ref": null,
+          "url": "/terms",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "accessibility",
           "label": "Accessibility",
           "type": "url",
-          "url": "/accessibility"
+          "ref": null,
+          "url": "/accessibility",
+          "newTab": false,
+          "children": []
         }
       ]
     }
