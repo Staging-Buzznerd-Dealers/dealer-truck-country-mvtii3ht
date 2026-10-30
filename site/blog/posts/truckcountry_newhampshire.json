@@ -341,7 +341,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/stoops-western-star-of-ohio-opens-in-wapakoneta\">Stoops Western Star of Ohio opens in Wapakoneta</a>",
+                    "text": "<a href=\"/blog/stoops-western-star-of-ohio-opens-in-wapakoneta\">Stoops Western Star of Ohio opens in Wapakoneta</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -417,7 +417,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/stoops-online-training\">Stoops Team Stays in Front of Customers Through Online Training</a>",
+                    "text": "<a href=\"/blog/stoops-online-training\">Stoops Team Stays in Front of Customers Through Online Training</a>",
                     "width": "full"
                   },
                   "styles": {

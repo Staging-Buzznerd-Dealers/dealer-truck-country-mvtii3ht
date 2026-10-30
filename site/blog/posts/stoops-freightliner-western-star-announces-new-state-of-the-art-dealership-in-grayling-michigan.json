@@ -1028,7 +1028,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/mccoy-group-builds-connections-and-careers-at-national-ffa-convention-expo\">McCoy Group Builds Connections and Careers at National FFA Convention & Expo</a>",
+                    "text": "<a href=\"/blog/mccoy-group-builds-connections-and-careers-at-national-ffa-convention-expo\">McCoy Group Builds Connections and Careers at National FFA Convention & Expo</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -1104,7 +1104,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/national-work-zone-awareness-week\">National Work Zone Awareness Week</a>",
+                    "text": "<a href=\"/blog/national-work-zone-awareness-week\">National Work Zone Awareness Week</a>",
                     "width": "full"
                   },
                   "styles": {

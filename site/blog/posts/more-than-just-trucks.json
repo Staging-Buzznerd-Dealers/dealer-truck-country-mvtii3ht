@@ -411,7 +411,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/lend-hand-to-entrepreneurs\">Truck Country, Stoops lend hand to entrepreneurs</a>",
+                    "text": "<a href=\"/blog/lend-hand-to-entrepreneurs\">Truck Country, Stoops lend hand to entrepreneurs</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -487,7 +487,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/hambone-award\">Hill, Ft. Wayne Team Earn Hambone Awards</a>",
+                    "text": "<a href=\"/blog/hambone-award\">Hill, Ft. Wayne Team Earn Hambone Awards</a>",
                     "width": "full"
                   },
                   "styles": {

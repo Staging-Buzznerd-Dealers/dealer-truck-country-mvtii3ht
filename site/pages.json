@@ -758,5 +758,24 @@
       "utilityNav": null
     },
     "pageType": "Other"
+  },
+  {
+    "slug": "news",
+    "title": "News and Blog",
+    "description": "Stay updated with Truck Country & Stoops Freightliner-Western Star’s blog for the latest news and insights. Check back regularly for fresh updates!",
+    "path": "/news",
+    "out": "news/index.html",
+    "dir": "news",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    },
+    "pageType": "Other"
   }
 ]

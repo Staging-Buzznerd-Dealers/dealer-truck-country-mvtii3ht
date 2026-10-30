@@ -311,7 +311,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/ws-49x\">Western Star welcomes new generation vocational truck</a>",
+                    "text": "<a href=\"/blog/ws-49x\">Western Star welcomes new generation vocational truck</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -387,7 +387,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/lend-hand-to-entrepreneurs\">Truck Country, Stoops lend hand to entrepreneurs</a>",
+                    "text": "<a href=\"/blog/lend-hand-to-entrepreneurs\">Truck Country, Stoops lend hand to entrepreneurs</a>",
                     "width": "full"
                   },
                   "styles": {

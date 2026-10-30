@@ -356,7 +356,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/stoops-online-training\">Stoops Team Stays in Front of Customers Through Online Training</a>",
+                    "text": "<a href=\"/blog/stoops-online-training\">Stoops Team Stays in Front of Customers Through Online Training</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -432,7 +432,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/truck-countrys-wausau-and-minocqua-locations-add-western-star-brand\">Truck Country’s Wausau and Minocqua locations add Western Star brand</a>",
+                    "text": "<a href=\"/blog/truck-countrys-wausau-and-minocqua-locations-add-western-star-brand\">Truck Country’s Wausau and Minocqua locations add Western Star brand</a>",
                     "width": "full"
                   },
                   "styles": {

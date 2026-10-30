@@ -531,7 +531,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/2026-national-technician-appreciation-week\">2026 National Technician Appreciation Week</a>",
+                    "text": "<a href=\"/blog/2026-national-technician-appreciation-week\">2026 National Technician Appreciation Week</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -607,7 +607,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/thanking-americas-truck-drivers\">Thanking America’s Truck Drivers</a>",
+                    "text": "<a href=\"/blog/thanking-americas-truck-drivers\">Thanking America’s Truck Drivers</a>",
                     "width": "full"
                   },
                   "styles": {

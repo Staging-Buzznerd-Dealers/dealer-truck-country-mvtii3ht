@@ -1,0 +1,181 @@
+{
+  "version": 2,
+  "id": "news-grid",
+  "name": "News cards",
+  "props": [
+    {
+      "key": "posts",
+      "type": "list",
+      "label": "Posts",
+      "fields": [
+        {
+          "key": "image",
+          "type": "image",
+          "label": "Image"
+        },
+        {
+          "key": "date",
+          "type": "text",
+          "label": "Date"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "excerpt",
+          "type": "textarea",
+          "label": "Excerpt"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ng",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "ng-grid",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "24",
+              "columnGap": "24"
+            }
+          },
+          "children": [
+            {
+              "id": "ng-card",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "posts"
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "14",
+                  "columnGap": "14"
+                }
+              },
+              "children": [
+                {
+                  "id": "ng-img",
+                  "type": "image",
+                  "props": {
+                    "image": "{{image}}",
+                    "width": "full",
+                    "url": "{{url}}"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "ng-date",
+                  "type": "text",
+                  "props": {
+                    "text": "{{date}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "ng-title",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{url}}\">{{title}}</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "ng-excerpt",
+                  "type": "text",
+                  "props": {
+                    "text": "{{excerpt}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "ng-more",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{url}}\">Read More »</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"ng\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px);padding-bottom:0}\n[data-bz-node=\"ng-grid\"][data-bz-node]{grid-template-columns:repeat(auto-fill, minmax(min(100%, 340px), 1fr))}\n[data-bz-node=\"ng-grid\"] > [hidden][data-bz-node]{display:none}\n/* A post with no picture or no excerpt shows neither, rather than an empty slot. */\n[data-bz-node^=\"ng-img\"]:has(.bz-photo--empty),[data-bz-node^=\"ng-excerpt\"]:has(p:empty){display:none}\n[data-bz-node^=\"ng-card\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node^=\"ng-img\"][data-bz-node] a{display:block;margin-top:-24px;margin-right:-24px;margin-bottom:0px;margin-left:-24px}\n[data-bz-node^=\"ng-img\"][data-bz-node] img{display:block;width:100%;aspect-ratio:16 / 9;object-fit:cover}\n[data-bz-node^=\"ng-img\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node^=\"ng-date\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:14px;font-weight:400;font-style:normal;line-height:22.4px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(84, 86, 92);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"ng-title\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:22px;font-weight:600;font-style:normal;line-height:1.2;letter-spacing:0.02em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"ng-title\"][data-bz-node] a:nth-of-type(1){color:rgb(20, 21, 26);text-decoration:none}\n[data-bz-node^=\"ng-title\"][data-bz-node] a:nth-of-type(1):hover{color: rgb(196, 18, 48)}\n[data-bz-node^=\"ng-excerpt\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(84, 86, 92);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node^=\"ng-more\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node^=\"ng-more\"][data-bz-node] a:nth-of-type(1){margin-top:auto;color:rgb(196, 18, 48);font-weight:600;font-size:14px;font-family:Oswald, sans-serif;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none}\n[data-bz-node^=\"ng-more\"][data-bz-node] a:nth-of-type(1):hover{color: rgb(143, 13, 33)}\n[data-bz-node^=\"ng-more\"]{margin-top:auto}\n"
+}

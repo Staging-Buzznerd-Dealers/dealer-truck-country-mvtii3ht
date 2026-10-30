@@ -356,7 +356,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/stoops-truck-country-earn-ase-accreditation-to-support-tech-training\">Stoops, Truck Country earn ASE accreditation to support tech training</a>",
+                    "text": "<a href=\"/blog/stoops-truck-country-earn-ase-accreditation-to-support-tech-training\">Stoops, Truck Country earn ASE accreditation to support tech training</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -432,7 +432,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/mccoy-group-builds-connections-and-careers-at-national-ffa-convention-expo\">McCoy Group Builds Connections and Careers at National FFA Convention & Expo</a>",
+                    "text": "<a href=\"/blog/mccoy-group-builds-connections-and-careers-at-national-ffa-convention-expo\">McCoy Group Builds Connections and Careers at National FFA Convention & Expo</a>",
                     "width": "full"
                   },
                   "styles": {

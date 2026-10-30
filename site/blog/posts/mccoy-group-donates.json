@@ -331,7 +331,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/messy-business\">It’s a Messy Business!</a>",
+                    "text": "<a href=\"/blog/messy-business\">It’s a Messy Business!</a>",
                     "width": "full"
                   },
                   "styles": {

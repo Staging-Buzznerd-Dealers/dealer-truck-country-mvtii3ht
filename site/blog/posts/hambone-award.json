@@ -404,7 +404,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/more-than-just-trucks\">Truck Country, Stoops welcome ‘More Than Just Trucks’ podcast</a>",
+                    "text": "<a href=\"/blog/more-than-just-trucks\">Truck Country, Stoops welcome ‘More Than Just Trucks’ podcast</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -480,7 +480,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/messy-business\">It’s a Messy Business!</a>",
+                    "text": "<a href=\"/blog/messy-business\">It’s a Messy Business!</a>",
                     "width": "full"
                   },
                   "styles": {

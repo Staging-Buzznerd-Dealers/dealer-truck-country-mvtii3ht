@@ -326,7 +326,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/hambone-award\">Hill, Ft. Wayne Team Earn Hambone Awards</a>",
+                    "text": "<a href=\"/blog/hambone-award\">Hill, Ft. Wayne Team Earn Hambone Awards</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -402,7 +402,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/mccoy-group-donates\">‘No-brainer:’ McCoy Group donation benefits Dubuque area’s needy</a>",
+                    "text": "<a href=\"/blog/mccoy-group-donates\">‘No-brainer:’ McCoy Group donation benefits Dubuque area’s needy</a>",
                     "width": "full"
                   },
                   "styles": {

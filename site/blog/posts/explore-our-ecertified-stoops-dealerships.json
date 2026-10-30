@@ -569,7 +569,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/truck-country-joins-wisconsin-truckers-boy-scout-to-deliver-goods-to-storm-victims\">Truck Country joins Wisconsin truckers, Boy Scout to deliver goods to storm victims</a>",
+                    "text": "<a href=\"/blog/truck-country-joins-wisconsin-truckers-boy-scout-to-deliver-goods-to-storm-victims\">Truck Country joins Wisconsin truckers, Boy Scout to deliver goods to storm victims</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -645,7 +645,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
+                    "text": "<a href=\"/blog/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
                     "width": "full"
                   },
                   "styles": {

@@ -401,7 +401,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/blog-new-features-of-the-2025-5th-generation-cascadia-by-freightliner\">New Features of the 2025 5th Generation Cascadia by Freightliner</a>",
+                    "text": "<a href=\"/blog/blog-new-features-of-the-2025-5th-generation-cascadia-by-freightliner\">New Features of the 2025 5th Generation Cascadia by Freightliner</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -477,7 +477,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/explore-our-ecertified-stoops-dealerships\">Explore Our eCertified Stoops Dealerships</a>",
+                    "text": "<a href=\"/blog/explore-our-ecertified-stoops-dealerships\">Explore Our eCertified Stoops Dealerships</a>",
                     "width": "full"
                   },
                   "styles": {

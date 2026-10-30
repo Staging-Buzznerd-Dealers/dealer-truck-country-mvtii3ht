@@ -701,7 +701,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/explore-our-ecertified-stoops-dealerships\">Explore Our eCertified Stoops Dealerships</a>",
+                    "text": "<a href=\"/blog/explore-our-ecertified-stoops-dealerships\">Explore Our eCertified Stoops Dealerships</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -777,7 +777,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/the-importance-of-regular-preventive-maintenance-for-semi-truck-trailers\">The Importance of Regular Preventive Maintenance for Semi-Truck Trailers</a>",
+                    "text": "<a href=\"/blog/the-importance-of-regular-preventive-maintenance-for-semi-truck-trailers\">The Importance of Regular Preventive Maintenance for Semi-Truck Trailers</a>",
                     "width": "full"
                   },
                   "styles": {

@@ -536,7 +536,7 @@
                   "id": "s3t6",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
+                    "text": "<a href=\"/blog/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
                     "width": "full"
                   },
                   "styles": {
@@ -612,7 +612,7 @@
                   "id": "s3t11",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"/news/stoops-truck-country-earn-ase-accreditation-to-support-tech-training\">Stoops, Truck Country earn ASE accreditation to support tech training</a>",
+                    "text": "<a href=\"/blog/stoops-truck-country-earn-ase-accreditation-to-support-tech-training\">Stoops, Truck Country earn ASE accreditation to support tech training</a>",
                     "width": "full"
                   },
                   "styles": {
