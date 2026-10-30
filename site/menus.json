@@ -137,7 +137,32 @@
           "ref": null,
           "url": "/body-shop",
           "newTab": false,
-          "children": []
+          "children": [
+            {
+              "id": "item-24",
+              "label": "Indianapolis, IN ",
+              "type": "url",
+              "url": "/body-shop-indianapolis",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-25",
+              "label": "Lima, Ohio ",
+              "type": "url",
+              "url": "/body-shop-lima",
+              "ref": null,
+              "children": []
+            },
+            {
+              "id": "item-26",
+              "label": "Shullsburg, WI ",
+              "type": "url",
+              "url": "/body-shop-shullsburg",
+              "ref": null,
+              "children": []
+            }
+          ]
         },
         {
           "id": "careers",
