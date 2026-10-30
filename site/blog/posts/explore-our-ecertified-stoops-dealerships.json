@@ -5,5 +5,662 @@
   "description": "EXPLORE OUR eCERTIFIED STOOPS DEALERSHIPS We are excited to announce that seven of our Stoops dealerships are eCertified for your electric fleet, ensuring you receive",
   "coverImage": null,
   "status": "published",
-  "body": "<p>We are excited to announce that seven of our Stoops dealerships are eCertified for your electric fleet, ensuring you receive top-notch service, high-quality vehicles, and reliable support. eCertification is a testament to our commitment to upholding the highest medium-duty and heavy-duty EV industry standards, providing you with the confidence needed for your semi-truck journey. Whether you are searching for a new electric truck, expert EV maintenance, or personalized customer service, our eCertified Stoops dealerships are ready to exceed your expectations and keep you on the road.</p>\n      <h3>UNDERSTANDING eCERTIFICATION</h3>\n      <p>eCertification is a rigorous process that ensures dealerships adhere to specific EV standards and practices. This thorough evaluation covers the dealership’s operations, customer service, and product offerings, ultimately creating a trusted environment where you can confidently purchase electric medium-duty and heavy-duty vehicles. Choosing eCertified dealerships for your electric vehicle offers numerous benefits, including exceptional customer service and access to the latest EV industry knowledge and resources.</p>\n      <p>Achieving EV certification will ensure a high level of proficiency and expertise in handling EV products, which will lead to an exceptional customer experience – positioning the DTNA dealer network as the leader in the medium-duty and heavy-duty EV space. They must also demonstrate a commitment to ongoing EV education and improvement, staying current with EV industry trends and customer expectations. By choosing one of our seven e-certified dealerships, you are not just buying an electric semi-truck; you are investing in a partnership with a dealership that values quality, integrity, and customer satisfaction.</p>\n      <h3>OUR SEVEN eCERTIFIED STOOPS DEALERSHIPS</h3>\n      <p>We proudly present our seven eCertified Stoops dealerships, strategically located across the Midwest to offer you unparalleled service and top-tier medium-duty and heavy-duty EV solutions. Our eCertified locations include:</p>\n      <ul><li>Stoops Freightliner, Anderson, IN</li><li>Stoops Freightliner, Fort Wayne, IN</li><li>Stoops Freightliner, Fremont, IN</li><li>Stoops Freightliner, Indianapolis, IN</li><li>Stoops Freightliner, Lafayette, IN</li><li>Stoops Freightliner, Dayton, OH</li><li>Stoops Freightliner, Lima, OH</li></ul>\n      <p>Each of these dealerships boasts unique features designed to enhance your electric trucking experience. Our locations offer a state-of-the-art service center equipped with the latest EV diagnostic and tooling technology to ensure your truck is always running at peak performance. In addition, our dealerships provide an extensive parts inventory, making it easy for you to find exactly what you need without delays.</p>\n      <img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/02/eCertified_main_4color.jpg\" width=\"399\" height=\"450\" loading=\"lazy\" decoding=\"async\" alt=\"eCertified_main_4color\">\n      <h3>Why Choose Stoops for Your Semi-Truck Needs?</h3>\n      <p>When it comes to finding the right semi-truck, Stoops stands out with a comprehensive range of models available at our eCertified dealerships. Whether you are looking for a reliable workhorse or a high-performance vehicle, we offer a selection that caters to diverse needs and preferences. Our vast inventory ensures you can find the perfect match for your business requirements, all backed by industry-leading brands known for their durability and efficiency.</p>\n      <p>At Stoops, we pride ourselves not only on our extensive selection but also on the quality of service and parts support provided at our dealerships. Our team of experienced professionals is dedicated to offering you the best possible experience, from the moment you walk through our doors to long after you have driven your semi-truck off the lot. We understand the importance of keeping your vehicle in peak condition, which is why we stock a wide range of genuine parts and accessories to ensure your truck performs at its best.</p>\n      <p>Customer satisfaction is at the heart of everything we do. Our commitment to after-sales support means that we are here for you even after your purchase is complete. We believe that building lasting relationships with our customers is essential to our success, and we strive to provide the ongoing assistance you need to keep your semi-truck running smoothly for years to come. With Stoops, you are not just buying a truck; you are gaining a trusted partner in your journey</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "EXPLORE OUR eCERTIFIED STOOPS DEALERSHIPS"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r28",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c29",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2t1",
+                  "type": "text",
+                  "props": {
+                    "text": "We are excited to announce that seven of our Stoops dealerships are eCertified for your electric fleet, ensuring you receive top-notch service, high-quality vehicles, and reliable support. eCertification is a testament to our commitment to upholding the highest medium-duty and heavy-duty EV industry standards, providing you with the confidence needed for your semi-truck journey. Whether you are searching for a new electric truck, expert EV maintenance, or personalized customer service, our eCertified Stoops dealerships are ready to exceed your expectations and keep you on the road.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h2",
+                  "type": "heading",
+                  "props": {
+                    "text": "UNDERSTANDING eCERTIFICATION",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "eCertification is a rigorous process that ensures dealerships adhere to specific EV standards and practices. This thorough evaluation covers the dealership’s operations, customer service, and product offerings, ultimately creating a trusted environment where you can confidently purchase electric medium-duty and heavy-duty vehicles. Choosing eCertified dealerships for your electric vehicle offers numerous benefits, including exceptional customer service and access to the latest EV industry knowledge and resources.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Achieving EV certification will ensure a high level of proficiency and expertise in handling EV products, which will lead to an exceptional customer experience – positioning the DTNA dealer network as the leader in the medium-duty and heavy-duty EV space. They must also demonstrate a commitment to ongoing EV education and improvement, staying current with EV industry trends and customer expectations. By choosing one of our seven e-certified dealerships, you are not just buying an electric semi-truck; you are investing in a partnership with a dealership that values quality, integrity, and customer satisfaction.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h5",
+                  "type": "heading",
+                  "props": {
+                    "text": "OUR SEVEN eCERTIFIED STOOPS DEALERSHIPS",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "We proudly present our seven eCertified Stoops dealerships, strategically located across the Midwest to offer you unparalleled service and top-tier medium-duty and heavy-duty EV solutions. Our eCertified locations include:",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "22",
+                      "marginLeft": "0",
+                      "paddingLeft": "22",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s2c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t9",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Anderson, IN",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t11",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Fort Wayne, IN",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t13",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Fremont, IN",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t15",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Indianapolis, IN",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c16",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t17",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Lafayette, IN",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c18",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t19",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Dayton, OH",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c20",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t21",
+                          "type": "text",
+                          "props": {
+                            "text": "Stoops Freightliner, Lima, OH",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s2t22",
+                  "type": "text",
+                  "props": {
+                    "text": "Each of these dealerships boasts unique features designed to enhance your electric trucking experience. Our locations offer a state-of-the-art service center equipped with the latest EV diagnostic and tooling technology to ensure your truck is always running at peak performance. In addition, our dealerships provide an extensive parts inventory, making it easy for you to find exactly what you need without delays.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2i23",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/02/eCertified_main_4color.jpg",
+                      "alt": "eCertified_main_4color",
+                      "width": 399,
+                      "height": 450
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h24",
+                  "type": "heading",
+                  "props": {
+                    "text": "Why Choose Stoops for Your Semi-Truck Needs?",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t25",
+                  "type": "text",
+                  "props": {
+                    "text": "When it comes to finding the right semi-truck, Stoops stands out with a comprehensive range of models available at our eCertified dealerships. Whether you are looking for a reliable workhorse or a high-performance vehicle, we offer a selection that caters to diverse needs and preferences. Our vast inventory ensures you can find the perfect match for your business requirements, all backed by industry-leading brands known for their durability and efficiency.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t26",
+                  "type": "text",
+                  "props": {
+                    "text": "At Stoops, we pride ourselves not only on our extensive selection but also on the quality of service and parts support provided at our dealerships. Our team of experienced professionals is dedicated to offering you the best possible experience, from the moment you walk through our doors to long after you have driven your semi-truck off the lot. We understand the importance of keeping your vehicle in peak condition, which is why we stock a wide range of genuine parts and accessories to ensure your truck performs at its best.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t27",
+                  "type": "text",
+                  "props": {
+                    "text": "Customer satisfaction is at the heart of everything we do. Our commitment to after-sales support means that we are here for you even after your purchase is complete. We believe that building lasting relationships with our customers is essential to our success, and we strive to provide the ongoing assistance you need to keep your semi-truck running smoothly for years to come. With Stoops, you are not just buying a truck; you are gaining a trusted partner in your journey",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/truck-country-joins-wisconsin-truckers-boy-scout-to-deliver-goods-to-storm-victims\">Truck Country joins Wisconsin truckers, Boy Scout to deliver goods to storm victims</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h2\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h5\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t13\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t15\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t17\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t19\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t21\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t22\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2i23\"][data-bz-node] img{display:block;width:100%;max-width:399px;height:auto}\n[data-bz-node=\"s2i23\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2h24\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t25\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t26\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t27\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  5:43 pm \\00b7  By Grace Burke\"}\n"
 }

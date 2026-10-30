@@ -5,5 +5,479 @@
   "description": "At the onset of the health pandemic, when people were first urged to social distance and avoid in-person contact, the Stoops Freightliner team explored ways",
   "coverImage": null,
   "status": "published",
-  "body": "<img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/09/AustinHill-1024x701.jpg\" width=\"1024\" height=\"701\" loading=\"lazy\" decoding=\"async\" alt=\"Austin Hill\">\n      <p>At the onset of the health pandemic, when people were first urged to social distance and avoid in-person contact, the Stoops Freightliner team explored ways to stay safe, but also relevant, in the eyes of their customers.</p>\n      <p>“On the sales side, we looked at how to get in front of (the customers) without getting in front of them,” explained Austin Hill, Stoops technical sales representative.</p>\n      <p>With that thought in mind, a concept raised was to continue to provide training opportunities for customers, but strictly through an online venue.</p>\n      <p>Stoops’ online training sessions were held using the online video communication medium, Zoom.</p>\n      <p>Starting in the spring of 2020, the online training sessions were held weekly on Friday afternoons. Presentations were limited to approximately 25 minutes, with the final five or so minutes reserved for questions.</p>\n      <p>“If it is over one-half hour, it is too long,” Hill explained.</p>\n      <p>Hill said his goal is to come up with training topics that are relevant to a cross-section of departments.</p>\n      <p>“We try to make (the topics) all-inclusive,” he said. “We really try to focus on any detail in the transportation group. That is my goal.”</p>\n      <p>Recent topics have included presentations on WABCO control systems and air disc brakes, Detroit Assurance, and understanding features of the DT12 transmission system.</p>\n      <p>As the year has progressed and with over 40 topics addressed, the sessions have now been paired back to occur every other week.</p>\n      <p><strong>While the long-term future of the training sessions is uncertain, as every session has been recorded, Hill hopes to someday be able to create a virtual library that would be accessible to customers to go back and review.</strong></p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "Stoops Team Stays in Front of Customers Through Online Training"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r13",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c14",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2i1",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/09/AustinHill-1024x701.jpg",
+                      "alt": "Austin Hill",
+                      "width": 1024,
+                      "height": 701
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t2",
+                  "type": "text",
+                  "props": {
+                    "text": "At the onset of the health pandemic, when people were first urged to social distance and avoid in-person contact, the Stoops Freightliner team explored ways to stay safe, but also relevant, in the eyes of their customers.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "“On the sales side, we looked at how to get in front of (the customers) without getting in front of them,” explained Austin Hill, Stoops technical sales representative.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "With that thought in mind, a concept raised was to continue to provide training opportunities for customers, but strictly through an online venue.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops’ online training sessions were held using the online video communication medium, Zoom.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Starting in the spring of 2020, the online training sessions were held weekly on Friday afternoons. Presentations were limited to approximately 25 minutes, with the final five or so minutes reserved for questions.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "“If it is over one-half hour, it is too long,” Hill explained.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "Hill said his goal is to come up with training topics that are relevant to a cross-section of departments.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "“We try to make (the topics) all-inclusive,” he said. “We really try to focus on any detail in the transportation group. That is my goal.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t10",
+                  "type": "text",
+                  "props": {
+                    "text": "Recent topics have included presentations on WABCO control systems and air disc brakes, Detroit Assurance, and understanding features of the DT12 transmission system.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t11",
+                  "type": "text",
+                  "props": {
+                    "text": "As the year has progressed and with over 40 topics addressed, the sessions have now been paired back to occur every other week.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t12",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>While the long-term future of the training sessions is uncertain, as every session has been recorded, Hill hopes to someday be able to create a virtual library that would be accessible to customers to go back and review.</strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"blog-truckcountry_newhampshire.html\">Truck Country comes to Chicagoland with new Hampshire location</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/ws-49x\">Western Star welcomes new generation vocational truck</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2i1\"][data-bz-node] img{display:block;width:100%;max-width:1024px;height:auto}\n[data-bz-node=\"s2i1\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t10\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t12\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  1:10 pm\"}\n"
 }

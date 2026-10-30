@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Careers",
-                        "url": "https://www.truckcountry.com/careers/"
+                        "url": "/careers"
                       }
                     ],
                     "current": "Diesel Technicians"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,214 +53,562 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Diesel Technicians",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Current Openings",
-          "cta1Url": "https://www.truckcountry.com/careers/current-opening/",
-          "cta2Label": "Technician Program",
-          "cta2Url": "https://www.truckcountry.com/training/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "Do you have the drive to have a productive, rewarding career with better training, better pay and better benefits? The McCoy Group has locations across the United States with openings for medium and heavy-duty truck and trailer technicians. Whether you are already an expert diesel tech or just getting started, we have a career path for you.\n\nDiesel Technicians are highly-respected technical experts in their field. They inspect, repair and maintain the tough diesel engines and computerized management systems found in large trucks, construction equipment, dump trucks and more. Diesel technicians work independently to solve problems using professional judgment and take responsibility for the safe operation of the equipment that they repair and maintain.\n\nWe are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r14",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c15",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r12",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Diesel Technicians",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r5",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c6",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Current Openings",
+                                        "url": "https://www.truckcountry.com/careers/current-opening/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Technician Program",
+                                        "url": "/training",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b11",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "How to Get Started",
+                                        "url": "https://www.truckcountry.com/blog-how-to-become-a-diesel-technician/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "20",
+                  "columnGap": "20"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Do you have the drive to have a productive, rewarding career with better training, better pay and better benefits? The McCoy Group has locations across the United States with openings for medium and heavy-duty truck and trailer technicians. Whether you are already an expert diesel tech or just getting started, we have a career path for you.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Diesel Technicians are highly-respected technical experts in their field. They inspect, repair and maintain the tough diesel engines and computerized management systems found in large trucks, construction equipment, dump trucks and more. Diesel technicians work independently to solve problems using professional judgment and take responsibility for the safe operation of the equipment that they repair and maintain.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t5",
+                  "type": "text",
+                  "props": {
+                    "text": "We are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c6",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "width": "100%"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r8",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "height": "100%",
+                          "background": "#edebe3",
+                          "borderTopWidth": "1",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "display": "flex",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                          "paddingTop": "8",
+                          "paddingRight": "8",
+                          "paddingBottom": "8",
+                          "paddingLeft": "8",
+                          "borderColor": "#8f8f8f",
+                          "borderStyle": "dashed"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t7",
+                          "type": "text",
+                          "props": {
+                            "text": "Drop the diesel technician photo",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "diesel-technicians-s4",
         "values": {
-          "eyebrow": "",
-          "heading": "Diesel technicians perform a range of duties including:",
-          "body": "",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Diagnosing problems in mechanical, electrical and electronic systems that require the use of sophisticated computers and other diagnostic test equipment."
+              "f0": "Diagnosing problems in mechanical, electrical and electronic systems that require the use of sophisticated computers and other diagnostic test equipment."
             },
             {
-              "label": "Troubleshooting electronic controls that govern engine performance and horsepower."
+              "f0": "Troubleshooting electronic controls that govern engine performance and horsepower."
             },
             {
-              "label": "Troubleshooting steering, hydraulic and pneumatic systems as well as brakes, axles, differentials, electric motors and compressors."
+              "f0": "Troubleshooting steering, hydraulic and pneumatic systems as well as brakes, axles, differentials, electric motors and compressors."
             }
           ]
         }
       }
     },
     {
-      "id": "s4g0",
+      "id": "s5-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "diesel-technicians-s5",
         "values": {
-          "eyebrow": "",
-          "heading": "Paid Training",
-          "body": "",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": {
+                "src": "/icons/benefits/insurance.png",
+                "alt": " ",
+                "width": 120,
+                "height": 120
+              },
+              "f1": "Insurance",
+              "f2": "health, dental, vision, short and long term disability"
+            },
+            {
+              "f0": {
+                "src": "/icons/benefits/paid-time-off.png",
+                "alt": " ",
+                "width": 120,
+                "height": 120
+              },
+              "f1": "Paid Time Off",
+              "f2": "vacation, personal days, and Holidays"
+            },
+            {
+              "f0": {
+                "src": "/icons/benefits/401k.png",
+                "alt": " ",
+                "width": 120,
+                "height": 120
+              },
+              "f1": "401k",
+              "f2": "with employer match"
+            },
+            {
+              "f0": {
+                "src": "/icons/benefits/gear.png",
+                "alt": " ",
+                "width": 120,
+                "height": 120
+              },
+              "f1": "Gear",
+              "f2": "Company- Provided Uniforms<br>Safety Gear/ PPE Reimbursement for Relevant Roles"
+            },
+            {
+              "f0": {
+                "src": "/icons/benefits/tuition.png",
+                "alt": " ",
+                "width": 120,
+                "height": 120
+              },
+              "f1": "Tuition Reimbursement",
+              "f2": "Tuition Reimbursement is provided for relevant roles."
+            }
+          ]
         }
       }
     },
     {
-      "id": "s4g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Weekly Pay",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Insurance",
-          "body": "health, dental, vision, short and long term disability",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Paid Time Off",
-          "body": "vacation, personal days, and Holidays",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "401k",
-          "body": "with employer match",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Gear",
-          "body": "Company- Provided Uniforms<br>Safety Gear/ PPE Reimbursement for Relevant Roles",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g6",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Tuition Reimbursement",
-          "body": "Tuition Reimbursement is provided for relevant roles.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s5",
+      "id": "s6",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 0,
-        "anchor": ""
+        "paddingY": 0
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "marginTop": "0",
+          "marginBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s5-row",
+          "id": "s6r4",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s5-col",
+              "id": "s6c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1"
+                }
+              },
               "children": [
                 {
-                  "id": "s5-head",
+                  "id": "s6h1",
                   "type": "heading",
                   "props": {
                     "text": "Contact Us",
-                    "eyebrow": "",
                     "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s5-lead",
+                  "id": "s6t2",
                   "type": "text",
                   "props": {
                     "text": "Looking for the right career? Contact us to connect with our recruiters.",
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s5-form",
+                  "id": "s6f3",
                   "type": "form",
                   "props": {
                     "formId": "diesel-technician-application"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]

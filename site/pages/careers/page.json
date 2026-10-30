@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,16 +24,22 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       }
                     ],
                     "current": "Careers"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -48,47 +49,241 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Career Opportunities",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Current Openings",
-          "cta1Url": "https://www.truckcountry.com/careers/current-opening/",
-          "cta2Label": "Training",
-          "cta2Url": "https://www.truckcountry.com/training/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "split-band-reverse",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "At Truck Country/ Stoops Freightliner-Western Star, we build our team with the best employees. Our highly skilled employees not only keep our locations running but also provide the highest level of service to our customers by acting with the utmost efficiency, safety, and reliability. We offer a variety of career opportunities across our dealership network in <strong>Illinois, Iowa, Wisconsin, Michigan, Indiana, and Ohio.</strong>\n\nIn addition, we have competitive benefits that include paid training, weekly pay, insurance (health, dental, vision, short & long term), paid time off (vacation, personal days, holidays), 401K (with employer match), gear (company provided uniforms and safety gear/ PPE with reimbursement for relevant roles), and tuition reimbursement (provided for relevant roles).\n\nWe are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/career_banner2-1-1024x289.jpg",
-            "alt": "career_banner",
-            "width": 1024,
-            "height": 289
-          },
-          "ctaLabel": "",
-          "ctaUrl": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r14",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c15",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r12",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Career Opportunities",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r5",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c6",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Current Openings",
+                                        "url": "https://www.truckcountry.com/careers/current-opening/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Training",
+                                        "url": "/training",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b11",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "General Application",
+                                        "url": "https://www.truckcountry.com/apply-for-job/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
@@ -99,54 +294,92 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s3-row",
+          "id": "s3i1",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/career_banner2-1-1024x289.jpg",
+              "alt": "career_banner",
+              "width": 1024,
+              "height": 289
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3r5",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s3-col",
+              "id": "s3c6",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
               "children": [
                 {
-                  "id": "s3-head",
-                  "type": "heading",
-                  "props": {
-                    "text": "Interested in taking the next step?",
-                    "eyebrow": "",
-                    "headingLevel": 2
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff"
-                    }
-                  }
-                },
-                {
-                  "id": "s3-body",
+                  "id": "s3t2",
                   "type": "text",
                   "props": {
-                    "text": "Learn more about our different departments below or contact us today!\n\nCall: <a href=\"tel:800-251-9569\" style=\"color: rgb(255, 255, 255);\">800-251-9569</a> Select Option #2<br>Email: <a href=\"mailto:recruiting@truckcountry.com\" style=\"color: rgb(255, 255, 255);\">recruiting@truckcountry.com</a>",
+                    "text": "At Truck Country/ Stoops Freightliner-Western Star, we build our team with the best employees. Our highly skilled employees not only keep our locations running but also provide the highest level of service to our customers by acting with the utmost efficiency, safety, and reliability. We offer a variety of career opportunities across our dealership network in <strong>Illinois, Iowa, Wisconsin, Michigan, Indiana, and Ohio.</strong>",
                     "width": "full"
                   },
                   "styles": {
                     "base": {
-                      "textColor": "#ffffff@85%"
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "s3t3",
+                  "type": "text",
+                  "props": {
+                    "text": "In addition, we have competitive benefits that include paid training, weekly pay, insurance (health, dental, vision, short & long term), paid time off (vacation, personal days, holidays), 401K (with employer match), gear (company provided uniforms and safety gear/ PPE with reimbursement for relevant roles), and tuition reimbursement (provided for relevant roles).",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "We are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
                 }
@@ -157,41 +390,88 @@
       ]
     },
     {
-      "id": "s4g0",
-      "type": "sharedSection",
+      "id": "s4",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Diesel Tech",
-          "body": "Our Diesel Technicians use their knowledge, skills and experience to keep heavy duty vehicles on the road. Whether you’re a new tech or master mechanic, we have opportunities.",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Interested in taking the next step?",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4t2",
+          "type": "text",
+          "props": {
+            "text": "Learn more about our different departments below or contact us today!",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4t3",
+          "type": "text",
+          "props": {
+            "text": "Call: <a href=\"tel:800-251-9569\">800-251-9569</a> Select Option #2<br>Email: <a href=\"mailto:recruiting@truckcountry.com\">recruiting@truckcountry.com</a>",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
     },
     {
-      "id": "s4g1",
+      "id": "s5-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "careers-s5",
         "values": {
-          "eyebrow": "",
-          "heading": "Parts",
-          "body": "Our highly regarded Parts Team supports both our customers and our service departments with their knowledge, dedication and top notch customer service.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Sales/Admin",
-          "body": "Interested in Truck Sales? We sell the best heavy duty vehicles in the industry and have opportunities for both On Highway and Vocational Truck Sales Professionals.",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": "Diesel Tech",
+              "f1": "Our Diesel Technicians use their knowledge, skills and experience to keep heavy duty vehicles on the road. Whether you’re a new tech or master mechanic, we have opportunities.",
+              "f2": "Learn More",
+              "f3": "/diesel-technicians"
+            },
+            {
+              "f0": "Parts",
+              "f1": "Our highly regarded Parts Team supports both our customers and our service departments with their knowledge, dedication and top notch customer service.",
+              "f2": "Current Openings",
+              "f3": "https://www.truckcountry.com/careers/current-opening/"
+            },
+            {
+              "f0": "Sales/Admin",
+              "f1": "Interested in Truck Sales? We sell the best heavy duty vehicles in the industry and have opportunities for both On Highway and Vocational Truck Sales Professionals.",
+              "f2": "Current Openings",
+              "f3": "https://www.truckcountry.com/careers/current-opening/"
+            }
+          ]
         }
       }
     }

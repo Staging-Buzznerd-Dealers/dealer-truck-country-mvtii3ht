@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "id": "training-s5",
+  "name": "PAID training, lodging, and travel. (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s5r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c2-r",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "s5t3-r",
+                  "type": "text",
+                  "props": {
+                    "text": "{{f0}}",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c8",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s5h9",
+                  "type": "heading",
+                  "props": {
+                    "text": "PAID training, lodging, and travel.",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node^=\"s5t3-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:20px;font-weight:400;font-style:normal;line-height:32px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;max-width:960px}\n[data-bz-node=\"s5h9\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s5\"][data-bz-node]{margin-top:clamp(56px, 8vw, 100px);padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

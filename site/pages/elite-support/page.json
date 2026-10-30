@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Services",
-                        "url": "https://www.truckcountry.com/services/"
+                        "url": "/services"
                       }
                     ],
                     "current": "Elite Support"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,54 +53,180 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
+      "id": "s2",
+      "type": "section",
       "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Elite Support Difference",
-          "lead": "Elite Support is an elite network of Daimler Trucks North America dealers who deliver a superior experience, in a consistent manner, at a good value, as validated by the customer.",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c9",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i3",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/ELITE_LOGO.webp",
+                              "alt": "ELITE_LOGO"
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Elite Support Difference",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Elite Support is an elite network of Daimler Trucks North America dealers who deliver a superior experience, in a consistent manner, at a good value, as validated by the customer.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "s2",
+      "id": "s3-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "content-card",
+        "sectionId": "elite-support-s3",
         "values": {
-          "eyebrow": "",
-          "heading": "Better Value",
-          "body": "Every Elite Support certified dealership is dedicated to unrivaled customer service and a commitment to continuous improvement. Major investments in facilities, equipment, personnel, parts inventory, and processes enable our staff to rapidly diagnose your concerns, make efficient repairs, and keep you informed. Add superior support from Freightliner and Western Star and you ultimately get more value.\n\nUptime is a major factor in determining your Real Cost of Ownership. A single unscheduled day of downtime could cost upwards of $1,000, so we are focused on maximizing your Uptime. Our technicians work in well- organized, safe, and efficient service bays. End Result = your unit back on the road faster!\n\nElite Support certified dealers are staffed by experienced Service and Parts employees and factory- trained Technicians. Every repair is quality checked before leaving the service bay- reducing comebacks and giving you the fast turnaround you need to keep the wheels turning.\n\nTimely customer communications are vital to maintaining Elite Support Certification, and your input is an integral element to our Continuous Improvement Process. We strive to understand your business priorities and deliver superb service and support that is worthy of your trust. At the end of your service, you will receive an email through our survey system, Qualtrics. Please take some time to let us know how we are doing? We also pay close attention to our Google reviews and ensure that when a positive comment is left, that we share that with the hard- working employees of Truck Country. In addition, we attentively review our opportunities for improvement and develop actionable change to ensure we provide the best customer service experience.\n\nA continuous improvement coordinator (CIC) is designated to all our Elite Support dealerships. CICs assist our dealerships in solving opportunities for improvement, instill accountability, and eliminate waste. CICs are accountable for all 70+ criteria items across all aspects of the dealership.\n\nOur Journey began with a single Stoops location piloting Elite Support in 2010, and it has flooded our culture at our Truck Country and Stoops locations since.",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/elite_banner-min-1024x289.jpg",
-            "alt": "elite",
-            "width": 1024,
-            "height": 289
-          },
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Better Value Every Elite Support certified dealership is dedicated to unrivaled customer service and a commitment to continuous improvement. Major investments in facilities, equipment, personnel, parts inventory, and processes enable our staff to rapidly diagnose your concerns, make efficient repairs, and keep you informed. Add superior support from Freightliner and Western Star and you ultimately get more value."
+              "f0": "Better Value",
+              "f1": "Every Elite Support certified dealership is dedicated to unrivaled customer service and a commitment to continuous improvement. Major investments in facilities, equipment, personnel, parts inventory, and processes enable our staff to rapidly diagnose your concerns, make efficient repairs, and keep you informed. Add superior support from Freightliner and Western Star and you ultimately get more value."
             },
             {
-              "label": "Fast Turnaround Uptime is a major factor in determining your Real Cost of Ownership. A single unscheduled day of downtime could cost upwards of $1,000, so we are focused on maximizing your Uptime. Our technicians work in well- organized, safe, and efficient service bays. End Result = your unit back on the road faster!"
+              "f0": "Fast Turnaround",
+              "f1": "Uptime is a major factor in determining your Real Cost of Ownership. A single unscheduled day of downtime could cost upwards of $1,000, so we are focused on maximizing your Uptime. Our technicians work in well- organized, safe, and efficient service bays. End Result = your unit back on the road faster!"
             },
             {
-              "label": "Team Expertise Elite Support certified dealers are staffed by experienced Service and Parts employees and factory- trained Technicians. Every repair is quality checked before leaving the service bay- reducing comebacks and giving you the fast turnaround you need to keep the wheels turning."
+              "f0": "Team Expertise",
+              "f1": "Elite Support certified dealers are staffed by experienced Service and Parts employees and factory- trained Technicians. Every repair is quality checked before leaving the service bay- reducing comebacks and giving you the fast turnaround you need to keep the wheels turning."
             },
             {
-              "label": "Personal Relationships Timely customer communications are vital to maintaining Elite Support Certification, and your input is an integral element to our Continuous Improvement Process. We strive to understand your business priorities and deliver superb service and support that is worthy of your trust. At the end of your service, you will receive an email through our survey system, Qualtrics. Please take some time to let us know how we are doing? We also pay close attention to our Google reviews and ensure that when a positive comment is left, that we share that with the hard- working employees of Truck Country. In addition, we attentively review our opportunities for improvement and develop actionable change to ensure we provide the best customer service experience."
+              "f0": "Personal Relationships",
+              "f1": "Timely customer communications are vital to maintaining Elite Support Certification, and your input is an integral element to our Continuous Improvement Process. We strive to understand your business priorities and deliver superb service and support that is worthy of your trust. At the end of your service, you will receive an email through our survey system, Qualtrics. Please take some time to let us know how we are doing? We also pay close attention to our Google reviews and ensure that when a positive comment is left, that we share that with the hard- working employees of Truck Country. In addition, we attentively review our opportunities for improvement and develop actionable change to ensure we provide the best customer service experience."
             },
             {
-              "label": "Continuous Improvement Coordinator A continuous improvement coordinator (CIC) is designated to all our Elite Support dealerships. CICs assist our dealerships in solving opportunities for improvement, instill accountability, and eliminate waste. CICs are accountable for all 70+ criteria items across all aspects of the dealership."
+              "f0": "Continuous Improvement Coordinator",
+              "f1": "A continuous improvement coordinator (CIC) is designated to all our Elite Support dealerships. CICs assist our dealerships in solving opportunities for improvement, instill accountability, and eliminate waste. CICs are accountable for all 70+ criteria items across all aspects of the dealership."
             }
           ]
         }

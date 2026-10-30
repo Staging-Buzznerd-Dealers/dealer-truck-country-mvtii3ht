@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Parts",
-                        "url": "https://www.truckcountry.com/parts/"
+                        "url": "/parts"
                       }
                     ],
                     "current": "Excelerator Parts"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,354 +53,494 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
+      "id": "s2",
+      "type": "section",
       "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Excelerator Parts",
-          "lead": "Search. Find. Buy. Deliver.\nExcelerator Parts is your one-stop solution for all your truck parts needs. Find the best selection of parts from the most trusted brands in the industry, customer-specific parts pricing,and advanced ordering capabilities.\n<strong>Free to sign up. Free to order.</strong>",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
           },
-          "cta1Label": "Request Excelerator Parts Account",
-          "cta1Url": "https://www.truckcountry.com/exceleratorrequest/",
-          "cta2Label": "Watch the Videos",
-          "cta2Url": "#videos"
-        }
-      }
-    },
-    {
-      "id": "s2g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Optimized Part Search",
-          "body": "search by VIN, Part Number, Description, VMRS and more…",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Customer Specific Pricing",
-          "body": "including core charge and add to cart functionality",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "PDC & Dealer Availability",
-          "body": "real time stocking information",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Integrated Parts Alternatives",
-          "body": "Alliance and Reman offering for factory fit parts",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Parts Multi-Supersedure",
-          "body": "easy to read supersedure parts information",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Parts Features",
-          "body": "138,000 parts with technical attributes and features",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g6",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Breadcrumb & Module Navigation",
-          "body": "user-friendly search, find and buy",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g7",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Fast Moving Parts Images",
-          "body": "130,000 parts / 250,000 images",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g8",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "VIN Verification",
-          "body": "for customers without parts catalog VIN permissions",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g9",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Enhanced VIN Landing Page",
-          "body": "vehicle, engine and major components spec details",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g10",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Improved BOM Documentation",
-          "body": "easier to read and more concise parts list",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g11",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "EZ Wiring",
-          "body": "E-Z wiring items linked\n\nReady to start ordering parts? <a href=\"https://www.truckcountry.com/exceleratorrequest/\" class=\"scp6\" style=\"color: rgb(196, 18, 48); font-weight: 700;\">CLICK HERE</a> to request your account.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "video-grid",
-        "values": {
-          "heading": "Playlist 25 Videos",
-          "items": [
+          "children": [
             {
-              "title": "Navigation in Excelerator",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Vin To Boom Keyword Search",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Parts Catalog Multi-Search Menu",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Vehicle Landing Page in Excelerator",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Product Categories Search",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Favorites List for PartsPro X Only Users Feature",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Improved Commerce Parts Search",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Cross Reference",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "VMRS Category Search",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Parts Search",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Save VIN Serial Info in Favorite List",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Parts Alternatives Sorted by Availability",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "PartsProX Mega BOM Loading Feature",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Print & Save as PDF",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "My Garage Part 1",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Facets Part 1",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "My Garage Part 2",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Design Group Number",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Facets Part 2",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "BOM Display Page Grid View",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "BOM Image Zoom",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Part Variants (Similar Substitute)",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "BOM Display Page Image View",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Frequently Brought Together With",
-              "url": "",
-              "note": "Video link needed"
-            },
-            {
-              "title": "Multiple Artwork on a BOM",
-              "url": "",
-              "note": "Video link needed"
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
             }
           ],
-          "featuredTitle": "",
-          "featuredUrl": "",
-          "featuredNote": ""
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r15",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c16",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r13",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "720"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i3",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/DTNA_Excelerator_Logo-1-1.webp",
+                              "alt": "DTNA"
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Excelerator Parts",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Search. Find. Buy. Deliver.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "Excelerator Parts is your one-stop solution for all your truck parts needs. Find the best selection of parts from the most trusted brands in the industry, customer-specific parts pricing,and advanced ordering capabilities.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t7",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>Free to sign up. Free to order.</strong>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r8",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b10",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Request Excelerator Parts Account",
+                                        "url": "https://www.truckcountry.com/exceleratorrequest/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c11",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b12",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Watch the Videos",
+                                        "url": "#videos",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "excelerator-parts-s3",
+        "values": {
+          "items": [
+            {
+              "f0": "Optimized Part Search",
+              "f1": "search by VIN, Part Number, Description, VMRS and more…"
+            },
+            {
+              "f0": "Customer Specific Pricing",
+              "f1": "including core charge and add to cart functionality"
+            },
+            {
+              "f0": "PDC & Dealer Availability",
+              "f1": "real time stocking information"
+            },
+            {
+              "f0": "Integrated Parts Alternatives",
+              "f1": "Alliance and Reman offering for factory fit parts"
+            },
+            {
+              "f0": "Parts Multi-Supersedure",
+              "f1": "easy to read supersedure parts information"
+            },
+            {
+              "f0": "Parts Features",
+              "f1": "138,000 parts with technical attributes and features"
+            },
+            {
+              "f0": "Breadcrumb & Module Navigation",
+              "f1": "user-friendly search, find and buy"
+            },
+            {
+              "f0": "Fast Moving Parts Images",
+              "f1": "130,000 parts / 250,000 images"
+            },
+            {
+              "f0": "VIN Verification",
+              "f1": "for customers without parts catalog VIN permissions"
+            },
+            {
+              "f0": "Enhanced VIN Landing Page",
+              "f1": "vehicle, engine and major components spec details"
+            },
+            {
+              "f0": "Improved BOM Documentation",
+              "f1": "easier to read and more concise parts list"
+            },
+            {
+              "f0": "EZ Wiring",
+              "f1": "E-Z wiring items linked"
+            }
+          ]
         }
       }
     },
     {
-      "id": "s4",
+      "id": "s4-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "excelerator-parts-s4",
         "values": {
-          "eyebrow": "",
-          "heading": "Major Parts Suppliers",
-          "body": "",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Stemco logo"
+              "f0": "Video link needed",
+              "f1": "Vehicle Landing Page in Excelerator",
+              "f2": "3:04"
             },
             {
-              "label": "Bendix logo"
+              "f0": "Video link needed",
+              "f1": "Product Categories Search",
+              "f2": "2:20"
             },
             {
-              "label": "Power Service logo"
+              "f0": "Video link needed",
+              "f1": "Favorites List for PartsPro X Only Users Feature",
+              "f2": "5:13"
             },
             {
-              "label": "Meritor logo"
+              "f0": "Video link needed",
+              "f1": "Improved Commerce Parts Search",
+              "f2": "4:32"
             },
             {
-              "label": "Donaldson logo"
+              "f0": "Video link needed",
+              "f1": "Cross Reference",
+              "f2": "4:14"
             },
             {
-              "label": "Alliance logo"
+              "f0": "Video link needed",
+              "f1": "VMRS Category Search",
+              "f2": "3:18"
             },
             {
-              "label": "Caterpillar logo"
+              "f0": "Video link needed",
+              "f1": "Parts Search",
+              "f2": "2:34"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Save VIN Serial Info in Favorite List",
+              "f2": "3:01"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Parts Alternatives Sorted by Availability",
+              "f2": "2:08"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "PartsProX Mega BOM Loading Feature",
+              "f2": "1:46"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Print & Save as PDF",
+              "f2": "2:53"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "My Garage Part 1",
+              "f2": "3:20"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Facets Part 1",
+              "f2": "2:31"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "My Garage Part 2",
+              "f2": "2:38"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Design Group Number",
+              "f2": "0:59"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Facets Part 2",
+              "f2": "2:08"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "BOM Display Page Grid View",
+              "f2": "2:31"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "BOM Image Zoom",
+              "f2": "1:25"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Part Variants (Similar Substitute)",
+              "f2": "2:19"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "BOM Display Page Image View",
+              "f2": "2:20"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Frequently Brought Together With",
+              "f2": "1:13"
+            },
+            {
+              "f0": "Video link needed",
+              "f1": "Multiple Artwork on a BOM",
+              "f2": "1:01"
+            }
+          ],
+          "items2": [
+            {
+              "f0": {
+                "src": "https://img.youtube.com/vi/-3QN3huSHmY/maxresdefault.jpg",
+                "alt": "Navigation in Excelerator"
+              },
+              "f1": "https://www.youtube.com/watch?v=-3QN3huSHmY",
+              "f2": "Navigation in Excelerator",
+              "f3": "2:05"
+            },
+            {
+              "f0": {
+                "src": "https://img.youtube.com/vi/YsEyaiQvN5I/maxresdefault.jpg",
+                "alt": "Vin To Boom Keyword Search"
+              },
+              "f1": "https://www.youtube.com/watch?v=YsEyaiQvN5I",
+              "f2": "Vin To Boom Keyword Search",
+              "f3": "1:52"
+            },
+            {
+              "f0": {
+                "src": "https://img.youtube.com/vi/ccPLSBZhk7Y/maxresdefault.jpg",
+                "alt": "Parts Catalog Multi-Search Menu"
+              },
+              "f1": "https://www.youtube.com/watch?v=ccPLSBZhk7Y",
+              "f2": "Parts Catalog Multi-Search Menu",
+              "f3": "2:51"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "excelerator-parts-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "Stemco logo"
+            },
+            {
+              "f0": "Bendix logo"
+            },
+            {
+              "f0": "Power Service logo"
+            },
+            {
+              "f0": "Meritor logo"
+            },
+            {
+              "f0": "Donaldson logo"
+            },
+            {
+              "f0": "Alliance logo"
+            },
+            {
+              "f0": "Caterpillar logo"
             }
           ]
         }

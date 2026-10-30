@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Parts",
-                        "url": "https://www.truckcountry.com/parts/"
+                        "url": "/parts"
                       }
                     ],
                     "current": "Tax Exempt Form"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,96 +53,143 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Tax Exempt Form",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "The following forms are authorized by the State Department of Taxation for use by the consumers when making exempt purchases. Other than as noted below the use of a specific form is not mandatory when claiming an exemption. So long as the consumer provides the vendor or seller with all data elements required for a valid exemption certificate, the vendor may accept the certificate and be relieved of the obligation to collect the tax. Note also that exemption certificates may be presented in either paper or electronic form.",
-          "image": {
-            "src": "",
-            "alt": ""
-          },
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
-    },
-    {
-      "id": "s2L0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "link-list",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "items": [
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "label": "Iowa",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Iowa_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Indiana",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Indiana_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Wisconsin",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Wisconsin_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Ohio",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Ohio.pdf",
-              "description": ""
-            },
-            {
-              "label": "Minnesota",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Minnesota.pdf",
-              "description": ""
-            },
-            {
-              "label": "Illinois (resale)",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_CRT61_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Illinois (rolling stock)",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_RUT7_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Michigan",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Michigan_TaxExemptForm.pdf",
-              "description": ""
-            },
-            {
-              "label": "Multi-State",
-              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Multi-State-Exempt-Certificate.pdf",
-              "description": ""
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
             }
           ],
-          "anchorId": ""
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Tax Exempt Form",
+                    "headingLevel": 1
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "tax-exempt-form-s3",
+        "values": {
+          "items": [
+            {
+              "f0": "Iowa",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Iowa_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Indiana",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Indiana_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Wisconsin",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Wisconsin_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Ohio",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Ohio.pdf"
+            },
+            {
+              "f0": "Minnesota",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Minnesota.pdf"
+            },
+            {
+              "f0": "Illinois (resale)",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_CRT61_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Illinois (rolling stock)",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_RUT7_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Michigan",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Michigan_TaxExemptForm.pdf"
+            },
+            {
+              "f0": "Multi-State",
+              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Multi-State-Exempt-Certificate.pdf"
+            }
+          ]
         }
       }
     }

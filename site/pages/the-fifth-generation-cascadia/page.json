@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,7 +24,7 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "The Fifth Generation Cascadia"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,42 +53,7 @@
       ]
     },
     {
-      "id": "hero",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "The Fifth generation cascadia",
-          "lead": "When we set out to develop the Fifth Generation Cascadia, we knew we couldn’t do it alone. We needed insights and input from real drivers, fleet managers, and those looking for a competitive edge. Here’s to the Fifth Generation Cascadia. And here’s to those who helped drive the legacy of safety, profitability, and efficiency forward.",
-          "cta1Label": "Watch the Videos",
-          "cta1Url": "#videos",
-          "cta2Label": "Contact Us",
-          "cta2Url": "#contact",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "Freightliner Cascadia semi truck at a Truck Country dealership",
-            "width": 2000,
-            "height": 1308
-          }
-        }
-      }
-    },
-    {
-      "id": "performance",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "video-band",
-        "values": {
-          "heading": "Designed for Superior Semi-Truck Performance",
-          "body": "The Fifth Generation Cascadia redefines performance with state-of-the-art aerodynamic advancements. Every element is designed to enhance airflow, reduce drag, and improve fuel economy. From the Max Aero Bumper to the redesigned hood-mounted attachments and A-pillar deflectors, the Cascadia is built to optimize performance while maximizing serviceability and visibility. With an updated grille for improved cooling and a sleek, durable design, the Cascadia offers a powerful combination of efficiency and a refined fleet appearance. For more information, <a href=\"https://www.truckcountry.com/blog-new-features-of-the-2025-5th-generation-cascadia-by-freightliner/\">click here</a>.",
-          "videoUrl": "https://www.youtube-nocookie.com/embed/cQO6yQxUWk8",
-          "videoTitle": "Introducing Freightliner’s fifth generation Cascadia"
-        }
-      }
-    },
-    {
-      "id": "gallery",
+      "id": "s2",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -95,38 +61,399 @@
       },
       "styles": {
         "base": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 40,
-          "paddingBottom": 40
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden"
         }
       },
       "children": [
         {
-          "id": "gallery-row",
-          "type": "row",
+          "id": "s2i1",
+          "type": "image",
           "props": {
-            "gap": 5,
-            "align": "start",
-            "stackOn": "tablet"
+            "image": {
+              "src": "/img/hero-3.jpg",
+              "alt": "Freightliner Cascadia semi truck at a Truck Country dealership",
+              "width": 2141,
+              "height": 1400
+            },
+            "width": "full"
           },
           "styles": {
             "base": {
-              "gap": 24
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c3",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r14",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c15",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r12",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t4",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h5",
+                          "type": "heading",
+                          "props": {
+                            "text": "The Fifth generation cascadia",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "When we set out to develop the Fifth Generation Cascadia, we knew we couldn’t do it alone. We needed insights and input from real drivers, fleet managers, and those looking for a competitive edge. Here’s to the Fifth Generation Cascadia. And here’s to those who helped drive the legacy of safety, profitability, and efficiency forward.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r7",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Watch the Videos",
+                                        "url": "#videos",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c10",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b11",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Contact Us",
+                                        "url": "#contact",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "center"
             }
           },
           "children": [
             {
-              "id": "gallery-a",
+              "id": "s3c2",
               "type": "column",
               "props": {
-                "span": 6
+                "span": 1
               },
               "children": [
                 {
-                  "id": "gallery-img-a",
+                  "id": "s3h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Designed for Superior Semi-Truck Performance",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "The Fifth Generation Cascadia redefines performance with state-of-the-art aerodynamic advancements. Every element is designed to enhance airflow, reduce drag, and improve fuel economy. From the Max Aero Bumper to the redesigned hood-mounted attachments and A-pillar deflectors, the Cascadia is built to optimize performance while maximizing serviceability and visibility. With an updated grille for improved cooling and a sleek, durable design, the Cascadia offers a powerful combination of efficiency and a refined fleet appearance. For more information, <a href=\"https://www.truckcountry.com/blog-new-features-of-the-2025-5th-generation-cascadia-by-freightliner/\">click here</a>.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c5",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s3r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "position": "relative",
+                          "aspectRatio": "16/9",
+                          "background": "#0e0f13"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3v6",
+                          "type": "video",
+                          "props": {
+                            "video": {
+                              "src": "https://www.youtube-nocookie.com/embed/cQO6yQxUWk8",
+                              "title": "Introducing Freightliner’s fifth generation Cascadia"
+                            },
+                            "width": "full",
+                            "controls": true
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s4r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4i3",
                   "type": "image",
                   "props": {
                     "image": {
@@ -136,19 +463,25 @@
                       "height": 620
                     },
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
             },
             {
-              "id": "gallery-b",
+              "id": "s4c4",
               "type": "column",
               "props": {
-                "span": 6
+                "span": 1
               },
               "children": [
                 {
-                  "id": "gallery-img-b",
+                  "id": "s4i5",
                   "type": "image",
                   "props": {
                     "image": {
@@ -158,6 +491,12 @@
                       "height": 620
                     },
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -167,199 +506,225 @@
       ]
     },
     {
-      "id": "comfort",
-      "type": "sharedSection",
+      "id": "s5",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Comfort for the Long Haul Ensured by Freightliner",
-          "body": "Experience the ultimate in driver comfort and functionality with the Cascadia’s thoughtfully designed interior. The customizable driver’s quarters offer multiple configurations, including the industry’s first telescoping ladder for easy access to the top sleeper. Enjoy enhanced comfort with modern seat upholstery options, advanced HVAC systems, and a standard Interactive Touchscreen Display that keeps you always informed and in control."
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Comfort for the Long Haul Ensured by Freightliner",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5t2",
+          "type": "text",
+          "props": {
+            "text": "Experience the ultimate in driver comfort and functionality with the Cascadia’s thoughtfully designed interior. The customizable driver’s quarters offer multiple configurations, including the industry’s first telescoping ladder for easy access to the top sleeper. Enjoy enhanced comfort with modern seat upholstery options, advanced HVAC systems, and a standard Interactive Touchscreen Display that keeps you always informed and in control.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
     },
     {
-      "id": "features",
+      "id": "s6-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "feature-tiles",
+        "sectionId": "the-fifth-generation-cascadia-s6",
         "values": {
-          "heading": "Fifth generation Cascadia major features",
           "items": [
             {
-              "title": "Active Brake Assist"
+              "f0": "Active Brake Assist"
             },
             {
-              "title": "Forward- and Operator-Facing Video Capture"
+              "f0": "Forward- and Operator-Facing Video Capture"
             },
             {
-              "title": "Adaptive Cruise Control"
+              "f0": "Adaptive Cruise Control"
             },
             {
-              "title": "Intelligent High-Beams"
+              "f0": "Intelligent High-Beams"
             },
             {
-              "title": "Automatic Headlights/Wipers"
+              "f0": "Automatic Headlights/Wipers"
             },
             {
-              "title": "Lane Departure Warning"
+              "f0": "Lane Departure Warning"
             }
           ]
         }
       }
     },
     {
-      "id": "videos",
+      "id": "s7-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "video-grid",
+        "sectionId": "the-fifth-generation-cascadia-s7",
         "values": {
-          "heading": "Fifth generation Cascadia videos",
           "items": [
             {
-              "title": "Fifth Generation Freightliner Cascadia feature: Acti… (title cut off in screenshot)",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "Fifth Generation Freightliner Cascadia feature: Acti… (title cut off in screenshot)"
             },
             {
-              "title": "Fifth Generation Freightliner Cascadia Feature: Color Touchscreen",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "Fifth Generation Freightliner Cascadia Feature: Color Touchscreen"
             },
             {
-              "title": "5th Generation Freightliner Cascadia Feature: Dual Stage Intelligent… (title cut off in screenshot)",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "5th Generation Freightliner Cascadia Feature: Dual Stage Intelligent… (title cut off in screenshot)"
             },
             {
-              "title": "5th Generation Freightliner Cascadia: Active Driver Protection Syst… (title cut off in screenshot)",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "5th Generation Freightliner Cascadia: Active Driver Protection Syst… (title cut off in screenshot)"
             },
             {
-              "title": "5th Generation Freightliner Cascadia: feature Active Lane Assist 2",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "5th Generation Freightliner Cascadia: feature Active Lane Assist 2"
             },
             {
-              "title": "5th Generation Freightliner Cascadia Feature: Intelligent Braking Co… (title cut off in screenshot)",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "5th Generation Freightliner Cascadia Feature: Intelligent Braking Co… (title cut off in screenshot)"
             },
             {
-              "title": "5th Generation Freightliner Cascadia Feature: Mirrorcam System",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "5th Generation Freightliner Cascadia Feature: Mirrorcam System"
             },
             {
-              "title": "Fifth Generation Freightliner Cascadia — Focus on Driver Comfort",
-              "url": "",
-              "note": "Video link needed"
+              "f0": "Video link needed",
+              "f1": "Fifth Generation Freightliner Cascadia — Focus on Driver Comfort"
             }
-          ],
-          "featuredTitle": "5th Generation Freightliner Cascadia Walkaround",
-          "featuredUrl": "",
-          "featuredNote": "Video link needed"
+          ]
         }
       }
     },
     {
-      "id": "contact",
+      "id": "s8",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 0,
-        "anchor": "contact"
+        "paddingY": 0
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "background": "#ffffff",
+          "borderTopWidth": "1",
+          "borderColor": "#edebe3",
+          "borderRightWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderStyle": "solid"
         }
       },
       "children": [
         {
-          "id": "contact-row",
+          "id": "s8r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "start"
+            }
           },
           "children": [
             {
-              "id": "contact-col",
+              "id": "s8c2",
               "type": "column",
               "props": {
-                "span": 12
-              },
-              "styles": {
-                "base": {
-                  "maxWidth": 820
-                }
+                "span": 1
               },
               "children": [
                 {
-                  "id": "contact-head",
+                  "id": "s8h3",
                   "type": "heading",
                   "props": {
                     "text": "Contact Form - Fifth Generation Cascadia",
                     "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
-                },
+                }
+              ]
+            },
+            {
+              "id": "s8c4",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#fafaf6",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
                 {
-                  "id": "contact-card",
+                  "id": "s8r5",
                   "type": "row",
                   "props": {
                     "gap": 0,
                     "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "background": "card",
-                      "borderWidth": 1,
-                      "borderStyle": "solid",
-                      "borderColor": "#EDEBE3"
-                    }
-                  },
                   "children": [
                     {
-                      "id": "contact-card-col",
+                      "id": "s8c6",
                       "type": "column",
                       "props": {
                         "span": 12
                       },
-                      "styles": {
-                        "base": {
-                          "paddingTop": 40,
-                          "paddingRight": 40,
-                          "paddingBottom": 40,
-                          "paddingLeft": 40
-                        },
-                        "mobile": {
-                          "paddingTop": 20,
-                          "paddingRight": 20,
-                          "paddingBottom": 20,
-                          "paddingLeft": 20
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "contact-form",
-                          "type": "form",
-                          "props": {
-                            "formId": "cascadia-contact"
-                          }
-                        }
-                      ]
+                      "children": []
                     }
                   ]
+                },
+                {
+                  "id": "s8f7",
+                  "type": "form",
+                  "props": {
+                    "formId": "cascadia-contact"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
                 }
               ]
             }

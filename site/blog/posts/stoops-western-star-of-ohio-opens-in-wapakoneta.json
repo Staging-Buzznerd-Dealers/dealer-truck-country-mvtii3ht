@@ -5,5 +5,429 @@
   "description": "Wapakoneta, Ohio — The Stoops brand continues to expand in Ohio, with the addition of a new Western Star dealership.Effective April 1, Stoops Western Star of",
   "coverImage": null,
   "status": "published",
-  "body": "<p><strong>Wapakoneta, Ohio —</strong> The Stoops brand continues to expand in Ohio, with the addition of a new Western Star dealership.</p>\n      <p>Effective April 1, Stoops Western Star of Ohio took over operations of the dealership formerly known as Kinstle Western Star in Wapakoneta.</p>\n      <p>Stoops Western Star is affiliated with Stoops Freightliner-Quality Trailer, which operates nine dealerships in Ohio and Indiana, including locations in Lima and Dayton, Ohio.</p>\n      <p>The move merges a pair of family-owned businesses, as Stoops acquires Kinstle from owners Mike and Barb Kinstle. Stoops’ parent company, the McCoy Group, traces its roots back to 1958 and is owned by third-generation members of the McCoy family.</p>\n      <p>“On behalf of the entire Stoops team, I’d like to offer our sincerest thanks to Mike and Barb Kinstle for the great service they have provided to the trucking and transportation community over the past 38 years,” said Brian McCoy, president of Stoops Western Star. “We are excited to pick up right where they left off — providing expert service, a wide array of top-quality parts, and a sales team dedicated to meeting and exceeding customer needs.”</p>\n      <p>Customers can expect staffing to remain the same at Stoops Western Star, as all former Kinstle employees have been welcomed into the Stoops family.</p>\n      <p>Meanwhile, updates are planned for the building, including new signage, as well as a refurbished parts showroom and updated service facilities for increased service and repair capacity.</p>\n      <p>Additionally, offerings in the areas of parts and service will expand. Leveraging the Stoops brand and buying power, the best in Daimler parts and service will be available to Stoops Western Star customers.</p>\n      <p><strong>Stoops Freightliner-Quality Trailer</strong> (a division of Truck Country®) is part of the largest Freightliner/Western Star truck dealership group in the U.S. Truck Country and Stoops dealerships serve customers at 25 locations in Indiana, Iowa, Minnesota, Ohio and Wisconsin. For 60 years, Truck Country has offered new and used medium- and heavy-duty trucks, expert service, an extensive parts inventory and helpful financing options. Corporate offices are located in Dubuque, Iowa.</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "Stoops Western Star of Ohio opens in Wapakoneta"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r10",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c11",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2t1",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Wapakoneta, Ohio —</strong> The Stoops brand continues to expand in Ohio, with the addition of a new Western Star dealership.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t2",
+                  "type": "text",
+                  "props": {
+                    "text": "Effective April 1, Stoops Western Star of Ohio took over operations of the dealership formerly known as Kinstle Western Star in Wapakoneta.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops Western Star is affiliated with Stoops Freightliner-Quality Trailer, which operates nine dealerships in Ohio and Indiana, including locations in Lima and Dayton, Ohio.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "The move merges a pair of family-owned businesses, as Stoops acquires Kinstle from owners Mike and Barb Kinstle. Stoops’ parent company, the McCoy Group, traces its roots back to 1958 and is owned by third-generation members of the McCoy family.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "“On behalf of the entire Stoops team, I’d like to offer our sincerest thanks to Mike and Barb Kinstle for the great service they have provided to the trucking and transportation community over the past 38 years,” said Brian McCoy, president of Stoops Western Star. “We are excited to pick up right where they left off — providing expert service, a wide array of top-quality parts, and a sales team dedicated to meeting and exceeding customer needs.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Customers can expect staffing to remain the same at Stoops Western Star, as all former Kinstle employees have been welcomed into the Stoops family.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "Meanwhile, updates are planned for the building, including new signage, as well as a refurbished parts showroom and updated service facilities for increased service and repair capacity.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "Additionally, offerings in the areas of parts and service will expand. Leveraging the Stoops brand and buying power, the best in Daimler parts and service will be available to Stoops Western Star customers.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Stoops Freightliner-Quality Trailer</strong> (a division of Truck Country®) is part of the largest Freightliner/Western Star truck dealership group in the U.S. Truck Country and Stoops dealerships serve customers at 25 locations in Indiana, Iowa, Minnesota, Ohio and Wisconsin. For 60 years, Truck Country has offered new and used medium- and heavy-duty trucks, expert service, an extensive parts inventory and helpful financing options. Corporate offices are located in Dubuque, Iowa.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/stoops-freightliner-quality-trailer-adds-mac-trailer-to-lineup\">Stoops Freightliner-Quality Trailer adds MAC Trailer to lineup</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"blog-truckcountry_newhampshire.html\">Truck Country comes to Chicagoland with new Hampshire location</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  3:29 pm\"}\n"
 }

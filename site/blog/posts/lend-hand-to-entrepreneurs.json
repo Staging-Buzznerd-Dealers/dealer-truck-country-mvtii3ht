@@ -5,5 +5,533 @@
   "description": "Some have a dream or vision, some want to the freedom of being their own boss, while others want to control their own destiny. These are just some of the",
   "coverImage": null,
   "status": "published",
-  "body": "<img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/11/GMC-red-Bob1.jpg\" width=\"970\" height=\"669\" loading=\"lazy\" decoding=\"async\" alt=\"GMC-Red\">\n      <p>Some have a dream or vision, some want to the freedom of being their own boss, while others want to control their own destiny. These are just some of the reasons cited by the roughly 25 million American entrepreneurs on the reason why they go into business.</p>\n      <p>Whatever the reason, we salute those who have undertaken the risk of going into business on their own as Nov. 17 marks the National Entrepreneur’s Day. While being an entrepreneur has never been easy, as nearly a quarter of small businesses fail in the first year, 2020 has provided its own set of unique challenges with a health pandemic and a fluctuating economy.</p>\n      <p>Truck Country and Stoops Freightliner’s parent company, the McCoy Group, dates its roots back to the most entrepreneurial of beginnings, as founder Bob McCoy, Sr. launched his own business more than 60 years ago by driving a milk truck route to supplement his income to support his growing family.</p>\n      <p>Today, Truck Country and Stoops is proud to play a role in supporting others on their entrepreneurial journey by working to assist businesses with the purchase of new and used equipment as well as providing for their service and parts needs.</p>\n      <div><div role=\"img\" aria-label=\"Drop the Steve Humphrie photo\" data-image-slot=\"blog-lend-hand-steve\">Drop the Steve Humphrie photo</div></div>\n      <p>One customer our team has been recently been able to help is Steve Humphrie and his business, North Bay Freight LLC. Earlier this year, Humphrie and business partner Antonio Long launched their own dry-van transport business as they work to move goods across the country.</p>\n      <p>North Bay Freight has purchased two of its three trucks from Truck Country’s Milwaukee location, with the help of sales representative Evan Dittmar. For Humphrie, the idea of launching his own business was started years ago. A teacher by trade, Humphrie spent his summers driving a cargo van.</p>\n      <p>“One day, I wondered how much money I would make if I went full-time with this if I drove a cargo van,” he said.</p>\n      <p>After calculating his earning potential, Humphrie’s imagination started to grow by thinking of driving straight trucks and semi units. Achieving a sense of financial freedom and having the ability to be his own boss continue to be motivating factors, Humphrie said.“The thing was, I wanted to be able to take care of other people in my family,” he said. “I enjoy being able to have the financial freedom to move around and come (and go) as I please.”</p>\n      <p>Working with Truck Country and Dittmar has been a game-changer for North Bay Freight. “Evan has been guiding me the whole way,” Humphrie said. “Those two trucks have been remarkable. Evan has done a great job for us; (he) is our number one guy.” To learn how Truck Country and Stoops can help grow your business, please contact your local dealership. Members of our sales team area ready to provide your options on how we can assist your business.</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "Truck Country, Stoops lend hand to entrepreneurs"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r16",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c17",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2i1",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/11/GMC-red-Bob1.jpg",
+                      "alt": "GMC-Red",
+                      "width": 970,
+                      "height": 669
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t2",
+                  "type": "text",
+                  "props": {
+                    "text": "Some have a dream or vision, some want to the freedom of being their own boss, while others want to control their own destiny. These are just some of the reasons cited by the roughly 25 million American entrepreneurs on the reason why they go into business.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Whatever the reason, we salute those who have undertaken the risk of going into business on their own as Nov. 17 marks the National Entrepreneur’s Day. While being an entrepreneur has never been easy, as nearly a quarter of small businesses fail in the first year, 2020 has provided its own set of unique challenges with a health pandemic and a fluctuating economy.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Truck Country and Stoops Freightliner’s parent company, the McCoy Group, dates its roots back to the most entrepreneurial of beginnings, as founder Bob McCoy, Sr. launched his own business more than 60 years ago by driving a milk truck route to supplement his income to support his growing family.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Today, Truck Country and Stoops is proud to play a role in supporting others on their entrepreneurial journey by working to assist businesses with the purchase of new and used equipment as well as providing for their service and parts needs.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "maxWidth": "300"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2r7",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "100%",
+                                  "height": "100%",
+                                  "background": "#edebe3",
+                                  "borderTopWidth": "1",
+                                  "borderRightWidth": "1",
+                                  "borderBottomWidth": "1",
+                                  "borderLeftWidth": "1",
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "textAlign": "center",
+                                  "paddingTop": "8",
+                                  "paddingRight": "8",
+                                  "paddingBottom": "8",
+                                  "paddingLeft": "8",
+                                  "borderColor": "#8f8f8f",
+                                  "borderStyle": "dashed"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s2t6",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Drop the Steve Humphrie photo",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "styles": {
+                    "base": {
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t11",
+                  "type": "text",
+                  "props": {
+                    "text": "One customer our team has been recently been able to help is Steve Humphrie and his business, North Bay Freight LLC. Earlier this year, Humphrie and business partner Antonio Long launched their own dry-van transport business as they work to move goods across the country.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t12",
+                  "type": "text",
+                  "props": {
+                    "text": "North Bay Freight has purchased two of its three trucks from Truck Country’s Milwaukee location, with the help of sales representative Evan Dittmar. For Humphrie, the idea of launching his own business was started years ago. A teacher by trade, Humphrie spent his summers driving a cargo van.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t13",
+                  "type": "text",
+                  "props": {
+                    "text": "“One day, I wondered how much money I would make if I went full-time with this if I drove a cargo van,” he said.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t14",
+                  "type": "text",
+                  "props": {
+                    "text": "After calculating his earning potential, Humphrie’s imagination started to grow by thinking of driving straight trucks and semi units. Achieving a sense of financial freedom and having the ability to be his own boss continue to be motivating factors, Humphrie said.“The thing was, I wanted to be able to take care of other people in my family,” he said. “I enjoy being able to have the financial freedom to move around and come (and go) as I please.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t15",
+                  "type": "text",
+                  "props": {
+                    "text": "Working with Truck Country and Dittmar has been a game-changer for North Bay Freight. “Evan has been guiding me the whole way,” Humphrie said. “Those two trucks have been remarkable. Evan has done a great job for us; (he) is our number one guy.” To learn how Truck Country and Stoops can help grow your business, please contact your local dealership. Members of our sales team area ready to provide your options on how we can assist your business.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/truck-countrys-wausau-and-minocqua-locations-add-western-star-brand\">Truck Country’s Wausau and Minocqua locations add Western Star brand</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/more-than-just-trucks\">Truck Country, Stoops lend hand to entrepreneurs - Truck Country</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2i1\"][data-bz-node] img{display:block;width:100%;max-width:970px;height:auto}\n[data-bz-node=\"s2i1\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter,sans-serif;font-size:14px;font-weight:500;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:center;color:#54565C;margin:0}\n[data-bz-node=\"s2c8\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node=\"s2c8\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node=\"s2c10\"][data-bz-node]{aspect-ratio:204 / 300}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t12\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t13\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t14\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t15\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  9:00 pm\"}\n"
 }

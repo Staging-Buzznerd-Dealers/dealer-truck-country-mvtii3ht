@@ -75,7 +75,7 @@
               "id": "item-17",
               "label": "Trailer Locations",
               "type": "url",
-              "url": " /trailer-locations",
+              "url": "/trailer-locations",
               "ref": null,
               "children": [
                 {
@@ -176,7 +176,7 @@
               "id": "item-27",
               "label": "Excelerator Parts",
               "type": "url",
-              "url": "excelerator-parts",
+              "url": "/excelerator-parts",
               "ref": null,
               "children": []
             },
@@ -192,7 +192,7 @@
               "id": "item-30",
               "label": "Parts Credit App",
               "type": "url",
-              "url": "/parts-credit-app",
+              "url": "/parts-credit-application",
               "ref": null,
               "children": []
             }
@@ -259,22 +259,16 @@
       "name": "Utility menu",
       "items": [
         {
-          "id": "contact",
+          "id": "u-contact",
           "label": "Contact Us",
-          "type": "url",
-          "ref": null,
-          "url": "#locations",
-          "newTab": false,
-          "children": []
+          "type": "page",
+          "ref": "contact-us"
         },
         {
-          "id": "account",
+          "id": "u-account",
           "label": "My Account",
           "type": "inventory",
-          "ref": "account",
-          "url": null,
-          "newTab": false,
-          "children": []
+          "ref": "account"
         }
       ]
     },
@@ -286,79 +280,31 @@
           "id": "f-locations",
           "label": "Locations",
           "type": "url",
-          "ref": null,
-          "url": "#locations",
-          "newTab": false,
-          "children": []
+          "url": "/#locations"
         },
         {
           "id": "f-terms",
           "label": "Terms of Service",
           "type": "url",
-          "ref": null,
-          "url": "/terms",
-          "newTab": false,
-          "children": []
+          "url": "https://www.truckcountry.com/terms-and-conditions/"
         },
         {
           "id": "f-privacy",
           "label": "Privacy Policy",
           "type": "url",
-          "ref": null,
-          "url": "/privacy",
-          "newTab": false,
-          "children": []
+          "url": "https://www.truckcountry.com/privacy-policy/"
         },
         {
           "id": "f-sitemap",
           "label": "Site Map",
-          "type": "url",
-          "ref": null,
-          "url": "/sitemap",
-          "newTab": false,
-          "children": []
+          "type": "page",
+          "ref": "sitemap"
         },
         {
           "id": "f-disclosures",
           "label": "Disclosures",
           "type": "url",
-          "ref": null,
-          "url": "/disclosures",
-          "newTab": false,
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "legal",
-      "name": "Legal",
-      "items": [
-        {
-          "id": "privacy",
-          "label": "Privacy",
-          "type": "url",
-          "ref": null,
-          "url": "/privacy",
-          "newTab": false,
-          "children": []
-        },
-        {
-          "id": "terms",
-          "label": "Terms",
-          "type": "url",
-          "ref": null,
-          "url": "/terms",
-          "newTab": false,
-          "children": []
-        },
-        {
-          "id": "accessibility",
-          "label": "Accessibility",
-          "type": "url",
-          "ref": null,
-          "url": "/accessibility",
-          "newTab": false,
-          "children": []
+          "url": "https://www.truckcountry.com/disclosures/"
         }
       ]
     }

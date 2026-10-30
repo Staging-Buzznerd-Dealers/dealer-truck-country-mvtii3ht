@@ -1,0 +1,239 @@
+{
+  "version": 2,
+  "id": "stoops-training-s5",
+  "name": "Certified Freightliner - Detroit Courses (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    },
+    {
+      "key": "items2",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Certified Freightliner - Detroit Courses",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "marginTop": "0",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "display": "grid",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r5-r",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never",
+                    "repeat": "items2"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c6-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t4-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s5c25",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "marginTop": "0",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "display": "grid",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r27-r",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never",
+                    "repeat": "items"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c28-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t26-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5t44",
+          "type": "text",
+          "props": {
+            "text": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s5h1\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node=\"s5r2\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(min(100%, 360px), 1fr))}\n[data-bz-node^=\"s5t4-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node^=\"s5c6-r\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node^=\"s5t26-r\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:0.04em;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node^=\"s5c28-r\"][data-bz-node]{border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s5t44\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:32px;margin-right:0px;margin-bottom:0px;margin-left:0px;max-width:960px}\n[data-bz-node=\"s5\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n"
+}

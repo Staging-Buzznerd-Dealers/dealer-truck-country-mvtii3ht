@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "About",
-                        "url": "https://www.truckcountry.com/about/"
+                        "url": "/about-us"
                       }
                     ],
                     "current": "History"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,43 +53,238 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
+      "id": "s2",
+      "type": "section",
       "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Bob McCoy, Sr.",
-          "lead": "",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/History_Image_sm-1024x289.jpg",
-            "alt": "History",
-            "width": 1024,
-            "height": 289
-          }
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2i1",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/History_Image_sm-1024x289.jpg",
+              "alt": "History",
+              "width": 1024,
+              "height": 289
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c3",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r5",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c6",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Bob McCoy, Sr.",
+                    "headingLevel": 1
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "s2",
-      "type": "sharedSection",
+      "id": "s3",
+      "type": "section",
       "props": {
-        "sectionId": "split-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "Bob was well known in and around the rural Southwest Wisconsin community, having lived in the region his entire 35 years. A decade earlier, he drove his own milk route, collecting Grade B milk from the region’s abundant dairy farms for delivery to Brewery Hill Cheese factory. He used to be a cheese-maker, before becoming a long-distance trucker. He later co-owned Mc-Mor-Han Trucking Company, which had been hauling livestock and fertilizer for eight years, and had been selling GMC pick-up trucks since 1958.\n\nMore than 60 years after Shullsburg, the McCoy Group has grown into a corporation with five subsidiaries that reaches across North America.\n\nCurrently, the McCoy Group consists of Truck Country/Stoops Freightliner-Western Star, Foodliner, Quest Liner, Foodliner Mexico/Quest Liner Mexico and McCoy Construction & Forestry, employing more than 3,600 people.",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/GMC-red-Bob1-848x585-1.webp",
-            "alt": "Bob McCoy Sr. in front of ared GMC truck",
-            "width": 848,
-            "height": 585
-          },
-          "ctaLabel": "",
-          "ctaUrl": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "20",
+                  "columnGap": "20"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Bob was well known in and around the rural Southwest Wisconsin community, having lived in the region his entire 35 years. A decade earlier, he drove his own milk route, collecting Grade B milk from the region’s abundant dairy farms for delivery to Brewery Hill Cheese factory. He used to be a cheese-maker, before becoming a long-distance trucker. He later co-owned Mc-Mor-Han Trucking Company, which had been hauling livestock and fertilizer for eight years, and had been selling GMC pick-up trucks since 1958.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "More than 60 years after Shullsburg, the McCoy Group has grown into a corporation with five subsidiaries that reaches across North America.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Currently, the McCoy Group consists of Truck Country/Stoops Freightliner-Western Star, Foodliner, Quest Liner, Foodliner Mexico/Quest Liner Mexico and McCoy Construction & Forestry, employing more than 3,600 people.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c6",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s3i7",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/GMC-red-Bob1-848x585-1.webp",
+                      "alt": "Bob McCoy Sr. in front of ared GMC truck",
+                      "width": 848,
+                      "height": 585
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

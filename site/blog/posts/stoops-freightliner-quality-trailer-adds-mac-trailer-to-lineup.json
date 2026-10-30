@@ -5,5 +5,380 @@
   "description": "Indianapolis, Ind. — Stoops Freightliner – Quality Trailer is excited to announce the addition of MAC Trailer to its line of trailer offerings.",
   "coverImage": null,
   "status": "published",
-  "body": "<p><strong>Indianapolis, Ind.</strong> — Stoops Freightliner – Quality Trailer is excited to announce the addition of MAC Trailer to its line of trailer offerings.</p>\n      <p>The incorporation of MAC Trailer adds to an already strong lineup for Stoops, which also includes Wabash, Transcraft and Stoughton brands. Stoops will market MAC Trailer at its Anderson, Indianapolis and Fort Wayne, Ind. dealerships, as well as at its location in Cedar Rapids, Iowa.</p>\n      <p>Stoops will specialize in selling MAC Flatbed and Dump trailers, and will stock inventory Road Warrior flatbed and MVP-MACLOCK™ dump trailers. Through advanced design and the incorporation of alternative component-materials, MAC trailers provide for enhanced fuel economy, maximum performance, reduced maintenance costs and increased payloads.</p>\n      <p>Stoops Trailer Manager Mark Hall said the addition of MAC is a natural fit.</p>\n      <p>“The fit is good for us,” Hall said, noting Stoops’ sister company, Foodliner, is a customer of MAC’s liquid tank trailers. “We have seen how well MAC trailers performs in the real-world, and have confidence in offering them to our own customers.”</p>\n      <p>Stoops and MAC have similar histories. The companies are family-owned operations, with an eye toward the future.</p>\n      <p>“The big thing with MAC is they believe in innovation, as they develop ways to build better trailers,” Hall added. “These two companies fit together for what we are looking to achieve in the marketplace.”</p>\n      <p><strong>About Stoops Freightliner-Quality Trailer</strong> Stoops Freightliner-Quality Trailer (a division of Truck Country®) is part of the largest Freightliner/Western Star truck dealership group in the U.S. Truck Country and Stoops dealerships serve customers at 23 locations in Indiana, Iowa, Minnesota, Ohio and Wisconsin. Stoops Freightliner-Quality Trailers is a Wabash, Transcraft and MAC Trailer dealership. For 60 years, Stoops/Truck Country have offered new and used medium- and heavy-duty trucks, expert service, an extensive parts inventory and helpful financing options. Corporate offices are located in Dubuque, Iowa.</p>\n      <p><strong>About MAC Trailer Manufacturing</strong> MAC Trailer Manufacturing, with over 668,000 square feet of facilities and more than 900 employees, is respected as one of the nation’s foremost manufacturer of dump, transfer, flatbed, pneumatic and liquid tank trailers. Corporate offices are located in Alliance, Ohio</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "Stoops Freightliner-Quality Trailer adds MAC Trailer to lineup"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r10",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c11",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2t1",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Indianapolis, Ind.</strong> — Stoops Freightliner – Quality Trailer is excited to announce the addition of MAC Trailer to its line of trailer offerings.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t2",
+                  "type": "text",
+                  "props": {
+                    "text": "The incorporation of MAC Trailer adds to an already strong lineup for Stoops, which also includes Wabash, Transcraft and Stoughton brands. Stoops will market MAC Trailer at its Anderson, Indianapolis and Fort Wayne, Ind. dealerships, as well as at its location in Cedar Rapids, Iowa.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops will specialize in selling MAC Flatbed and Dump trailers, and will stock inventory Road Warrior flatbed and MVP-MACLOCK™ dump trailers. Through advanced design and the incorporation of alternative component-materials, MAC trailers provide for enhanced fuel economy, maximum performance, reduced maintenance costs and increased payloads.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops Trailer Manager Mark Hall said the addition of MAC is a natural fit.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "“The fit is good for us,” Hall said, noting Stoops’ sister company, Foodliner, is a customer of MAC’s liquid tank trailers. “We have seen how well MAC trailers performs in the real-world, and have confidence in offering them to our own customers.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops and MAC have similar histories. The companies are family-owned operations, with an eye toward the future.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "“The big thing with MAC is they believe in innovation, as they develop ways to build better trailers,” Hall added. “These two companies fit together for what we are looking to achieve in the marketplace.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>About Stoops Freightliner-Quality Trailer</strong> Stoops Freightliner-Quality Trailer (a division of Truck Country®) is part of the largest Freightliner/Western Star truck dealership group in the U.S. Truck Country and Stoops dealerships serve customers at 23 locations in Indiana, Iowa, Minnesota, Ohio and Wisconsin. Stoops Freightliner-Quality Trailers is a Wabash, Transcraft and MAC Trailer dealership. For 60 years, Stoops/Truck Country have offered new and used medium- and heavy-duty trucks, expert service, an extensive parts inventory and helpful financing options. Corporate offices are located in Dubuque, Iowa.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>About MAC Trailer Manufacturing</strong> MAC Trailer Manufacturing, with over 668,000 square feet of facilities and more than 900 employees, is respected as one of the nation’s foremost manufacturer of dump, transfer, flatbed, pneumatic and liquid tank trailers. Corporate offices are located in Alliance, Ohio",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3r3",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c4",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s3c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t6",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t9",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/stoops-western-star-of-ohio-opens-in-wapakoneta\">Stoops Western Star of Ohio opens in Wapakoneta</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c4\"][data-bz-node]{flex:1 1 280px}\n[data-bz-node=\"s3c5\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c5\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t9\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t9\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c5\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t9\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t9\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c5\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  3:48 pm\"}\n"
 }

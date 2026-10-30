@@ -5,5 +5,624 @@
   "description": "As the Commercial Vehicle Safety Alliance’s Brake Safety Week is scheduled for Aug. 23-29, inspectors are putting a special focus on drums and rotors during",
   "coverImage": null,
   "status": "published",
-  "body": "<p><strong>As the Commercial Vehicle Safety Alliance’s Brake Safety Week is scheduled for Aug. 23-29, inspectors are putting a special focus on drums and rotors during this year’s event. Brake drum and rotor issues may affect a vehicle’s brake efficiency. Broken pieces of drums and rotors may become dislodged from the vehicle during travel and damage other vehicles or result in injuries or fatalities to the motoring public.</strong></p>\n      <h3>HERE’S TIPS TO HELP ESNURE YOUR DRUMS AND ROTORS ARE READY TO PASS INSPECTION:</h3>\n      <h3>drum inspection tips</h3>\n      <ul><li>Check for cracks. Small hairline cracks caused by normal heating and cooling is common, but structural cracks typically require replacement.</li><li>Measure drum diameter. Drums worn beyond their maximum allowable diameter need to be replaced, as excessive diameter reduces effectiveness and contribute to out-of-service violations.</li><li>Look for heat damage. Be vigilant of blue/dark discoloration, hot spots, heat checking focused in one area, scoring or gouging.</li><li>Check for contamination. Inspect drums for oil, grease, and wheel-seal leakage. Contamination can significantly reduce brake performance.</li></ul>\n      <img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/elementor/thumbs/Aftermarket_P4_Wheel-hubs-and-brakes-9-scaled-e1755546670566-ragcquvzjq6sklah2dm54b50o173xtp4zs17gpi55s.jpg\" loading=\"lazy\" decoding=\"async\" alt=\"Vehicle Brake\">\n      <h3>Rotor Inspection Tips</h3>\n      <ul><li>Check rotor thickness. Measure rotor thickness at multiple locations, as uneven thickness can cause vibration and poor braking performance.</li><li>Inspect for surface cracks. Be on the lookout for heat and structural cracks, as well as cracks extending to cooling vanes or edges.</li><li>Look for excessive scoring or grooving. Deep grooves may indicate metal-to-metal contact, work pads, or foreign material trapped in the brake assembly.</li><li>Check for heat damage. Bluing, heat spots or warping can lead to reduced braking efficiency.</li><li>Verify the rotor mounting condition. Look for loose mounting hardware, corrosion and rotor runout concerns, as improper mounting can lead to uneven wear and brake pulsation.</li></ul>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "How to Prepare Your Vehicle for Brake Safety Week"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r26",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c27",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2t1",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>As the Commercial Vehicle Safety Alliance’s Brake Safety Week is scheduled for Aug. 23-29, inspectors are putting a special focus on drums and rotors during this year’s event. Brake drum and rotor issues may affect a vehicle’s brake efficiency. Broken pieces of drums and rotors may become dislodged from the vehicle during travel and damage other vehicles or result in injuries or fatalities to the motoring public.</strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h2",
+                  "type": "heading",
+                  "props": {
+                    "text": "HERE’S TIPS TO HELP ESNURE YOUR DRUMS AND ROTORS ARE READY TO PASS INSPECTION:",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "drum inspection tips",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "22",
+                      "marginLeft": "0",
+                      "paddingLeft": "22",
+                      "display": "grid",
+                      "rowGap": "14",
+                      "columnGap": "14"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s2c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "Check for cracks. Small hairline cracks caused by normal heating and cooling is common, but structural cracks typically require replacement.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Measure drum diameter. Drums worn beyond their maximum allowable diameter need to be replaced, as excessive diameter reduces effectiveness and contribute to out-of-service violations.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t10",
+                          "type": "text",
+                          "props": {
+                            "text": "Look for heat damage. Be vigilant of blue/dark discoloration, hot spots, heat checking focused in one area, scoring or gouging.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t12",
+                          "type": "text",
+                          "props": {
+                            "text": "Check for contamination. Inspect drums for oil, grease, and wheel-seal leakage. Contamination can significantly reduce brake performance.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s2i13",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/elementor/thumbs/Aftermarket_P4_Wheel-hubs-and-brakes-9-scaled-e1755546670566-ragcquvzjq6sklah2dm54b50o173xtp4zs17gpi55s.jpg",
+                      "alt": "Vehicle Brake"
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h14",
+                  "type": "heading",
+                  "props": {
+                    "text": "Rotor Inspection Tips",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2r15",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingLeft": "22",
+                      "display": "grid",
+                      "rowGap": "14",
+                      "columnGap": "14"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s2c16",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t17",
+                          "type": "text",
+                          "props": {
+                            "text": "Check rotor thickness. Measure rotor thickness at multiple locations, as uneven thickness can cause vibration and poor braking performance.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c18",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t19",
+                          "type": "text",
+                          "props": {
+                            "text": "Inspect for surface cracks. Be on the lookout for heat and structural cracks, as well as cracks extending to cooling vanes or edges.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c20",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t21",
+                          "type": "text",
+                          "props": {
+                            "text": "Look for excessive scoring or grooving. Deep grooves may indicate metal-to-metal contact, work pads, or foreign material trapped in the brake assembly.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c22",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t23",
+                          "type": "text",
+                          "props": {
+                            "text": "Check for heat damage. Bluing, heat spots or warping can lead to reduced braking efficiency.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s2c24",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s2t25",
+                          "type": "text",
+                          "props": {
+                            "text": "Verify the rotor mounting condition. Look for loose mounting hardware, corrosion and rotor runout concerns, as improper mounting can lead to uneven wear and brake pulsation.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/2026-national-technician-appreciation-week\">2026 National Technician Appreciation Week</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/thanking-americas-truck-drivers\">Thanking America’s Truck Drivers</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h2\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:20px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2h3\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t10\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t12\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2i13\"][data-bz-node] img{display:block;width:100%;height:auto}\n[data-bz-node=\"s2i13\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2h14\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:22px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t17\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t19\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t21\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t23\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2t25\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  2:51 pm \\00b7  By Sophia Wagner\"}\n"
 }

@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Trucks",
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "Semi-Truck Financing"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,97 +53,314 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Semi-Truck Financing",
-          "lead": "Our financing and insurance options complement our sales, parts and service departments to provide complete one-stop shopping for all your trucking needs.",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Truck Country Credit App",
-          "cta1Url": "https://www.truckcountry.com/truck-credit-app/",
-          "cta2Label": "Stoops Credit App",
-          "cta2Url": "https://www.truckcountry.com/stoop-credit-app/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "card-grid",
-        "values": {
-          "eyebrow": "",
-          "heading": "Financing options",
-          "columns": "3",
-          "items": [
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "title": "",
-              "body": "New and Pre-Owned Tractors.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Simplified credit application with quick approvals.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Flexible terms and down payments.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Seasonal payback schedules to fit your cash flow pattern.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Repayment terms for trucks from 24 to 72 months depending on your business needs.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Fixed, floating rates, or a combination of both.",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Lines of credit available for equipment purchases.",
-              "linkLabel": "",
-              "url": ""
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
             }
           ],
-          "anchorId": ""
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r13",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c14",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r11",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Semi-Truck Financing",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Our financing and insurance options complement our sales, parts and service departments to provide complete one-stop shopping for all your trucking needs.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r6",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c7",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b8",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Truck Country Credit App",
+                                        "url": "https://www.truckcountry.com/truck-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b10",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Stoops Credit App",
+                                        "url": "https://www.truckcountry.com/stoop-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "semi-truck-financing-s3",
+        "values": {
+          "items": [
+            {
+              "f0": "New and Pre-Owned Tractors."
+            },
+            {
+              "f0": "Simplified credit application with quick approvals."
+            },
+            {
+              "f0": "Flexible terms and down payments."
+            },
+            {
+              "f0": "Seasonal payback schedules to fit your cash flow pattern."
+            },
+            {
+              "f0": "Repayment terms for trucks from 24 to 72 months depending on your business needs."
+            },
+            {
+              "f0": "Fixed, floating rates, or a combination of both."
+            },
+            {
+              "f0": "Lines of credit available for equipment purchases."
+            }
+          ]
         }
       }
     },
     {
-      "id": "s3",
-      "type": "sharedSection",
+      "id": "s4",
+      "type": "section",
       "props": {
-        "sectionId": "loan-calculator",
-        "values": {
-          "eyebrow": "",
-          "heading": "Loan Payment Estimator",
-          "body": "",
-          "note": "* Required",
-          "anchorId": "calculator"
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Loan Payment Estimator",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4w2",
+          "type": "loan-calculator",
+          "props": {
+            "note": "* Required"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4t3",
+          "type": "text",
+          "props": {
+            "text": "*Please note that this payment calculator tool is provided only as a convenience in order to test payment scenarios and estimate possible payments. Truck Country/Stoops Freightliner is not liable for any damages or losses including special, incidental, punitive, indirect or consequential damages or monetary losses of any kind arising out of or in connection with the use of this calculator tool and any information derived from the results. Actual truck payments will be confirmed by Truck Country/Stoops Freightliner sales representatives and/or your chosen financing company once final price and terms are established. Please seek professional financial guidance as necessary.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
     }
   ]
 }

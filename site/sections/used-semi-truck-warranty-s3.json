@@ -1,0 +1,207 @@
+{
+  "version": 2,
+  "id": "used-semi-truck-warranty-s3",
+  "name": "ZERO Deductible (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "center"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s3h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "ZERO Deductible",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r6-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c7-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t8-r",
+                          "type": "text",
+                          "props": {
+                            "text": "{{f0}}",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s3c29",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t30",
+                  "type": "text",
+                  "props": {
+                    "text": "Call any Truck Country or Stoops Freightliner location for more information on buying a used truck that qualifies for this used semi-truck warranty.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3b31",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "See all locations information here",
+                        "url": "https://www.truckcountry.com/locations/",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s3r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(min(100%, 340px), 1fr));row-gap:clamp(32px, 6vw, 80px);column-gap:clamp(32px, 6vw, 80px)}\n[data-bz-node=\"s3h3\"][data-bz-node] h2{font-family:Oswald, sans-serif;font-size:clamp(28px, 4vw, 42px);font-weight:700;font-style:normal;line-height:1.1;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(255, 255, 255);margin-top:0px;margin-right:0px;margin-bottom:32px;margin-left:0px}\n[data-bz-node^=\"s3t8-r\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:25.6px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(255, 255, 255);margin:0}\n[data-bz-node=\"s3c29\"][data-bz-node]{padding-top:clamp(24px, 4vw, 40px);padding-right:clamp(24px, 4vw, 40px);padding-bottom:clamp(24px, 4vw, 40px);padding-left:clamp(24px, 4vw, 40px)}\n[data-bz-node=\"s3t30\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:700;font-style:normal;line-height:28.8px;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px}\n[data-bz-node=\"s3b31\"][data-bz-node] .bz-btn{margin:0;line-height:normal;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;display:inline-block;color:#C41230;text-decoration:underline;display:inline-block;background:rgb(196, 18, 48);color:rgb(255, 255, 255);text-decoration:none;font-weight:600;font-size:15px;font-family:Oswald, sans-serif;letter-spacing:0.1em;text-transform:uppercase;padding-top:18px;padding-right:32px;padding-bottom:18px;padding-left:32px}\n[data-bz-node=\"s3b31\"][data-bz-node] .bz-btn:hover{background: rgb(143, 13, 33); color: rgb(255, 255, 255)}\n[data-bz-node=\"s3b31\"][data-bz-node] .bz-btn:focus{outline: rgb(20, 21, 26) solid 3px; outline-offset: 3px}\n[data-bz-node=\"s3b31\"][data-bz-node] .bz-btns{margin:0;gap:0}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

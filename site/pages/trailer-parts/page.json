@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Trailers",
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "Trailer Parts"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,44 +53,7 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Trailer Parts",
-          "lead": "Truck Country/Stoops has the trailer parts and accessories you need to get the most out of your trailer. We offer a huge selection of cross-application trailer parts such as: tail lights, tires, wheels, axles, leaf springs, frame hardware, tongue jacks, couplers, safety chains, towing equipment, brakes and much more from top name brand manufacturers. These brands include:",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "",
-          "image": {
-            "src": "/img/brands/wabash.png",
-            "alt": "Wabash",
-            "width": 1200,
-            "height": 800
-          },
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -97,60 +61,338 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
       },
       "children": [
         {
-          "id": "s3-row",
+          "id": "s2r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s3-col",
+              "id": "s2c2",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c9",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
               "children": [
                 {
-                  "id": "s3-head",
-                  "type": "heading",
+                  "id": "s2r6",
+                  "type": "row",
                   "props": {
-                    "text": "Stocking Parts For These Brands:",
-                    "eyebrow": "",
-                    "headingLevel": 2
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff"
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Trailer Parts",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country/Stoops has the trailer parts and accessories you need to get the most out of your trailer. We offer a huge selection of cross-application trailer parts such as: tail lights, tires, wheels, axles, leaf springs, frame hardware, tongue jacks, couplers, safety chains, towing equipment, brakes and much more from top name brand manufacturers. These brands include:",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
-                },
-                {
-                  "id": "s3-body",
-                  "type": "text",
-                  "props": {
-                    "text": "Wabash, MAC Trailer, Stoughton, Transcraft, Leyman, Ancra Cargo, TSE Brakes, Maxon, Trail King Industries, Fleet Engineers, SAF Holland, STEMCO, Strick, Genuine Shurco, Air Seal Controls, Waltco, MBB Interlift Palfinger Company, Aurora Parts and Service Network, Aero, Hendrickson, Reyco Granning, Jost International, Hutchens Industries, Pro-Par OEM Heavy Duty Parts",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff@85%"
-                    }
-                  }
+                  ]
                 }
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "s3-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "trailer-parts-s3",
+        "values": {
+          "items": [
+            {
+              "f0": {
+                "src": "/img/brands/wabash.png",
+                "alt": "Wabash"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/mac-trailer.png",
+                "alt": "Mac Trailer"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/stoughton.png",
+                "alt": "Stoughton"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/transcraft.png",
+                "alt": "Transcraft"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/leyman.png",
+                "alt": "Leyman"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/ancra-cargo.png",
+                "alt": "Ancra Cargo"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/tse-brakes.png",
+                "alt": "TSE Brakes"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/maxon.png",
+                "alt": "Maxon"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/trail-king.png",
+                "alt": "Trail King Industries"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/aurora.png",
+                "alt": "Aurora Parts"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/interlift-palfinger.png",
+                "alt": "MBB Interlift Palfinger Company"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/waltco.png",
+                "alt": "Waltco"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/sealco.png",
+                "alt": "Air Sealco Controls"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/shurco.png",
+                "alt": "Genuine Shurco"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/strick.png",
+                "alt": "Strick"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/stemco.png",
+                "alt": "STEMCO"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/saf-holland.png",
+                "alt": "SAF Holland"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/fleet-engineers.png",
+                "alt": "Fleet Engineers"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/aero.png",
+                "alt": "Aero"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/hendrickson.png",
+                "alt": "Hendrickson"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/reyco-granning.png",
+                "alt": "Reyco Granning"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/jost.png",
+                "alt": "Jost International"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/hutchens.png",
+                "alt": "Hutchens Industries"
+              }
+            },
+            {
+              "f0": {
+                "src": "/img/brands/pro-par.png",
+                "alt": "Pro-Par OEM Heavy Duty Parts"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Stocking Parts For These Brands:",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4t2",
+          "type": "text",
+          "props": {
+            "text": "Wabash, MAC Trailer, Stoughton, Transcraft, Leyman, Ancra Cargo, TSE Brakes, Maxon, Trail King Industries, Fleet Engineers, SAF Holland, STEMCO, Strick, Genuine Shurco, Air Seal Controls, Waltco, MBB Interlift Palfinger Company, Aurora Parts and Service Network, Aero, Hendrickson, Reyco Granning, Jost International, Hutchens Industries, Pro-Par OEM Heavy Duty Parts",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
         }
       ]
     }

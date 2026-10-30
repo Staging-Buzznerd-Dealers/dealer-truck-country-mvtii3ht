@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Body Shops",
-                        "url": "https://www.truckcountry.com/body-shop/"
+                        "url": "/body-shop"
                       }
                     ],
                     "current": "Indianapolis"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,206 +53,7 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Semi-Truck Body Shop in Indianapolis, IN",
-          "lead": "1851 W. Thompson Rd. Indianapolis, IN 46217\n<strong>OFFICE:</strong> <a href=\"tel:317-788-1533\" style=\"color: rgb(255, 255, 255);\">317-788-1533</a>\n<strong>TOLL-FREE:</strong> <a href=\"tel:800-899-1533\" style=\"color: rgb(255, 255, 255);\">800-899-1533</a>\n<strong>FAX:</strong> 651-724-9656",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IndyBuilding_sm-1920x1135-1-1024x605.webp",
-            "alt": "Semi-Truck Body Shop",
-            "width": 1024,
-            "height": 605
-          },
-          "cta1Label": "317-788-1533",
-          "cta1Url": "tel:317-788-1533",
-          "cta2Label": "800-899-1533",
-          "cta2Url": "tel:800-899-1533"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-truck body shop hours",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Monday – Friday",
-          "body": "7:00 am – 3:30 pm",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Closed All Major Holidays",
-          "body": "Limited hours on Christmas Eve and New Years Eve",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "split-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "Get your semi-truck back on the road faster by entrusting the Truck Country semi-truck body shop in Indianapolis, Indiana, conveniently located and accessible from Interstate 465. Our semi-truck body shop team is solely focused on your repair and maintenance needs. Our Indianapolis semi-truck body shop specializes in working on Freightliner and Western Star brands and just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–from a single location. Technicians use the latest technology such as the state-of-the-art frame straightening machine, Josam Play Detectors, and the heated Devilbliss paint booth. From semi-truck bodywork to complete detailing of all makes and models, it pays to give the team of experts at Indianapolis a call!",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
-            "alt": "Body shop work 1",
-            "width": 300,
-            "height": 200
-          },
-          "ctaLabel": "",
-          "ctaUrl": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-Truck Body Shop Services",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "16 Body Shop Bays",
-          "body": "Our location has ample space for your truck and our technicians to perform maintenance, repairs, and inspections.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Alignment Rack",
-          "body": "Our semi-truck body shop has an alignment rack which is designed to hold your vehicle up, so our skilled team can adjust your wheels and suspension system.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Bee Line Chassis and Correction",
-          "body": "Our location has a Bee Line Chassis and Correction system which is used to measure and fix any misalignments in your vehicle’s frame.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Complete or Partial Painting",
-          "body": "Our experienced techs offer complete or partial paint jobs.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Daily/Weekly Updates",
-          "body": "We want to give you the best service. One service that we offer to every customer is daily and weekly updates on your vehicle.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Glass Replacement",
-          "body": "Our skilled techs will replace damaged and broken glass on your vehicle.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g6",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Fiberglass and SMC Repair",
-          "body": "Fiberglass and SMC Repair can become damaged on your semi-truck. We will repair these components.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g7",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Pick-up and Delivery of Vehicles",
-          "body": "Our location offers pick-up and delivery of vehicles!",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s5",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -259,91 +61,521 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden"
         }
       },
       "children": [
         {
-          "id": "s5-row",
+          "id": "s2i1",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IndyBuilding_sm-1920x1135-1-1024x605.webp",
+              "alt": "Semi-Truck Body Shop",
+              "width": 1024,
+              "height": 605
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r2",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s5-col",
+              "id": "s2c3",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r13",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c14",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
               "children": [
                 {
-                  "id": "s5-head",
-                  "type": "heading",
+                  "id": "s2r11",
+                  "type": "row",
                   "props": {
-                    "text": "Our Team",
-                    "eyebrow": "",
-                    "headingLevel": 2
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff"
+                  "children": [
+                    {
+                      "id": "s2c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "720"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t4",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h5",
+                          "type": "heading",
+                          "props": {
+                            "text": "Semi-Truck Body Shop in Indianapolis, IN",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "1851 W. Thompson Rd. Indianapolis, IN 46217",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t7",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>OFFICE:</strong> <a href=\"tel:317-788-1533\">317-788-1533</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t8",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>TOLL-FREE:</strong> <a href=\"tel:800-899-1533\">800-899-1533</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t9",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>FAX:</strong> 651-724-9656",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2b10",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Call 317-788-1533",
+                                "url": "tel:317-788-1533",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
-                },
-                {
-                  "id": "s5-body",
-                  "type": "text",
-                  "props": {
-                    "text": "Randy\n\nGeneral Manager\n\nJo\n\nBody Shop Manager\n\nDevin Williams\n\nForeman\n\nSteve Laing\n\nEstimator\n\nLisa Wilson\n\nBody Shop Administrator",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff@85%"
-                    }
-                  }
-                },
-                {
-                  "id": "s5-list",
-                  "type": "list",
-                  "props": {
-                    "columns": 2,
-                    "items": [
-                      {
-                        "label": "Drop photo Randy General Manager"
-                      },
-                      {
-                        "label": "Drop photo Jo Body Shop Manager"
-                      },
-                      {
-                        "label": "Drop photo Devin Williams Foreman"
-                      },
-                      {
-                        "label": "Drop photo Steve Laing Estimator"
-                      },
-                      {
-                        "label": "Drop photo Lisa Wilson Body Shop Administrator"
-                      }
-                    ]
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff@85%"
-                    }
-                  }
+                  ]
                 }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3h1",
+          "type": "heading",
+          "props": {
+            "text": "Semi-truck body shop hours",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Monday – Friday",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t5",
+                  "type": "text",
+                  "props": {
+                    "text": "7:00 am – 3:30 pm",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c6",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h7",
+                  "type": "heading",
+                  "props": {
+                    "text": "Closed All Major Holidays",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t8",
+                  "type": "text",
+                  "props": {
+                    "text": "Limited hours on Christmas Eve and New Years Eve",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3i9",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/02/EliteSupport-2048x439.jpg",
+              "alt": "Elite Support_website",
+              "width": 2048,
+              "height": 439
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "body-shop-indianapolis-s4",
+        "values": {
+          "items": [
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
+                "alt": "Body shop work 1",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_9481-copy-300x200.jpg",
+                "alt": "Body shop work 2",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8680-copy-300x200.jpg",
+                "alt": "Body shop work 3",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_9482-300x200.jpg",
+                "alt": "Body shop work 4",
+                "width": 300,
+                "height": 200
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "body-shop-indianapolis-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "16 Body Shop Bays",
+              "f1": "Our location has ample space for your truck and our technicians to perform maintenance, repairs, and inspections."
+            },
+            {
+              "f0": "Alignment Rack",
+              "f1": "Our semi-truck body shop has an alignment rack which is designed to hold your vehicle up, so our skilled team can adjust your wheels and suspension system."
+            },
+            {
+              "f0": "Bee Line Chassis and Correction",
+              "f1": "Our location has a Bee Line Chassis and Correction system which is used to measure and fix any misalignments in your vehicle’s frame."
+            },
+            {
+              "f0": "Complete or Partial Painting",
+              "f1": "Our experienced techs offer complete or partial paint jobs."
+            },
+            {
+              "f0": "Daily/Weekly Updates",
+              "f1": "We want to give you the best service. One service that we offer to every customer is daily and weekly updates on your vehicle."
+            },
+            {
+              "f0": "Glass Replacement",
+              "f1": "Our skilled techs will replace damaged and broken glass on your vehicle."
+            },
+            {
+              "f0": "Fiberglass and SMC Repair",
+              "f1": "Fiberglass and SMC Repair can become damaged on your semi-truck. We will repair these components."
+            },
+            {
+              "f0": "Pick-up and Delivery of Vehicles",
+              "f1": "Our location offers pick-up and delivery of vehicles!"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s6-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "body-shop-indianapolis-s6",
+        "values": {
+          "items": [
+            {
+              "f0": "Drop photo",
+              "f1": "Randy",
+              "f2": "General Manager"
+            },
+            {
+              "f0": "Drop photo",
+              "f1": "Jo",
+              "f2": "Body Shop Manager"
+            },
+            {
+              "f0": "Drop photo",
+              "f1": "Devin Williams",
+              "f2": "Foreman"
+            },
+            {
+              "f0": "Drop photo",
+              "f1": "Steve Laing",
+              "f2": "Estimator"
+            },
+            {
+              "f0": "Drop photo",
+              "f1": "Lisa Wilson",
+              "f2": "Body Shop Administrator"
+            }
+          ]
+        }
+      }
     }
   ]
 }

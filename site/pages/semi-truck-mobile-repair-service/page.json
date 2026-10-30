@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Services",
-                        "url": "https://www.truckcountry.com/services/"
+                        "url": "/services"
                       }
                     ],
                     "current": "Semi-Truck Mobile Repair Service"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,186 +53,7 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Semi-Truck Mobile Repair Service",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Call 317-907-8095",
-          "cta1Url": "tel:317-907-8095"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "photo-strip",
-        "values": {
-          "heading": "",
-          "items": [],
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Comprehensive Mobile Repair Services",
-          "body": "At Truck Country and Stoops Freightliner-Western Star, we provide comprehensive mobile repair services to minimize downtime for medium – and heavy-duty trucks across the midwest. As part of one of the largest dealership groups in the U.S., our mobile teams bring dealership-quality expertise directly to you. <strong><em>Mobile Service is not a roadside or emergency response service.</em></strong>\n\nOur professional Mobile Service team provides scheduled on-site support. We diagnose issues, perform necessary repairs, and ensure your equipment or vehicles are operating safely and efficiently, minimizing downtime and maximizing convenience. Whether you need urgent repairs, routine maintenance, or installation services, our team is equipped to handle a wide range of tasks at your site. We are committed to delivering reliable, high-quality service wherever you are.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-Truck Mobile Repair Capabilities",
-          "body": "Our dedicated mobile service technicians come directly to your location to deliver a comprehensive range of essential services. Using advanced diagnostic tools, they quickly identify engine, electrical, and mechanical issues. Our team performs scheduled inspections and preventative maintenance on-site, helping your fleet maintain peak condition without the need for shop visits. We also handle official factory recalls and warranty repairs at your location, ensuring compliance and safety. Our services include repairs for cooling systems, suspension, tire rotations, and cab heaters—all performed with professionalism and efficiency.\n\n<strong><em>Please contact us for availability of services in your area.</em></strong>",
-          "image": {
-            "src": "",
-            "alt": ""
-          },
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Aftertreatment"
-            },
-            {
-              "label": "Block Cutting and Reconditioning"
-            },
-            {
-              "label": "DOT Inspections"
-            },
-            {
-              "label": "Electrical Repair"
-            },
-            {
-              "label": "Recalls and Campaigns"
-            },
-            {
-              "label": "Software Updates and Parameter Changes"
-            },
-            {
-              "label": "Vehicle Maintenance and Repairs"
-            },
-            {
-              "label": "Warranty"
-            },
-            {
-              "label": "Other Miscellaneous Services"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Service Locations",
-          "body": "Our Mobile Services are available through various Stoops locations across Indiana, Michigan, and Ohio.\n\n<strong>Call or email us today to schedule your service!</strong><br><a href=\"tel:317-907-8095\" style=\"color: rgb(255, 255, 255);\">317-907-8095</a><br><a href=\"mailto:CorporateMobileAdmins@truckcountry.com\" style=\"color: rgb(255, 255, 255);\">CorporateMobileAdmins@truckcountry.com</a>",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s5g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Indiana",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Anderson"
-            },
-            {
-              "label": "Edinburgh"
-            },
-            {
-              "label": "Fort Wayne"
-            },
-            {
-              "label": "Fremont"
-            },
-            {
-              "label": "Lafayette"
-            },
-            {
-              "label": "Indianapolis"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s5g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Michigan",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Grayling"
-            },
-            {
-              "label": "Traverse City"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s5g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Ohio",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Dayton"
-            },
-            {
-              "label": "Lima"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s6",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -239,45 +61,373 @@
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
       },
       "children": [
         {
-          "id": "s6-row",
+          "id": "s2r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s6-col",
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c9",
               "type": "column",
               "props": {
                 "span": 12
               },
               "styles": {
                 "base": {
-                  "maxWidth": 960
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
                 }
               },
               "children": [
                 {
-                  "id": "s6-head",
-                  "type": "heading",
+                  "id": "s2r6",
+                  "type": "row",
                   "props": {
-                    "text": "Frequently Asked Questions",
-                    "eyebrow": "",
-                    "headingLevel": 2
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Semi-Truck Mobile Repair Service",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2b5",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Call 317-907-8095",
+                                "url": "tel:317-907-8095",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "semi-truck-mobile-repair-service-s3",
+        "values": {
+          "items": [
+            {
+              "f0": "Drop mobile service photo 1"
+            },
+            {
+              "f0": "Drop mobile service photo 2"
+            },
+            {
+              "f0": "Drop mobile service photo 3"
+            },
+            {
+              "f0": "Drop mobile service photo 4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Comprehensive Mobile Repair Services",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s4c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4t2",
+                  "type": "text",
+                  "props": {
+                    "text": "At Truck Country and Stoops Freightliner-Western Star, we provide comprehensive mobile repair services to minimize downtime for medium – and heavy-duty trucks across the midwest. As part of one of the largest dealership groups in the U.S., our mobile teams bring dealership-quality expertise directly to you. <strong><em>Mobile Service is not a roadside or emergency response service.</em></strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
                   }
                 },
                 {
-                  "id": "s6-faq",
+                  "id": "s4t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Our professional Mobile Service team provides scheduled on-site support. We diagnose issues, perform necessary repairs, and ensure your equipment or vehicles are operating safely and efficiently, minimizing downtime and maximizing convenience. Whether you need urgent repairs, routine maintenance, or installation services, our team is equipped to handle a wide range of tasks at your site. We are committed to delivering reliable, high-quality service wherever you are.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "semi-truck-mobile-repair-service-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "Aftertreatment"
+            },
+            {
+              "f0": "Block Cutting and Reconditioning"
+            },
+            {
+              "f0": "DOT Inspections"
+            },
+            {
+              "f0": "Electrical Repair"
+            },
+            {
+              "f0": "Recalls and Campaigns"
+            },
+            {
+              "f0": "Software Updates and Parameter Changes"
+            },
+            {
+              "f0": "Vehicle Maintenance and Repairs"
+            },
+            {
+              "f0": "Warranty"
+            },
+            {
+              "f0": "Other Miscellaneous Services"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s6-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "semi-truck-mobile-repair-service-s6",
+        "values": {
+          "items": [
+            {
+              "f0": "Anderson"
+            },
+            {
+              "f0": "Edinburgh"
+            },
+            {
+              "f0": "Fort Wayne"
+            },
+            {
+              "f0": "Fremont"
+            },
+            {
+              "f0": "Lafayette"
+            },
+            {
+              "f0": "Indianapolis"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s7",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s7h1",
+          "type": "heading",
+          "props": {
+            "text": "Frequently Asked Questions",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s7r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s7c4",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7q2",
                   "type": "widget",
                   "props": {
                     "widget": "faq",
@@ -285,7 +435,7 @@
                       "items": [
                         {
                           "q": "What information will you need from me when I contact Mobile Service?",
-                          "a": "When customers call to schedule Mobile Service, they should be prepared to provide the following details:"
+                          "a": "When customers call to schedule Mobile Service, they should be prepared to provide the following details:Vehicle VIN numberAddress of where the vehicle is locatedContact phone number"
                         },
                         {
                           "q": "What is the estimate turnaround time will be for repairs with Mobile Service?",
@@ -307,6 +457,12 @@
                     },
                     "snapshot": {
                       "items": []
+                    }
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
                 }

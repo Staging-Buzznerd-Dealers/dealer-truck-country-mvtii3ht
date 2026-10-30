@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Trailers",
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "Trailer Financing"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,110 +53,370 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Trailer Financing",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Truck Country Credit App",
-          "cta1Url": "https://www.truckcountry.com/truck-credit-app/",
-          "cta2Label": "Stoops Credit App",
-          "cta2Url": "https://www.truckcountry.com/stoop-credit-app/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "We work with several lenders who specialize in lending to fleets and owner operators. Our funding sources truly understand today’s trucking and farming industries and help us to offer proven financing options to our customers. Our inventory includes new and used hoppers and trailers for lease or purchase to fit any semi trailer need your fleet may have. Trust the team at Stoops Freightliner/Truck Country to secure the trailer credit you need and to answer any trailer financing questions you may have.\n\nWe finance vans, dump trailers, tractor trailers, flatbed trailers, semi trailers, refrigerated trailers (reefers), and hoppers for Midwest farmers. Whatever your equipment or financing needs, the Stoops Freightliner/Truck Country finance team is here to help you get the necessary funding for your semi trailer or hopper purchase. If you are an owner operator or fleet and you are ready to get started, simply fill out our credit application. We appreciate the opportunity to serve you.",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r12",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Trailer Financing",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r5",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c6",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b7",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Truck Country Credit App",
+                                        "url": "https://www.truckcountry.com/truck-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b9",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Stoops Credit App",
+                                        "url": "https://www.truckcountry.com/stoop-credit-app/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s3c4",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t1",
+                  "type": "text",
+                  "props": {
+                    "text": "We work with several lenders who specialize in lending to fleets and owner operators. Our funding sources truly understand today’s trucking and farming industries and help us to offer proven financing options to our customers. Our inventory includes new and used hoppers and trailers for lease or purchase to fit any semi trailer need your fleet may have. Trust the team at Stoops Freightliner/Truck Country to secure the trailer credit you need and to answer any trailer financing questions you may have.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "s3t2",
+                  "type": "text",
+                  "props": {
+                    "text": "We finance vans, dump trailers, tractor trailers, flatbed trailers, semi trailers, refrigerated trailers (reefers), and hoppers for Midwest farmers. Whatever your equipment or financing needs, the Stoops Freightliner/Truck Country finance team is here to help you get the necessary funding for your semi trailer or hopper purchase. If you are an owner operator or fleet and you are ready to get started, simply fill out our credit application. We appreciate the opportunity to serve you.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "card-grid",
+        "sectionId": "trailer-financing-s4",
         "values": {
-          "eyebrow": "",
-          "heading": "Financing options",
-          "columns": "3",
           "items": [
             {
-              "title": "",
-              "body": "New and pre-owned tractors.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "New and pre-owned tractors."
             },
             {
-              "title": "",
-              "body": "Simplified credit application with quick approvals.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Simplified credit application with quick approvals."
             },
             {
-              "title": "",
-              "body": "Flexible terms and down payments.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Flexible terms and down payments."
             },
             {
-              "title": "",
-              "body": "Seasonal payback schedules to fit your cash flow pattern.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Seasonal payback schedules to fit your cash flow pattern."
             },
             {
-              "title": "",
-              "body": "Repayment terms for trucks from 24 to 72 months depending on your business needs.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Repayment terms for trucks from 24 to 72 months depending on your business needs."
             },
             {
-              "title": "",
-              "body": "Fixed, floating rates, or a combination of both.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Fixed, floating rates, or a combination of both."
             },
             {
-              "title": "",
-              "body": "Lines of credit available for equipment purchases.",
-              "linkLabel": "",
-              "url": ""
+              "f0": "Lines of credit available for equipment purchases."
             }
-          ],
-          "anchorId": ""
+          ]
         }
       }
     },
     {
-      "id": "s4",
-      "type": "sharedSection",
+      "id": "s5",
+      "type": "section",
       "props": {
-        "sectionId": "loan-calculator",
-        "values": {
-          "eyebrow": "",
-          "heading": "Loan Payment Estimator",
-          "body": "",
-          "note": "* Required",
-          "anchorId": "calculator"
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Loan Payment Estimator",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5w2",
+          "type": "loan-calculator",
+          "props": {
+            "note": "* Required"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5t3",
+          "type": "text",
+          "props": {
+            "text": "*Please note that this payment calculator tool is provided only as a convenience in order to test payment scenarios and estimate possible payments. Truck Country/Stoops Freightliner is not liable for any damages or losses including special, incidental, punitive, indirect or consequential damages or monetary losses of any kind arising out of or in connection with the use of this calculator tool and any information derived from the results. Actual truck payments will be confirmed by Truck Country/Stoops Freightliner sales representatives and/or your chosen financing company once final price and terms are established. Please seek professional financial guidance as necessary.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
     }
   ]
 }

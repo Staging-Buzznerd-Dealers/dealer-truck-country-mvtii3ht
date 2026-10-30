@@ -5,5 +5,629 @@
   "description": "Maintaining semi-truck trailers is crucial for ensuring optimal performance and longevity, which ultimately helps reduce downtime and maximize productivity. Bringing your trailers in for routine",
   "coverImage": null,
   "status": "published",
-  "body": "<p>Maintaining semi-truck trailers is crucial for ensuring optimal performance and longevity, which ultimately helps reduce downtime and maximize productivity. Bringing your trailers in for routine preventive maintenance (PM) is essential for extending their lifespan. Regular inspections enable early detection of potential issues, ensuring that your trailers operate efficiently and reliably. With a consistent maintenance routine, you can enjoy lower repair costs, enhanced safety, and improved dependability. This article outlines the numerous benefits of regular PM that contribute to the durability of your trailers, providing insights for the success of your fleet.</p>\n      <h3>What is Preventive Maintenance?</h3>\n      <p>Preventive maintenance (PM) refers to the systematic inspection, cleaning, and servicing of semi-truck trailers to prevent unexpected failures and extend their lifespan. The primary goal of PM is to identify potential problems early, ensuring that your trailers function efficiently and reliably. By following a well-structured PM plan, fleet managers can significantly reduce downtime, increase productivity, and lower overall repair costs.</p>\n      <p>Preventive maintenance differs from reactive maintenance in its proactive approach. PM involves routine maintenance tasks performed at regular intervals, while reactive maintenance only occurs after equipment failure, often resulting in costly repairs and unplanned downtime. By investing in preventive maintenance, trailer operators can mitigate the risks associated with sudden breakdowns.</p>\n      <p>Common PM practices include regular inspections, lubrication, tire rotations, and brake checks. These tasks are typically scheduled based on manufacturer recommendations or industry standards and can be tailored to meet the specific needs of the trailers. A comprehensive PM program can enhance the reliability and efficiency of your fleet, leading to reduced operational costs and extended trailer lifespan.</p>\n      <h3>Advantages of Regular Maintenance</h3>\n      <p>Implementing a consistent maintenance schedule through routine preventive maintenance can significantly improve the longevity of your semi-truck trailers. Frequent inspections and servicing help identify potential problems before they escalate, ensuring your trailers remain operational for years to come. By addressing wear and tear proactively, you can maximize your investment and minimize the chances of early replacements.</p>\n      <p>In addition to prolonging the lifespan of trailers, regular maintenance enhances their reliability and performance. Well-maintained trailers operate at peak efficiency, resulting in better fuel economy and increased productivity. Reliable equipment contributes to smooth operations and boosts your team’s confidence in their daily tools.</p>\n      <p>Sticking to a maintenance schedule drastically reduces the risk of unexpected breakdowns and the expensive repairs that can follow. By conducting routine checks and services, you can uncover minor issues before they develop into major problems, ultimately saving time and money. Preventive maintenance not only ensures your trailers are in excellent condition but also protects overall operational efficiency, allowing your business to function seamlessly.</p>\n      <h3>Implementing an Effective Maintenance Program</h3>\n      <p>Creating a successful preventive maintenance (PM) program is vital for ensuring that your semi-truck trailers last longer and operate efficiently. The first step in developing a solid maintenance plan is to assess your trailers’ needs. Identify necessary maintenance tasks, such as inspections, lubrication, and parts replacement, and document them. This foundational step clarifies the specific requirements for each trailer.</p>\n      <p>Once you have outlined the essential maintenance tasks, the next step is to establish schedules and reminders. Set up a timeline for regular PM that aligns with your operational needs and trailer usage. Utilize calendars or scheduling software to set reminders for upcoming maintenance tasks, allowing you to proactively address any issues before they escalate into serious problems.</p>\n      <p>Incorporating technology and tools to track maintenance activities can significantly improve the effectiveness of your PM program. Consider using fleet management software that includes automated reminders, maintenance logs, and performance analytics. These tools not only help you stay organized but also provide valuable insights into trailer performance trends, enabling informed decisions regarding future maintenance needs. By adopting these strategies, you can ensure the success of your preventive maintenance program, extending the life of your trailers and optimizing operational efficiency.</p>\n      <img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/05/DuraPlate-Dry-Van-TRIM-2022-1-1024x683.png\" width=\"1024\" height=\"683\" loading=\"lazy\" decoding=\"async\" alt=\"Preventive Maintenance Semi-Truck Trailers\">\n      <h3>Success Stories of Preventive Maintenance</h3>\n      <p>Preventive maintenance (PM) is a critical component of effective trailer management, as demonstrated by various real-world case studies. One notable example features a fleet of semi-truck trailers that adopted a rigorous PM schedule. Over a five-year span, this fleet experienced a significant decrease in unscheduled repairs, resulting in substantial cost savings and increased productivity. This proactive strategy maximized trailer uptime and extended the lifespan of each trailer considerably.</p>\n      <p>Testimonials from trailer owners emphasize the value of routine maintenance. A fleet manager noted, ‘Since we started regular PM, our downtime has dramatically decreased. Our trailers run more smoothly, enabling us to meet deadlines and improve our reputation.’ Such firsthand accounts reinforce the idea that consistent maintenance benefits both performance and financial returns.</p>\n      <p>Statistics also highlight the importance of preventive maintenance. Research indicates that trailers receiving regular PM can last considerably longer than those that do not. Additionally, studies show that companies practicing preventive maintenance experience fewer trailer failures compared to those relying solely on reactive maintenance. These compelling statistics underscore the long-term advantages of establishing a structured PM approach for any fleet.</p>\n      <h3>Prioritize Preventive Maintenance for Future Savings</h3>\n      <p>In conclusion, investing in regular preventive maintenance services offers numerous long-term benefits that enhance the lifespan of your semi-truck trailers. Routine maintenance checks not only improve performance but also significantly reduce the risk of unexpected breakdowns. By taking a proactive approach, you can prevent minor issues from escalating into costly repairs, ensuring that your trailers perform at their best.</p>\n      <p>Encouraging regular maintenance is essential for protecting your investment. By adhering to a structured maintenance schedule, you will gain peace of mind and maintain the resale value of your trailers. A well-maintained trailer is more reliable, performs better, and can save you money on fuel and repairs over time.</p>\n      <p>Now is the perfect time to take action! Schedule your maintenance services with Truck Country/Stoops today to ensure your trailers remain in optimal condition. Our expert team is ready to assist you in maximizing your trailers for peak performance and longevity. Don’t wait until it’s too late—invest in preventive maintenance and enjoy the rewards of future savings!</p>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "The Importance of Regular Preventive Maintenance for Semi-Truck Trailers"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r23",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c24",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2t1",
+                  "type": "text",
+                  "props": {
+                    "text": "Maintaining semi-truck trailers is crucial for ensuring optimal performance and longevity, which ultimately helps reduce downtime and maximize productivity. Bringing your trailers in for routine preventive maintenance (PM) is essential for extending their lifespan. Regular inspections enable early detection of potential issues, ensuring that your trailers operate efficiently and reliably. With a consistent maintenance routine, you can enjoy lower repair costs, enhanced safety, and improved dependability. This article outlines the numerous benefits of regular PM that contribute to the durability of your trailers, providing insights for the success of your fleet.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h2",
+                  "type": "heading",
+                  "props": {
+                    "text": "What is Preventive Maintenance?",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Preventive maintenance (PM) refers to the systematic inspection, cleaning, and servicing of semi-truck trailers to prevent unexpected failures and extend their lifespan. The primary goal of PM is to identify potential problems early, ensuring that your trailers function efficiently and reliably. By following a well-structured PM plan, fleet managers can significantly reduce downtime, increase productivity, and lower overall repair costs.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t4",
+                  "type": "text",
+                  "props": {
+                    "text": "Preventive maintenance differs from reactive maintenance in its proactive approach. PM involves routine maintenance tasks performed at regular intervals, while reactive maintenance only occurs after equipment failure, often resulting in costly repairs and unplanned downtime. By investing in preventive maintenance, trailer operators can mitigate the risks associated with sudden breakdowns.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Common PM practices include regular inspections, lubrication, tire rotations, and brake checks. These tasks are typically scheduled based on manufacturer recommendations or industry standards and can be tailored to meet the specific needs of the trailers. A comprehensive PM program can enhance the reliability and efficiency of your fleet, leading to reduced operational costs and extended trailer lifespan.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "Advantages of Regular Maintenance",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "Implementing a consistent maintenance schedule through routine preventive maintenance can significantly improve the longevity of your semi-truck trailers. Frequent inspections and servicing help identify potential problems before they escalate, ensuring your trailers remain operational for years to come. By addressing wear and tear proactively, you can maximize your investment and minimize the chances of early replacements.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "In addition to prolonging the lifespan of trailers, regular maintenance enhances their reliability and performance. Well-maintained trailers operate at peak efficiency, resulting in better fuel economy and increased productivity. Reliable equipment contributes to smooth operations and boosts your team’s confidence in their daily tools.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "Sticking to a maintenance schedule drastically reduces the risk of unexpected breakdowns and the expensive repairs that can follow. By conducting routine checks and services, you can uncover minor issues before they develop into major problems, ultimately saving time and money. Preventive maintenance not only ensures your trailers are in excellent condition but also protects overall operational efficiency, allowing your business to function seamlessly.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h10",
+                  "type": "heading",
+                  "props": {
+                    "text": "Implementing an Effective Maintenance Program",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t11",
+                  "type": "text",
+                  "props": {
+                    "text": "Creating a successful preventive maintenance (PM) program is vital for ensuring that your semi-truck trailers last longer and operate efficiently. The first step in developing a solid maintenance plan is to assess your trailers’ needs. Identify necessary maintenance tasks, such as inspections, lubrication, and parts replacement, and document them. This foundational step clarifies the specific requirements for each trailer.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t12",
+                  "type": "text",
+                  "props": {
+                    "text": "Once you have outlined the essential maintenance tasks, the next step is to establish schedules and reminders. Set up a timeline for regular PM that aligns with your operational needs and trailer usage. Utilize calendars or scheduling software to set reminders for upcoming maintenance tasks, allowing you to proactively address any issues before they escalate into serious problems.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t13",
+                  "type": "text",
+                  "props": {
+                    "text": "Incorporating technology and tools to track maintenance activities can significantly improve the effectiveness of your PM program. Consider using fleet management software that includes automated reminders, maintenance logs, and performance analytics. These tools not only help you stay organized but also provide valuable insights into trailer performance trends, enabling informed decisions regarding future maintenance needs. By adopting these strategies, you can ensure the success of your preventive maintenance program, extending the life of your trailers and optimizing operational efficiency.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2i14",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/05/DuraPlate-Dry-Van-TRIM-2022-1-1024x683.png",
+                      "alt": "Preventive Maintenance Semi-Truck Trailers",
+                      "width": 1024,
+                      "height": 683
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h15",
+                  "type": "heading",
+                  "props": {
+                    "text": "Success Stories of Preventive Maintenance",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t16",
+                  "type": "text",
+                  "props": {
+                    "text": "Preventive maintenance (PM) is a critical component of effective trailer management, as demonstrated by various real-world case studies. One notable example features a fleet of semi-truck trailers that adopted a rigorous PM schedule. Over a five-year span, this fleet experienced a significant decrease in unscheduled repairs, resulting in substantial cost savings and increased productivity. This proactive strategy maximized trailer uptime and extended the lifespan of each trailer considerably.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t17",
+                  "type": "text",
+                  "props": {
+                    "text": "Testimonials from trailer owners emphasize the value of routine maintenance. A fleet manager noted, ‘Since we started regular PM, our downtime has dramatically decreased. Our trailers run more smoothly, enabling us to meet deadlines and improve our reputation.’ Such firsthand accounts reinforce the idea that consistent maintenance benefits both performance and financial returns.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t18",
+                  "type": "text",
+                  "props": {
+                    "text": "Statistics also highlight the importance of preventive maintenance. Research indicates that trailers receiving regular PM can last considerably longer than those that do not. Additionally, studies show that companies practicing preventive maintenance experience fewer trailer failures compared to those relying solely on reactive maintenance. These compelling statistics underscore the long-term advantages of establishing a structured PM approach for any fleet.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2h19",
+                  "type": "heading",
+                  "props": {
+                    "text": "Prioritize Preventive Maintenance for Future Savings",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t20",
+                  "type": "text",
+                  "props": {
+                    "text": "In conclusion, investing in regular preventive maintenance services offers numerous long-term benefits that enhance the lifespan of your semi-truck trailers. Routine maintenance checks not only improve performance but also significantly reduce the risk of unexpected breakdowns. By taking a proactive approach, you can prevent minor issues from escalating into costly repairs, ensuring that your trailers perform at their best.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t21",
+                  "type": "text",
+                  "props": {
+                    "text": "Encouraging regular maintenance is essential for protecting your investment. By adhering to a structured maintenance schedule, you will gain peace of mind and maintain the resale value of your trailers. A well-maintained trailer is more reliable, performs better, and can save you money on fuel and repairs over time.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t22",
+                  "type": "text",
+                  "props": {
+                    "text": "Now is the perfect time to take action! Schedule your maintenance services with Truck Country/Stoops today to ensure your trailers remain in optimal condition. Our expert team is ready to assist you in maximizing your trailers for peak performance and longevity. Don’t wait until it’s too late—invest in preventive maintenance and enjoy the rewards of future savings!",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/semi-truck-trailers-annual-dot-inspection\">Semi-Truck Trailers Annual DOT Inspection</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/stoops-truck-country-earn-ase-accreditation-to-support-tech-training\">Stoops, Truck Country earn ASE accreditation to support tech training</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2t1\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h2\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t3\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t4\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h6\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h10\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t12\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t13\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2i14\"][data-bz-node] img{display:block;width:100%;max-width:1024px;height:auto}\n[data-bz-node=\"s2i14\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2h15\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t16\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t17\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t18\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2h19\"][data-bz-node] h3{font-family:Oswald, sans-serif;font-size:26px;font-weight:700;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:start;color:rgb(20, 21, 26);margin-top:12px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:20px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(196, 18, 48)}\n[data-bz-node=\"s2t20\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t21\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t22\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  2:34 pm \\00b7  By Grace Burke\"}\n"
 }

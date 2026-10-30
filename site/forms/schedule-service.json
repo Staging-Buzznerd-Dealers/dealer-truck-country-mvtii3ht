@@ -6,11 +6,11 @@
     "page"
   ],
   "intent": "service",
-  "submitLabel": "Request appointment",
+  "submitLabel": "Submit",
   "successMessage": "Thanks — a service advisor will confirm your appointment.",
   "consent": {
-    "enabled": true,
-    "required": true,
+    "enabled": false,
+    "required": false,
     "text": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit our Privacy Policy."
   },
   "fields": [
@@ -230,7 +230,7 @@
     {
       "id": "ss-month",
       "type": "dropdown",
-      "label": "Preferred Date — Month",
+      "label": "Month",
       "required": false,
       "options": [
         {
@@ -290,7 +290,7 @@
     {
       "id": "ss-day",
       "type": "dropdown",
-      "label": "Preferred Date — Day",
+      "label": "Day",
       "required": false,
       "options": [
         {
@@ -426,7 +426,7 @@
     {
       "id": "ss-year-pref",
       "type": "dropdown",
-      "label": "Preferred Date — Year",
+      "label": "Year",
       "required": false,
       "options": [
         {
@@ -870,7 +870,7 @@
     {
       "id": "ss-hours",
       "type": "dropdown",
-      "label": "Preferred Time — Hours",
+      "label": "Hours",
       "required": false,
       "options": [
         {
@@ -930,7 +930,7 @@
     {
       "id": "ss-minutes",
       "type": "dropdown",
-      "label": "Preferred Time — Minutes",
+      "label": "Minutes",
       "required": false,
       "options": [
         {
@@ -1182,7 +1182,7 @@
     {
       "id": "ss-ampm",
       "type": "dropdown",
-      "label": "Preferred Time — AM/PM",
+      "label": "AM/PM",
       "required": false,
       "options": [
         {
@@ -1518,11 +1518,11 @@
     {
       "id": "ss-disclaimer",
       "type": "checkboxes",
-      "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
-      "required": false,
+      "label": "Disclaimer",
+      "required": true,
       "options": [
         {
-          "value": "yes",
+          "value": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
           "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
         }
       ]

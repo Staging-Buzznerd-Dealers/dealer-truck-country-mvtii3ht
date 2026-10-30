@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Services",
-                        "url": "https://www.truckcountry.com/services/"
+                        "url": "/services"
                       }
                     ],
                     "current": "Trailer Services"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,88 +53,7 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Trailer Service",
-          "lead": "From routine maintenance, upgrades and accessory installs, to damage repairs, Truck Country/Stoops can handle the job. With multiple locations offering onsite service for light duty and commercial trailers, we get you back on the road fast. We are proud to service the best trailers in the industry including MAC Trailer, Stoughton, Wabash, and Transcraft/Benson, to name a few.",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "Trailer Services Provided:",
-          "body": "",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/trailer_banner-1-1024x289.jpg",
-            "alt": "trailer",
-            "width": 1024,
-            "height": 289
-          },
-          "anchorId": "",
-          "points": [
-            {
-              "label": "General Repairs"
-            },
-            {
-              "label": "Decaling up to Including Full Wraps"
-            },
-            {
-              "label": "DOT Inspections"
-            },
-            {
-              "label": "Install Skirt, Wings, and Other Aerodynamic Devices"
-            },
-            {
-              "label": "Patching Walls & Roofs"
-            },
-            {
-              "label": "Replacing Partial and up to Full Roofs"
-            },
-            {
-              "label": "Bogie Repairs & Replacements"
-            },
-            {
-              "label": "Install Scales"
-            },
-            {
-              "label": "Install PSI Systems"
-            },
-            {
-              "label": "Install Vents and Placards"
-            },
-            {
-              "label": "Install Lift Gates and Lift Pads"
-            },
-            {
-              "label": "Repair and Install Doors"
-            },
-            {
-              "label": "Repair and Install Brakes and Systems"
-            },
-            {
-              "label": "Floor Repairs and Installs"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -141,85 +61,136 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
       },
       "children": [
         {
-          "id": "s3-row",
+          "id": "s2r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s3-col",
+              "id": "s2c2",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c9",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
               "children": [
                 {
-                  "id": "s3-head",
-                  "type": "heading",
+                  "id": "s2r6",
+                  "type": "row",
                   "props": {
-                    "text": "Mobile Trailer Service",
-                    "eyebrow": "",
-                    "headingLevel": 2
+                    "gap": 0,
+                    "stackOn": "never"
                   },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff"
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Trailer Service",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "From routine maintenance, upgrades and accessory installs, to damage repairs, Truck Country/Stoops can handle the job. With multiple locations offering onsite service for light duty and commercial trailers, we get you back on the road fast. We are proud to service the best trailers in the industry including MAC Trailer, Stoughton, Wabash, and Transcraft/Benson, to name a few.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
-                },
-                {
-                  "id": "s3-body",
-                  "type": "text",
-                  "props": {
-                    "text": "Count on Stoops’ On-Site Mobile Trailer Service to get you back on the road. Whether for emergency breakdowns, roadside repair, preventive maintenance, DOT inspections, or scheduled onsite repairs, our Mobile Service Truck is ready and at your service!",
-                    "width": "full"
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff@85%"
-                    }
-                  }
-                },
-                {
-                  "id": "s3-list",
-                  "type": "list",
-                  "props": {
-                    "columns": 2,
-                    "items": [
-                      {
-                        "label": "Preventative Maintenance - FHWA inspections, repair DOT (Violations), etc."
-                      },
-                      {
-                        "label": "Brakes - Replace brake shoes/drums, adjust brakes, replace wheel seals"
-                      },
-                      {
-                        "label": "Electrical - Repair/replace lights/wiring, ABS diagnostics, troubleshooting"
-                      },
-                      {
-                        "label": "Body Work - Roof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear"
-                      },
-                      {
-                        "label": "Suspension - Slider pins, airbags, brake chambers, air valves, shocks"
-                      }
-                    ]
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff@85%"
-                    }
-                  }
+                  ]
                 }
               ]
             }
@@ -228,81 +199,133 @@
       ]
     },
     {
-      "id": "s4",
+      "id": "s3-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "trailer-service-s3",
         "values": {
-          "eyebrow": "",
-          "heading": "Trailer Parts",
-          "body": "Truck Country/Stoops has the trailer parts and accessories you need to get the most out of your trailer. We offer a huge selection of cross-application trailer parts such as: tail lights, tires, wheels, axles, leaf springs, frame hardware, tongue jacks, couplers, safety chains, towing equipment, brakes and much more from top name brand manufacturers.",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "MAC Trailer logo"
+              "f0": "General Repairs"
             },
             {
-              "label": "Stoughton logo"
+              "f0": "Decaling up to Including Full Wraps"
             },
             {
-              "label": "Wabash logo"
+              "f0": "DOT Inspections"
             },
             {
-              "label": "Transcraft/Benson logo"
+              "f0": "Install Skirt, Wings, and Other Aerodynamic Devices"
+            },
+            {
+              "f0": "Patching Walls & Roofs"
+            },
+            {
+              "f0": "Replacing Partial and up to Full Roofs"
+            },
+            {
+              "f0": "Bogie Repairs & Replacements"
+            },
+            {
+              "f0": "Install Scales"
+            },
+            {
+              "f0": "Install PSI Systems"
+            },
+            {
+              "f0": "Install Vents and Placards"
+            },
+            {
+              "f0": "Install Lift Gates and Lift Pads"
+            },
+            {
+              "f0": "Repair and Install Doors"
+            },
+            {
+              "f0": "Repair and Install Brakes and Systems"
+            },
+            {
+              "f0": "Floor Repairs and Installs"
             }
           ]
         }
       }
     },
     {
-      "id": "s5",
+      "id": "s4-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "trailer-service-s4",
         "values": {
-          "eyebrow": "",
-          "heading": "Lafayette Indiana",
-          "body": "",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": "Preventative Maintenance - FHWA inspections, repair DOT (Violations), etc."
+            },
+            {
+              "f0": "Brakes - Replace brake shoes/drums, adjust brakes, replace wheel seals"
+            },
+            {
+              "f0": "Electrical - Repair/replace lights/wiring, ABS diagnostics, troubleshooting"
+            },
+            {
+              "f0": "Body Work - Roof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear"
+            },
+            {
+              "f0": "Suspension - Slider pins, airbags, brake chambers, air valves, shocks"
+            }
+          ]
         }
       }
     },
     {
-      "id": "s5g0",
+      "id": "s5-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "trailer-service-s5",
         "values": {
-          "eyebrow": "",
-          "heading": "765-477-2278",
-          "body": "",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": "MAC Trailer logo"
+            },
+            {
+              "f0": "Stoughton logo"
+            },
+            {
+              "f0": "Wabash logo"
+            },
+            {
+              "f0": "Transcraft/Benson logo"
+            }
+          ]
         }
       }
     },
     {
-      "id": "s5g1",
+      "id": "s6-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "trailer-service-s6",
         "values": {
-          "eyebrow": "",
-          "heading": "800-899-1533",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s5g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "734-729-9700",
-          "body": "",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": "Lafayette Indiana",
+              "f1": "<a href=\"tel:765-477-2278\">765-477-2278</a>",
+              "f2": "Learn More",
+              "f3": "/lafayette-trailer-repair"
+            },
+            {
+              "f0": "Indianapolis Indiana",
+              "f1": "<a href=\"tel:800-899-1533\">800-899-1533</a>",
+              "f2": "Learn More",
+              "f3": "/indianapolis-trailer-repair"
+            },
+            {
+              "f0": "Wayne Michigan",
+              "f1": "<a href=\"tel:734-729-9700\">734-729-9700</a>",
+              "f2": "Learn More",
+              "f3": "https://www.truckcountry.com/locations/michigan/wayne-trailer-repair/"
+            }
+          ]
         }
       }
     }

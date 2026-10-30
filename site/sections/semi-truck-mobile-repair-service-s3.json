@@ -1,0 +1,145 @@
+{
+  "version": 2,
+  "id": "semi-truck-mobile-repair-service-s3",
+  "name": "semi-truck-mobile-repair-service (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r18",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s3c19",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r1",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "display": "flex",
+                      "rowGap": "14",
+                      "columnGap": "14",
+                      "overflowX": "auto"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s3c2-r",
+                      "type": "column",
+                      "props": {
+                        "span": 12,
+                        "repeat": "items"
+                      },
+                      "children": [
+                        {
+                          "id": "s3r4-r",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c5-r",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "100%",
+                                  "height": "100%",
+                                  "background": "#edebe3",
+                                  "borderTopWidth": "1",
+                                  "borderRightWidth": "1",
+                                  "borderBottomWidth": "1",
+                                  "borderLeftWidth": "1",
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "textAlign": "center",
+                                  "paddingTop": "8",
+                                  "paddingRight": "8",
+                                  "paddingBottom": "8",
+                                  "paddingLeft": "8",
+                                  "borderColor": "#8f8f8f",
+                                  "borderStyle": "dashed"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s3t3-r",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "{{f0}}",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s3r1\"][data-bz-node]{scroll-snap-type:x mandatory;scrollbar-width:none}\n[data-bz-node^=\"s3c2-r\"][data-bz-node]{flex:0 0 calc(33.3333% - 9.33333px);min-width:260px;aspect-ratio:1.84 / 1;scroll-snap-align:start}\n[data-bz-node^=\"s3t3-r\"][data-bz-node] p{font-family:Inter,sans-serif;font-size:14px;font-weight:500;font-style:normal;line-height:normal;letter-spacing:normal;text-transform:none;text-align:center;color:#54565C;margin:0}\n[data-bz-node^=\"s3c5-r\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node^=\"s3c5-r\"][data-bz-node]{box-sizing:border-box}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(40px, 6vw, 72px)}\n"
+}

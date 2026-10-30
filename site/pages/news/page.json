@@ -1,0 +1,539 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "About",
+                        "url": "/about-us"
+                      }
+                    ],
+                    "current": "News"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "borderBottomWidth": "6",
+          "borderColor": "#c41230",
+          "borderTopWidth": "0",
+          "borderRightWidth": "0",
+          "borderLeftWidth": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2h1",
+          "type": "heading",
+          "props": {
+            "text": "News and Blog",
+            "headingLevel": 1
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "news-list",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "news-grid",
+        "values": {
+          "posts": [
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/elementor/thumbs/NTDAW-Logo-JPEG_1-rti38lri06akqbnbn7ka8vuffrt69oow6xo56o8v5k.jpg",
+                "alt": ""
+              },
+              "date": "September 16, 2026",
+              "title": "Thanking America’s Truck Drivers",
+              "excerpt": "Every day, millions of Americans get behind the wheel and head out on the highways to get to work. But for 3.6 million Americans, the",
+              "url": "/blog/thanking-americas-truck-drivers"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/elementor/thumbs/Aftermarket_P4_Wheel-hubs-and-brakes-9-scaled-e1755546670566-ragcquvzjq6sklah2dm54b50o173xtp4zs17gpi55s.jpg",
+                "alt": ""
+              },
+              "date": "August 19, 2026",
+              "title": "How to Prepare Your Vehicle for Brake Safety Week",
+              "excerpt": "As the Commercial Vehicle Safety Alliance’s Brake Safety Week is scheduled for Aug. 23-29, inspectors are putting a special focus on drums and rotors during",
+              "url": "/blog/how-to-prepare-your-vehicle-for-brake-safety-week"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2026/06/DSC_0427-300x200.jpg",
+                "alt": ""
+              },
+              "date": "June 15, 2026",
+              "title": "2026 National Technician Appreciation Week",
+              "excerpt": "happy national technician appreciation week to those who’s hard work keeps our communities moving forward! June 14 – 20 “CELEBRATING TECHNICIANS THAT KEEP US MOVING”",
+              "url": "/blog/2026-national-technician-appreciation-week"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "May 8, 2026",
+              "title": "Shave for the Troops: Fundraiser nets $11,200 for local veterans group",
+              "excerpt": "Dubuque’s Veterans Freedom Center found out how well a good beard shave or a hair trim could pay recently when a group of Truck Country",
+              "url": "/blog/shave-for-the-troops-fundraiser-nets-11200-for-local-veterans-group"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2026/04/shutterstock_1556245136-1024x576.jpg",
+                "alt": ""
+              },
+              "date": "April 14, 2026",
+              "title": "National Work Zone Awareness Week",
+              "excerpt": "Respect the Zone: What Every Driver Needs to Know During National Work Zone Awareness Week Every spring, as construction season kicks into gear, roads across",
+              "url": "/blog/national-work-zone-awareness-week"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "February 27, 2026",
+              "title": "Stoops Freightliner-Western Star Announces New State-of-the-Art Dealership in Grayling, Michigan",
+              "excerpt": "Bringing Heavy-Duty Truck Sales, Service Excellence, and OEM Parts to Northern Michigan GRAYLING, Mich. – [Spring, 2026] – Stoops Freightliner-Western Star is proud to announce",
+              "url": "/blog/stoops-freightliner-western-star-announces-new-state-of-the-art-dealership-in-grayling-michigan"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/10/IMG_6250.png",
+                "alt": ""
+              },
+              "date": "October 22, 2025",
+              "title": "McCoy Group Builds Connections and Careers at National FFA Convention & Expo",
+              "excerpt": "The McCoy Group, the parent company of Truck Country and Stoops Freightliner-Western Star, is proud to return to the National FFA Convention & Expo for",
+              "url": "/blog/mccoy-group-builds-connections-and-careers-at-national-ffa-convention-expo"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/07/eric-selfie-e1751894911464-1024x819.jpg",
+                "alt": ""
+              },
+              "date": "July 7, 2025",
+              "title": "Truck Country customer earns trip to Star Nation Experience",
+              "excerpt": "Truck Country customer Eric Schneller was one of eight Western Star truck enthusiasts selected to take part in the 2025 Star Nation Experience, hosted by",
+              "url": "/blog/truck-country-customer-earns-trip-to-star-nation-experience"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "May 22, 2025",
+              "title": "Stoops, Truck Country earn ASE accreditation to support tech training",
+              "excerpt": "STOOPS, TRUCK COUNTRY EARN ASE ACCREDITATION TO SUPPORT TECH TRAINING Stoops Freightliner – Western Star and Truck Country have earned certification by the National Institute",
+              "url": "/blog/stoops-truck-country-earn-ase-accreditation-to-support-tech-training"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/05/DuraPlate-Dry-Van-TRIM-2022-1-1024x683.png",
+                "alt": ""
+              },
+              "date": "May 1, 2025",
+              "title": "The Importance of Regular Preventive Maintenance for Semi-Truck Trailers",
+              "excerpt": "Maintaining semi-truck trailers is crucial for ensuring optimal performance and longevity, which ultimately helps reduce downtime and maximize productivity. Bringing your trailers in for routine",
+              "url": "/blog/the-importance-of-regular-preventive-maintenance-for-semi-truck-trailers"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/03/WabashRefrig1.jpg",
+                "alt": ""
+              },
+              "date": "March 18, 2025",
+              "title": "Semi-Truck Trailers Annual DOT Inspection",
+              "excerpt": "Semi-Truck Trailers Annual DOT Inspection Welcome to Truck Country/Stoops, your trusted source for all things related to semi-truck trailers. In this article, we will explore",
+              "url": "/blog/semi-truck-trailers-annual-dot-inspection"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "February 25, 2025",
+              "title": "Explore Our eCertified Stoops Dealerships",
+              "excerpt": "EXPLORE OUR eCERTIFIED STOOPS DEALERSHIPS We are excited to announce that seven of our Stoops dealerships are eCertified for your electric fleet, ensuring you receive",
+              "url": "/blog/explore-our-ecertified-stoops-dealerships"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/02/IMG_6749-1-e1739201598776-1024x655.png",
+                "alt": ""
+              },
+              "date": "February 10, 2025",
+              "title": "Truck Country joins Wisconsin truckers, Boy Scout to deliver goods to storm victims",
+              "excerpt": "When you team a prospective Eagle Scout and truckers together, you can bet something good is going to be accomplished.",
+              "url": "/blog/truck-country-joins-wisconsin-truckers-boy-scout-to-deliver-goods-to-storm-victims"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/12/12_Fifth-generation-Freightliner-Cascadia-Day-Cab-hero-shot-passenger-side-view-scaled-e1734034438161-1024x589.jpeg",
+                "alt": ""
+              },
+              "date": "December 12, 2024",
+              "title": "New Features of the 2025 5th Generation Cascadia by Freightliner",
+              "excerpt": "Welcome to Truck Country – Stoops Freightliner Western Star, your premier source for the latest in trucking innovations. Here, we delve into the new features",
+              "url": "/blog/blog-new-features-of-the-2025-5th-generation-cascadia-by-freightliner"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/12/Freightliner-12-December-2019_d_cropped-scaled-e1733950109203.jpg",
+                "alt": ""
+              },
+              "date": "December 11, 2024",
+              "title": "Semi-Truck Winter Maintenance Tips",
+              "excerpt": "Winter presents numerous challenges for semi-truck owners and drivers. The cold temperatures, icy roads, and harsh conditions can seriously affect your vehicle if it isn’t",
+              "url": "/blog/blog-semi-truck-winter-maintenance-tips"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "November 20, 2024",
+              "title": "Frequently Asked Questions About Freightliner’s eCascadia",
+              "excerpt": "Welcome to Truck Country – Stoops Freightliner Western Star, your go-to source for frequently asked questions about Freightliner’s eCascadia. If you’re curious about this cutting-edge",
+              "url": "https://www.truckcountry.com/blog-frequently-asked-questions-about-freightliners-ecascadia/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "November 14, 2024",
+              "title": "The Buyer’s Guide for Used Semi-Trucks",
+              "excerpt": "Buying a semi-truck is a significant investment, whether you’re an independent owner-operator, you run a larger fleet, or a farmer looking for a single grain",
+              "url": "https://www.truckcountry.com/blog-the-buyers-guide-for-used-semi-trucks/"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/10/Jack-McCoy-182x300.jpg",
+                "alt": ""
+              },
+              "date": "October 1, 2024",
+              "title": "Jack McCoy",
+              "excerpt": "It is with great sadness that we bring you the news that Jack McCoy passed away this weekend.  Jack is the father of Jon and",
+              "url": "/blog/jack-mccoy"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "July 19, 2024",
+              "title": "How to Become a Diesel Technician",
+              "excerpt": "Semi-truck diesel technicians are in high demand and can offer you a great career supporting the trucking industry and the transportation of products. Did you",
+              "url": "https://www.truckcountry.com/blog-how-to-become-a-diesel-technician/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "July 18, 2024",
+              "title": "The Top 6 Reasons To Buy A Yard Dog/Terminal/Spotter Truck",
+              "excerpt": "In the fast-paced environments of distribution centers, warehouses, and cargo yards, having the right equipment is crucial. Investing in a yard dog truck, also known",
+              "url": "https://www.truckcountry.com/blog-the-top-6-reasons-to-buy-a-yard-dog-terminal-spotter-truck/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "June 6, 2024",
+              "title": "McCoy Group joins military training program",
+              "excerpt": "McCoy Group has joined a program that assists members of the military in joining the civilian workforce. McCoy Group is partnering with the U.S. Department",
+              "url": "https://www.truckcountry.com/mccoy-group-joins-military-training-program/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "October 17, 2023",
+              "title": "Stoops Takes a Big Step Forward in Aggressive Construction Plan Including Sustainability",
+              "excerpt": "Stoops Freightliner-Western Star dealerships are taking big steps forward with an aggressive construction plan aimed at improving customer experience, facilities, and development opportunities, including increasing",
+              "url": "https://www.truckcountry.com/stoops-freightliner-western-star-takes-a-big-step-forward-in-aggressive-construction-plan-including-sustainability/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "August 17, 2023",
+              "title": "Stoops Secures Property Tax Abatement Approval for $85M Expansion Project",
+              "excerpt": "Stoops plans to expand its facilities along West Thompson Road, near the I-69/I-465 interchange, to provide more parking, a new showroom, and expanded office, and",
+              "url": "https://www.truckcountry.com/stoops-secures-property-tax-abatement/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "March 31, 2023",
+              "title": "McCoy Group Enters into Purchase Agreement for 501 Bell Street Office Building in Dubuque",
+              "excerpt": "McCoy Group Enters into Purchase Agreement for 501 Bell Street Office Building in Dubuque McCoy Group, a national leader in the dealership and transportation industries",
+              "url": "https://www.truckcountry.com/mccoy-group-enters-into-purchase-agreement-for-501-bell-street-office-building-in-dubuque/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "November 3, 2022",
+              "title": "STOOPS’ Peyton Turner was recognized by the Indiana Motor Truck Association",
+              "excerpt": "Recently, Peyton Turner was recognized by the Indiana Motor Truck Association (IMTA) after his teammates submitted an essay on his behalf for the “What is",
+              "url": "https://www.truckcountry.com/peyton-turner/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "September 13, 2022",
+              "title": "Chad Schantz nominated for the Safety Professional of the Year",
+              "excerpt": "",
+              "url": "https://www.truckcountry.com/chad_schantz/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "September 28, 2021",
+              "title": "Stoops Teammate Welcomes Marines for Day of Horse Riding, Bonding",
+              "excerpt": "Deb RaiffStoops Teammate Welcomes Marines for Day of Horse Riding, BondingMembers of the military have always been close to Deb Raiff’s heart.With two of her",
+              "url": "https://www.truckcountry.com/stoops-welcomes-marines/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "August 19, 2021",
+              "title": "Truck Country opens high-visibility location in Dyersville",
+              "excerpt": "If you build it, they will come.Truck Country is borrowing a theme often associated with the ever-popular film, “Field of Dreams,” with the opening of",
+              "url": "https://www.truckcountry.com/truck-country-dyersville/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "July 14, 2021",
+              "title": "McCoy Group Pillars Retire After 45 years",
+              "excerpt": "A pair of longtime McCoy Group teammates wrapped up their tenures with the company this spring after completing illustrious careers.When Wes James and Mary Ubersox retired from their full-time",
+              "url": "https://www.truckcountry.com/james-ubersox-retire/"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "June 17, 2021",
+              "title": "Six Named as Winners of Jim Ham Scholarship Awards",
+              "excerpt": "Congratulations to six individuals who were recently recognized as winners of the inaugural Jim Ham Scholarship awards.Scholarships were presented by the McCoy Group in memory",
+              "url": "https://www.truckcountry.com/jimham-scholarship-winners/"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/05/IMG_5252-1024x768.jpg",
+                "alt": ""
+              },
+              "date": "May 26, 2021",
+              "title": "‘No-brainer:’ McCoy Group donation benefits Dubuque area’s needy",
+              "excerpt": "The McCoy Group, the parent company of Truck Country and Stoops Freightliner-Quality Trailer, was proud to recently help provide basic household items for people in need.",
+              "url": "/blog/mccoy-group-donates"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/04/Autocar.png",
+                "alt": ""
+              },
+              "date": "April 29, 2021",
+              "title": "It’s a Messy Business!",
+              "excerpt": "Bobby Smith serves as an Autocar Refuse specialists for Stoops for the past seven years, while Tyler Dittmer recently took on the role of focusing on Autocar sales for Truck Country after working in Parts and Service positions with the company.",
+              "url": "/blog/messy-business"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/03/AustinHill2.jpg",
+                "alt": ""
+              },
+              "date": "March 25, 2021",
+              "title": "Hill, Ft. Wayne Team Earn Hambone Awards",
+              "excerpt": "Austin Hill, a technical training sales representative for Stoops Freightliner-Quality Trailer, as wellas the Stoops-Ft. Wayne dealership team were recognized as the first recipients of the Hambone Award.",
+              "url": "/blog/hambone-award"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/2990_TCST_PodCast_SQLogo-01.png",
+                "alt": ""
+              },
+              "date": "January 29, 2021",
+              "title": "Truck Country, Stoops welcome ‘More Than Just Trucks’ podcast",
+              "excerpt": "Keep your ears open for “Truck Country: More Than Just Trucks,” a new podcast relating to all things in the trucking/transportation industry. more than just",
+              "url": "/blog/more-than-just-trucks"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/11/GMC-red-Bob1.jpg",
+                "alt": ""
+              },
+              "date": "November 17, 2020",
+              "title": "Truck Country, Stoops lend hand to entrepreneurs",
+              "excerpt": "Some have a dream or vision, some want to the freedom of being their own boss, while others want to control their own destiny. These are just some of the",
+              "url": "/blog/lend-hand-to-entrepreneurs"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/11/1M6A0941_WS_49X-SB_Log_Day_Red_01r_sm.jpg",
+                "alt": ""
+              },
+              "date": "November 5, 2020",
+              "title": "Truck Country’s Wausau and Minocqua locations add Western Star brand",
+              "excerpt": "Western Star welcomes new generation vocational truck It continues to be an exciting time for Truck Country! We are pleased to announce Truck Country’s Wausau",
+              "url": "/blog/truck-countrys-wausau-and-minocqua-locations-add-western-star-brand"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/10/truck.jpg",
+                "alt": ""
+              },
+              "date": "October 19, 2020",
+              "title": "Western Star welcomes new generation vocational truck",
+              "excerpt": "The next generation of vocational trucks is here.Western Star recently unveiled the its all-new 49X unit during an online event in late September, with a",
+              "url": "/blog/ws-49x"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/09/AustinHill-1024x701.jpg",
+                "alt": ""
+              },
+              "date": "September 28, 2020",
+              "title": "Stoops Team Stays in Front of Customers Through Online Training",
+              "excerpt": "At the onset of the health pandemic, when people were first urged to social distance and avoid in-person contact, the Stoops Freightliner team explored ways",
+              "url": "/blog/stoops-online-training"
+            },
+            {
+              "image": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2020/07/IMG_2376_2-1024x373.jpg",
+                "alt": ""
+              },
+              "date": "July 21, 2020",
+              "title": "Truck Country comes to Chicagoland with new Hampshire location",
+              "excerpt": "The North Chicago location is the Truck Country dealership group’s 25th dealership in Indiana, Iowa, Minnesota, Ohio, Wisconsin, and now Illinois.",
+              "url": "/blog/truckcountry_newhampshire"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "April 10, 2020",
+              "title": "Stoops Western Star of Ohio opens in Wapakoneta",
+              "excerpt": "Wapakoneta, Ohio — The Stoops brand continues to expand in Ohio, with the addition of a new Western Star dealership.Effective April 1, Stoops Western Star of",
+              "url": "/blog/stoops-western-star-of-ohio-opens-in-wapakoneta"
+            },
+            {
+              "image": {
+                "src": "",
+                "alt": ""
+              },
+              "date": "April 9, 2020",
+              "title": "Stoops Freightliner-Quality Trailer adds MAC Trailer to lineup",
+              "excerpt": "Indianapolis, Ind. — Stoops Freightliner – Quality Trailer is excited to announce the addition of MAC Trailer to its line of trailer offerings.",
+              "url": "/blog/stoops-freightliner-quality-trailer-adds-mac-trailer-to-lineup"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "news-pager",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "news-pager-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "news-pager-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

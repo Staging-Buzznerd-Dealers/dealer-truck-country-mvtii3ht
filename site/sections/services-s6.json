@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "id": "services-s6",
+  "name": "services (cards)",
+  "props": [
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Items",
+      "fields": [
+        {
+          "key": "f0",
+          "type": "text",
+          "label": "Text 1"
+        },
+        {
+          "key": "f1",
+          "type": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s6r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "16",
+              "columnGap": "16"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c2-r",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "s6b3-r",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{f0}}",
+                        "url": "{{f1}}",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s6r1\"][data-bz-node]{grid-template-columns:repeat(auto-fit, minmax(240px, 1fr))}\n[data-bz-node^=\"s6b3-r\"][data-bz-node] .bz-btn{margin:0;line-height:normal;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;display:inline-block;color:#C41230;text-decoration:underline;display:block;background:rgb(255, 255, 255);color:rgb(20, 21, 26);text-decoration:none;padding-top:22px;padding-right:24px;padding-bottom:22px;padding-left:24px;border-top-width:4px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-style:solid;border-top-color:rgb(196, 18, 48);border-right-color:rgb(237, 235, 227);border-bottom-color:rgb(237, 235, 227);border-left-color:rgb(237, 235, 227);border-image:none;font-weight:600;font-size:17px;font-family:Oswald, sans-serif;letter-spacing:0.08em;text-transform:uppercase}\n[data-bz-node^=\"s6b3-r\"][data-bz-node] .bz-btn:hover{background: rgb(196, 18, 48); color: rgb(255, 255, 255); border-color: rgb(196, 18, 48)}\n[data-bz-node^=\"s6b3-r\"][data-bz-node] .bz-btn:focus{outline: rgb(20, 21, 26) solid 3px; outline-offset: 3px}\n[data-bz-node^=\"s6b3-r\"][data-bz-node] .bz-btns{margin:0;gap:0}\n[data-bz-node=\"s6\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px);padding-bottom:clamp(56px, 8vw, 100px)}\n"
+}

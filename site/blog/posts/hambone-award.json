@@ -5,5 +5,497 @@
   "description": "Austin Hill, a technical training sales representative for Stoops Freightliner-Quality Trailer, as wellas the Stoops-Ft. Wayne dealership team were recognized as the first recipients of the Hambone Award.",
   "coverImage": null,
   "status": "published",
-  "body": "<figure><img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/03/AustinHill2.jpg\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\" alt=\"AustinHill2\"><figcaption>Austin Hill: Austin Hill, center, is joined by Brian McCoy, left, and David Shane after receiving the 2021 Hambone Award.</figcaption></figure>\n      <p>Austin Hill, a technical training sales representative for Stoops Freightliner-Quality Trailer, as well as the Stoops-Ft. Wayne dealership team were recognized as the first recipients of the Hambone Award, an honor which will be presented annually to a Stoops employee and dealership team in honor of the late Jim Ham. Award honorees will emulate the attitude and can-do spirit of Ham, who was Stoops’ VP of Operations when he passed away in April 2020.</p>\n      <p>Stoops President Brian McCoy presented the awards during a special ceremony on March 2 at the Ft. Wayne dealership.</p>\n      <p>To earn the individual award, Hill prevailed among eight other candidates who were nominated for the honor. After nominations were collected, Stoops managers had the opportunity to vote for two individuals.</p>\n      <p>“(Austin) is always open to help,” said Stan Eisenhooth, who nominated Hill for the individual award. “(He) builds lasting relationships with customer techs, in which helps us sell more trucks. The excitement (for) the product spreads to drivers after he does a driver orientation.”</p>\n      <p>Eight other finalists for the 2021 Hambone Award included: Nikki Barrett, Tim Shorter, Danny Mercado, Cheryl Troyer, Jerry Murphy, Curtis Bennett, Rhonda Leppert and Anne Carpenter.</p>\n      <figure><img src=\"https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/03/FtWayneTeam-1.jpg\" width=\"800\" height=\"600\" loading=\"lazy\" decoding=\"async\" alt=\"FtWayneTeam-1\"><figcaption>FtWayneTeam: The Stoops-Ft. Wayne dealership was the recipient of the first Hambone Award. Front from left, Jerry Rinehold, Nick Lengacher, Sarah Dazey and April Wyss; back row, Nate Moraveji, Josh Brown, Brian McCoy, David Shane and Dan Rex.</figcaption></figure>"
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-bc",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "label": "News",
+                        "url": "/news"
+                      }
+                    ],
+                    "current": "Hill, Ft. Wayne Team Earn Hambone Awards"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r14",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c15",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "760",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r3",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c4",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginTop": "0",
+                          "marginRight": "0",
+                          "marginBottom": "0",
+                          "marginLeft": "0"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i1",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/03/AustinHill2.jpg",
+                              "alt": "AustinHill2",
+                              "width": 640,
+                              "height": 480
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0,
+                              "marginBottom": "10"
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t2",
+                          "type": "text",
+                          "props": {
+                            "text": "Austin Hill: Austin Hill, center, is joined by Brian McCoy, left, and David Shane after receiving the 2021 Hambone Award.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "styles": {
+                    "base": {
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Austin Hill, a technical training sales representative for Stoops Freightliner-Quality Trailer, as well as the Stoops-Ft. Wayne dealership team were recognized as the first recipients of the Hambone Award, an honor which will be presented annually to a Stoops employee and dealership team in honor of the late Jim Ham. Award honorees will emulate the attitude and can-do spirit of Ham, who was Stoops’ VP of Operations when he passed away in April 2020.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops President Brian McCoy presented the awards during a special ceremony on March 2 at the Ft. Wayne dealership.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t7",
+                  "type": "text",
+                  "props": {
+                    "text": "To earn the individual award, Hill prevailed among eight other candidates who were nominated for the honor. After nominations were collected, Stoops managers had the opportunity to vote for two individuals.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t8",
+                  "type": "text",
+                  "props": {
+                    "text": "“(Austin) is always open to help,” said Stan Eisenhooth, who nominated Hill for the individual award. “(He) builds lasting relationships with customer techs, in which helps us sell more trucks. The excitement (for) the product spreads to drivers after he does a driver orientation.”",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2t9",
+                  "type": "text",
+                  "props": {
+                    "text": "Eight other finalists for the 2021 Hambone Award included: Nikki Barrett, Tim Shorter, Danny Mercado, Cheryl Troyer, Jerry Murphy, Curtis Bennett, Rhonda Leppert and Anne Carpenter.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "22"
+                    }
+                  }
+                },
+                {
+                  "id": "s2r12",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginTop": "0",
+                          "marginRight": "0",
+                          "marginBottom": "0",
+                          "marginLeft": "0"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i10",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/03/FtWayneTeam-1.jpg",
+                              "alt": "FtWayneTeam-1",
+                              "width": 800,
+                              "height": 600
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0,
+                              "marginBottom": "10"
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t11",
+                          "type": "text",
+                          "props": {
+                            "text": "FtWayneTeam: The Stoops-Ft. Wayne dealership was the recipient of the first Hambone Award. Front from left, Jerry Rinehold, Nick Lengacher, Sarah Dazey and April Wyss; back row, Nate Moraveji, Josh Brown, Brian McCoy, David Shane and Dan Rex.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "maxWidth": "760",
+              "marginTop": "0",
+              "marginRight": "auto",
+              "marginBottom": "0",
+              "marginLeft": "auto",
+              "display": "flex",
+              "flexWrap": "wrap",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "left"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t3",
+                          "type": "text",
+                          "props": {
+                            "text": "« Previous",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/more-than-just-trucks\">Truck Country, Stoops welcome ‘More Than Just Trucks’ podcast</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c7",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "20",
+                  "paddingRight": "24",
+                  "paddingBottom": "20",
+                  "paddingLeft": "24",
+                  "textAlign": "right"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "block",
+                          "marginBottom": "6"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Next »",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3t11",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/blog/messy-business\">It’s a Messy Business!</a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "css": "[data-bz-node=\"s2i1\"][data-bz-node] img{display:block;width:100%;max-width:640px;height:auto}\n[data-bz-node=\"s2i1\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2t2\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:15px;font-weight:400;font-style:italic;line-height:1.5;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(84, 86, 92);margin:0}\n[data-bz-node=\"s2t5\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t6\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t7\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t8\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2t9\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:18px;font-weight:400;font-style:normal;line-height:1.65;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(20, 21, 26);margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}\n[data-bz-node=\"s2i10\"][data-bz-node] img{display:block;width:100%;max-width:800px;height:auto}\n[data-bz-node=\"s2i10\"][data-bz-node] .bz-figure img{border-radius:0}\n[data-bz-node=\"s2t11\"][data-bz-node] p{font-family:Inter, sans-serif;font-size:15px;font-weight:400;font-style:italic;line-height:1.5;letter-spacing:normal;text-transform:none;text-align:start;color:rgb(84, 86, 92);margin:0}\n[data-bz-node=\"s2\"][data-bz-node]{padding-top:clamp(56px, 8vw, 100px)}\n[data-bz-node=\"s3c2\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t3\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:left;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:left;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t6\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c2\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t6\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t6\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c2\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{flex:1 1 280px;border-style:solid;border-top-color:#c41230;border-right-color:#edebe3;border-bottom-color:#edebe3;border-left-color:#edebe3}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3t8\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:13px;font-weight:600;font-style:normal;line-height:normal;letter-spacing:0.1em;text-transform:uppercase;text-align:right;color:rgb(196, 18, 48);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p{font-family:Oswald, sans-serif;font-size:18px;font-weight:600;font-style:normal;line-height:1.25;letter-spacing:normal;text-transform:uppercase;text-align:right;color:rgb(20, 21, 26);margin:0}\n[data-bz-node=\"s3t11\"][data-bz-node] p:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3c7\"][data-bz-node]{position:relative}\n[data-bz-node=\"s3t11\"][data-bz-node] a{color:inherit;text-decoration:none}\n[data-bz-node=\"s3t11\"][data-bz-node] a::after{content:'';position:absolute;inset:0;z-index:1}\n[data-bz-node=\"s3c7\"][data-bz-node]:hover{border-top-color: rgb(143, 13, 33)}\n[data-bz-node=\"s3\"][data-bz-node]{padding-top:clamp(48px, 7vw, 80px);padding-bottom:clamp(56px, 8vw, 100px)}\narticle > .bz-block:first-child .bz-eyebrow::after{content:\" \\00b7  6:18 pm\"}\n"
 }

@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Locations",
@@ -47,6 +42,12 @@
                       }
                     ],
                     "current": "Wayne – Trailer Repair"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -54,435 +55,570 @@
           ]
         }
       ]
-    },
-    {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Wayne, MI Full Service Trailer Dealer & Repair",
-          "lead": "<a href=\"https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D\" style=\"color: rgb(255, 255, 255);\">5055 Hannan Road, Wayne, MI 48184</a>\n<strong>PHONE:</strong> <a href=\"tel:734-729-9700\" style=\"color: rgb(255, 255, 255);\">734-729-9700</a>\n<strong>HOURS:</strong> Monday – Friday 8:00 AM – 4:30 PM\n<strong>CLOSED ALL MAJOR HOLIDAYS</strong> Limited hours on Christmas Eve and New Years Eve",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "5055 Hannan Road, Wayne, MI 48184",
-          "cta1Url": "https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&amp;g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
-          "cta2Label": "734-729-9700",
-          "cta2Url": "tel:734-729-9700"
-        }
-      }
     },
     {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "New and Used Semi-Trailer Sales",
-          "body": "",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/02/dry-van-trailer-duraplate-590x415-1-1-300x211.jpg",
-            "alt": "Dry van trailer",
-            "width": 300,
-            "height": 211
-          },
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r12",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Wayne, MI Full Service Trailer Dealer & Repair",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&amp;g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D\">5055 Hannan Road, Wayne, MI 48184</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>PHONE:</strong> <a href=\"tel:734-729-9700\">734-729-9700</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t7",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>HOURS:</strong> Monday – Friday 8:00 AM – 4:30 PM",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t8",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>CLOSED ALL MAJOR HOLIDAYS</strong> Limited hours on Christmas Eve and New Years Eve",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2b9",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Call 734-729-9700",
+                                "url": "tel:734-729-9700",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-Truck Trailer Service",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
-      }
-    },
-    {
-      "id": "s3g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "14 Service Bays",
-          "body": "Our location has ample space for your semi-truck trailer and our technicians to perform maintenance, repairs, and inspections.",
-          "anchorId": ""
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "flex",
+              "flexWrap": "wrap",
+              "alignItems": "center",
+              "rowGap": "32",
+              "columnGap": "32"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3i3",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/05/wabash_Landoll-scaled-e1721763447489-300x27.jpg",
+                      "alt": "Wabash and Landoll",
+                      "width": 300,
+                      "height": 27
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c4",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3i5",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/01/autocar-company-logo-e1721763341655.png",
+                      "alt": "Autocar",
+                      "width": 600,
+                      "height": 293
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
-      }
-    },
-    {
-      "id": "s3g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Auto Modifications - Steel Reinforcement",
-          "body": "Our team can complete auto modifications including steel reinforcement, which maximizes safety.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Autocar Parts, Sales, and Service",
-          "body": "Our dealership puts a main focus on Autocar parts, sales, and service.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Bogie Repairs and Replacements",
-          "body": "The maintenance or replacement of the axle assemble.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Box Repairs and Installation",
-          "body": "Our team will repair or install a tool box for additional storage space.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Brake and System Repair and Installation",
-          "body": "Our team will inspect your trailer’s braking system for maintenance, repairs, and replacements.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g6",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Custom Fabrications and Modifications",
-          "body": "Our technicians can alter and modify your semi-truck to better suit your needs.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g7",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Door Conversion, Repair, Modification, and Installation",
-          "body": "Our team of expert techs will inspect your trailer doors.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g8",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "DOT Inspections",
-          "body": "Our technicians will perform a series of tests to ensure you are safe and comply with federal safety regulations.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g9",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Floor Repair and Installation",
-          "body": "Repairing damaged floorboards within a trailer or installing new floorboards.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g10",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "General Repairs - All Makes and Models",
-          "body": "Our experienced technicians will diagnose and fix all general trailer components.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g11",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Lift Gate and Lift Pad Installation",
-          "body": "We will install your lift gates and lift pads.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g12",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Patching Walls and Roofs",
-          "body": "The well being of your trailer is important. Our techs will identify damaged material and repair the area.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g13",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "PSI System Installation",
-          "body": "The installation of a Pressure Systems International system, which maintains tire pressure.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g14",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Replacing Partial and up to Full Roofs",
-          "body": "Our experienced techs will inspect the trailer roof for damaged material. They will repair or replace the roof of the semi-trailer.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g15",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Scale Installation",
-          "body": "Our experienced team attaches specialized sensors to measure air pressure which is converted into weight readings. This allows the driver to monitor the weight distribution on each axle of the trailer.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g16",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Skirt, Wing, and Other Aerodynamic Device Installation",
-          "body": "Our team will install skirt, wings and other aerodynamic devices. These components reduce air drag and save fuel.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g17",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Wabash and Landoll Warranty Work",
-          "body": "We offer repairs on your trailer that are covered by Wabash and MAC.",
-          "anchorId": ""
-        }
-      }
+      ]
     },
     {
       "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s4r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20",
+              "alignItems": "stretch"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "16",
+                  "columnGap": "16"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "New and Used Semi-Trailer Sales",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4i4",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/02/dry-van-trailer-duraplate-590x415-1-1-300x211.jpg",
+                      "alt": "Dry van trailer",
+                      "width": 300,
+                      "height": 211
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s4c5",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "Semi-Truck Trailer Parts",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "wayne-trailer-repair-s5",
         "values": {
-          "eyebrow": "",
-          "heading": "Our Team",
-          "body": "Mark\n\nGeneral Manager – Trailers\n\nSteve\n\nCorporate Fixed Operations Manager\n\nJoe\n\nService Manager",
-          "anchorId": ""
+          "items": [
+            {
+              "f0": "14 Service Bays",
+              "f1": "Our location has ample space for your semi-truck trailer and our technicians to perform maintenance, repairs, and inspections."
+            },
+            {
+              "f0": "Auto Modifications - Steel Reinforcement",
+              "f1": "Our team can complete auto modifications including steel reinforcement, which maximizes safety."
+            },
+            {
+              "f0": "Autocar Parts, Sales, and Service",
+              "f1": "Our dealership puts a main focus on Autocar parts, sales, and service."
+            },
+            {
+              "f0": "Bogie Repairs and Replacements",
+              "f1": "The maintenance or replacement of the axle assemble."
+            },
+            {
+              "f0": "Box Repairs and Installation",
+              "f1": "Our team will repair or install a tool box for additional storage space."
+            },
+            {
+              "f0": "Brake and System Repair and Installation",
+              "f1": "Our team will inspect your trailer’s braking system for maintenance, repairs, and replacements."
+            },
+            {
+              "f0": "Custom Fabrications and Modifications",
+              "f1": "Our technicians can alter and modify your semi-truck to better suit your needs."
+            },
+            {
+              "f0": "Door Conversion, Repair, Modification, and Installation",
+              "f1": "Our team of expert techs will inspect your trailer doors."
+            },
+            {
+              "f0": "DOT Inspections",
+              "f1": "Our technicians will perform a series of tests to ensure you are safe and comply with federal safety regulations."
+            },
+            {
+              "f0": "Floor Repair and Installation",
+              "f1": "Repairing damaged floorboards within a trailer or installing new floorboards."
+            },
+            {
+              "f0": "General Repairs - All Makes and Models",
+              "f1": "Our experienced technicians will diagnose and fix all general trailer components."
+            },
+            {
+              "f0": "Lift Gate and Lift Pad Installation",
+              "f1": "We will install your lift gates and lift pads."
+            },
+            {
+              "f0": "Patching Walls and Roofs",
+              "f1": "The well being of your trailer is important. Our techs will identify damaged material and repair the area."
+            },
+            {
+              "f0": "PSI System Installation",
+              "f1": "The installation of a Pressure Systems International system, which maintains tire pressure."
+            },
+            {
+              "f0": "Replacing Partial and up to Full Roofs",
+              "f1": "Our experienced techs will inspect the trailer roof for damaged material. They will repair or replace the roof of the semi-trailer."
+            },
+            {
+              "f0": "Scale Installation",
+              "f1": "Our experienced team attaches specialized sensors to measure air pressure which is converted into weight readings. This allows the driver to monitor the weight distribution on each axle of the trailer."
+            },
+            {
+              "f0": "Skirt, Wing, and Other Aerodynamic Device Installation",
+              "f1": "Our team will install skirt, wings and other aerodynamic devices. These components reduce air drag and save fuel."
+            },
+            {
+              "f0": "Wabash and Landoll Warranty Work",
+              "f1": "We offer repairs on your trailer that are covered by Wabash and MAC."
+            }
+          ]
         }
       }
     },
     {
-      "id": "s4g0",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "paddingTop": 0,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingBottom": 48
-        }
-      },
-      "children": [
-        {
-          "id": "s4g0-row",
-          "type": "row",
-          "props": {
-            "gap": 0
-          },
-          "children": [
-            {
-              "id": "s4g0-col",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s4g0-b",
-                  "type": "statBand",
-                  "props": {
-                    "heading": "Sales Team",
-                    "headingLevel": 3,
-                    "stats": [
-                      {
-                        "value": "Justin Hillier",
-                        "label": "Trailer Sales"
-                      },
-                      {
-                        "value": "Tammi Lemanek",
-                        "label": "Sales Coordinator"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "s4g1",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "paddingTop": 0,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingBottom": 48
-        }
-      },
-      "children": [
-        {
-          "id": "s4g1-row",
-          "type": "row",
-          "props": {
-            "gap": 0
-          },
-          "children": [
-            {
-              "id": "s4g1-col",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [
-                {
-                  "id": "s4g1-b",
-                  "type": "statBand",
-                  "props": {
-                    "heading": "Service Contacts",
-                    "headingLevel": 3,
-                    "stats": [
-                      {
-                        "value": "Mike Kraft",
-                        "label": "Service Sales + Estimator"
-                      },
-                      {
-                        "value": "Kelly Stevens",
-                        "label": "Service Writer"
-                      },
-                      {
-                        "value": "Kevin Zajac",
-                        "label": "Service Writer"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "s4g2",
+      "id": "s6-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "wayne-trailer-repair-s6",
         "values": {
-          "eyebrow": "",
-          "heading": "Parts Contacts",
-          "body": "Austin Gabriel\n\nParts Counter",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Austin Gabriel Parts Counter"
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/Mark-Hall-124x160.jpg",
+                "alt": "Mark",
+                "width": 124,
+                "height": 160
+              },
+              "f1": "Mark",
+              "f2": "General Manager – Trailers"
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/steve-young-225x300-1-120x160.jpg",
+                "alt": "Steve",
+                "width": 120,
+                "height": 160
+              },
+              "f1": "Steve",
+              "f2": "Corporate Fixed Operations Manager"
+            },
+            {
+              "f0": {
+                "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20124%20160%22%3E%3Crect%20width%3D%22124%22%20height%3D%22160%22%20fill%3D%22%23EDEBE3%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%2292%22%20font-family%3D%22Oswald%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22600%22%20fill%3D%22%2354565C%22%20text-anchor%3D%22middle%22%3EJ%3C%2Ftext%3E%3C%2Fsvg%3E",
+                "alt": "Joe",
+                "width": 124,
+                "height": 160
+              },
+              "f1": "Joe",
+              "f2": "Service Manager"
+            }
+          ],
+          "items2": [
+            {
+              "f0": "Mike Kraft",
+              "f1": "Service Sales + Estimator"
+            },
+            {
+              "f0": "Kelly Stevens",
+              "f1": "Service Writer"
+            },
+            {
+              "f0": "Kevin Zajac",
+              "f1": "Service Writer"
             }
           ]
         }

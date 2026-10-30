@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Training",
-                        "url": "https://www.truckcountry.com/training/"
+                        "url": "/training"
                       }
                     ],
                     "current": "Stoops Training"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,161 +53,566 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Stoops Training",
-          "lead": "6430 S Belmont Ave. Indianapolis, IN 46217",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "split-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Stoops Training Academy Certified Diesel Technician Employee Program",
-          "body": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.\n\nThe Stoops Training Academy provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.\n\nStudents will attend all courses at the Stoops Training Academy in Indianapolis, Indiana, then return to their home dealerships, located throughout Indiana and Ohio, to put what they’ve learned in the classroom into practice.\n\nUpon graduation, students earn the recognition of Freightliner Certified Technician and receive a nationally recognized Apprenticeship Certification.",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IMG_9403-1-848x636-1.webp",
-            "alt": "Stoops Training",
-            "width": 848,
-            "height": 636
-          },
-          "ctaLabel": "",
-          "ctaUrl": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "Certified Freightliner - Detroit Courses",
-          "body": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
-          "image": {
-            "src": "",
-            "alt": ""
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
           },
-          "anchorId": "",
-          "points": [
+          "children": [
             {
-              "label": "Heavy Duty Truck Systems"
-            },
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "label": "Electronic Systems"
-            },
-            {
-              "label": "Cascadia/New Cascadia"
-            },
-            {
-              "label": "Western Star"
-            },
-            {
-              "label": "DD Major Repair"
-            },
-            {
-              "label": "DD Fuel Systems"
-            },
-            {
-              "label": "DT12 Transmission"
-            },
-            {
-              "label": "Electrical Troubleshooting"
-            },
-            {
-              "label": "HVAC"
-            },
-            {
-              "label": "M2"
-            },
-            {
-              "label": "DD Basic Diagnostics"
-            },
-            {
-              "label": "DD Air and ATS"
-            },
-            {
-              "label": "DD Medium Duty"
+              "id": "s2c9",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i3",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/07/StoopsTrainingAcademy-300x159.png",
+                              "alt": "Stoops Training Academy",
+                              "width": 300,
+                              "height": 159
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Stoops Training",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "6430 S Belmont Ave. Indianapolis, IN 46217",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-      }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "20",
+                  "columnGap": "20"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Stoops Training Academy Certified Diesel Technician Employee Program",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t5",
+                  "type": "text",
+                  "props": {
+                    "text": "The Stoops Training Academy provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Students will attend all courses at the Stoops Training Academy in Indianapolis, Indiana, then return to their home dealerships, located throughout Indiana and Ohio, to put what they’ve learned in the classroom into practice.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t7",
+                  "type": "text",
+                  "props": {
+                    "text": "Upon graduation, students earn the recognition of Freightliner Certified Technician and receive a nationally recognized Apprenticeship Certification.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c8",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s3i9",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IMG_9403-1-848x636-1.webp",
+                      "alt": "Stoops Training",
+                      "width": 848,
+                      "height": 636
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s4",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 0,
-        "anchor": ""
+        "paddingY": 0
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s4-row",
+          "id": "s4r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "24",
+              "columnGap": "24",
+              "alignItems": "start"
+            }
           },
           "children": [
             {
-              "id": "s4-col",
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4i3",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/Class-5-848x882-1.webp",
+                      "alt": "Freightliner Certified Technician",
+                      "width": 848,
+                      "height": 882
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s4c4",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "width": "100%"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "height": "100%",
+                          "background": "#edebe3",
+                          "borderTopWidth": "1",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "display": "flex",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                          "paddingTop": "8",
+                          "paddingRight": "8",
+                          "paddingBottom": "8",
+                          "paddingLeft": "8",
+                          "borderColor": "#8f8f8f",
+                          "borderStyle": "dashed"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Drop the second training photo",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "stoops-training-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "Electrical Troubleshooting"
+            },
+            {
+              "f0": "HVAC"
+            },
+            {
+              "f0": "M2"
+            },
+            {
+              "f0": "DD Basic Diagnostics"
+            },
+            {
+              "f0": "DD Air and ATS"
+            },
+            {
+              "f0": "DD Medium Duty"
+            }
+          ],
+          "items2": [
+            {
+              "f0": "Heavy Duty Truck Systems"
+            },
+            {
+              "f0": "Electronic Systems"
+            },
+            {
+              "f0": "Cascadia/New Cascadia"
+            },
+            {
+              "f0": "Western Star"
+            },
+            {
+              "f0": "DD Major Repair"
+            },
+            {
+              "f0": "DD Fuel Systems"
+            },
+            {
+              "f0": "DT12 Transmission"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s6r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s6c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1"
+                }
+              },
               "children": [
                 {
-                  "id": "s4-head",
+                  "id": "s6h1",
                   "type": "heading",
                   "props": {
                     "text": "Ready to start your career!",
-                    "eyebrow": "",
                     "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s4-lead",
+                  "id": "s6t2",
                   "type": "text",
                   "props": {
                     "text": "Contact us today to connect with our recruiters.",
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s4-form",
+                  "id": "s6f3",
                   "type": "form",
                   "props": {
                     "formId": "stoops-training-request"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]

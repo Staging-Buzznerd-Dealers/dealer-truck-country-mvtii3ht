@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Trucks",
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "Used Semi-Truck Warranty"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,360 +53,411 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Used Semi-Truck Limited Warranty",
-          "lead": "OEM Used Semi-Truck Warranty Available for qualifying Freightliner and Western Star used semi-trucks!",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Browse Used Inventory",
-          "cta1Url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/",
-          "cta2Label": "Find a Location",
-          "cta2Url": "https://www.truckcountry.com/locations/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "bullet-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "ZERO Deductible",
-          "items": [
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "title": "Warrantable Repairs are Covered 100%",
-              "body": ""
-            },
-            {
-              "title": "No Aggregate Limits",
-              "body": ""
-            },
-            {
-              "title": "Same Coverage Throughout Term",
-              "body": ""
-            },
-            {
-              "title": "No Reduction to Major Component Coverages (Castings)",
-              "body": ""
-            },
-            {
-              "title": "Transferable Without Fee",
-              "body": ""
-            },
-            {
-              "title": "Seamless Warranty Administration Through Freightliner",
-              "body": ""
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
             }
           ],
-          "image": {
-            "src": "/img/trailers.jpg",
-            "alt": "",
-            "width": 1600,
-            "height": 1200
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
           }
+        },
+        {
+          "id": "s2r13",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c14",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r11",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Used Semi-Truck Limited Warranty",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "OEM Used Semi-Truck Warranty Available for qualifying Freightliner and Western Star used semi-trucks!",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r6",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "styles": {
+                            "base": {
+                              "display": "flex",
+                              "flexWrap": "wrap",
+                              "rowGap": "16",
+                              "columnGap": "16"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "s2c7",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b8",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Browse Used Inventory",
+                                        "url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s2b10",
+                                  "type": "buttons",
+                                  "props": {
+                                    "items": [
+                                      {
+                                        "label": "Find a Location",
+                                        "url": "https://www.truckcountry.com/locations/",
+                                        "style": "primary"
+                                      }
+                                    ],
+                                    "align": "left"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
-      }
+      ]
     },
     {
-      "id": "s3",
+      "id": "s3-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "used-semi-truck-warranty-s3",
         "values": {
-          "eyebrow": "Term Lengths 12 months",
-          "heading": "Select Limited Warranty",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Term Lengths",
-          "body": "12 months\n\n100,000 miles\n\n24 months\n\n200,000 miles\n\n36 months\n\n300,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements.",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "12 months 100,000 miles"
+              "f0": "Warrantable Repairs are Covered 100%"
             },
             {
-              "label": "24 months 200,000 miles"
+              "f0": "No Aggregate Limits"
             },
             {
-              "label": "36 months 300,000 miles"
+              "f0": "Same Coverage Throughout Term"
+            },
+            {
+              "f0": "No Reduction to Major Component Coverages (Castings)"
+            },
+            {
+              "f0": "Transferable Without Fee"
+            },
+            {
+              "f0": "Seamless Warranty Administration Through Freightliner"
             }
           ]
         }
       }
     },
     {
-      "id": "s3g1",
+      "id": "s4-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "used-semi-truck-warranty-s4",
         "values": {
-          "eyebrow": "",
-          "heading": "Covered Components",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Engine*",
-          "body": "",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Cylinder Heads"
+              "f0": "All Internally Lubricated Parts"
             },
             {
-              "label": "Engine Block"
+              "f0": "Axle Housing"
             },
             {
-              "label": "Exhaust Manifold"
+              "f0": "Axle Shafts"
             },
             {
-              "label": "Injector Sleeves"
+              "f0": "Differential Housing"
+            }
+          ],
+          "items2": [
+            {
+              "f0": "Cylinder Heads"
             },
             {
-              "label": "Oil Pump"
+              "f0": "Engine Block"
             },
             {
-              "label": "Pistons"
+              "f0": "Exhaust Manifold"
             },
             {
-              "label": "Piston Rings and Pins"
+              "f0": "Injector Sleeves"
             },
             {
-              "label": "Progressive Damage (caused by covered components)"
+              "f0": "Oil Pump"
             },
             {
-              "label": "All Internally Lubricated Parts"
+              "f0": "Pistons"
             },
             {
-              "label": "Camshaft and Bearings"
+              "f0": "Piston Rings and Pins"
             },
             {
-              "label": "Connecting Rods, Caps and Capscrews"
+              "f0": "Progressive Damage (caused by covered components)"
             },
             {
-              "label": "Crankshaft and Bearings"
+              "f0": "All Internally Lubricated Parts"
             },
             {
-              "label": "Cylinder Block Casting"
+              "f0": "Camshaft and Bearings"
             },
             {
-              "label": "Cylinder Head Casting and Capscrews"
+              "f0": "Connecting Rods, Caps and Capscrews"
             },
             {
-              "label": "Cylinder Head Gaskets"
+              "f0": "Crankshaft and Bearings"
             },
             {
-              "label": "Rocker Arms and Shafts"
+              "f0": "Cylinder Block Casting"
             },
             {
-              "label": "Spacer Plate or Block"
+              "f0": "Cylinder Head Casting and Capscrews"
             },
             {
-              "label": "Timing Cover and Gears"
+              "f0": "Cylinder Head Gaskets"
             },
             {
-              "label": "Valve Lifters and Push Rods"
+              "f0": "Rocker Arms and Shafts"
             },
             {
-              "label": "Valves, Valve Springs and Valve Keepers"
+              "f0": "Spacer Plate or Block"
+            },
+            {
+              "f0": "Timing Cover and Gears"
+            },
+            {
+              "f0": "Valve Lifters and Push Rods"
+            },
+            {
+              "f0": "Valves, Valve Springs and Valve Keepers"
+            }
+          ],
+          "items3": [
+            {
+              "f0": "12 months",
+              "f1": "100,000 miles"
+            },
+            {
+              "f0": "24 months",
+              "f1": "200,000 miles"
+            },
+            {
+              "f0": "36 months",
+              "f1": "300,000 miles"
             }
           ]
         }
       }
     },
     {
-      "id": "s3g3",
+      "id": "s5-band",
       "type": "sharedSection",
       "props": {
-        "sectionId": "prose-band",
+        "sectionId": "used-semi-truck-warranty-s5",
         "values": {
-          "eyebrow": "",
-          "heading": "Cab/Frame",
-          "body": "",
-          "anchorId": "",
-          "points": [
+          "items": [
             {
-              "label": "Cab Structure and Sheet Metal Panels"
+              "f0": "Air Conditioning Compressor/Clutch"
             },
             {
-              "label": "Frame Rails and Crossmembers"
+              "f0": "Charge Air Cooler"
+            },
+            {
+              "f0": "EGR Valve, Cooler and Actuator"
+            },
+            {
+              "f0": "Fan Clutch"
+            },
+            {
+              "f0": "Fan Hub"
+            },
+            {
+              "f0": "Fuel Injectors"
+            },
+            {
+              "f0": "Fuel Pump"
+            },
+            {
+              "f0": "Oil Pan"
+            },
+            {
+              "f0": "Rocker Cover"
+            },
+            {
+              "f0": "Turbocharger, Actuator, VPOD and Axial Power Turbine"
+            },
+            {
+              "f0": "Vibration Damper"
+            },
+            {
+              "f0": "Water Pump"
             }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Transmission*",
-          "body": "",
-          "anchorId": "",
-          "points": [
+          ],
+          "items2": [
             {
-              "label": "All Internally Lubricated Parts"
+              "f0": "6 months",
+              "f1": "50,000 miles"
             },
             {
-              "label": "Transmission Housing"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Rear Axle*",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "All Internally Lubricated Parts"
+              "f0": "12 months",
+              "f1": "100,000 miles"
             },
             {
-              "label": "Axle Housing"
-            },
-            {
-              "label": "Axle Shafts"
-            },
-            {
-              "label": "Differential Housing"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "Term Lengths 6 months",
-          "heading": "Select Extra Limited Warranty",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Term Lengths",
-          "body": "6 months\n\n50,000 miles\n\n12 months\n\n100,000 miles\n\n18 months\n\n150,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "6 months 50,000 miles"
-            },
-            {
-              "label": "12 months 100,000 miles"
-            },
-            {
-              "label": "18 months 150,000 miles"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s4g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Covered Components",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Engine*",
-          "body": "Coverage only available when Select Limited Warranty is purchased. *Some exclusions may apply.",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Air Conditioning Compressor/Clutch"
-            },
-            {
-              "label": "Charge Air Cooler"
-            },
-            {
-              "label": "EGR Valve, Cooler and Actuator"
-            },
-            {
-              "label": "Fan Clutch"
-            },
-            {
-              "label": "Fan Hub"
-            },
-            {
-              "label": "Fuel Injectors"
-            },
-            {
-              "label": "Fuel Pump"
-            },
-            {
-              "label": "Oil Pan"
-            },
-            {
-              "label": "Rocker Cover"
-            },
-            {
-              "label": "Turbocharger, Actuator, VPOD and Axial Power Turbine"
-            },
-            {
-              "label": "Vibration Damper"
-            },
-            {
-              "label": "Water Pump"
+              "f0": "18 months",
+              "f1": "150,000 miles"
             }
           ]
         }

@@ -6,11 +6,11 @@
     "page"
   ],
   "intent": "contact",
-  "submitLabel": "Send request",
+  "submitLabel": "Submit",
   "successMessage": "Thanks — our office will send the paperwork you asked for.",
   "consent": {
-    "enabled": true,
-    "required": true,
+    "enabled": false,
+    "required": false,
     "text": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit our Privacy Policy."
   },
   "fields": [
@@ -24,15 +24,17 @@
     {
       "id": "isr-account",
       "type": "single_line",
-      "label": "Account Number (Truck Country or Stoops Freightliner)  This can be found on a recent monthly statement",
+      "label": "Account Number (Truck Country or Stoops Freightliner)",
       "required": true,
+      "help": "This can be found on a recent monthly statement",
       "width": "half"
     },
     {
       "id": "isr-emails",
       "type": "single_line",
-      "label": "Email address  Please enter the email addresses that you would like to receive statements and/or invoices for your account. Separate by commas if entering multiple.",
+      "label": "Email address",
       "required": true,
+      "help": "Please enter the email addresses that you would like to receive statements and/or invoices for your account. Separate by commas if entering multiple.",
       "width": "half"
     },
     {
@@ -70,11 +72,11 @@
     {
       "id": "isr-disclaimer",
       "type": "checkboxes",
-      "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
-      "required": false,
+      "label": "Disclaimer",
+      "required": true,
       "options": [
         {
-          "value": "yes",
+          "value": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
           "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
         }
       ]

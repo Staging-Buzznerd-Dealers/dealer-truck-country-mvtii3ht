@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Body Shops",
-                        "url": "https://www.truckcountry.com/body-shop/"
+                        "url": "/body-shop"
                       }
                     ],
                     "current": "Lima"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,176 +53,7 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Semi-Truck Body Shop – Lima, Ohio",
-          "lead": "Lima, OH\n598 E. Hanthorn Road<br>Lima, OH 45804\n<strong>OFFICE:</strong> <a href=\"tel:419-228-4334\" style=\"color: rgb(255, 255, 255);\">419-228-4334</a>\n<strong>TOLL - FREE:</strong> <a href=\"tel:800-444-1589\" style=\"color: rgb(255, 255, 255);\">800-444-1589</a>\n<strong>FAX:</strong> 419-228-2782",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2000,
-            "height": 1308
-          },
-          "cta1Label": "",
-          "cta1Url": "",
-          "cta2Label": "",
-          "cta2Url": ""
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-truck body shop hours",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Monday – Friday",
-          "body": "7:00 am – 4:00 pm",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s2g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Closed All Majors Holidays",
-          "body": "Limited hours on Christmas Eve and New Years Eve",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "split-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "",
-          "body": "Get your semi-truck back on the road faster by entrusting the Stoops Freightliner semi-truck body shop in Lima, Ohio, conveniently located and accessible from interstate 75. Our semi-truck body shop team is solely focused on your repair and maintenance needs. Our shop specializes in working on Freightliner and Western Star brands but we can work on just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–all from a single location. From semi-truck body work to complete detailing of all makes and models, it pays to give the team of experts at Lima a call!",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
-            "alt": "Body shop work 1",
-            "width": 300,
-            "height": 200
-          },
-          "ctaLabel": "",
-          "ctaUrl": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "card-grid",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-Truck Body Shop Services",
-          "columns": "3",
-          "items": [
-            {
-              "title": "",
-              "body": "15 Body Shop Bays",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "2 Detail Bays",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "1 Paint Booth (74 feet)",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Frame Rail Replacement",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Glass Replacement",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Fiberglass and SMC Repair",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Complete or Partial Painting",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Day Cab Conversions",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Sandblasting",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Professional Detailing",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Body Repairs",
-              "linkLabel": "",
-              "url": ""
-            },
-            {
-              "title": "",
-              "body": "Replacement Panels",
-              "linkLabel": "",
-              "url": ""
-            }
-          ],
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s5",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -229,73 +61,765 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "background": "#0e0f13",
+          "marginTop": "16"
         }
       },
       "children": [
         {
-          "id": "s5-row",
+          "id": "s2r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "stretch"
+            }
           },
           "children": [
             {
-              "id": "s5-col",
+              "id": "s2c2",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "paddingRight": "32",
+                  "paddingLeft": "32",
+                  "display": "flex",
+                  "alignItems": "center"
+                }
               },
               "children": [
                 {
-                  "id": "s5-head",
+                  "id": "s2r11",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "640"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Semi-Truck Body Shop – Lima, Ohio",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Lima, OH",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "598 E. Hanthorn Road<br>Lima, OH 45804",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t7",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>OFFICE:</strong> <a href=\"tel:419-228-4334\">419-228-4334</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t8",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>TOLL - FREE:</strong> <a href=\"tel:800-444-1589\">800-444-1589</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t9",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>FAX:</strong> 419-228-2782",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2b10",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Call 419-228-4334",
+                                "url": "tel:419-228-4334",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "paddingRight": "32",
+                  "paddingLeft": "32",
+                  "display": "flex",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "background": "#1b1c22"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r17",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c18",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "maxWidth": "440",
+                          "aspectRatio": "2/1"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2r15",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s2c16",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "100%",
+                                  "height": "100%",
+                                  "background": "#edebe3",
+                                  "borderTopWidth": "1",
+                                  "borderRightWidth": "1",
+                                  "borderBottomWidth": "1",
+                                  "borderLeftWidth": "1",
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "textAlign": "center",
+                                  "paddingTop": "8",
+                                  "paddingRight": "8",
+                                  "paddingBottom": "8",
+                                  "paddingLeft": "8",
+                                  "borderColor": "#8f8f8f",
+                                  "borderStyle": "dashed"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s2t14",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Drop a higher-resolution Lima photo",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3h1",
+          "type": "heading",
+          "props": {
+            "text": "Semi-truck body shop hours",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h4",
                   "type": "heading",
                   "props": {
-                    "text": "Our Team",
-                    "eyebrow": "",
-                    "headingLevel": 2
+                    "text": "Monday – Friday",
+                    "headingLevel": 3
                   },
                   "styles": {
                     "base": {
-                      "textColor": "#ffffff"
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
                 },
                 {
-                  "id": "s5-body",
+                  "id": "s3t5",
                   "type": "text",
                   "props": {
-                    "text": "Jeremy\n\nBody Shop Manager",
+                    "text": "7:00 am – 4:00 pm",
                     "width": "full"
                   },
                   "styles": {
                     "base": {
-                      "textColor": "#ffffff@85%"
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c6",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h7",
+                  "type": "heading",
+                  "props": {
+                    "text": "Closed All Majors Holidays",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
                 },
                 {
-                  "id": "s5-list",
-                  "type": "list",
+                  "id": "s3t8",
+                  "type": "text",
                   "props": {
-                    "columns": 2,
-                    "items": [
-                      {
-                        "label": "Drop photo Jeremy Body Shop Manager"
-                      }
-                    ]
+                    "text": "Limited hours on Christmas Eve and New Years Eve",
+                    "width": "full"
                   },
                   "styles": {
                     "base": {
-                      "textColor": "#ffffff@85%"
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3i9",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/02/EliteSupport-2048x439.jpg",
+              "alt": "Elite Support_website",
+              "width": 2048,
+              "height": 439
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3i10",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2025/05/ThomasBus_TAG-e1747319885829-160x60.png",
+              "alt": "Thomas Built Buses Logo",
+              "width": 160,
+              "height": 60
+            },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "body-shop-lima-s4",
+        "values": {
+          "items": [
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
+                "alt": "Body shop work 1",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_9481-copy-300x200.jpg",
+                "alt": "Body shop work 2",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8680-copy-300x200.jpg",
+                "alt": "Body shop work 3",
+                "width": 300,
+                "height": 200
+              }
+            },
+            {
+              "f0": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_9482-300x200.jpg",
+                "alt": "Body shop work 4",
+                "width": 300,
+                "height": 200
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "body-shop-lima-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "15 Body Shop Bays"
+            },
+            {
+              "f0": "2 Detail Bays"
+            },
+            {
+              "f0": "1 Paint Booth (74 feet)"
+            },
+            {
+              "f0": "Frame Rail Replacement"
+            },
+            {
+              "f0": "Glass Replacement"
+            },
+            {
+              "f0": "Fiberglass and SMC Repair"
+            },
+            {
+              "f0": "Complete or Partial Painting"
+            },
+            {
+              "f0": "Day Cab Conversions"
+            },
+            {
+              "f0": "Sandblasting"
+            },
+            {
+              "f0": "Professional Detailing"
+            },
+            {
+              "f0": "Body Repairs"
+            },
+            {
+              "f0": "Replacement Panels"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s6h1",
+          "type": "heading",
+          "props": {
+            "text": "Our Team",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "16",
+                  "paddingRight": "16",
+                  "paddingBottom": "16",
+                  "paddingLeft": "16",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s6r5",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s6c6",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "100%",
+                                  "height": "100%",
+                                  "background": "#edebe3",
+                                  "borderTopWidth": "1",
+                                  "borderRightWidth": "1",
+                                  "borderBottomWidth": "1",
+                                  "borderLeftWidth": "1",
+                                  "display": "flex",
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "textAlign": "center",
+                                  "paddingTop": "8",
+                                  "paddingRight": "8",
+                                  "paddingBottom": "8",
+                                  "paddingLeft": "8",
+                                  "borderColor": "#8f8f8f",
+                                  "borderStyle": "dashed"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s6t4",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Drop photo",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s6r11",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s6t9",
+                          "type": "text",
+                          "props": {
+                            "text": "Jeremy",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6t10",
+                          "type": "text",
+                          "props": {
+                            "text": "Body Shop Manager",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }

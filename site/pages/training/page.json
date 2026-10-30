@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,16 +24,22 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       }
                     ],
                     "current": "Training"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -48,74 +49,220 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Kick-start your career in gear",
-          "headline": "Technical Training Institute",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Are you looking for a career, not just a job?",
-          "body": "Truck Country and Stoops have two state of the art training centers, with over a 100 years of combined experience in the industry, that ensure all of our employees receive nothing but the best in quality and staying current with today’s technology. We train our technicians to be certified in Freightliner, Detroit and more. We also offer continuous training for our employees in service and parts to develop and grow to be specialists in the field.\n\nBecome a team member of one of the largest family-owned dealerships today, to be the best in the industry and train with the best.",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r7",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c8",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Kick-start your career in gear",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Technical Training Institute",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "Truck Country",
-          "heading": "",
-          "body": "Truck Country",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
-      }
-    },
-    {
-      "id": "s3g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Truck Country",
-          "body": "Dubuque, IA\n\nStoops",
-          "anchorId": ""
+      },
+      "children": [
+        {
+          "id": "s3h1",
+          "type": "heading",
+          "props": {
+            "text": "Are you looking for a career, not just a job?",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s3c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t2",
+                  "type": "text",
+                  "props": {
+                    "text": "Truck Country and Stoops have two state of the art training centers, with over a 100 years of combined experience in the industry, that ensure all of our employees receive nothing but the best in quality and staying current with today’s technology. We train our technicians to be certified in Freightliner, Detroit and more. We also offer continuous training for our employees in service and parts to develop and grow to be specialists in the field.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "marginBottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "s3t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Become a team member of one of the largest family-owned dealerships today, to be the best in the industry and train with the best.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
-      }
-    },
-    {
-      "id": "s3g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Stoops",
-          "body": "Indianapolis, IN",
-          "anchorId": ""
-        }
-      }
+      ]
     },
     {
       "id": "s4",
@@ -126,62 +273,262 @@
       },
       "styles": {
         "base": {
-          "background": "#45474e",
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s4-row",
+          "id": "s4r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "24",
+              "columnGap": "24"
+            }
           },
           "children": [
             {
-              "id": "s4-col",
+              "id": "s4c2",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "display": "grid",
+                  "rowGap": "8",
+                  "columnGap": "8"
+                }
               },
               "children": [
                 {
-                  "id": "s4-head",
-                  "type": "heading",
-                  "props": {
-                    "text": "PAID training, lodging, and travel.",
-                    "eyebrow": "",
-                    "headingLevel": 2
-                  },
-                  "styles": {
-                    "base": {
-                      "textColor": "#ffffff"
-                    }
-                  }
-                },
-                {
-                  "id": "s4-body",
+                  "id": "s4t3",
                   "type": "text",
                   "props": {
-                    "text": "Earn an industry-leading wage, learn a trade on the job, build your toolbox with high-quality tools and be reimbursed for them by the company!\n\nAll while earning paid time-off and benefits with the largest Freightliner dealer in the U.S.\n\n<strong>Experienced and trained technicians earn a very competitive wage.</strong>",
+                    "text": "Truck Country",
                     "width": "full"
                   },
                   "styles": {
                     "base": {
-                      "textColor": "#ffffff@85%"
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
+                },
+                {
+                  "id": "s4h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Truck Country",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Dubuque, IA",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s4b6",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Click Here",
+                                "url": "/truck-country-training",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c9",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "display": "grid",
+                  "rowGap": "8",
+                  "columnGap": "8"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4t10",
+                  "type": "text",
+                  "props": {
+                    "text": "Stoops",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4h11",
+                  "type": "heading",
+                  "props": {
+                    "text": "Stoops",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t12",
+                  "type": "text",
+                  "props": {
+                    "text": "Indianapolis, IN",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r14",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c15",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s4b13",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Click Here",
+                                "url": "/stoops-training",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "id": "s5-band",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "training-s5",
+        "values": {
+          "items": [
+            {
+              "f0": "Earn an industry-leading wage, learn a trade on the job, build your toolbox with high-quality tools and be reimbursed for them by the company!"
+            },
+            {
+              "f0": "All while earning paid time-off and benefits with the largest Freightliner dealer in the U.S."
+            },
+            {
+              "f0": "<strong>Experienced and trained technicians earn a very competitive wage.</strong>"
+            }
+          ]
+        }
+      }
     }
   ]
 }
