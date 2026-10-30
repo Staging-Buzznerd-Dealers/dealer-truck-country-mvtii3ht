@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Training",
-                        "url": "https://www.truckcountry.com/training/"
+                        "url": "/training"
                       }
                     ],
                     "current": "Truck Country Training"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,153 +53,1303 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Truck Country Training",
-          "lead": "10819 Wood Gate Dr. Dubuque, IA 52003",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          }
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Truck Country Technical Institute Certified Diesel Technician Employee Program",
-          "body": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.\n\nThe Truck Country Technical Institute provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.\n\nStudents will attend all courses at the Truck Country Training Center in Dubuque, Iowa, then return to their home dealerships, located throughout Iowa and Wisconsin, to put what they’ve learned in the classroom into practice.\n\nUpon graduation, students earn the recognition of <strong>Freightliner Certified Technician</strong> and receive a nationally recognized <strong>Apprenticeship Certification.</strong>",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
-    },
-    {
-      "id": "s3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "Truck Country Tech Training Course Curriculum",
-          "body": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
-          "image": {
-            "src": "",
-            "alt": ""
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
           },
-          "anchorId": "",
-          "points": [
+          "children": [
             {
-              "label": "Heavy Duty Truck Systems"
-            },
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r8",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "label": "Electronic Systems"
-            },
-            {
-              "label": "Cascadia/New Cascadia"
-            },
-            {
-              "label": "Western Star"
-            },
-            {
-              "label": "DD Major Repair"
-            },
-            {
-              "label": "DD Fuel Systems"
-            },
-            {
-              "label": "DT12 Transmission"
-            },
-            {
-              "label": "Electrical Troubleshooting"
-            },
-            {
-              "label": "HVAC"
-            },
-            {
-              "label": "M2"
-            },
-            {
-              "label": "DD Basic Diagnostics"
-            },
-            {
-              "label": "DD Air and ATS"
-            },
-            {
-              "label": "DD Medium Duty"
+              "id": "s2c9",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "760"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2i3",
+                          "type": "image",
+                          "props": {
+                            "image": {
+                              "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/07/TrainingCenter.jpg",
+                              "alt": "Truck Country",
+                              "width": 1563,
+                              "height": 614
+                            },
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Truck Country Training",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "10819 Wood Gate Dr. Dubuque, IA 52003",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-      }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "48",
+              "columnGap": "48",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "20",
+                  "columnGap": "20"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "Truck Country Technical Institute Certified Diesel Technician Employee Program",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t4",
+                  "type": "text",
+                  "props": {
+                    "text": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t5",
+                  "type": "text",
+                  "props": {
+                    "text": "The Truck Country Technical Institute provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t6",
+                  "type": "text",
+                  "props": {
+                    "text": "Students will attend all courses at the Truck Country Training Center in Dubuque, Iowa, then return to their home dealerships, located throughout Iowa and Wisconsin, to put what they’ve learned in the classroom into practice.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t7",
+                  "type": "text",
+                  "props": {
+                    "text": "Upon graduation, students earn the recognition of <strong>Freightliner Certified Technician</strong> and receive a nationally recognized <strong>Apprenticeship Certification.</strong>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c8",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "width": "100%"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "height": "100%",
+                          "background": "#edebe3",
+                          "borderTopWidth": "1",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "display": "flex",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                          "paddingTop": "8",
+                          "paddingRight": "8",
+                          "paddingBottom": "8",
+                          "paddingLeft": "8",
+                          "borderColor": "#8f8f8f",
+                          "borderStyle": "dashed"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t9",
+                          "type": "text",
+                          "props": {
+                            "text": "Drop the Truck Country training photo",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s4",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 0,
-        "anchor": ""
+        "paddingY": 0
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s4-row",
+          "id": "s4r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "24",
+              "columnGap": "24",
+              "alignItems": "start"
+            }
           },
           "children": [
             {
-              "id": "s4-col",
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "width": "100%"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "height": "100%",
+                          "background": "#edebe3",
+                          "borderTopWidth": "1",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "display": "flex",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                          "paddingTop": "8",
+                          "paddingRight": "8",
+                          "paddingBottom": "8",
+                          "paddingLeft": "8",
+                          "borderColor": "#8f8f8f",
+                          "borderStyle": "dashed"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Drop the second training photo",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c6",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "width": "100%"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r8",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "100%",
+                          "height": "100%",
+                          "background": "#edebe3",
+                          "borderTopWidth": "1",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "display": "flex",
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                          "paddingTop": "8",
+                          "paddingRight": "8",
+                          "paddingBottom": "8",
+                          "paddingLeft": "8",
+                          "borderColor": "#8f8f8f",
+                          "borderStyle": "dashed"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4t7",
+                          "type": "text",
+                          "props": {
+                            "text": "Drop the third training photo",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Truck Country Tech Training Course Curriculum",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "marginTop": "0",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "display": "grid",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t4",
+                          "type": "text",
+                          "props": {
+                            "text": "Heavy Duty Truck Systems",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r8",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t7",
+                          "type": "text",
+                          "props": {
+                            "text": "Electronic Systems",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r11",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c12",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t10",
+                          "type": "text",
+                          "props": {
+                            "text": "Cascadia/New Cascadia",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r14",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c15",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t13",
+                          "type": "text",
+                          "props": {
+                            "text": "Western Star",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r17",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c18",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t16",
+                          "type": "text",
+                          "props": {
+                            "text": "DD Major Repair",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r20",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c21",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t19",
+                          "type": "text",
+                          "props": {
+                            "text": "DD Fuel Systems",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r23",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c24",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t22",
+                          "type": "text",
+                          "props": {
+                            "text": "DT12 Transmission",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s5c25",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "marginTop": "0",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "display": "grid",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r27",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c28",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t26",
+                          "type": "text",
+                          "props": {
+                            "text": "Electrical Troubleshooting",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r30",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c31",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t29",
+                          "type": "text",
+                          "props": {
+                            "text": "HVAC",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r33",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c34",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t32",
+                          "type": "text",
+                          "props": {
+                            "text": "M2",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r36",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c37",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t35",
+                          "type": "text",
+                          "props": {
+                            "text": "DD Basic Diagnostics",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r39",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c40",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t38",
+                          "type": "text",
+                          "props": {
+                            "text": "DD Air and ATS",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s5r42",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c43",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "background": "#ffffff",
+                          "borderTopWidth": "4",
+                          "borderRightWidth": "1",
+                          "borderBottomWidth": "1",
+                          "borderLeftWidth": "1",
+                          "paddingTop": "18",
+                          "paddingRight": "22",
+                          "paddingBottom": "18",
+                          "paddingLeft": "22"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5t41",
+                          "type": "text",
+                          "props": {
+                            "text": "DD Medium Duty",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5t44",
+          "type": "text",
+          "props": {
+            "text": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s6r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s6c5",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1"
+                }
+              },
               "children": [
                 {
-                  "id": "s4-head",
+                  "id": "s6h1",
                   "type": "heading",
                   "props": {
                     "text": "Ready to start your career!",
-                    "eyebrow": "",
                     "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s4-lead",
+                  "id": "s6t2",
                   "type": "text",
                   "props": {
                     "text": "Contact us today to connect with our recruiters.",
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 },
                 {
-                  "id": "s4-form",
+                  "id": "s6f3",
                   "type": "form",
                   "props": {
                     "formId": "truck-country-training-request"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]

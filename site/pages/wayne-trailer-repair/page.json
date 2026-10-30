@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Locations",
@@ -47,6 +42,12 @@
                       }
                     ],
                     "current": "Wayne – Trailer Repair"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -54,310 +55,309 @@
           ]
         }
       ]
-    },
-    {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Wayne, MI Full Service Trailer Dealer & Repair",
-          "lead": "<a href=\"https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D\" style=\"color: rgb(255, 255, 255);\">5055 Hannan Road, Wayne, MI 48184</a>\n<strong>PHONE:</strong> <a href=\"tel:734-729-9700\" style=\"color: rgb(255, 255, 255);\">734-729-9700</a>\n<strong>HOURS:</strong> Monday – Friday 8:00 AM – 4:30 PM\n<strong>CLOSED ALL MAJOR HOLIDAYS</strong> Limited hours on Christmas Eve and New Years Eve",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "5055 Hannan Road, Wayne, MI 48184",
-          "cta1Url": "https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&amp;g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
-          "cta2Label": "734-729-9700",
-          "cta2Url": "tel:734-729-9700"
-        }
-      }
     },
     {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "content-card",
-        "values": {
-          "eyebrow": "",
-          "heading": "New and Used Semi-Trailer Sales",
-          "body": "",
-          "image": {
-            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/02/dry-van-trailer-duraplate-590x415-1-1-300x211.jpg",
-            "alt": "Dry van trailer",
-            "width": 300,
-            "height": 211
-          },
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r12",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Wayne, MI Full Service Trailer Dealer & Repair",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "<a href=\"https://www.google.com/maps/place/Stoops+Trailers/@42.2678281,-83.427943,16.99z/data=!4m15!1m8!3m7!1s0x883b51e1198c4393:0xd3d8f4b882429b1d!2s5055+Hannan+Rd,+Wayne,+MI+48184,+USA!3b1!8m2!3d42.2679662!4d-83.4253315!16s%2Fg%2F11b8y8t8mx!3m5!1s0x883b5116175159c3:0x2a6abef9b5d77da4!8m2!3d42.2675857!4d-83.4257583!16s%2Fg%2F1tqtyk1y?entry=ttu&amp;g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D\">5055 Hannan Road, Wayne, MI 48184</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>PHONE:</strong> <a href=\"tel:734-729-9700\">734-729-9700</a>",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t7",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>HOURS:</strong> Monday – Friday 8:00 AM – 4:30 PM",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t8",
+                          "type": "text",
+                          "props": {
+                            "text": "<strong>CLOSED ALL MAJOR HOLIDAYS</strong> Limited hours on Christmas Eve and New Years Eve",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2b9",
+                          "type": "buttons",
+                          "props": {
+                            "items": [
+                              {
+                                "label": "Call 734-729-9700",
+                                "url": "tel:734-729-9700",
+                                "style": "primary"
+                              }
+                            ],
+                            "align": "left"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Semi-Truck Trailer Service",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
-      }
-    },
-    {
-      "id": "s3g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "14 Service Bays",
-          "body": "Our location has ample space for your semi-truck trailer and our technicians to perform maintenance, repairs, and inspections.",
-          "anchorId": ""
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "flex",
+              "flexWrap": "wrap",
+              "alignItems": "center",
+              "rowGap": "32",
+              "columnGap": "32"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3i3",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/05/wabash_Landoll-scaled-e1721763447489-300x27.jpg",
+                      "alt": "Wabash and Landoll",
+                      "width": 300,
+                      "height": 27
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c4",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3i5",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/01/autocar-company-logo-e1721763341655.png",
+                      "alt": "Autocar",
+                      "width": 600,
+                      "height": 293
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
-      }
-    },
-    {
-      "id": "s3g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Auto Modifications - Steel Reinforcement",
-          "body": "Our team can complete auto modifications including steel reinforcement, which maximizes safety.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Autocar Parts, Sales, and Service",
-          "body": "Our dealership puts a main focus on Autocar parts, sales, and service.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Bogie Repairs and Replacements",
-          "body": "The maintenance or replacement of the axle assemble.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Box Repairs and Installation",
-          "body": "Our team will repair or install a tool box for additional storage space.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Brake and System Repair and Installation",
-          "body": "Our team will inspect your trailer’s braking system for maintenance, repairs, and replacements.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g6",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Custom Fabrications and Modifications",
-          "body": "Our technicians can alter and modify your semi-truck to better suit your needs.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g7",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Door Conversion, Repair, Modification, and Installation",
-          "body": "Our team of expert techs will inspect your trailer doors.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g8",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "DOT Inspections",
-          "body": "Our technicians will perform a series of tests to ensure you are safe and comply with federal safety regulations.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g9",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Floor Repair and Installation",
-          "body": "Repairing damaged floorboards within a trailer or installing new floorboards.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g10",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "General Repairs - All Makes and Models",
-          "body": "Our experienced technicians will diagnose and fix all general trailer components.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g11",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Lift Gate and Lift Pad Installation",
-          "body": "We will install your lift gates and lift pads.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g12",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Patching Walls and Roofs",
-          "body": "The well being of your trailer is important. Our techs will identify damaged material and repair the area.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g13",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "PSI System Installation",
-          "body": "The installation of a Pressure Systems International system, which maintains tire pressure.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g14",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Replacing Partial and up to Full Roofs",
-          "body": "Our experienced techs will inspect the trailer roof for damaged material. They will repair or replace the roof of the semi-trailer.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g15",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Scale Installation",
-          "body": "Our experienced team attaches specialized sensors to measure air pressure which is converted into weight readings. This allows the driver to monitor the weight distribution on each axle of the trailer.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g16",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Skirt, Wing, and Other Aerodynamic Device Installation",
-          "body": "Our team will install skirt, wings and other aerodynamic devices. These components reduce air drag and save fuel.",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g17",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Wabash and Landoll Warranty Work",
-          "body": "We offer repairs on your trailer that are covered by Wabash and MAC.",
-          "anchorId": ""
-        }
-      }
+      ]
     },
     {
       "id": "s4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Our Team",
-          "body": "Mark\n\nGeneral Manager – Trailers\n\nSteve\n\nCorporate Fixed Operations Manager\n\nJoe\n\nService Manager",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s4g0",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -365,44 +365,119 @@
       },
       "styles": {
         "base": {
-          "paddingTop": 0,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingBottom": 48
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s4g0-row",
+          "id": "s4r1",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20",
+              "alignItems": "stretch"
+            }
           },
           "children": [
             {
-              "id": "s4g0-col",
+              "id": "s4c2",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "16",
+                  "columnGap": "16"
+                }
               },
               "children": [
                 {
-                  "id": "s4g0-b",
-                  "type": "statBand",
+                  "id": "s4h3",
+                  "type": "heading",
                   "props": {
-                    "heading": "Sales Team",
-                    "headingLevel": 3,
-                    "stats": [
-                      {
-                        "value": "Justin Hillier",
-                        "label": "Trailer Sales"
-                      },
-                      {
-                        "value": "Tammi Lemanek",
-                        "label": "Sales Coordinator"
-                      }
-                    ]
+                    "text": "New and Used Semi-Trailer Sales",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4i4",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/02/dry-van-trailer-duraplate-590x415-1-1-300x211.jpg",
+                      "alt": "Dry van trailer",
+                      "width": 300,
+                      "height": 211
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s4c5",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "Semi-Truck Trailer Parts",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -412,7 +487,7 @@
       ]
     },
     {
-      "id": "s4g1",
+      "id": "s5",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -420,48 +495,1448 @@
       },
       "styles": {
         "base": {
-          "paddingTop": 0,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingBottom": 48
+          "marginTop": "0",
+          "marginBottom": "0"
         }
       },
       "children": [
         {
-          "id": "s4g1-row",
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Semi-Truck Trailer Service",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r2",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
           },
           "children": [
             {
-              "id": "s4g1-col",
+              "id": "s5c3",
               "type": "column",
               "props": {
-                "span": 12
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
               },
               "children": [
                 {
-                  "id": "s4g1-b",
-                  "type": "statBand",
+                  "id": "s5r4",
+                  "type": "row",
                   "props": {
-                    "heading": "Service Contacts",
-                    "headingLevel": 3,
-                    "stats": [
-                      {
-                        "value": "Mike Kraft",
-                        "label": "Service Sales + Estimator"
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
                       },
-                      {
-                        "value": "Kelly Stevens",
-                        "label": "Service Writer"
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
                       },
-                      {
-                        "value": "Kevin Zajac",
-                        "label": "Service Writer"
-                      }
-                    ]
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "14 Service Bays",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t7",
+                  "type": "text",
+                  "props": {
+                    "text": "Our location has ample space for your semi-truck trailer and our technicians to perform maintenance, repairs, and inspections.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c8",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h11",
+                  "type": "heading",
+                  "props": {
+                    "text": "Auto Modifications - Steel Reinforcement",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t12",
+                  "type": "text",
+                  "props": {
+                    "text": "Our team can complete auto modifications including steel reinforcement, which maximizes safety.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c13",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r14",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c15",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h16",
+                  "type": "heading",
+                  "props": {
+                    "text": "Autocar Parts, Sales, and Service",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t17",
+                  "type": "text",
+                  "props": {
+                    "text": "Our dealership puts a main focus on Autocar parts, sales, and service.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c18",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r19",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c20",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h21",
+                  "type": "heading",
+                  "props": {
+                    "text": "Bogie Repairs and Replacements",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t22",
+                  "type": "text",
+                  "props": {
+                    "text": "The maintenance or replacement of the axle assemble.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c23",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h26",
+                  "type": "heading",
+                  "props": {
+                    "text": "Box Repairs and Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t27",
+                  "type": "text",
+                  "props": {
+                    "text": "Our team will repair or install a tool box for additional storage space.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c28",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r29",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c30",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h31",
+                  "type": "heading",
+                  "props": {
+                    "text": "Brake and System Repair and Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t32",
+                  "type": "text",
+                  "props": {
+                    "text": "Our team will inspect your trailer’s braking system for maintenance, repairs, and replacements.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c33",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r34",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c35",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h36",
+                  "type": "heading",
+                  "props": {
+                    "text": "Custom Fabrications and Modifications",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t37",
+                  "type": "text",
+                  "props": {
+                    "text": "Our technicians can alter and modify your semi-truck to better suit your needs.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c38",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r39",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c40",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h41",
+                  "type": "heading",
+                  "props": {
+                    "text": "Door Conversion, Repair, Modification, and Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t42",
+                  "type": "text",
+                  "props": {
+                    "text": "Our team of expert techs will inspect your trailer doors.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c43",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r44",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c45",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h46",
+                  "type": "heading",
+                  "props": {
+                    "text": "DOT Inspections",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t47",
+                  "type": "text",
+                  "props": {
+                    "text": "Our technicians will perform a series of tests to ensure you are safe and comply with federal safety regulations.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c48",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r49",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c50",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h51",
+                  "type": "heading",
+                  "props": {
+                    "text": "Floor Repair and Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t52",
+                  "type": "text",
+                  "props": {
+                    "text": "Repairing damaged floorboards within a trailer or installing new floorboards.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c53",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r54",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c55",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h56",
+                  "type": "heading",
+                  "props": {
+                    "text": "General Repairs - All Makes and Models",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t57",
+                  "type": "text",
+                  "props": {
+                    "text": "Our experienced technicians will diagnose and fix all general trailer components.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c58",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r59",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c60",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h61",
+                  "type": "heading",
+                  "props": {
+                    "text": "Lift Gate and Lift Pad Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t62",
+                  "type": "text",
+                  "props": {
+                    "text": "We will install your lift gates and lift pads.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c63",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r64",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c65",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h66",
+                  "type": "heading",
+                  "props": {
+                    "text": "Patching Walls and Roofs",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t67",
+                  "type": "text",
+                  "props": {
+                    "text": "The well being of your trailer is important. Our techs will identify damaged material and repair the area.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c68",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r69",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c70",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h71",
+                  "type": "heading",
+                  "props": {
+                    "text": "PSI System Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t72",
+                  "type": "text",
+                  "props": {
+                    "text": "The installation of a Pressure Systems International system, which maintains tire pressure.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c73",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r74",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c75",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h76",
+                  "type": "heading",
+                  "props": {
+                    "text": "Replacing Partial and up to Full Roofs",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t77",
+                  "type": "text",
+                  "props": {
+                    "text": "Our experienced techs will inspect the trailer roof for damaged material. They will repair or replace the roof of the semi-trailer.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c78",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r79",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c80",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h81",
+                  "type": "heading",
+                  "props": {
+                    "text": "Scale Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t82",
+                  "type": "text",
+                  "props": {
+                    "text": "Our experienced team attaches specialized sensors to measure air pressure which is converted into weight readings. This allows the driver to monitor the weight distribution on each axle of the trailer.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c83",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r84",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c85",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h86",
+                  "type": "heading",
+                  "props": {
+                    "text": "Skirt, Wing, and Other Aerodynamic Device Installation",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t87",
+                  "type": "text",
+                  "props": {
+                    "text": "Our team will install skirt, wings and other aerodynamic devices. These components reduce air drag and save fuel.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c88",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "24",
+                  "paddingRight": "24",
+                  "paddingBottom": "24",
+                  "paddingLeft": "24",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r89",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c90",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "14"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5h91",
+                  "type": "heading",
+                  "props": {
+                    "text": "Wabash and Landoll Warranty Work",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t92",
+                  "type": "text",
+                  "props": {
+                    "text": "We offer repairs on your trailer that are covered by Wabash and MAC.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -471,22 +1946,751 @@
       ]
     },
     {
-      "id": "s4g2",
-      "type": "sharedSection",
+      "id": "s6",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Parts Contacts",
-          "body": "Austin Gabriel\n\nParts Counter",
-          "anchorId": "",
-          "points": [
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s6h1",
+          "type": "heading",
+          "props": {
+            "text": "Our Team",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "56",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
             {
-              "label": "Austin Gabriel Parts Counter"
+              "id": "s6c3",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "16",
+                  "paddingRight": "16",
+                  "paddingBottom": "16",
+                  "paddingLeft": "16",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6i4",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/Mark-Hall-124x160.jpg",
+                      "alt": "Mark",
+                      "width": 124,
+                      "height": 160
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6r7",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c8",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s6t5",
+                          "type": "text",
+                          "props": {
+                            "text": "Mark",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6t6",
+                          "type": "text",
+                          "props": {
+                            "text": "General Manager – Trailers",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s6c9",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "16",
+                  "paddingRight": "16",
+                  "paddingBottom": "16",
+                  "paddingLeft": "16",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6i10",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/steve-young-225x300-1-120x160.jpg",
+                      "alt": "Steve",
+                      "width": 120,
+                      "height": 160
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6r13",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s6t11",
+                          "type": "text",
+                          "props": {
+                            "text": "Steve",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6t12",
+                          "type": "text",
+                          "props": {
+                            "text": "Corporate Fixed Operations Manager",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s6c15",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "16",
+                  "paddingRight": "16",
+                  "paddingBottom": "16",
+                  "paddingLeft": "16",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "rowGap": "12",
+                  "columnGap": "12"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6i16",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20124%20160%22%3E%3Crect%20width%3D%22124%22%20height%3D%22160%22%20fill%3D%22%23EDEBE3%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%2292%22%20font-family%3D%22Oswald%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22600%22%20fill%3D%22%2354565C%22%20text-anchor%3D%22middle%22%3EJ%3C%2Ftext%3E%3C%2Fsvg%3E",
+                      "alt": "Joe",
+                      "width": 124,
+                      "height": 160
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6r19",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s6c20",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": [
+                        {
+                          "id": "s6t17",
+                          "type": "text",
+                          "props": {
+                            "text": "Joe",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s6t18",
+                          "type": "text",
+                          "props": {
+                            "text": "Service Manager",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6h21",
+          "type": "heading",
+          "props": {
+            "text": "Sales Team",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r22",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "40",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "16",
+              "columnGap": "16"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c23",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t24",
+                  "type": "text",
+                  "props": {
+                    "text": "Justin Hillier",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t25",
+                  "type": "text",
+                  "props": {
+                    "text": "Trailer Sales",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s6c26",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t27",
+                  "type": "text",
+                  "props": {
+                    "text": "Tammi Lemanek",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t28",
+                  "type": "text",
+                  "props": {
+                    "text": "Sales Coordinator",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6h29",
+          "type": "heading",
+          "props": {
+            "text": "Service Contacts",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r30",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "40",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "16",
+              "columnGap": "16"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c31",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t32",
+                  "type": "text",
+                  "props": {
+                    "text": "Mike Kraft",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t33",
+                  "type": "text",
+                  "props": {
+                    "text": "Service Sales + Estimator",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s6c34",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t35",
+                  "type": "text",
+                  "props": {
+                    "text": "Kelly Stevens",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t36",
+                  "type": "text",
+                  "props": {
+                    "text": "Service Writer",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s6c37",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t38",
+                  "type": "text",
+                  "props": {
+                    "text": "Kevin Zajac",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t39",
+                  "type": "text",
+                  "props": {
+                    "text": "Service Writer",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6h40",
+          "type": "heading",
+          "props": {
+            "text": "Parts Contacts",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s6r41",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "40",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "16",
+              "columnGap": "16"
+            }
+          },
+          "children": [
+            {
+              "id": "s6c42",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "paddingTop": "20",
+                  "paddingRight": "20",
+                  "paddingBottom": "20",
+                  "paddingLeft": "20",
+                  "borderTopWidth": "4",
+                  "borderColor": "#c41230",
+                  "borderRightWidth": "0",
+                  "borderBottomWidth": "0",
+                  "borderLeftWidth": "0",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t43",
+                  "type": "text",
+                  "props": {
+                    "text": "Austin Gabriel",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6t44",
+                  "type": "text",
+                  "props": {
+                    "text": "Parts Counter",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
-      }
+      ]
     }
   ]
 }

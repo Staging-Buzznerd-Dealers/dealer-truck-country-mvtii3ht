@@ -222,7 +222,7 @@
                   "type": "text",
                   "props": {
                     "text": "Family-owned since 1958. Trucks, trailers, parts, service and training across the Midwest.",
-                    "width": "prose"
+                    "width": "full"
                   },
                   "children": null
                 }
@@ -359,14 +359,24 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "footer-base",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
         {
           "id": "footer-bottom",
           "type": "row",
           "props": {
-            "gap": 4,
+            "gap": 0,
             "align": "center",
-            "stackOn": "mobile"
+            "stackOn": "never"
           },
           "children": [
             {
@@ -381,7 +391,7 @@
                   "id": "footer-legal",
                   "type": "text",
                   "props": {
-                    "text": "© 2026 Truck Country — All Rights Reserved",
+                    "text": "© 2026 Truck Country – All Rights Reserved | <a href=\"https://www.truckcountry.com/accessibility/\">Accessibility</a>",
                     "width": "full"
                   },
                   "children": null

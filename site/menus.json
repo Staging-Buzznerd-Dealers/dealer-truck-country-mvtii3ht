@@ -377,17 +377,30 @@
           "url": "/#locations"
         },
         {
+          "id": "f-terms",
+          "label": "Terms of Service",
+          "type": "url",
+          "url": "https://www.truckcountry.com/terms-and-conditions/"
+        },
+        {
+          "id": "f-privacy",
+          "label": "Privacy Policy",
+          "type": "url",
+          "url": "https://www.truckcountry.com/privacy-policy/"
+        },
+        {
           "id": "f-sitemap",
           "label": "Site Map",
           "type": "page",
           "ref": "sitemap"
+        },
+        {
+          "id": "f-disclosures",
+          "label": "Disclosures",
+          "type": "url",
+          "url": "https://www.truckcountry.com/disclosures/"
         }
       ]
-    },
-    {
-      "id": "legal",
-      "name": "Legal",
-      "items": []
     }
   ]
 }

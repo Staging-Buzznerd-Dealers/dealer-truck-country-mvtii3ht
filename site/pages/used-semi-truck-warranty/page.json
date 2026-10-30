@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,13 +24,13 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "Trucks",
@@ -43,6 +38,12 @@
                       }
                     ],
                     "current": "Used Semi-Truck Warranty"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -52,364 +53,3998 @@
       ]
     },
     {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Used Semi-Truck Limited Warranty",
-          "lead": "OEM Used Semi-Truck Warranty Available for qualifying Freightliner and Western Star used semi-trucks!",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2141,
-            "height": 1400
-          },
-          "cta1Label": "Browse Used Inventory",
-          "cta1Url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/",
-          "cta2Label": "Find a Location",
-          "cta2Url": "https://www.truckcountry.com/locations/"
-        }
-      }
-    },
-    {
       "id": "s2",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "bullet-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "ZERO Deductible",
-          "items": [
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden",
+          "backgroundImage": "/img/hero-3.jpg",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "backgroundRepeat": "no-repeat"
+        }
+      },
+      "children": [
+        {
+          "id": "s2r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "title": "Warrantable Repairs are Covered 100%",
-              "body": ""
-            },
-            {
-              "title": "No Aggregate Limits",
-              "body": ""
-            },
-            {
-              "title": "Same Coverage Throughout Term",
-              "body": ""
-            },
-            {
-              "title": "No Reduction to Major Component Coverages (Castings)",
-              "body": ""
-            },
-            {
-              "title": "Transferable Without Fee",
-              "body": ""
-            },
-            {
-              "title": "Seamless Warranty Administration Through Freightliner",
-              "body": ""
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
             }
           ],
-          "image": {
-            "src": "/img/trailers.jpg",
-            "alt": "",
-            "width": 1600,
-            "height": 1200
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
           }
+        },
+        {
+          "id": "s2r11",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s2c12",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r9",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c10",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "680"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t3",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h4",
+                          "type": "heading",
+                          "props": {
+                            "text": "Used Semi-Truck Limited Warranty",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t5",
+                          "type": "text",
+                          "props": {
+                            "text": "OEM Used Semi-Truck Warranty Available for qualifying Freightliner and Western Star used semi-trucks!",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r7",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s2c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "display": "flex",
+                                  "flexWrap": "wrap",
+                                  "rowGap": "16",
+                                  "columnGap": "16"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s2t6",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">Browse Used Inventory</a> <a href=\"https://www.truckcountry.com/locations/\">Find a Location</a>",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
-      }
+      ]
     },
     {
       "id": "s3",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "Term Lengths 12 months",
-          "heading": "Select Limited Warranty",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
         }
-      }
-    },
-    {
-      "id": "s3g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Term Lengths",
-          "body": "12 months\n\n100,000 miles\n\n24 months\n\n200,000 miles\n\n36 months\n\n300,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements.",
-          "anchorId": "",
-          "points": [
+      },
+      "children": [
+        {
+          "id": "s3r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "center"
+            }
+          },
+          "children": [
             {
-              "label": "12 months 100,000 miles"
+              "id": "s3c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s3h3",
+                  "type": "heading",
+                  "props": {
+                    "text": "ZERO Deductible",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3r4",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s3c5",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r6",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c7",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t8",
+                          "type": "text",
+                          "props": {
+                            "text": "Warrantable Repairs are Covered 100%",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s3c9",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r10",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c11",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t12",
+                          "type": "text",
+                          "props": {
+                            "text": "No Aggregate Limits",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s3c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r14",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c15",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t16",
+                          "type": "text",
+                          "props": {
+                            "text": "Same Coverage Throughout Term",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s3c17",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r18",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c19",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t20",
+                          "type": "text",
+                          "props": {
+                            "text": "No Reduction to Major Component Coverages (Castings)",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s3c21",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r22",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c23",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t24",
+                          "type": "text",
+                          "props": {
+                            "text": "Transferable Without Fee",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s3c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3r26",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s3c27",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s3t28",
+                          "type": "text",
+                          "props": {
+                            "text": "Seamless Warranty Administration Through Freightliner",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "label": "24 months 200,000 miles"
-            },
-            {
-              "label": "36 months 300,000 miles"
+              "id": "s3c29",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3t30",
+                  "type": "text",
+                  "props": {
+                    "text": "Call any Truck Country or Stoops Freightliner location for more information on buying a used truck that qualifies for this used semi-truck warranty.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3b31",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "See all locations information here",
+                        "url": "https://www.truckcountry.com/locations/",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "left"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
-      }
-    },
-    {
-      "id": "s3g1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Covered Components",
-          "body": "",
-          "anchorId": ""
-        }
-      }
-    },
-    {
-      "id": "s3g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Engine*",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Cylinder Heads"
-            },
-            {
-              "label": "Engine Block"
-            },
-            {
-              "label": "Exhaust Manifold"
-            },
-            {
-              "label": "Injector Sleeves"
-            },
-            {
-              "label": "Oil Pump"
-            },
-            {
-              "label": "Pistons"
-            },
-            {
-              "label": "Piston Rings and Pins"
-            },
-            {
-              "label": "Progressive Damage (caused by covered components)"
-            },
-            {
-              "label": "All Internally Lubricated Parts"
-            },
-            {
-              "label": "Camshaft and Bearings"
-            },
-            {
-              "label": "Connecting Rods, Caps and Capscrews"
-            },
-            {
-              "label": "Crankshaft and Bearings"
-            },
-            {
-              "label": "Cylinder Block Casting"
-            },
-            {
-              "label": "Cylinder Head Casting and Capscrews"
-            },
-            {
-              "label": "Cylinder Head Gaskets"
-            },
-            {
-              "label": "Rocker Arms and Shafts"
-            },
-            {
-              "label": "Spacer Plate or Block"
-            },
-            {
-              "label": "Timing Cover and Gears"
-            },
-            {
-              "label": "Valve Lifters and Push Rods"
-            },
-            {
-              "label": "Valves, Valve Springs and Valve Keepers"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3g3",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Cab/Frame",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "Cab Structure and Sheet Metal Panels"
-            },
-            {
-              "label": "Frame Rails and Crossmembers"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3g4",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Transmission*",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "All Internally Lubricated Parts"
-            },
-            {
-              "label": "Transmission Housing"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "s3g5",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Rear Axle*",
-          "body": "",
-          "anchorId": "",
-          "points": [
-            {
-              "label": "All Internally Lubricated Parts"
-            },
-            {
-              "label": "Axle Housing"
-            },
-            {
-              "label": "Axle Shafts"
-            },
-            {
-              "label": "Differential Housing"
-            }
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "s4",
-      "type": "sharedSection",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "Term Lengths 6 months",
-          "heading": "Select Extra Limited Warranty",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
         }
-      }
-    },
-    {
-      "id": "s4g0",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Term Lengths",
-          "body": "6 months\n\n50,000 miles\n\n12 months\n\n100,000 miles\n\n18 months\n\n150,000 miles\n\nVehicle eligibility based on specified model year and mileage requirements",
-          "anchorId": "",
-          "points": [
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Select Limited Warranty",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4h2",
+          "type": "heading",
+          "props": {
+            "text": "Term Lengths",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "20",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
             {
-              "label": "6 months 50,000 miles"
+              "id": "s4c4",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s4t7",
+                  "type": "text",
+                  "props": {
+                    "text": "12 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t8",
+                  "type": "text",
+                  "props": {
+                    "text": "100,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             },
             {
-              "label": "12 months 100,000 miles"
+              "id": "s4c9",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s4t12",
+                  "type": "text",
+                  "props": {
+                    "text": "24 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t13",
+                  "type": "text",
+                  "props": {
+                    "text": "200,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             },
             {
-              "label": "18 months 150,000 miles"
+              "id": "s4c14",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4r15",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s4c16",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s4t17",
+                  "type": "text",
+                  "props": {
+                    "text": "36 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4t18",
+                  "type": "text",
+                  "props": {
+                    "text": "300,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s4t19",
+          "type": "text",
+          "props": {
+            "text": "Vehicle eligibility based on specified model year and mileage requirements.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4h20",
+          "type": "heading",
+          "props": {
+            "text": "Covered Components",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4r21",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c22",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h23",
+                  "type": "heading",
+                  "props": {
+                    "text": "Engine*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "block",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r26",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c27",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t28",
+                          "type": "text",
+                          "props": {
+                            "text": "Cylinder Heads",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c29",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r30",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c31",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t32",
+                          "type": "text",
+                          "props": {
+                            "text": "Engine Block",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c33",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r34",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c35",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t36",
+                          "type": "text",
+                          "props": {
+                            "text": "Exhaust Manifold",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c37",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r38",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c39",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t40",
+                          "type": "text",
+                          "props": {
+                            "text": "Injector Sleeves",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c41",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r42",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c43",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t44",
+                          "type": "text",
+                          "props": {
+                            "text": "Oil Pump",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c45",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r46",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c47",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t48",
+                          "type": "text",
+                          "props": {
+                            "text": "Pistons",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c49",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r50",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c51",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t52",
+                          "type": "text",
+                          "props": {
+                            "text": "Piston Rings and Pins",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c53",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r54",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c55",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t56",
+                          "type": "text",
+                          "props": {
+                            "text": "Progressive Damage (caused by covered components)",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c57",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r58",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c59",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t60",
+                          "type": "text",
+                          "props": {
+                            "text": "All Internally Lubricated Parts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c61",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r62",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c63",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t64",
+                          "type": "text",
+                          "props": {
+                            "text": "Camshaft and Bearings",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c65",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r66",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c67",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t68",
+                          "type": "text",
+                          "props": {
+                            "text": "Connecting Rods, Caps and Capscrews",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c69",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r70",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c71",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t72",
+                          "type": "text",
+                          "props": {
+                            "text": "Crankshaft and Bearings",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c73",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r74",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c75",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t76",
+                          "type": "text",
+                          "props": {
+                            "text": "Cylinder Block Casting",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c77",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r78",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c79",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t80",
+                          "type": "text",
+                          "props": {
+                            "text": "Cylinder Head Casting and Capscrews",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c81",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r82",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c83",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t84",
+                          "type": "text",
+                          "props": {
+                            "text": "Cylinder Head Gaskets",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c85",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r86",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c87",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t88",
+                          "type": "text",
+                          "props": {
+                            "text": "Rocker Arms and Shafts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c89",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r90",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c91",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t92",
+                          "type": "text",
+                          "props": {
+                            "text": "Spacer Plate or Block",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c93",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r94",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c95",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t96",
+                          "type": "text",
+                          "props": {
+                            "text": "Timing Cover and Gears",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c97",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r98",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c99",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t100",
+                          "type": "text",
+                          "props": {
+                            "text": "Valve Lifters and Push Rods",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c101",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r102",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c103",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t104",
+                          "type": "text",
+                          "props": {
+                            "text": "Valves, Valve Springs and Valve Keepers",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c105",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h106",
+                  "type": "heading",
+                  "props": {
+                    "text": "Cab/Frame",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r107",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c108",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r109",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c110",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t111",
+                          "type": "text",
+                          "props": {
+                            "text": "Cab Structure and Sheet Metal Panels",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c112",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r113",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c114",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t115",
+                          "type": "text",
+                          "props": {
+                            "text": "Frame Rails and Crossmembers",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c116",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h117",
+                  "type": "heading",
+                  "props": {
+                    "text": "Transmission*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r118",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c119",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r120",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c121",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t122",
+                          "type": "text",
+                          "props": {
+                            "text": "All Internally Lubricated Parts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c123",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r124",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c125",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t126",
+                          "type": "text",
+                          "props": {
+                            "text": "Transmission Housing",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c127",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s4h128",
+                  "type": "heading",
+                  "props": {
+                    "text": "Rear Axle*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r129",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c130",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r131",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c132",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t133",
+                          "type": "text",
+                          "props": {
+                            "text": "All Internally Lubricated Parts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c134",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r135",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c136",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t137",
+                          "type": "text",
+                          "props": {
+                            "text": "Axle Housing",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c138",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r139",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c140",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t141",
+                          "type": "text",
+                          "props": {
+                            "text": "Axle Shafts",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c142",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r143",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c144",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4t145",
+                          "type": "text",
+                          "props": {
+                            "text": "Differential Housing",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-      }
+      ]
     },
     {
-      "id": "s4g1",
-      "type": "sharedSection",
+      "id": "s5",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Covered Components",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
         }
-      }
-    },
-    {
-      "id": "s4g2",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Engine*",
-          "body": "Coverage only available when Select Limited Warranty is purchased. *Some exclusions may apply.",
-          "anchorId": "",
-          "points": [
+      },
+      "children": [
+        {
+          "id": "s5h1",
+          "type": "heading",
+          "props": {
+            "text": "Select Extra Limited Warranty",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5h2",
+          "type": "heading",
+          "props": {
+            "text": "Term Lengths",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "20",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
             {
-              "label": "Air Conditioning Compressor/Clutch"
+              "id": "s5c4",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5t7",
+                  "type": "text",
+                  "props": {
+                    "text": "6 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t8",
+                  "type": "text",
+                  "props": {
+                    "text": "50,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             },
             {
-              "label": "Charge Air Cooler"
+              "id": "s5c9",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5t12",
+                  "type": "text",
+                  "props": {
+                    "text": "12 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t13",
+                  "type": "text",
+                  "props": {
+                    "text": "100,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             },
             {
-              "label": "EGR Valve, Cooler and Actuator"
-            },
-            {
-              "label": "Fan Clutch"
-            },
-            {
-              "label": "Fan Hub"
-            },
-            {
-              "label": "Fuel Injectors"
-            },
-            {
-              "label": "Fuel Pump"
-            },
-            {
-              "label": "Oil Pan"
-            },
-            {
-              "label": "Rocker Cover"
-            },
-            {
-              "label": "Turbocharger, Actuator, VPOD and Axial Power Turbine"
-            },
-            {
-              "label": "Vibration Damper"
-            },
-            {
-              "label": "Water Pump"
+              "id": "s5c14",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r15",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c16",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "width": "40",
+                          "height": "4",
+                          "background": "#c41230",
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5t17",
+                  "type": "text",
+                  "props": {
+                    "text": "18 months",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t18",
+                  "type": "text",
+                  "props": {
+                    "text": "150,000 miles",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
             }
           ]
+        },
+        {
+          "id": "s5t19",
+          "type": "text",
+          "props": {
+            "text": "Vehicle eligibility based on specified model year and mileage requirements",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5h20",
+          "type": "heading",
+          "props": {
+            "text": "Covered Components",
+            "headingLevel": 3
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s5r21",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c22",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5h23",
+                  "type": "heading",
+                  "props": {
+                    "text": "Engine*",
+                    "headingLevel": 4
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "block",
+                      "rowGap": "10",
+                      "columnGap": "10"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s5c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r26",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c27",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t28",
+                          "type": "text",
+                          "props": {
+                            "text": "Air Conditioning Compressor/Clutch",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c29",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r30",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c31",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t32",
+                          "type": "text",
+                          "props": {
+                            "text": "Charge Air Cooler",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c33",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r34",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c35",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t36",
+                          "type": "text",
+                          "props": {
+                            "text": "EGR Valve, Cooler and Actuator",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c37",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r38",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c39",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t40",
+                          "type": "text",
+                          "props": {
+                            "text": "Fan Clutch",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c41",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r42",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c43",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t44",
+                          "type": "text",
+                          "props": {
+                            "text": "Fan Hub",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c45",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r46",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c47",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t48",
+                          "type": "text",
+                          "props": {
+                            "text": "Fuel Injectors",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c49",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r50",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c51",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t52",
+                          "type": "text",
+                          "props": {
+                            "text": "Fuel Pump",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c53",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r54",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c55",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t56",
+                          "type": "text",
+                          "props": {
+                            "text": "Oil Pan",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c57",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r58",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c59",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t60",
+                          "type": "text",
+                          "props": {
+                            "text": "Rocker Cover",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c61",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r62",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c63",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t64",
+                          "type": "text",
+                          "props": {
+                            "text": "Turbocharger, Actuator, VPOD and Axial Power Turbine",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c65",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r66",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c67",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t68",
+                          "type": "text",
+                          "props": {
+                            "text": "Vibration Damper",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s5c69",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "10",
+                          "columnGap": "10",
+                          "marginBottom": "10"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s5r70",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s5c71",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "10",
+                                  "height": "10",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s5t72",
+                          "type": "text",
+                          "props": {
+                            "text": "Water Pump",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5t73",
+          "type": "text",
+          "props": {
+            "text": "Coverage only available when Select Limited Warranty is purchased. *Some exclusions may apply.",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
         }
-      }
+      ]
     }
   ]
 }

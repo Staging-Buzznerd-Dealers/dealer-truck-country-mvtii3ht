@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,7 +24,7 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
@@ -43,325 +38,11 @@
                       }
                     ],
                     "current": "Sell Your Truck"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hero",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Sell your semi truck",
-          "lead": "Request a truck valuation online. A Truck Country / Stoops team member reviews your details and contacts you about selling or trading in your truck.",
-          "cta1Label": "Get a Truck Valuation",
-          "cta1Url": "#valuation",
-          "cta2Label": "How It Works",
-          "cta2Url": "#process",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "Freightliner Cascadia semi truck parked at a Truck Country dealership",
-            "width": 2000,
-            "height": 1308
-          }
-        }
-      }
-    },
-    {
-      "id": "process",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "numbered-cards",
-        "values": {
-          "anchorId": "process",
-          "eyebrow": "The process",
-          "heading": "Selling your truck in four steps",
-          "items": [
-            {
-              "num": "01",
-              "title": "Submit your details",
-              "body": "Share your truck’s year, make, model, mileage and condition. Add photos if you have them."
-            },
-            {
-              "num": "02",
-              "title": "We review your truck",
-              "body": "A team member looks over the information and may ask for more details or an inspection."
-            },
-            {
-              "num": "03",
-              "title": "Receive an offer",
-              "body": "We contact you with next steps, and can discuss a trade-in toward another truck."
-            },
-            {
-              "num": "04",
-              "title": "Complete the sale",
-              "body": "Finalize the paperwork with your dealership contact."
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "why",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "bullet-band",
-        "values": {
-          "eyebrow": "Why Truck Country / Stoops",
-          "heading": "A Freightliner dealer that knows your truck",
-          "items": [
-            {
-              "title": "Freightliner and Western Star specialists",
-              "body": "Our teams work with these brands every day, along with Autocar and Wabash."
-            },
-            {
-              "title": "Trade in toward your next truck",
-              "body": "Apply your truck toward new or used inventory, with financing available."
-            },
-            {
-              "title": "One point of contact",
-              "body": "A dealership team member handles your request from first contact to paperwork."
-            },
-            {
-              "title": "Dealerships across six states",
-              "body": "Locations in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin."
-            }
-          ],
-          "image": {
-            "src": "/img/model-ws-49x.jpg",
-            "alt": "Western Star 49X semi truck",
-            "width": 900,
-            "height": 503
-          }
-        }
-      }
-    },
-    {
-      "id": "valuation",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 0,
-        "anchor": "valuation"
-      },
-      "styles": {
-        "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
-        }
-      },
-      "children": [
-        {
-          "id": "val-row",
-          "type": "row",
-          "props": {
-            "gap": 7,
-            "align": "start",
-            "stackOn": "tablet"
-          },
-          "styles": {
-            "base": {
-              "gap": 64
-            },
-            "tablet": {
-              "gap": 40
-            },
-            "mobile": {
-              "gap": 32
-            }
-          },
-          "children": [
-            {
-              "id": "val-copy",
-              "type": "column",
-              "props": {
-                "span": 6
-              },
-              "children": [
-                {
-                  "id": "val-head",
-                  "type": "heading",
-                  "props": {
-                    "text": "Tell us about your truck",
-                    "eyebrow": "Truck valuation",
-                    "headingLevel": 2
-                  }
-                },
-                {
-                  "id": "val-intro",
-                  "type": "text",
-                  "props": {
-                    "text": "Complete the form and a team member will follow up. Fields marked with an asterisk (*) are required.",
-                    "width": "full"
-                  }
-                },
-                {
-                  "id": "val-aside",
-                  "type": "list",
-                  "props": {
-                    "heading": "Helpful to have on hand",
-                    "headingLevel": 3,
-                    "columns": 1,
-                    "items": [
-                      {
-                        "label": "VIN, year, make and model"
-                      },
-                      {
-                        "label": "Current mileage"
-                      },
-                      {
-                        "label": "Condition and any known issues"
-                      },
-                      {
-                        "label": "Photos of the exterior, interior and engine bay"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "id": "val-links",
-                  "type": "text",
-                  "props": {
-                    "text": "Looking for your next truck? Browse <a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">used truck inventory</a>, view <a href=\"https://www.truckcountry.com/trucks/truck-financing/\">semi-truck financing</a>, or <a href=\"https://www.truckcountry.com/about/contact-us/\">contact us</a>.",
-                    "width": "full"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "val-form-col",
-              "type": "column",
-              "props": {
-                "span": 6
-              },
-              "styles": {
-                "base": {
-                  "background": "card",
-                  "borderWidth": 1,
-                  "borderStyle": "solid",
-                  "borderColor": "#EDEBE3",
-                  "paddingTop": 40,
-                  "paddingRight": 40,
-                  "paddingBottom": 40,
-                  "paddingLeft": 40
-                },
-                "mobile": {
-                  "paddingTop": 20,
-                  "paddingRight": 20,
-                  "paddingBottom": 20,
-                  "paddingLeft": 20
-                }
-              },
-              "children": [
-                {
-                  "id": "val-form",
-                  "type": "form",
-                  "props": {
-                    "formId": "truck-valuation"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "faq",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 0
-      },
-      "styles": {
-        "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
-        }
-      },
-      "children": [
-        {
-          "id": "faq-row",
-          "type": "row",
-          "props": {
-            "gap": 0
-          },
-          "children": [
-            {
-              "id": "faq-col",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "styles": {
-                "base": {
-                  "maxWidth": 960
-                }
-              },
-              "children": [
-                {
-                  "id": "faq-head",
-                  "type": "heading",
-                  "props": {
-                    "text": "Selling and trading in your truck",
-                    "eyebrow": "FAQs",
-                    "headingLevel": 2
-                  }
-                },
-                {
-                  "id": "faq-list",
-                  "type": "widget",
-                  "props": {
-                    "widget": "faq",
-                    "config": {
-                      "items": [
-                        {
-                          "q": "How do I find out what my truck is worth?",
-                          "a": "Submit the valuation form with your truck’s year, make, model, mileage and condition. A team member reviews the details and contacts you. A final figure may depend on an in-person inspection."
-                        },
-                        {
-                          "q": "What types of trucks can I sell?",
-                          "a": "Tell us about your truck in the form, including Freightliner, Western Star, Autocar or other makes. Our team confirms which trucks we can purchase when they follow up."
-                        },
-                        {
-                          "q": "What information do I need to provide?",
-                          "a": "The VIN, year, make, model, mileage and overall condition help most. Photos and notes about recent service or known issues are also useful."
-                        },
-                        {
-                          "q": "Can I trade in my truck toward another one?",
-                          "a": "Yes. Mention in the notes field that you are interested in a trade-in, and a team member can discuss it alongside new or used truck inventory and financing options."
-                        },
-                        {
-                          "q": "Do I have to bring my truck to a dealership?",
-                          "a": "The form is the first step. Whether an inspection is needed, and where it takes place, is discussed when a team member contacts you."
-                        },
-                        {
-                          "q": "Which areas do you serve?",
-                          "a": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
-                        }
-                      ]
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
                     }
                   }
                 }
@@ -372,40 +53,1529 @@
       ]
     },
     {
-      "id": "next",
-      "type": "sharedSection",
+      "id": "s2",
+      "type": "section",
       "props": {
-        "sectionId": "next-steps",
-        "values": {
-          "heading": "Next steps",
-          "items": [
-            {
-              "title": "Used Inventory",
-              "body": "Browse used trucks available now.",
-              "linkLabel": "View used trucks →",
-              "url": "https://www.truckcountry.com/inventory/truck-inventory/used-inventory/"
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "position": "relative",
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "overflow": "hidden"
+        }
+      },
+      "children": [
+        {
+          "id": "s2i1",
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "/img/hero-3.jpg",
+              "alt": "Freightliner Cascadia semi truck parked at a Truck Country dealership",
+              "width": 2141,
+              "height": 1400
             },
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r2",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "title": "Financing",
-              "body": "Explore semi-truck financing.",
-              "linkLabel": "See financing →",
-              "url": "https://www.truckcountry.com/trucks/truck-financing/"
-            },
+              "id": "s2c3",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [],
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              }
+            }
+          ],
+          "styles": {
+            "base": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        },
+        {
+          "id": "s2r12",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
             {
-              "title": "Locations",
-              "body": "Find a dealership near you.",
-              "linkLabel": "Find a location →",
-              "url": "https://www.truckcountry.com/locations/"
-            },
-            {
-              "title": "Contact Us",
-              "body": "Talk to a team member.",
-              "linkLabel": "Contact us →",
-              "url": "https://www.truckcountry.com/about/contact-us/"
+              "id": "s2c13",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "position": "relative",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              },
+              "children": [
+                {
+                  "id": "s2r10",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s2c11",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "maxWidth": "640"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s2t4",
+                          "type": "text",
+                          "props": {
+                            "text": "Truck Country / Stoops",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2h5",
+                          "type": "heading",
+                          "props": {
+                            "text": "Sell your semi truck",
+                            "headingLevel": 1
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2t6",
+                          "type": "text",
+                          "props": {
+                            "text": "Request a truck valuation online. A Truck Country / Stoops team member reviews your details and contacts you about selling or trading in your truck.",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "s2r8",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s2c9",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "display": "flex",
+                                  "flexWrap": "wrap",
+                                  "rowGap": "16",
+                                  "columnGap": "16"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "s2t7",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "<a href=\"#valuation\">Get a Truck Valuation</a> <a href=\"#process\">How It Works</a>",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-      }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3t1",
+          "type": "text",
+          "props": {
+            "text": "The process",
+            "width": "full"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3h2",
+          "type": "heading",
+          "props": {
+            "text": "Selling your truck in four steps",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s3r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "marginTop": "0",
+              "marginRight": "0",
+              "marginBottom": "0",
+              "marginLeft": "0",
+              "paddingTop": "0",
+              "paddingRight": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "display": "grid",
+              "rowGap": "20",
+              "columnGap": "20"
+            }
+          },
+          "children": [
+            {
+              "id": "s3c4",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r6",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c7",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t5",
+                          "type": "text",
+                          "props": {
+                            "text": "01",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3h8",
+                  "type": "heading",
+                  "props": {
+                    "text": "Submit your details",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t9",
+                  "type": "text",
+                  "props": {
+                    "text": "Share your truck’s year, make, model, mileage and condition. Add photos if you have them.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c10",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r12",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t11",
+                          "type": "text",
+                          "props": {
+                            "text": "02",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3h14",
+                  "type": "heading",
+                  "props": {
+                    "text": "We review your truck",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t15",
+                  "type": "text",
+                  "props": {
+                    "text": "A team member looks over the information and may ask for more details or an inspection.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c16",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r18",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c19",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t17",
+                          "type": "text",
+                          "props": {
+                            "text": "03",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3h20",
+                  "type": "heading",
+                  "props": {
+                    "text": "Receive an offer",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t21",
+                  "type": "text",
+                  "props": {
+                    "text": "We contact you with next steps, and can discuss a trade-in toward another truck.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s3c22",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "paddingTop": "28",
+                  "paddingRight": "28",
+                  "paddingBottom": "28",
+                  "paddingLeft": "28",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s3r24",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s3c25",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "marginBottom": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s3t23",
+                          "type": "text",
+                          "props": {
+                            "text": "04",
+                            "width": "full"
+                          },
+                          "styles": {
+                            "base": {
+                              "paddingTop": 0,
+                              "paddingBottom": 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "s3h26",
+                  "type": "heading",
+                  "props": {
+                    "text": "Complete the sale",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s3t27",
+                  "type": "text",
+                  "props": {
+                    "text": "Finalize the paperwork with your dealership contact.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e"
+        }
+      },
+      "children": [
+        {
+          "id": "s4r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "center"
+            }
+          },
+          "children": [
+            {
+              "id": "s4c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Why Truck Country / Stoops",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "A Freightliner dealer that knows your truck",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s4r5",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "styles": {
+                    "base": {
+                      "marginTop": "0",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "display": "grid",
+                      "rowGap": "20",
+                      "columnGap": "20"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "s4c6",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "16",
+                          "columnGap": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r7",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c8",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "12",
+                                  "height": "12",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4r11",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c12",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s4h9",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "Freightliner and Western Star specialists",
+                                    "headingLevel": 3
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "s4t10",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Our teams work with these brands every day, along with Autocar and Wabash.",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c13",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "16",
+                          "columnGap": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r14",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c15",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "12",
+                                  "height": "12",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4r18",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c19",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s4h16",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "Trade in toward your next truck",
+                                    "headingLevel": 3
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "s4t17",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Apply your truck toward new or used inventory, with financing available.",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c20",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "16",
+                          "columnGap": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r21",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c22",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "12",
+                                  "height": "12",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4r25",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c26",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s4h23",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "One point of contact",
+                                    "headingLevel": 3
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "s4t24",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "A dealership team member handles your request from first contact to paperwork.",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "s4c27",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "styles": {
+                        "base": {
+                          "display": "grid",
+                          "gridColumns": "20px 1fr",
+                          "rowGap": "16",
+                          "columnGap": "16"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "s4r28",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c29",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "styles": {
+                                "base": {
+                                  "width": "12",
+                                  "height": "12",
+                                  "background": "#c41230",
+                                  "marginTop": "8"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "s4r32",
+                          "type": "row",
+                          "props": {
+                            "gap": 0,
+                            "stackOn": "never"
+                          },
+                          "children": [
+                            {
+                              "id": "s4c33",
+                              "type": "column",
+                              "props": {
+                                "span": 12
+                              },
+                              "children": [
+                                {
+                                  "id": "s4h30",
+                                  "type": "heading",
+                                  "props": {
+                                    "text": "Dealerships across six states",
+                                    "headingLevel": 3
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "s4t31",
+                                  "type": "text",
+                                  "props": {
+                                    "text": "Locations in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin.",
+                                    "width": "full"
+                                  },
+                                  "styles": {
+                                    "base": {
+                                      "paddingTop": 0,
+                                      "paddingBottom": 0
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4c34",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s4i35",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/img/brand-westernstar-49x.png",
+                      "alt": "Western Star 49X semi truck",
+                      "width": 1200,
+                      "height": 670
+                    },
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s5r1",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "styles": {
+            "base": {
+              "display": "grid",
+              "alignItems": "start"
+            }
+          },
+          "children": [
+            {
+              "id": "s5c2",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "children": [
+                {
+                  "id": "s5t3",
+                  "type": "text",
+                  "props": {
+                    "text": "Truck valuation",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5h4",
+                  "type": "heading",
+                  "props": {
+                    "text": "Tell us about your truck",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t5",
+                  "type": "text",
+                  "props": {
+                    "text": "Complete the form and a team member will follow up. Fields marked with an asterisk (*) are required.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5h6",
+                  "type": "heading",
+                  "props": {
+                    "text": "Helpful to have on hand",
+                    "headingLevel": 3
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t7",
+                  "type": "text",
+                  "props": {
+                    "text": "VIN, year, make and model",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t8",
+                  "type": "text",
+                  "props": {
+                    "text": "Current mileage",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t9",
+                  "type": "text",
+                  "props": {
+                    "text": "Condition and any known issues",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t10",
+                  "type": "text",
+                  "props": {
+                    "text": "Photos of the exterior, interior and engine bay",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s5t11",
+                  "type": "text",
+                  "props": {
+                    "text": "Looking for your next truck? Browse <a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\">used truck inventory</a>, view <a href=\"/semi-truck-financing\">semi-truck financing</a>, or <a href=\"/contact-us\">contact us</a>.",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s5c12",
+              "type": "column",
+              "props": {
+                "span": 1
+              },
+              "styles": {
+                "base": {
+                  "background": "#ffffff",
+                  "borderTopWidth": "1",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1",
+                  "borderColor": "#edebe3",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "id": "s5r13",
+                  "type": "row",
+                  "props": {
+                    "gap": 0,
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "s5c14",
+                      "type": "column",
+                      "props": {
+                        "span": 12
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "s5f15",
+                  "type": "form",
+                  "props": {
+                    "formId": "truck-valuation"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#ffffff",
+          "borderTopWidth": "1",
+          "borderColor": "#edebe3",
+          "borderRightWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderStyle": "solid"
+        }
+      },
+      "children": [
+        {
+          "id": "s6r4",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s6c5",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto",
+                  "paddingRight": "32",
+                  "paddingLeft": "32"
+                }
+              },
+              "children": [
+                {
+                  "id": "s6t1",
+                  "type": "text",
+                  "props": {
+                    "text": "FAQs",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6h2",
+                  "type": "heading",
+                  "props": {
+                    "text": "Selling and trading in your truck",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                },
+                {
+                  "id": "s6q3",
+                  "type": "widget",
+                  "props": {
+                    "widget": "faq",
+                    "config": {
+                      "items": [
+                        {
+                          "question": "How do I find out what my truck is worth?",
+                          "answer": "Submit the valuation form with your truck’s year, make, model, mileage and condition. A team member reviews the details and contacts you. A final figure may depend on an in-person inspection."
+                        },
+                        {
+                          "question": "What types of trucks can I sell?",
+                          "answer": "Tell us about your truck in the form, including Freightliner, Western Star, Autocar or other makes. Our team confirms which trucks we can purchase when they follow up."
+                        },
+                        {
+                          "question": "What information do I need to provide?",
+                          "answer": "The VIN, year, make, model, mileage and overall condition help most. Photos and notes about recent service or known issues are also useful."
+                        },
+                        {
+                          "question": "Can I trade in my truck toward another one?",
+                          "answer": "Yes. Mention in the notes field that you are interested in a trade-in, and a team member can discuss it alongside new or used truck inventory and financing options."
+                        },
+                        {
+                          "question": "Do I have to bring my truck to a dealership?",
+                          "answer": "The form is the first step. Whether an inspection is needed, and where it takes place, is discussed when a team member contacts you."
+                        },
+                        {
+                          "question": "Which areas do you serve?",
+                          "answer": "Truck Country / Stoops operates dealerships in Iowa, Illinois, Indiana, Michigan, Ohio and Wisconsin. See the locations page to find the one nearest you."
+                        }
+                      ]
+                    }
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s7h1",
+          "type": "heading",
+          "props": {
+            "text": "Next steps",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s7r3",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "s7c4",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "display": "grid",
+                  "rowGap": "20",
+                  "columnGap": "20"
+                }
+              },
+              "children": [
+                {
+                  "id": "s7t2",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"https://www.truckcountry.com/inventory/truck-inventory/used-inventory/\"> Used Inventory Browse used trucks available now. View used trucks → </a> <a href=\"/semi-truck-financing\"> Financing Explore semi-truck financing. See financing → </a> <a href=\"https://www.truckcountry.com/locations/\"> Locations Find a dealership near you. Find a location → </a> <a href=\"/contact-us\"> Contact Us Talk to a team member. Contact us → </a>",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

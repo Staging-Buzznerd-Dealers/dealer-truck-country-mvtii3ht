@@ -30,6 +30,6 @@
       "default": ""
     }
   ],
-  "html": "<nav class=\"tc-bc\" aria-label=\"Breadcrumb\">\n  {{#each items}}<a class=\"tc-bc__a\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"breadcrumb\">{{label}}</a><span class=\"tc-bc__s\" aria-hidden=\"true\">/</span>{{/each}}\n  <span aria-current=\"page\">{{current}}</span>\n</nav>",
-  "css": ".tc-bc{font-size:14px;color:#54565C;display:flex;flex-wrap:wrap;gap:8px;align-items:center}\n.tc-bc__a{color:#54565C;text-decoration:underline}\n.tc-bc__a:hover{color:#8f0d21}\n.tc-bc__s{color:#54565C}"
+  "html": "<nav class=\"tc-bc\" aria-label=\"Breadcrumb\">{{#each items}}<a class=\"tc-bc__a\" href=\"{{link url}}\" data-bz-el=\"link\" data-bz-intent=\"breadcrumb\">{{label}}</a> <span class=\"tc-bc__s\" aria-hidden=\"true\">/</span> {{/each}}<span aria-current=\"page\">{{current}}</span></nav>",
+  "css": ".tc-bc{display:block;margin:0;padding:16px 0 0;font-size:14px;line-height:1.6;color:#54565C}\n.tc-bc__a{color:#54565C;text-decoration:underline}\n.tc-bc__a:hover{color:#8f0d21}"
 }

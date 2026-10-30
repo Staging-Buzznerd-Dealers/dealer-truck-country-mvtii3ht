@@ -8,11 +8,6 @@
         "width": "boxed",
         "paddingY": 0
       },
-      "styles": {
-        "base": {
-          "paddingTop": 16
-        }
-      },
       "children": [
         {
           "id": "crumbs-row",
@@ -29,20 +24,26 @@
               },
               "children": [
                 {
-                  "id": "crumbs-nav",
+                  "id": "crumbs-bc",
                   "type": "breadcrumb",
                   "props": {
                     "items": [
                       {
                         "label": "Home",
-                        "url": "https://www.truckcountry.com/"
+                        "url": "/"
                       },
                       {
                         "label": "About",
-                        "url": "https://www.truckcountry.com/about/"
+                        "url": "/about-us"
                       }
                     ],
                     "current": "Contact Us"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -50,71 +51,93 @@
           ]
         }
       ]
-    },
-    {
-      "id": "s1",
-      "type": "sharedSection",
-      "props": {
-        "sectionId": "page-hero",
-        "values": {
-          "eyebrow": "Truck Country / Stoops",
-          "headline": "Contact Us",
-          "lead": "",
-          "image": {
-            "src": "/img/hero-3.jpg",
-            "alt": "",
-            "width": 2000,
-            "height": 1308
-          },
-          "cta1Label": "",
-          "cta1Url": "",
-          "cta2Label": "",
-          "cta2Url": ""
-        }
-      }
     },
     {
       "id": "s2",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 0,
-        "anchor": ""
+        "paddingY": 0
       },
       "styles": {
         "base": {
-          "paddingTop": 100,
-          "paddingBottom": 100
-        },
-        "tablet": {
-          "paddingTop": 72,
-          "paddingBottom": 72
-        },
-        "mobile": {
-          "paddingTop": 56,
-          "paddingBottom": 56
+          "background": "#0e0f13",
+          "marginTop": "16",
+          "borderBottomWidth": "6",
+          "borderColor": "#c41230",
+          "borderTopWidth": "0",
+          "borderRightWidth": "0",
+          "borderLeftWidth": "0"
         }
       },
       "children": [
         {
-          "id": "s2-row",
+          "id": "s2h1",
+          "type": "heading",
+          "props": {
+            "text": "Contact Us",
+            "headingLevel": 1
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0",
+          "paddingBottom": "0"
+        }
+      },
+      "children": [
+        {
+          "id": "s3r2",
           "type": "row",
           "props": {
-            "gap": 0
+            "gap": 0,
+            "stackOn": "never"
           },
           "children": [
             {
-              "id": "s2-col",
+              "id": "s3c3",
               "type": "column",
               "props": {
                 "span": 12
               },
+              "styles": {
+                "base": {
+                  "maxWidth": "960",
+                  "background": "#ffffff",
+                  "borderTopWidth": "4",
+                  "borderRightWidth": "1",
+                  "borderBottomWidth": "1",
+                  "borderLeftWidth": "1"
+                }
+              },
               "children": [
                 {
-                  "id": "s2-form",
+                  "id": "s3f1",
                   "type": "form",
                   "props": {
                     "formId": "contact-us"
+                  },
+                  "styles": {
+                    "base": {
+                      "paddingTop": 0,
+                      "paddingBottom": 0
+                    }
                   }
                 }
               ]
@@ -124,17 +147,54 @@
       ]
     },
     {
-      "id": "s3",
-      "type": "sharedSection",
+      "id": "s4",
+      "type": "section",
       "props": {
-        "sectionId": "prose-band",
-        "values": {
-          "eyebrow": "",
-          "heading": "Interested in becoming a vendor? If so, click below.",
-          "body": "",
-          "anchorId": ""
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "marginTop": "0",
+          "marginBottom": "0"
         }
-      }
+      },
+      "children": [
+        {
+          "id": "s4h1",
+          "type": "heading",
+          "props": {
+            "text": "Interested in becoming a vendor? If so, click below.",
+            "headingLevel": 2
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        },
+        {
+          "id": "s4b2",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "label": "Vendor Application",
+                "url": "https://forms.cloud.microsoft/r/8NwGFHHXmw",
+                "style": "primary"
+              }
+            ],
+            "align": "left"
+          },
+          "styles": {
+            "base": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      ]
     }
   ]
 }

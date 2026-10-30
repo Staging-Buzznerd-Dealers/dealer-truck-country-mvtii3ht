@@ -6,11 +6,11 @@
     "page"
   ],
   "intent": "financing",
-  "submitLabel": "Submit application",
+  "submitLabel": "Submit",
   "successMessage": "Thanks — our credit department will review your application and be in touch.",
   "consent": {
-    "enabled": true,
-    "required": true,
+    "enabled": false,
+    "required": false,
     "text": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit our Privacy Policy."
   },
   "fields": [
@@ -254,7 +254,7 @@
       "id": "pca-shipsame",
       "type": "radio",
       "label": "Shipping Address - Same as Billing Address",
-      "required": false,
+      "required": true,
       "options": [
         {
           "value": "Yes",
@@ -562,7 +562,7 @@
       "id": "pca-biztype",
       "type": "radio",
       "label": "Business Type",
-      "required": false,
+      "required": true,
       "options": [
         {
           "value": "C Corp",
@@ -1119,7 +1119,7 @@
       "id": "pca-division",
       "type": "radio",
       "label": "What Division of Truck Country and Stoops Freightliner will you primarily be doing business with?",
-      "required": false,
+      "required": true,
       "options": [
         {
           "value": "Truck Country of Iowa",
@@ -1391,7 +1391,7 @@
       "id": "pca-taxex",
       "type": "radio",
       "label": "Tax Exempt — Are you tax exempt?",
-      "required": false,
+      "required": true,
       "options": [
         {
           "value": "Yes",
@@ -2950,37 +2950,35 @@
     {
       "id": "pca-agree1",
       "type": "checkboxes",
-      "label": "Major Trade References 3. — I agree",
-      "required": false,
+      "label": "Major Trade References 3. — Disclaimer",
+      "required": true,
       "options": [
         {
-          "value": "yes",
-          "label": "I agree"
+          "value": "I agree The above signee has permission to sign on behalf of the applicant and the applicant is fully aware they are authorizing that their personal credit report may be accessed.",
+          "label": "I agree The above signee has permission to sign on behalf of the applicant and the applicant is fully aware they are authorizing that their personal credit report may be accessed."
         }
-      ],
-      "help": "The above signee has permission to sign on behalf of the applicant and the applicant is fully aware they are authorizing that their personal credit report may be accessed."
+      ]
     },
     {
       "id": "pca-agree2",
       "type": "checkboxes",
-      "label": "Major Trade References 3. — I agree",
-      "required": false,
+      "label": "Major Trade References 3. — Disclaimer Information",
+      "required": true,
       "options": [
         {
-          "value": "yes",
-          "label": "I agree"
+          "value": "I agree The above signed hereby authorizes Truck Country to fully investigate all credit information available on applicant, and set reasonable credit limits on their account, if established. The above signed agrees to the following terms: Statements are rendered the 1st of the month and they are due by the 10th of the month. If we have not received payment by the 20th of the following month, the account will be classified as delinquent, and it will be placed on a credit hold status. Accounts past 30 days will be assessed a finance charge of 1.5% per month (18% APR). All collection and/or attorney fees will be added to account balance. If customer is tax exempt and does not provide the appropriate tax exempt certificates, then customer will be responsible for all taxes on invoices until the appropriate signed and dated tax exempt certificate is provided to Truck Country. All invoices and statements will be emailed to the Accts-Payable contact provided. If customer would like to opt out of receiving invoices and statements through email they need to send the request to the Truck Country AR team at arcredit@truckcountry.com to opt out. The above signed understands that Truck Country and/or its assignees will not process a credit order until after Truck Country or such assignees have conducted a credit investigation and determined, in its or their sole discretion, to approve the extension of credit to the above signed. By submitting this Credit Application, the above signed hereby authorizes a full and complete investigation by Truck Country and its assignees into the above signed’s credit history. The above signed further authorizes Truck Country and its assignees to conduct an investigation into the credit history of the above signed’s proprietors, partners, shareholders, members and/or principals as Truck Country and/or its assignees see fit in its or their sole discretion. The above signed hereby grants permission to all of the above credit references and further authorizes the use of this document (or a facsimile thereof) as consent for the release to Truck Country and its assignees of credit information by credit reporting agencies, credit bureaus, and the credit, banking and trade references supplied to Truck Country and its assignees by the above signed. Truck Country and its assignees shall be further authorized to conduct periodic credit checks and reviews of the credit history of the above signed and its proprietors, partners, shareholders, members and/or principals in order to continue the extension of credit to the above signed.",
+          "label": "I agree The above signed hereby authorizes Truck Country to fully investigate all credit information available on applicant, and set reasonable credit limits on their account, if established. The above signed agrees to the following terms: Statements are rendered the 1st of the month and they are due by the 10th of the month. If we have not received payment by the 20th of the following month, the account will be classified as delinquent, and it will be placed on a credit hold status. Accounts past 30 days will be assessed a finance charge of 1.5% per month (18% APR). All collection and/or attorney fees will be added to account balance. If customer is tax exempt and does not provide the appropriate tax exempt certificates, then customer will be responsible for all taxes on invoices until the appropriate signed and dated tax exempt certificate is provided to Truck Country. All invoices and statements will be emailed to the Accts-Payable contact provided. If customer would like to opt out of receiving invoices and statements through email they need to send the request to the Truck Country AR team at arcredit@truckcountry.com to opt out. The above signed understands that Truck Country and/or its assignees will not process a credit order until after Truck Country or such assignees have conducted a credit investigation and determined, in its or their sole discretion, to approve the extension of credit to the above signed. By submitting this Credit Application, the above signed hereby authorizes a full and complete investigation by Truck Country and its assignees into the above signed’s credit history. The above signed further authorizes Truck Country and its assignees to conduct an investigation into the credit history of the above signed’s proprietors, partners, shareholders, members and/or principals as Truck Country and/or its assignees see fit in its or their sole discretion. The above signed hereby grants permission to all of the above credit references and further authorizes the use of this document (or a facsimile thereof) as consent for the release to Truck Country and its assignees of credit information by credit reporting agencies, credit bureaus, and the credit, banking and trade references supplied to Truck Country and its assignees by the above signed. Truck Country and its assignees shall be further authorized to conduct periodic credit checks and reviews of the credit history of the above signed and its proprietors, partners, shareholders, members and/or principals in order to continue the extension of credit to the above signed."
         }
-      ],
-      "help": "The above signed hereby authorizes Truck Country to fully investigate all credit information available on applicant, and set reasonable credit limits on their account, if established. The above signed agrees to the following terms: Statements are rendered the 1st of the month and they are due by the 10th of the month. If we have not received payment by the 20th of the following month, the account will be classified as delinquent, and it will be placed on a credit hold status. Accounts past 30 days will be assessed a finance charge of 1.5% per month (18% APR). All collection and/or attorney fees will be added to account balance. If customer is tax exempt and does not provide the appropriate tax exempt certificates, then customer will be responsible for all taxes on invoices until the appropriate signed and dated tax exempt certificate is provided to Truck Country. All invoices and statements will be emailed to the Accts-Payable contact provided. If customer would like to opt out of receiving invoices and statements through email they need to send the request to the Truck Country AR team at arcredit@truckcountry.com to opt out. The above signed understands that Truck Country and/or its assignees will not process a credit order until after Truck Country or such assignees have conducted a credit investigation and determined, in its or their sole discretion, to approve the extension of credit to the above signed. By submitting this Credit Application, the above signed hereby authorizes a full and complete investigation by Truck Country and its assignees into the above signed’s credit history. The above signed further authorizes Truck Country and its assignees to conduct an investigation into the credit history of the above signed’s proprietors, partners, shareholders, members and/or principals as Truck Country and/or its assignees see fit in its or their sole discretion. The above signed hereby grants permission to all of the above credit references and further authorizes the use of this document (or a facsimile thereof) as consent for the release to Truck Country and its assignees of credit information by credit reporting agencies, credit bureaus, and the credit, banking and trade references supplied to Truck Country and its assignees by the above signed. Truck Country and its assignees shall be further authorized to conduct periodic credit checks and reviews of the credit history of the above signed and its proprietors, partners, shareholders, members and/or principals in order to continue the extension of credit to the above signed."
+      ]
     },
     {
       "id": "pca-agree3",
       "type": "checkboxes",
-      "label": "Major Trade References 3. — By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
-      "required": false,
+      "label": "Major Trade References 3. — Disclaimer",
+      "required": true,
       "options": [
         {
-          "value": "yes",
+          "value": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >.",
           "label": "By providing my phone number to “Truck Country/Stoops Freightliner-Western Star”, I agree and acknowledge that Truck Country/Stoops Freightliner-Western Star may send text messages to my wireless phone number for any purpose. Message and data rates may apply. Message frequency will vary, and you will be able to Opt-out by replying “STOP”. For more information on how your data will be handled, please visit < Privacy Policy >."
         }
       ]
