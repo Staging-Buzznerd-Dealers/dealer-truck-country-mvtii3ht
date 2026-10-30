@@ -46,7 +46,7 @@
           "label": "Services ",
           "type": "url",
           "ref": null,
-          "url": "#services",
+          "url": "/services",
           "newTab": false,
           "children": []
         },
@@ -64,7 +64,7 @@
           "label": "Careers",
           "type": "url",
           "ref": null,
-          "url": "#dd",
+          "url": "/careers",
           "newTab": false,
           "children": []
         },
@@ -73,7 +73,7 @@
           "label": "Training ",
           "type": "url",
           "ref": null,
-          "url": "#tt",
+          "url": "/training",
           "newTab": false,
           "children": []
         },
@@ -82,7 +82,7 @@
           "label": "About",
           "type": "url",
           "ref": null,
-          "url": "/",
+          "url": "/about-us",
           "newTab": false,
           "children": []
         },
@@ -91,7 +91,7 @@
           "label": "News",
           "type": "url",
           "ref": null,
-          "url": "/",
+          "url": "/news",
           "newTab": false,
           "children": []
         }
