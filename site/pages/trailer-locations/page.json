@@ -85,6 +85,35 @@
           "anchorId": ""
         }
       }
+    },
+    {
+      "id": "s2L0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "items": [
+            {
+              "label": "Lafayette Indiana",
+              "url": "https://maps.app.goo.gl/w5N8vRVNMRfnz58s5",
+              "description": ""
+            },
+            {
+              "label": "Indianapolis Indiana",
+              "url": "https://maps.app.goo.gl/S2qiR8vwKfaYK98C7",
+              "description": ""
+            },
+            {
+              "label": "Wayne Michigan",
+              "url": "https://maps.app.goo.gl/psQAbACgQuDy9RiL8",
+              "description": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
     }
   ]
 }

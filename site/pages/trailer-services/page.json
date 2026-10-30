@@ -227,6 +227,35 @@
                       "textColor": "#ffffff@85%"
                     }
                   }
+                },
+                {
+                  "id": "s3-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Preventative Maintenance FHWA inspections, repair DOT (Violations), etc."
+                      },
+                      {
+                        "label": "Brakes Replace brake shoes/drums, adjust brakes, replace wheel seals"
+                      },
+                      {
+                        "label": "Electrical Repair/replace lights/wiring, ABS diagnostics, troubleshooting"
+                      },
+                      {
+                        "label": "Body Work Roof/panel patches, repair/replace swing and roll-up doors, repair/replace landing gear"
+                      },
+                      {
+                        "label": "Suspension Slider pins, airbags, brake chambers, air valves, shocks"
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
                 }
               ]
             }

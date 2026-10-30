@@ -85,6 +85,65 @@
           "anchorId": ""
         }
       }
+    },
+    {
+      "id": "s2L0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "items": [
+            {
+              "label": "Iowa",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Iowa_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Indiana",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Indiana_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Wisconsin",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Wisconsin_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Ohio",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Ohio.pdf",
+              "description": ""
+            },
+            {
+              "label": "Minnesota",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Minnesota.pdf",
+              "description": ""
+            },
+            {
+              "label": "Illinois (resale)",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_CRT61_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Illinois (rolling stock)",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_RUT7_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Michigan",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Michigan_TaxExemptForm.pdf",
+              "description": ""
+            },
+            {
+              "label": "Multi-State",
+              "url": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Multi-State-Exempt-Certificate.pdf",
+              "description": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
     }
   ]
 }

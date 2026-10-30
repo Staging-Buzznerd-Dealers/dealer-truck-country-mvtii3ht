@@ -59,7 +59,7 @@
         "values": {
           "eyebrow": "Truck Country / Stoops",
           "headline": "Semi-Truck Body Shop in Shullsburg, WI",
-          "lead": "347 State Highway 11 Shullsburg, WI 53586",
+          "lead": "347 State Highway 11<br>Shullsburg, WI 53586\n<strong>OFFICE:</strong> <a href=\"tel:608-975-7659\" style=\"color: rgb(255, 255, 255);\">608-975-7659</a>\n<strong>TOLL - FREE:</strong> <a href=\"tel:866-895-0996\" style=\"color: rgb(255, 255, 255);\">866-895-0996</a>\n<strong>FAX:</strong> 608-965-3800\n<a href=\"https://www.truckcountry.com/locations/wisconsin/shullsburg/\" style=\"color: rgb(255, 255, 255);\"><strong>WEBSITE</strong></a>",
           "image": {
             "src": "/img/hero-3.jpg",
             "alt": "",
@@ -316,6 +316,26 @@
                   "props": {
                     "text": "Blake Burlison\n\nBody Shop Foreman\n\nChad Martensen\n\nBody Shop Manager",
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Drop photo Blake Burlison Body Shop Foreman"
+                      },
+                      {
+                        "label": "Drop photo Chad Martensen Body Shop Manager"
+                      }
+                    ]
                   },
                   "styles": {
                     "base": {

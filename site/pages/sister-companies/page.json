@@ -91,6 +91,45 @@
           "anchorId": ""
         }
       }
+    },
+    {
+      "id": "s2L0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "link-list",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "items": [
+            {
+              "label": "The McCoy Group",
+              "url": "https://www.mccoygroup.com/",
+              "description": ""
+            },
+            {
+              "label": "Foodliner®",
+              "url": "http://www.foodliner.com/",
+              "description": ""
+            },
+            {
+              "label": "Quest Liner®",
+              "url": "http://www.questliner.com/",
+              "description": ""
+            },
+            {
+              "label": "Foodliner®",
+              "url": "http://foodliner.com.mx/foodliner/",
+              "description": ""
+            },
+            {
+              "label": "McCoy Construction & Forestry",
+              "url": "http://mccoycf.com/",
+              "description": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
     }
   ]
 }

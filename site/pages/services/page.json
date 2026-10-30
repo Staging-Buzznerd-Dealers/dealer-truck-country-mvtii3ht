@@ -160,6 +160,41 @@
                       "textColor": "#ffffff@85%"
                     }
                   }
+                },
+                {
+                  "id": "s4-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Dedicated motorhome facilities and service bays"
+                      },
+                      {
+                        "label": "Specially trained service technicians"
+                      },
+                      {
+                        "label": "Secure parking"
+                      },
+                      {
+                        "label": "Amenities exclusively for motorhome owners"
+                      },
+                      {
+                        "label": "Please click on the Owners tab at the top of the page."
+                      },
+                      {
+                        "label": "Scroll to the bottom of the page on the right where it says SERVICE SURVEY."
+                      },
+                      {
+                        "label": "Click VIEW SURVEY , complete survey and submit."
+                      }
+                    ]
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
                 }
               ]
             }

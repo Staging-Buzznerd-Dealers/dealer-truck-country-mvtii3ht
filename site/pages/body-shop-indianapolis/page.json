@@ -59,7 +59,7 @@
         "values": {
           "eyebrow": "Truck Country / Stoops",
           "headline": "Semi-Truck Body Shop in Indianapolis, IN",
-          "lead": "1851 W. Thompson Rd. Indianapolis, IN 46217",
+          "lead": "1851 W. Thompson Rd. Indianapolis, IN 46217\n<strong>OFFICE:</strong> <a href=\"tel:317-788-1533\" style=\"color: rgb(255, 255, 255);\">317-788-1533</a>\n<strong>TOLL-FREE:</strong> <a href=\"tel:800-899-1533\" style=\"color: rgb(255, 255, 255);\">800-899-1533</a>\n<strong>FAX:</strong> 651-724-9656",
           "image": {
             "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IndyBuilding_sm-1920x1135-1-1024x605.webp",
             "alt": "Semi-Truck Body Shop",
@@ -303,6 +303,35 @@
                   "props": {
                     "text": "Randy\n\nGeneral Manager\n\nJo\n\nBody Shop Manager\n\nDevin Williams\n\nForeman\n\nSteve Laing\n\nEstimator\n\nLisa Wilson\n\nBody Shop Administrator",
                     "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 2,
+                    "items": [
+                      {
+                        "label": "Drop photo Randy General Manager"
+                      },
+                      {
+                        "label": "Drop photo Jo Body Shop Manager"
+                      },
+                      {
+                        "label": "Drop photo Devin Williams Foreman"
+                      },
+                      {
+                        "label": "Drop photo Steve Laing Estimator"
+                      },
+                      {
+                        "label": "Drop photo Lisa Wilson Body Shop Administrator"
+                      }
+                    ]
                   },
                   "styles": {
                     "base": {
