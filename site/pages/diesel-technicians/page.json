@@ -1,0 +1,205 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Careers",
+                        "url": "https://www.truckcountry.com/careers/"
+                      }
+                    ],
+                    "current": "Diesel Technicians"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Diesel Technicians",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Current Openings",
+          "cta1Url": "https://www.truckcountry.com/careers/current-opening/",
+          "cta2Label": "Technician Program",
+          "cta2Url": "https://www.truckcountry.com/training/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "Do you have the drive to have a productive, rewarding career with better training, better pay and better benefits? The McCoy Group has locations across the United States with openings for medium and heavy-duty truck and trailer technicians. Whether you are already an expert diesel tech or just getting started, we have a career path for you.\n\nDiesel Technicians are highly-respected technical experts in their field. They inspect, repair and maintain the tough diesel engines and computerized management systems found in large trucks, construction equipment, dump trucks and more. Diesel technicians work independently to solve problems using professional judgment and take responsibility for the safe operation of the equipment that they repair and maintain.\n\nWe are also very proud of our partnership with the Department of Defense (DoD) Skillbridge Program, which provides active-duty service members with hands-on training in diesel technology. The Department of Defense (DoD) Skillbridge program is a program that enables transitioning service members to gain valuable civilian work experience through internships, apprenticeships, and industry training during their final 180 days of service, connecting them with industry partners for real-world job experiences.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Diesel technicians perform a range of duties including:",
+          "body": "",
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Diagnosing problems in mechanical, electrical and electronic systems that require the use of sophisticated computers and other diagnostic test equipment."
+            },
+            {
+              "label": "Troubleshooting electronic controls that govern engine performance and horsepower."
+            },
+            {
+              "label": "Troubleshooting steering, hydraulic and pneumatic systems as well as brakes, axles, differentials, electric motors and compressors."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Paid Training",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Weekly Pay",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Insurance",
+          "body": "health, dental, vision, short and long term disability",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Paid Time Off",
+          "body": "vacation, personal days, and Holidays",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "401k",
+          "body": "with employer match",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Gear",
+          "body": "Company- Provided Uniforms<br>Safety Gear/ PPE Reimbursement for Relevant Roles",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g6",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Tuition Reimbursement",
+          "body": "Tuition Reimbursement is provided for relevant roles.",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trucks",
+                        "url": "https://www.truckcountry.com/inventory/truck-inventory/"
+                      }
+                    ],
+                    "current": "Semi-Truck Financing"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Semi-Truck Financing",
+          "lead": "Our financing and insurance options complement our sales, parts and service departments to provide complete one-stop shopping for all your trucking needs.",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "Truck Country Credit App",
+          "cta1Url": "https://www.truckcountry.com/truck-credit-app/",
+          "cta2Label": "Stoops Credit App",
+          "cta2Url": "https://www.truckcountry.com/stoop-credit-app/"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "card-grid",
+        "values": {
+          "eyebrow": "",
+          "heading": "Financing options",
+          "columns": "3",
+          "items": [
+            {
+              "title": "",
+              "body": "New and Pre-Owned Tractors.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Simplified credit application with quick approvals.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Flexible terms and down payments.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Seasonal payback schedules to fit your cash flow pattern.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Repayment terms for trucks from 24 to 72 months depending on your business needs.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Fixed, floating rates, or a combination of both.",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Lines of credit available for equipment purchases.",
+              "linkLabel": "",
+              "url": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

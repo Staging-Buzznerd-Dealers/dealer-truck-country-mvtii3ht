@@ -1,0 +1,573 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Locations",
+                        "url": "https://www.truckcountry.com/locations/"
+                      },
+                      {
+                        "label": "Indiana",
+                        "url": "https://www.truckcountry.com/locations/indiana/"
+                      }
+                    ],
+                    "current": "Lafayette – Trailer Repair"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Lafayette Trailer Repair",
+          "lead": "4984 E 400 S. Lafayette, IN 47905",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          },
+          "cta1Label": "4984 E 400 S. Lafayette, IN 47905",
+          "cta1Url": "https://www.google.com/maps/place/Stoops+Trailers/@40.3597288,-86.811328,19.32z/data=!4m15!1m8!3m7!1s0x88131bee3c6c98fd:0xb56b5f219c3846d0!2s4984+E+400+S,+Lafayette,+IN+47905,+USA!3b1!8m2!3d40.3604254!4d-86.811138!16s%2Fg%2F11gnnqrvk4!3m5!1s0x88131beef43b54dd:0xcb8484c330061bfc!8m2!3d40.3603452!4d-86.8111636!16s%2Fg%2F1xcbq6q9?entry=ttu&amp;g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
+          "cta2Label": "765-477-2278",
+          "cta2Url": "tel:765-477-2278"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Services Available",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "9 Service Bays",
+          "body": "Our location has ample space for your semi-truck trailer and our technicians to perform maintenance, repairs, and inspections.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Air Systems",
+          "body": "Our team will inspect your air systems, ensuring that they are working properly.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Axle Repair",
+          "body": "We will inspect and service your trailer’s axle assembly.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Bogie Repairs and Replacements",
+          "body": "The maintenance or replacement of the axle assemble.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Brake and System Repair and Installation",
+          "body": "Our team will inspect your trailer’s braking system for maintenance, repairs, and replacements.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Custom Modification",
+          "body": "This includes the process of customizing a standard trailer’s design to better suit your needs.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g6",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Decaling Up to and Including Full Wraps",
+          "body": "Our team will install decals up to and including full wraps for your specific needs.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g7",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "De-Identifying",
+          "body": "The process of removing logos and decals.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g8",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Door Conversion from Swine to Roll Up Door",
+          "body": "This refers to the process of replacing a swine door with a standard roll-up door.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g9",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Door Repair and Installation",
+          "body": "Our team of expert techs will inspect your trailer doors.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g10",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "DOT Inspections",
+          "body": "Our technicians will perform a series of tests to ensure you are safe and comply with federal safety regulations.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g11",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Dry Vents",
+          "body": "Ensuring your air vents inside your trailer are working properly with great air circulation.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g12",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Electrical and Lighting",
+          "body": "Our team of experienced technicians will make sure your electrical and lighting are working properly, ensuring safety and regulations.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g13",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Floor Overlay",
+          "body": "A floor overlay a new layer of materials that is applied over the existing floor. In turn, this will improve the durability and appearance of your trailer’s floor.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g14",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Floor Repair and Installation",
+          "body": "Repairing damaged floorboards within a trailer or installing new floorboards.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g15",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "General Repairs",
+          "body": "Our experienced technicians will diagnose and fix all general trailer components.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g16",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Kingpin Replacement",
+          "body": "The process of replacing the kingpin. This metal pin connects the trailer to the tractor unit.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g17",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Lift Axle Installation",
+          "body": "Our team will attach a non-powered axle to your semi-truck trailer.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g18",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Lift Gate and Lift Pad Installation",
+          "body": "We will install your lift gates and lift pads.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g19",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Major and Minor Trailer Repairs",
+          "body": "Our team will complete minor and major trailer repairs to keep you trucking!",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g20",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Patching Walls and Roofs",
+          "body": "The well being of your trailer is important. Our techs will identify damaged material and repair the area.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g21",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Preventive Maintenance",
+          "body": "Our team will complete maintenance to your semi-truck trailer to prevent breakdowns and keep your wheels turning!",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g22",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "PSI System Installation",
+          "body": "The installation of a Pressure Systems International system, which maintains tire pressure.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g23",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Refers Body Work",
+          "body": "We will recommend body work for the semi-trailer.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g24",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Replacing Partial and Up to Full Roofs",
+          "body": "Our experienced techs will inspect the trailer roof for damaged material. They will repair or replace the roof of the semi-trailer.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g25",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Safety Inspections",
+          "body": "Our team of techs will complete a safety inspection for your semi-truck trailer. This thorough examination will ensure you are meeting regulations and standards.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g26",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Scale Installation",
+          "body": "Our experienced team attaches specialized sensors to measure air pressure which is converted into weight readings. This allows the driver to monitor the weight distribution on each axle of the trailer.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g27",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Shortening Trailers",
+          "body": "This process involves modifying a trailer to make it shorter in length.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g28",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Skirt, Wings and Other Aerodynamic Devices Installation",
+          "body": "Our team will install skirt, wings and other aerodynamic devices. These components reduce air drag and save fuel.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g29",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Suspension Repair",
+          "body": "We will inspect the trailer’s suspension system and fix damaged components.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g30",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Trailer Brake",
+          "body": "Independent of the semi-truck brake, the semi-truck trailer brake system controls the braking of the trailer.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g31",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Wabash and MAC Warranty Work",
+          "body": "We offer repairs on your trailer that are covered by Wabash and MAC.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g32",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Welding and Fabricating",
+          "body": "We complete welding and fabricating jobs on semi-truck trailers.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "staff-grid",
+        "values": {
+          "eyebrow": "",
+          "heading": "Our Team",
+          "people": [
+            {
+              "photo": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/Mark-Hall-124x160.jpg",
+                "alt": "Mark",
+                "width": 124,
+                "height": 160
+              },
+              "name": "Mark",
+              "title": "General Manager – Trailers",
+              "phone": "",
+              "phoneUrl": ""
+            },
+            {
+              "photo": {
+                "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20124%20160%22%3E%3Crect%20width%3D%22124%22%20height%3D%22160%22%20fill%3D%22%23EDEBE3%22%2F%3E%3Ctext%20x%3D%2262%22%20y%3D%2292%22%20font-family%3D%22Oswald%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22600%22%20fill%3D%22%2354565C%22%20text-anchor%3D%22middle%22%3EJ%3C%2Ftext%3E%3C%2Fsvg%3E",
+                "alt": "Juan",
+                "width": 124,
+                "height": 160
+              },
+              "name": "Juan",
+              "title": "Parts Manager",
+              "phone": "",
+              "phoneUrl": ""
+            },
+            {
+              "photo": {
+                "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/steve-young-225x300-1-120x160.jpg",
+                "alt": "Steve",
+                "width": 120,
+                "height": 160
+              },
+              "name": "Steve",
+              "title": "Corporate Fixed Operations Manager",
+              "phone": "",
+              "phoneUrl": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

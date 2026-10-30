@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "About Us"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "About Us",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "<strong>Truck Country® / Stoops Freightliner-Western Star</strong> is one of the largest Freightliner dealership group in the U.S. today, serving customers at locations in Illinois, Iowa, Indiana, Ohio, Michigan, and Wisconsin. For nearly 60 years, Truck Country/Stoops has offered new and used medium and heavy duty trucks, expert service, an extensive parts inventory, and convenient financing options. Our brands include Freightliner, Western Star, Wabash and Autocar.\n\n<strong>Truck Country® / Stoops Freightliner-Western Star</strong> is part of McCoy Group, Inc., which was founded in 1958 by Robert McCoy in Shullsburg, WI. Today the company is still family-owned and is operated under the leadership of the McCoy family.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2023/04/TC_Stoops-768x123.png",
+            "alt": "Truck Country/Stoops Freightliner - Western Star Logo",
+            "width": 768,
+            "height": 123
+          },
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Parts",
+                        "url": "https://www.truckcountry.com/parts/"
+                      }
+                    ],
+                    "current": "Tax Exempt Form"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Tax Exempt Form",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "The following forms are authorized by the State Department of Taxation for use by the consumers when making exempt purchases. Other than as noted below the use of a specific form is not mandatory when claiming an exemption. So long as the consumer provides the vendor or seller with all data elements required for a valid exemption certificate, the vendor may accept the certificate and be relieved of the obligation to collect the tax. Note also that exemption certificates may be presented in either paper or electronic form.",
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "id": "staff-grid",
+  "name": "Staff grid",
+  "props": [
+    { "key": "eyebrow", "type": "text", "label": "Eyebrow", "default": "" },
+    { "key": "heading", "type": "text", "label": "Heading", "default": "" },
+    { "key": "anchorId", "type": "text", "label": "Anchor id", "default": "" },
+    { "key": "people", "type": "list", "label": "People", "fields": [
+      { "key": "photo", "type": "image", "label": "Photo" },
+      { "key": "name", "type": "text", "label": "Name" },
+      { "key": "title", "type": "text", "label": "Job title" },
+      { "key": "phone", "type": "text", "label": "Phone" },
+      { "key": "phoneUrl", "type": "url", "label": "Phone link" }
+    ]}
+  ],
+  "nodes": [
+    { "id": "sg", "type": "section", "props": { "width": "boxed", "paddingY": 0, "anchor": "{{anchorId}}" },
+      "styles": { "base": { "paddingTop": 100, "paddingBottom": 100 },
+                  "tablet": { "paddingTop": 72, "paddingBottom": 72 },
+                  "mobile": { "paddingTop": 56, "paddingBottom": 56 } },
+      "children": [
+        { "id": "sg-head", "type": "heading", "props": { "text": "{{heading}}", "eyebrow": "{{eyebrow}}", "headingLevel": 2 } },
+        { "id": "sg-row", "type": "row", "props": { "gap": 0 }, "children": [
+          { "id": "sg-card", "type": "column", "props": { "span": 2, "repeat": "people" }, "children": [
+            { "id": "sg-photo", "type": "image", "props": { "image": "{{photo}}", "width": "full" } },
+            { "id": "sg-name", "type": "heading", "props": { "text": "{{name}}", "headingLevel": 3 } },
+            { "id": "sg-title", "type": "text", "props": { "text": "{{title}}", "width": "full" } }
+          ]}
+        ]}
+      ]}
+  ],
+  "css": "[data-bz-node=\"sg-head\"]{margin-bottom:32px}\n[data-bz-node=\"sg-row\"]{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:20px}\n[data-bz-node^=\"sg-card\"]{background:var(--color-card,#fff);color:var(--color-ink);padding:16px;display:flex;flex-direction:column;gap:12px;grid-column:auto}\n[data-bz-node^=\"sg-photo\"] img{width:100%;height:auto;aspect-ratio:124/160;object-fit:cover;display:block}\n[data-bz-node^=\"sg-name\"]{font:600 20px var(--font-heading,Oswald),sans-serif;letter-spacing:.04em;text-transform:uppercase;margin:0}\n[data-bz-node^=\"sg-name\"] h3{font:inherit;letter-spacing:inherit;text-transform:inherit;margin:0}\n[data-bz-node^=\"sg-title\"]{margin:2px 0 0;color:var(--color-muted);font-size:14px}\n[data-bz-node^=\"sg-title\"] p{margin:0;font-size:14px;line-height:1.4}\n"
+}

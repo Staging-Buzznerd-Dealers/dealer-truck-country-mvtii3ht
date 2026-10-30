@@ -1,0 +1,152 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Training",
+                        "url": "https://www.truckcountry.com/training/"
+                      }
+                    ],
+                    "current": "Stoops Training"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Stoops Training",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Stoops Training Academy Certified Diesel Technician Employee Program",
+          "body": "This 2 year technical curriculum will cover everything needed to launch a successful career by combining a minimum of 27 modules of classroom instruction and hands-on exercises with on-the-job training.\n\nThe Stoops Training Academy provides a small classroom environment (classes are limited to 10–12 students) that allows for plenty of one-on-one instruction.\n\nStudents will attend all courses at the Stoops Training Academy in Indianapolis, Indiana, then return to their home dealerships, located throughout Indiana and Ohio, to put what they’ve learned in the classroom into practice.\n\nUpon graduation, students earn the recognition of Freightliner Certified Technician and receive a nationally recognized Apprenticeship Certification.",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IMG_9403-1-848x636-1.webp",
+            "alt": "Stoops Training",
+            "width": 848,
+            "height": 636
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "Certified Freightliner - Detroit Courses",
+          "body": "Opportunities are also available for technicians to receive training on Cummins, FCCC, Autocar, Eaton, Allison and more.",
+          "image": {
+            "src": "",
+            "alt": ""
+          },
+          "anchorId": "",
+          "points": [
+            {
+              "label": "Heavy Duty Truck Systems"
+            },
+            {
+              "label": "Electronic Systems"
+            },
+            {
+              "label": "Cascadia/New Cascadia"
+            },
+            {
+              "label": "Western Star"
+            },
+            {
+              "label": "DD Major Repair"
+            },
+            {
+              "label": "DD Fuel Systems"
+            },
+            {
+              "label": "DT12 Transmission"
+            },
+            {
+              "label": "Electrical Troubleshooting"
+            },
+            {
+              "label": "HVAC"
+            },
+            {
+              "label": "M2"
+            },
+            {
+              "label": "DD Basic Diagnostics"
+            },
+            {
+              "label": "DD Air and ATS"
+            },
+            {
+              "label": "DD Medium Duty"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

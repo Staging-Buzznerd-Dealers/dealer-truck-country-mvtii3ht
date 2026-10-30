@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "id": "link-list",
+  "name": "Link list",
+  "description": "A row of label-only link cards — the resource lists that close a section page.",
+  "css": "[data-bz-node=\"ll-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;margin:0 0 32px}\n[data-bz-node=\"ll-grid\"]{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}\n[data-bz-node=\"ll-grid\"]>.bz-col{grid-column:auto;background:#fff;border:1px solid #EDEBE3;border-top:4px solid #C41230;transition:box-shadow .3s ease}\n[data-bz-node=\"ll-grid\"]>.bz-col:hover{box-shadow:0 24px 48px -20px rgba(0,0,0,.18)}\n[data-bz-node=\"ll-grid\"] .bz-block,[data-bz-node=\"ll-grid\"] .bz-container{padding:0}\n[data-bz-node=\"ll-grid\"] .bz-btns{margin:0}\n[data-bz-node=\"ll-grid\"] .bz-btn--link{display:block;padding:20px 24px;font-family:var(--font-heading);font-weight:600;font-size:16px;letter-spacing:.04em;text-transform:uppercase;color:#14151A;text-decoration:none}\n[data-bz-node=\"ll-grid\"] .bz-btn--link:hover{color:#C41230}",
+  "props": [
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Resources"
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Links",
+      "fields": [
+        {
+          "key": "label",
+          "type": "text",
+          "label": "Label"
+        },
+        {
+          "key": "url",
+          "type": "url",
+          "label": "Links to"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ll",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "ll-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "ll-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ll-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ll-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ll-item",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "ll-link",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "{{label}}",
+                        "url": "{{url}}",
+                        "style": "link"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

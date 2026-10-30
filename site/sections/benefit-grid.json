@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "id": "benefit-grid",
+  "name": "Benefit grid",
+  "description": "Icon-and-label tiles, for a benefits or perks row. One tile per list row.",
+  "css": "[data-bz-node=\"bg-head\"] .bz-eyebrow{color:#C41230;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}\n[data-bz-node=\"bg-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 24px}\n[data-bz-node=\"bg-head\"] h2{margin:0 0 40px}\n[data-bz-node=\"bg-grid\"]{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:20px}\n[data-bz-node=\"bg-grid\"]>.bz-col{grid-column:auto;background:#fff;border:1px solid #EDEBE3;padding:24px;text-align:center}\n[data-bz-node=\"bg-grid\"] .bz-block,[data-bz-node=\"bg-grid\"] .bz-container,[data-bz-node=\"bg-grid\"] .bz-figure{padding:0;margin:0}\n[data-bz-node=\"bg-grid\"] img{width:56px;height:56px;object-fit:contain;margin:0 auto 14px;display:block;border-radius:0}\n[data-bz-node=\"bg-grid\"] h3{font-family:var(--font-heading);font-weight:600;font-size:16px;line-height:1.3;letter-spacing:.04em;text-transform:uppercase;margin:0}",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Eyebrow",
+      "default": ""
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Benefits",
+      "fields": [
+        {
+          "key": "icon",
+          "type": "image",
+          "label": "Icon"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Label"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bg",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "bg-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "bg-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "bg-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "eyebrow": "{{eyebrow}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bg-grid",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "bg-item",
+              "type": "column",
+              "props": {
+                "span": 2,
+                "repeat": "items"
+              },
+              "children": [
+                {
+                  "id": "bg-icon",
+                  "type": "image",
+                  "props": {
+                    "image": "{{icon}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "bg-title",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

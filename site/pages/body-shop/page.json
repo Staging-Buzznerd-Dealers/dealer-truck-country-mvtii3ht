@@ -1,0 +1,251 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      }
+                    ],
+                    "current": "Body Shops"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Full Service Semi-truck Body Shops",
+          "lead": "",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Trusted Industry Leaders",
+          "body": "From minor dents to major repairs, Truck Country/Stoops understands you need to get back on the road fast. We will get your semi-truck rolling no matter what model or make you are driving. Our semi-truck bodyshop teams specialize in Freightliner, Western Star and all other makes and models of medium and heavy duty semi-trucks. Our semi-truck body shop team is solely focused on your repair and maintenance needs.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "card-grid",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-Truck Body Shop Services",
+          "columns": "3",
+          "items": [
+            {
+              "title": "",
+              "body": "State-of-the-art frame straightening machine",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Complete or partial painting",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Heated Devilbiss paint booth",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Dupont mixing stations",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Body repairs or replacement panels",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Welding aluminum (steel or stainless)",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Fiberglass and SMC repair",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Sandblasting",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Glass replacement",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Frame, alignment and wrecker service",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Professional detailing and buffing of all makes and models",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Lift axle installation",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Josam Play Detectors— determines wear and tear on wheel suspension within minutes",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Lengthening or shortening of wheel base",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Day cab conversions",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Hunter alignment equipment",
+              "linkLabel": "",
+              "url": ""
+            },
+            {
+              "title": "",
+              "body": "Wheel balancing",
+              "linkLabel": "",
+              "url": ""
+            }
+          ],
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Locations",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Shullsburg Wisconsin",
+          "body": "<a href=\"tel:608-975-7659\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">608-975-7659</a>",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Indianapolis Indiana",
+          "body": "<a href=\"tel:800-899-1533\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">800-899-1533</a>",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Lima Ohio",
+          "body": "<a href=\"tel:800-444-1589\" class=\"scp1 scp4\" style=\"color: rgb(20, 21, 26); text-decoration: none;\">800-444-1589</a>",
+          "anchorId": ""
+        }
+      }
+    }
+  ]
+}

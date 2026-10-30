@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "id": "photo-strip",
+  "name": "Photo strip",
+  "description": "A scrolling row of photographs with arrows, built on the carousel behaviour.",
+  "css": "[data-bz-node=\"ps-head\"] h2{font-family:var(--font-heading);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.1;text-transform:uppercase;letter-spacing:0;margin:0 0 24px}\n[data-bz-node=\"ps-head\"] h2{margin:0 0 32px}\n[data-bz-node=\"ps-rail\"]{position:relative}\n[data-bz-node=\"ps-track\"]{display:flex;gap:20px;padding-bottom:0;scrollbar-width:none}\n[data-bz-node=\"ps-track\"]::-webkit-scrollbar{display:none}\n[data-bz-node=\"ps-track\"]>.bz-col{grid-column:auto;flex:0 0 360px}\n[data-bz-node=\"ps-track\"] .bz-block,[data-bz-node=\"ps-track\"] .bz-container{padding:0}\n[data-bz-node=\"ps-track\"] img{width:100%;height:240px;object-fit:cover;border-radius:0}\n[data-bz-node=\"ps-prev\"],[data-bz-node=\"ps-next\"]{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:44px;padding:0}\n[data-bz-node=\"ps-prev\"]{left:-22px}[data-bz-node=\"ps-next\"]{right:-22px}\n@media (max-width:1100px){[data-bz-node=\"ps-track\"]>.bz-col{flex-basis:280px}[data-bz-node=\"ps-prev\"]{left:0}[data-bz-node=\"ps-next\"]{right:0}}",
+  "props": [
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": ""
+    },
+    {
+      "key": "items",
+      "type": "list",
+      "label": "Photos",
+      "fields": [
+        {
+          "key": "image",
+          "type": "image",
+          "label": "Photo"
+        }
+      ]
+    },
+    {
+      "key": "anchorId",
+      "type": "text",
+      "label": "Anchor id",
+      "default": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ps",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "{{anchorId}}",
+        "behaviour": "carousel",
+        "behaviourOptions": "{\"perMove\":1,\"label\":\"Photos\"}"
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "tablet": {
+          "paddingTop": 72,
+          "paddingBottom": 72
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "ps-head-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "ps-head-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ps-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ps-rail",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ps-viewport",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ps-track",
+                  "type": "row",
+                  "props": {
+                    "gap": 5,
+                    "part": "track",
+                    "stackOn": "never"
+                  },
+                  "children": [
+                    {
+                      "id": "ps-slide",
+                      "type": "column",
+                      "props": {
+                        "span": 4,
+                        "repeat": "items",
+                        "part": "slide"
+                      },
+                      "children": [
+                        {
+                          "id": "ps-img",
+                          "type": "image",
+                          "props": {
+                            "image": "{{image}}",
+                            "width": "full"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ps-prev",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "part": "prev"
+              },
+              "children": [
+                {
+                  "id": "ps-prev-btn",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "‹",
+                    "label": "Previous photos",
+                    "tone": "dark"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ps-next",
+              "type": "column",
+              "props": {
+                "span": 1,
+                "part": "next"
+              },
+              "children": [
+                {
+                  "id": "ps-next-btn",
+                  "type": "slider-arrow",
+                  "props": {
+                    "glyph": "›",
+                    "label": "More photos",
+                    "tone": "dark"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

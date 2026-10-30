@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Body Shops",
+                        "url": "https://www.truckcountry.com/body-shop/"
+                      }
+                    ],
+                    "current": "Indianapolis"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Semi-Truck Body Shop in Indianapolis, IN",
+          "lead": "1851 W. Thompson Rd. Indianapolis, IN 46217",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2021/12/IndyBuilding_sm-1920x1135-1-1024x605.webp",
+            "alt": "Semi-Truck Body Shop",
+            "width": 1024,
+            "height": 605
+          },
+          "cta1Label": "317-788-1533",
+          "cta1Url": "tel:317-788-1533",
+          "cta2Label": "800-899-1533",
+          "cta2Url": "tel:800-899-1533"
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-truck body shop hours",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Monday – Friday",
+          "body": "7:00 am – 3:30 pm",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s2g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Closed All Major Holidays",
+          "body": "Limited hours on Christmas Eve and New Years Eve",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "split-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "Get your semi-truck back on the road faster by entrusting the Truck Country semi-truck body shop in Indianapolis, Indiana, conveniently located and accessible from Interstate 465. Our semi-truck body shop team is solely focused on your repair and maintenance needs. Our Indianapolis semi-truck body shop specializes in working on Freightliner and Western Star brands and just about any brand of truck! We offer complete and comprehensive services–including body repairs, glass replacement, alignments, and day cab conversions–from a single location. Technicians use the latest technology such as the state-of-the-art frame straightening machine, Josam Play Detectors, and the heated Devilbliss paint booth. From semi-truck bodywork to complete detailing of all makes and models, it pays to give the team of experts at Indianapolis a call!",
+          "image": {
+            "src": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/10/IMG_8686-300x200.jpg",
+            "alt": "Body shop work 1",
+            "width": 300,
+            "height": 200
+          },
+          "ctaLabel": "",
+          "ctaUrl": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Semi-Truck Body Shop Services",
+          "body": "",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g0",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "16 Body Shop Bays",
+          "body": "Our location has ample space for your truck and our technicians to perform maintenance, repairs, and inspections.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Alignment Rack",
+          "body": "Our semi-truck body shop has an alignment rack which is designed to hold your vehicle up, so our skilled team can adjust your wheels and suspension system.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Bee Line Chassis and Correction",
+          "body": "Our location has a Bee Line Chassis and Correction system which is used to measure and fix any misalignments in your vehicle’s frame.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g3",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Complete or Partial Painting",
+          "body": "Our experienced techs offer complete or partial paint jobs.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g4",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Daily/Weekly Updates",
+          "body": "We want to give you the best service. One service that we offer to every customer is daily and weekly updates on your vehicle.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g5",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Glass Replacement",
+          "body": "Our skilled techs will replace damaged and broken glass on your vehicle.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g6",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Fiberglass and SMC Repair",
+          "body": "Fiberglass and SMC Repair can become damaged on your semi-truck. We will repair these components.",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s4g7",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "prose-band",
+        "values": {
+          "eyebrow": "",
+          "heading": "Pick-up and Delivery of Vehicles",
+          "body": "Our location offers pick-up and delivery of vehicles!",
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s5-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s5-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s5-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Our Team",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s5-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Randy\n\nGeneral Manager\n\nJo\n\nBody Shop Manager\n\nDevin Williams\n\nForeman\n\nSteve Laing\n\nEstimator\n\nLisa Wilson\n\nBody Shop Administrator",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

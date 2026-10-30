@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "crumbs",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "paddingTop": 16
+        }
+      },
+      "children": [
+        {
+          "id": "crumbs-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "crumbs-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "crumbs-nav",
+                  "type": "breadcrumb",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "Home",
+                        "url": "https://www.truckcountry.com/"
+                      },
+                      {
+                        "label": "Trailers",
+                        "url": "https://www.truckcountry.com/trailers/"
+                      }
+                    ],
+                    "current": "Trailer Parts"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "page-hero",
+        "values": {
+          "eyebrow": "Truck Country / Stoops",
+          "headline": "Trailer Parts",
+          "lead": "Truck Country/Stoops has the trailer parts and accessories you need to get the most out of your trailer. We offer a huge selection of cross-application trailer parts such as: tail lights, tires, wheels, axles, leaf springs, frame hardware, tongue jacks, couplers, safety chains, towing equipment, brakes and much more from top name brand manufacturers. These brands include:",
+          "image": {
+            "src": "/img/hero-3.jpg",
+            "alt": "",
+            "width": 2141,
+            "height": 1400
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "content-card",
+        "values": {
+          "eyebrow": "",
+          "heading": "",
+          "body": "",
+          "image": {
+            "src": "/img/brands/wabash.png",
+            "alt": "Wabash",
+            "width": 1200,
+            "height": 800
+          },
+          "anchorId": ""
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "#45474e",
+          "paddingTop": 100,
+          "paddingBottom": 100
+        },
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "s3-row",
+          "type": "row",
+          "props": {
+            "gap": 0
+          },
+          "children": [
+            {
+              "id": "s3-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "s3-head",
+                  "type": "heading",
+                  "props": {
+                    "text": "Stocking Parts For These Brands:",
+                    "eyebrow": "",
+                    "headingLevel": 2
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff"
+                    }
+                  }
+                },
+                {
+                  "id": "s3-body",
+                  "type": "text",
+                  "props": {
+                    "text": "Wabash, MAC Trailer, Stoughton, Transcraft, Leyman, Ancra Cargo, TSE Brakes, Maxon, Trail King Industries, Fleet Engineers, SAF Holland, STEMCO, Strick, Genuine Shurco, Air Seal Controls, Waltco, MBB Interlift Palfinger Company, Aurora Parts and Service Network, Aero, Hendrickson, Reyco Granning, Jost International, Hutchens Industries, Pro-Par OEM Heavy Duty Parts",
+                    "width": "full"
+                  },
+                  "styles": {
+                    "base": {
+                      "textColor": "#ffffff@85%"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
