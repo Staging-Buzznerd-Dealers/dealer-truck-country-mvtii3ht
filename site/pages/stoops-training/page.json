@@ -79,21 +79,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -102,7 +87,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r8",
@@ -424,58 +424,15 @@
               },
               "children": [
                 {
-                  "id": "s4r6",
-                  "type": "row",
+                  "id": "image",
+                  "type": "image",
                   "props": {
-                    "gap": 0,
-                    "stackOn": "never"
-                  },
-                  "children": [
-                    {
-                      "id": "s4c7",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "width": "100%",
-                          "height": "100%",
-                          "background": "#edebe3",
-                          "borderTopWidth": "1",
-                          "borderRightWidth": "1",
-                          "borderBottomWidth": "1",
-                          "borderLeftWidth": "1",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "textAlign": "center",
-                          "paddingTop": "8",
-                          "paddingRight": "8",
-                          "paddingBottom": "8",
-                          "paddingLeft": "8",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s4t5",
-                          "type": "text",
-                          "props": {
-                            "text": "Drop the second training photo",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
+                    "width": "full",
+                    "image": {
+                      "src": "https://vendure.ai4dealerships.com/assets/source/0e/101277311_168876431330829_2660243575672930304_n-848x843-1.webp",
+                      "alt": "101277311_168876431330829_2660243575672930304_n-848x843-1.webp"
                     }
-                  ]
+                  }
                 }
               ]
             }
@@ -533,7 +490,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s6",
