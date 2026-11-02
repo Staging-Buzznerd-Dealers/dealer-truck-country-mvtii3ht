@@ -303,7 +303,7 @@
                                   "type": "image",
                                   "props": {
                                     "image": {
-                                      "src": "/img/placeholders/photo.svg",
+                                      "src": "https://vendure.ai4dealerships.com/assets/source/da/lima-web-e1738004108576.webp",
                                       "alt": "Lima body shop photo",
                                       "width": 1200,
                                       "height": 600
@@ -566,7 +566,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s5-band",
@@ -613,7 +614,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s6",
@@ -730,10 +732,10 @@
                                   "type": "image",
                                   "props": {
                                     "image": {
-                                      "src": "/img/placeholders/person.svg",
+                                      "src": "https://vendure.ai4dealerships.com/assets/source/0d/jeremyjett-155x160.jpg",
                                       "alt": "Team member photo",
-                                      "width": 800,
-                                      "height": 1000
+                                      "width": 155,
+                                      "height": 160
                                     },
                                     "width": "full"
                                   },
