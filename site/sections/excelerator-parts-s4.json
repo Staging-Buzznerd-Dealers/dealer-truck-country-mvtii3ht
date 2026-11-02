@@ -10,8 +10,8 @@
       "fields": [
         {
           "key": "f0",
-          "type": "text",
-          "label": "Text 1"
+          "type": "url",
+          "label": "Video link"
         },
         {
           "key": "f1",
@@ -38,7 +38,7 @@
         {
           "key": "f1",
           "type": "url",
-          "label": "Link"
+          "label": "Video link"
         },
         {
           "key": "f2",
@@ -129,11 +129,14 @@
               "children": [
                 {
                   "id": "s4i4-r",
-                  "type": "image",
+                  "type": "video",
                   "props": {
-                    "image": "{{f0}}",
+                    "video": {
+                      "src": "{{f1}}",
+                      "title": "{{f2}}"
+                    },
                     "width": "full",
-                    "url": "{{f1}}"
+                    "controls": true
                   },
                   "styles": {
                     "base": {
@@ -237,19 +240,20 @@
                       "styles": {
                         "base": {
                           "aspectRatio": "16/9",
-                          "background": "#e4e2da",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center"
+                          "background": "#e4e2da"
                         }
                       },
                       "children": [
                         {
                           "id": "s4t22-r",
-                          "type": "text",
+                          "type": "video",
                           "props": {
-                            "text": "{{f0}}",
-                            "width": "full"
+                            "video": {
+                              "src": "{{f0}}",
+                              "title": "{{f1}}"
+                            },
+                            "width": "full",
+                            "controls": true
                           },
                           "styles": {
                             "base": {

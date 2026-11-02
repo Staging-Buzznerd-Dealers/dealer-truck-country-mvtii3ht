@@ -549,27 +549,52 @@
         "values": {
           "items": [
             {
-              "f0": "Drop photo",
+              "f0": {
+                "src": "/img/placeholders/person.svg",
+                "alt": "Team member photo",
+                "width": 800,
+                "height": 1000
+              },
               "f1": "Randy",
               "f2": "General Manager"
             },
             {
-              "f0": "Drop photo",
+              "f0": {
+                "src": "/img/placeholders/person.svg",
+                "alt": "Team member photo",
+                "width": 800,
+                "height": 1000
+              },
               "f1": "Jo",
               "f2": "Body Shop Manager"
             },
             {
-              "f0": "Drop photo",
+              "f0": {
+                "src": "/img/placeholders/person.svg",
+                "alt": "Team member photo",
+                "width": 800,
+                "height": 1000
+              },
               "f1": "Devin Williams",
               "f2": "Foreman"
             },
             {
-              "f0": "Drop photo",
+              "f0": {
+                "src": "/img/placeholders/person.svg",
+                "alt": "Team member photo",
+                "width": 800,
+                "height": 1000
+              },
               "f1": "Steve Laing",
               "f2": "Estimator"
             },
             {
-              "f0": "Drop photo",
+              "f0": {
+                "src": "/img/placeholders/person.svg",
+                "alt": "Team member photo",
+                "width": 800,
+                "height": 1000
+              },
               "f1": "Lisa Wilson",
               "f2": "Body Shop Administrator"
             }

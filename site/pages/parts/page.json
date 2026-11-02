@@ -396,25 +396,60 @@
         "values": {
           "items": [
             {
-              "f0": "Stemco logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Stemco logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Bendix logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Bendix logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Power Service logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Power Service logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Meritor logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Meritor logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Donaldson logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Donaldson logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Alliance logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Alliance logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Caterpillar logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Caterpillar logo",
+                "width": 1200,
+                "height": 800
+              }
             }
           ]
         }

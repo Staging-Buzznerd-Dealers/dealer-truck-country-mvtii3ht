@@ -212,16 +212,36 @@
         "values": {
           "items": [
             {
-              "f0": "Drop mobile service photo 1"
+              "f0": {
+                "src": "/img/placeholders/photo.svg",
+                "alt": "Mobile service photo 1",
+                "width": 1600,
+                "height": 900
+              }
             },
             {
-              "f0": "Drop mobile service photo 2"
+              "f0": {
+                "src": "/img/placeholders/photo.svg",
+                "alt": "Mobile service photo 2",
+                "width": 1600,
+                "height": 900
+              }
             },
             {
-              "f0": "Drop mobile service photo 3"
+              "f0": {
+                "src": "/img/placeholders/photo.svg",
+                "alt": "Mobile service photo 3",
+                "width": 1600,
+                "height": 900
+              }
             },
             {
-              "f0": "Drop mobile service photo 4"
+              "f0": {
+                "src": "/img/placeholders/photo.svg",
+                "alt": "Mobile service photo 4",
+                "width": 1600,
+                "height": 900
+              }
             }
           ]
         }
