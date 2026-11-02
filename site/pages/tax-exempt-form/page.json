@@ -79,21 +79,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -102,7 +87,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r4",
@@ -155,43 +155,44 @@
           "items": [
             {
               "f0": "Iowa",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Iowa_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/8a/iowa_taxexemptform.pdf"
             },
             {
               "f0": "Indiana",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Indiana_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/e8/indiana_taxexemptform.pdf"
             },
             {
               "f0": "Wisconsin",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Wisconsin_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/1e/wisconsin_taxexemptform.pdf"
             },
             {
               "f0": "Ohio",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Ohio.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/c3/ohio.pdf"
             },
             {
               "f0": "Minnesota",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Minnesota.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/61/minnesota.pdf"
             },
             {
               "f0": "Illinois (resale)",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_CRT61_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/d2/illinois_crt61_taxexemptform.pdf"
             },
             {
               "f0": "Illinois (rolling stock)",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Illinois_RUT7_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/e9/illinois_rut7_taxexemptform.pdf"
             },
             {
               "f0": "Michigan",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2024/05/Michigan_TaxExemptForm.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/71/michigan_taxexemptform.pdf"
             },
             {
               "f0": "Multi-State",
-              "f1": "https://www.truckcountry.com/efs/wp/domains/www.truckcountry.com/wp-content/uploads/2022/01/Multi-State-Exempt-Certificate.pdf"
+              "f1": "https://vendure.ai4dealerships.com/assets/source/be/multi-state-exempt-certificate.pdf"
             }
           ]
         }
-      }
+      },
+      "children": []
     }
   ]
 }
