@@ -79,21 +79,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -102,7 +87,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r14",
@@ -397,52 +397,18 @@
                     "gap": 0,
                     "stackOn": "never"
                   },
-                  "children": [
-                    {
-                      "id": "s3c9",
-                      "type": "column",
-                      "props": {
-                        "span": 12
-                      },
-                      "styles": {
-                        "base": {
-                          "width": "100%",
-                          "height": "100%",
-                          "background": "#edebe3",
-                          "borderTopWidth": "1",
-                          "borderRightWidth": "1",
-                          "borderBottomWidth": "1",
-                          "borderLeftWidth": "1",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "textAlign": "center",
-                          "paddingTop": "8",
-                          "paddingRight": "8",
-                          "paddingBottom": "8",
-                          "paddingLeft": "8",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
-                        }
-                      },
-                      "children": [
-                        {
-                          "id": "s3t7",
-                          "type": "text",
-                          "props": {
-                            "text": "Drop the diesel technician photo",
-                            "width": "full"
-                          },
-                          "styles": {
-                            "base": {
-                              "paddingTop": 0,
-                              "paddingBottom": 0
-                            }
-                          }
-                        }
-                      ]
+                  "children": []
+                },
+                {
+                  "id": "image",
+                  "type": "image",
+                  "props": {
+                    "width": "full",
+                    "image": {
+                      "src": "https://vendure.ai4dealerships.com/assets/source/69/img_7337-848x565-1.webp",
+                      "alt": "img_7337-848x565-1.webp"
                     }
-                  ]
+                  }
                 }
               ]
             }
@@ -468,7 +434,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s5-band",
@@ -529,7 +496,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s6",
