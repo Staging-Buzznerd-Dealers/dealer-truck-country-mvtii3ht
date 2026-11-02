@@ -79,21 +79,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -102,7 +87,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r5",
@@ -171,23 +171,24 @@
               "f0": "<a href=\"https://maps.app.goo.gl/w5N8vRVNMRfnz58s5\">Lafayette Indiana</a>",
               "f1": "<a href=\"tel:+17654772278\">765-477-2278</a>",
               "f2": "Learn More",
-              "f3": "https://www.truckcountry.com/trailers/lafayette_trailer/"
+              "f3": "/lafayette-trailer-repair"
             },
             {
               "f0": "<a href=\"https://maps.app.goo.gl/S2qiR8vwKfaYK98C7\">Indianapolis Indiana</a>",
               "f1": "<a href=\"tel:+13177887533\">317-788-7533</a>",
               "f2": "Learn More",
-              "f3": "https://www.truckcountry.com/trailers/indianapolis-trailer/"
+              "f3": "/indianapolis-trailer-repair"
             },
             {
               "f0": "<a href=\"https://maps.app.goo.gl/psQAbACgQuDy9RiL8\">Wayne Michigan</a>",
               "f1": "<a href=\"tel:+17347299700\">734-729-9700</a>",
               "f2": "Learn More",
-              "f3": "https://www.truckcountry.com/trailers/wayne-trailer/"
+              "f3": "/wayne-trailer-repair"
             }
           ]
         }
-      }
+      },
+      "children": []
     }
   ]
 }
