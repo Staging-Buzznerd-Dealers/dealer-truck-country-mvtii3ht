@@ -128,7 +128,13 @@
               },
               "f1": "<a href=\"http://foodliner.com.mx/foodliner/\"><strong>Foodliner®</strong></a> Mexico and Quest Liner® Mexico expand our horizons to the international markets and creates infrastructure that will allow our customers to import and export products using our network of terminals."
             }
-          ]
+          ],
+          "mccoyLogo": {
+            "src": "/img/placeholders/logo.svg",
+            "alt": "McCoy Construction & Forestry logo",
+            "width": 690,
+            "height": 230
+          }
         }
       }
     }

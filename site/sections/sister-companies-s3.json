@@ -19,6 +19,11 @@
           "label": "Text 2"
         }
       ]
+    },
+    {
+      "key": "mccoyLogo",
+      "type": "image",
+      "label": "McCoy Construction & Forestry logo"
     }
   ],
   "nodes": [
@@ -207,12 +212,7 @@
                                   "id": "s3t25",
                                   "type": "image",
                                   "props": {
-                                    "image": {
-                                      "src": "/img/placeholders/logo.svg",
-                                      "alt": "McCoy Construction & Forestry logo",
-                                      "width": 690,
-                                      "height": 230
-                                    },
+                                    "image": "{{mccoyLogo}}",
                                     "width": "full"
                                   },
                                   "styles": {

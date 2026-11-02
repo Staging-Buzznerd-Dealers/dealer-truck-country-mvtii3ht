@@ -26,6 +26,11 @@
           "label": "Text 1"
         }
       ]
+    },
+    {
+      "key": "oasisLogo",
+      "type": "image",
+      "label": "OASIS Service Network logo"
     }
   ],
   "nodes": [
@@ -126,12 +131,7 @@
                                   "id": "s5t4",
                                   "type": "image",
                                   "props": {
-                                    "image": {
-                                      "src": "/img/placeholders/logo.svg",
-                                      "alt": "OASIS Service Network logo",
-                                      "width": 1200,
-                                      "height": 600
-                                    },
+                                    "image": "{{oasisLogo}}",
                                     "width": "full"
                                   },
                                   "styles": {

@@ -446,7 +446,13 @@
             {
               "f0": "Click <em>VIEW SURVEY</em>, complete survey and submit."
             }
-          ]
+          ],
+          "oasisLogo": {
+            "src": "/img/placeholders/logo.svg",
+            "alt": "OASIS Service Network logo",
+            "width": 1200,
+            "height": 600
+          }
         }
       }
     },
