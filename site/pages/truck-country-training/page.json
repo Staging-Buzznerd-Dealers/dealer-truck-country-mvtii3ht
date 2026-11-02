@@ -393,7 +393,8 @@
           "marginTop": "0",
           "marginBottom": "0",
           "paddingBottom": "0",
-          "rowGap": 20
+          "rowGap": 20,
+          "columnGap": 20
         }
       },
       "children": [
