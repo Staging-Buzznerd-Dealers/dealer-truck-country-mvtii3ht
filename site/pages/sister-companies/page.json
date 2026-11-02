@@ -130,13 +130,14 @@
             }
           ],
           "mccoyLogo": {
-            "src": "/img/placeholders/logo.svg",
+            "src": "https://vendure.ai4dealerships.com/assets/source/34/mccoy-cf_vert_rgb-230x102-1.webp",
             "alt": "McCoy Construction & Forestry logo",
             "width": 690,
             "height": 230
           }
         }
-      }
+      },
+      "children": []
     }
   ]
 }
