@@ -348,31 +348,20 @@
                       },
                       "styles": {
                         "base": {
-                          "width": "100%",
-                          "height": "100%",
-                          "background": "#edebe3",
-                          "borderTopWidth": "1",
-                          "borderRightWidth": "1",
-                          "borderBottomWidth": "1",
-                          "borderLeftWidth": "1",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "textAlign": "center",
-                          "paddingTop": "8",
-                          "paddingRight": "8",
-                          "paddingBottom": "8",
-                          "paddingLeft": "8",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
+                          "width": "100%"
                         }
                       },
                       "children": [
                         {
                           "id": "s3t9",
-                          "type": "text",
+                          "type": "image",
                           "props": {
-                            "text": "Drop the Truck Country training photo",
+                            "image": {
+                              "src": "/img/placeholders/photo.svg",
+                              "alt": "Truck Country training photo",
+                              "width": 1200,
+                              "height": 800
+                            },
                             "width": "full"
                           },
                           "styles": {
@@ -451,31 +440,20 @@
                       },
                       "styles": {
                         "base": {
-                          "width": "100%",
-                          "height": "100%",
-                          "background": "#edebe3",
-                          "borderTopWidth": "1",
-                          "borderRightWidth": "1",
-                          "borderBottomWidth": "1",
-                          "borderLeftWidth": "1",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "textAlign": "center",
-                          "paddingTop": "8",
-                          "paddingRight": "8",
-                          "paddingBottom": "8",
-                          "paddingLeft": "8",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
+                          "width": "100%"
                         }
                       },
                       "children": [
                         {
                           "id": "s4t3",
-                          "type": "text",
+                          "type": "image",
                           "props": {
-                            "text": "Drop the second training photo",
+                            "image": {
+                              "src": "/img/placeholders/photo.svg",
+                              "alt": "Training photo",
+                              "width": 1200,
+                              "height": 800
+                            },
                             "width": "full"
                           },
                           "styles": {
@@ -519,31 +497,20 @@
                       },
                       "styles": {
                         "base": {
-                          "width": "100%",
-                          "height": "100%",
-                          "background": "#edebe3",
-                          "borderTopWidth": "1",
-                          "borderRightWidth": "1",
-                          "borderBottomWidth": "1",
-                          "borderLeftWidth": "1",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "textAlign": "center",
-                          "paddingTop": "8",
-                          "paddingRight": "8",
-                          "paddingBottom": "8",
-                          "paddingLeft": "8",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
+                          "width": "100%"
                         }
                       },
                       "children": [
                         {
                           "id": "s4t7",
-                          "type": "text",
+                          "type": "image",
                           "props": {
-                            "text": "Drop the third training photo",
+                            "image": {
+                              "src": "/img/placeholders/photo.svg",
+                              "alt": "Training photo",
+                              "width": 1200,
+                              "height": 800
+                            },
                             "width": "full"
                           },
                           "styles": {

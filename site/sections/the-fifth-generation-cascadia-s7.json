@@ -10,8 +10,8 @@
       "fields": [
         {
           "key": "f0",
-          "type": "text",
-          "label": "Text 1"
+          "type": "url",
+          "label": "Video link"
         },
         {
           "key": "f1",
@@ -19,6 +19,18 @@
           "label": "Text 2"
         }
       ]
+    },
+    {
+      "key": "walkaroundUrl",
+      "type": "url",
+      "label": "Walkaround video link",
+      "default": ""
+    },
+    {
+      "key": "walkaroundTitle",
+      "type": "text",
+      "label": "Walkaround video title",
+      "default": "5th Generation Freightliner Cascadia Walkaround"
     }
   ],
   "nodes": [
@@ -113,25 +125,20 @@
                       "styles": {
                         "base": {
                           "aspectRatio": "16/9",
-                          "background": "#0e0f13",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "borderTopWidth": "2",
-                          "borderRightWidth": "2",
-                          "borderBottomWidth": "2",
-                          "borderLeftWidth": "2",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
+                          "background": "#0e0f13"
                         }
                       },
                       "children": [
                         {
                           "id": "s7t4-r",
-                          "type": "text",
+                          "type": "video",
                           "props": {
-                            "text": "{{f0}}",
-                            "width": "full"
+                            "video": {
+                              "src": "{{f0}}",
+                              "title": "{{f1}}"
+                            },
+                            "width": "full",
+                            "controls": true
                           },
                           "styles": {
                             "base": {
@@ -210,25 +217,20 @@
                       "styles": {
                         "base": {
                           "aspectRatio": "16/9",
-                          "background": "#0e0f13",
-                          "display": "flex",
-                          "alignItems": "center",
-                          "justifyContent": "center",
-                          "borderTopWidth": "2",
-                          "borderRightWidth": "2",
-                          "borderBottomWidth": "2",
-                          "borderLeftWidth": "2",
-                          "borderColor": "#8f8f8f",
-                          "borderStyle": "dashed"
+                          "background": "#0e0f13"
                         }
                       },
                       "children": [
                         {
                           "id": "s7t43",
-                          "type": "text",
+                          "type": "video",
                           "props": {
-                            "text": "Video link needed",
-                            "width": "full"
+                            "video": {
+                              "src": "{{walkaroundUrl}}",
+                              "title": "{{walkaroundTitle}}"
+                            },
+                            "width": "full",
+                            "controls": true
                           },
                           "styles": {
                             "base": {
@@ -245,7 +247,7 @@
                   "id": "s7h46",
                   "type": "heading",
                   "props": {
-                    "text": "5th Generation Freightliner Cascadia Walkaround",
+                    "text": "{{walkaroundTitle}}",
                     "headingLevel": 3
                   },
                   "styles": {

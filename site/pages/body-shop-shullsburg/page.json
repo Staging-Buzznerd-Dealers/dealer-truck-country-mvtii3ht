@@ -626,31 +626,20 @@
                               },
                               "styles": {
                                 "base": {
-                                  "width": "100%",
-                                  "height": "100%",
-                                  "background": "#edebe3",
-                                  "borderTopWidth": "1",
-                                  "borderRightWidth": "1",
-                                  "borderBottomWidth": "1",
-                                  "borderLeftWidth": "1",
-                                  "display": "flex",
-                                  "alignItems": "center",
-                                  "justifyContent": "center",
-                                  "textAlign": "center",
-                                  "paddingTop": "8",
-                                  "paddingRight": "8",
-                                  "paddingBottom": "8",
-                                  "paddingLeft": "8",
-                                  "borderColor": "#8f8f8f",
-                                  "borderStyle": "dashed"
+                                  "width": "100%"
                                 }
                               },
                               "children": [
                                 {
                                   "id": "s6t4",
-                                  "type": "text",
+                                  "type": "image",
                                   "props": {
-                                    "text": "Drop photo",
+                                    "image": {
+                                      "src": "/img/placeholders/person.svg",
+                                      "alt": "Team member photo",
+                                      "width": 800,
+                                      "height": 1000
+                                    },
                                     "width": "full"
                                   },
                                   "styles": {
@@ -773,31 +762,20 @@
                               },
                               "styles": {
                                 "base": {
-                                  "width": "100%",
-                                  "height": "100%",
-                                  "background": "#edebe3",
-                                  "borderTopWidth": "1",
-                                  "borderRightWidth": "1",
-                                  "borderBottomWidth": "1",
-                                  "borderLeftWidth": "1",
-                                  "display": "flex",
-                                  "alignItems": "center",
-                                  "justifyContent": "center",
-                                  "textAlign": "center",
-                                  "paddingTop": "8",
-                                  "paddingRight": "8",
-                                  "paddingBottom": "8",
-                                  "paddingLeft": "8",
-                                  "borderColor": "#8f8f8f",
-                                  "borderStyle": "dashed"
+                                  "width": "100%"
                                 }
                               },
                               "children": [
                                 {
                                   "id": "s6t14",
-                                  "type": "text",
+                                  "type": "image",
                                   "props": {
-                                    "text": "Drop photo",
+                                    "image": {
+                                      "src": "/img/placeholders/person.svg",
+                                      "alt": "Team member photo",
+                                      "width": 800,
+                                      "height": 1000
+                                    },
                                     "width": "full"
                                   },
                                   "styles": {

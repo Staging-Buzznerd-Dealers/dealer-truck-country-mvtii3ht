@@ -285,16 +285,36 @@
         "values": {
           "items": [
             {
-              "f0": "MAC Trailer logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "MAC Trailer logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Stoughton logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Stoughton logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Wabash logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Wabash logo",
+                "width": 1200,
+                "height": 800
+              }
             },
             {
-              "f0": "Transcraft/Benson logo"
+              "f0": {
+                "src": "/img/placeholders/logo.svg",
+                "alt": "Transcraft/Benson logo",
+                "width": 1200,
+                "height": 800
+              }
             }
           ]
         }
