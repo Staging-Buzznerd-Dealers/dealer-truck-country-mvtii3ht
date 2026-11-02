@@ -392,7 +392,8 @@
         "base": {
           "marginTop": "0",
           "marginBottom": "0",
-          "paddingBottom": "0"
+          "paddingBottom": "0",
+          "rowGap": 20
         }
       },
       "children": [
