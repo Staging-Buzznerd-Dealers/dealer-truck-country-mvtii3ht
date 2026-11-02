@@ -75,21 +75,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -98,7 +83,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r13",
@@ -397,7 +397,7 @@
           "items": [
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/54/8.webp",
                 "alt": "Stemco logo",
                 "width": 1200,
                 "height": 800
@@ -405,55 +405,56 @@
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/03/2.webp",
                 "alt": "Bendix logo",
-                "width": 1200,
-                "height": 800
+                "width": 142,
+                "height": 61
               }
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/1b/3.webp",
                 "alt": "Power Service logo",
-                "width": 1200,
-                "height": 800
+                "width": 185,
+                "height": 60
               }
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/3d/4.webp",
                 "alt": "Meritor logo",
-                "width": 1200,
-                "height": 800
+                "width": 141,
+                "height": 62
               }
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/a7/6.webp",
                 "alt": "Donaldson logo",
-                "width": 1200,
-                "height": 800
+                "width": 191,
+                "height": 67
               }
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/da/7.webp",
                 "alt": "Alliance logo",
-                "width": 1200,
-                "height": 800
+                "width": 142,
+                "height": 75
               }
             },
             {
               "f0": {
-                "src": "/img/placeholders/logo.svg",
+                "src": "https://vendure.ai4dealerships.com/assets/source/07/9.webp",
                 "alt": "Caterpillar logo",
-                "width": 1200,
-                "height": 800
+                "width": 196,
+                "height": 64
               }
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s5-band",
@@ -496,7 +497,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     }
   ]
 }
