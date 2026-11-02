@@ -79,21 +79,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -102,7 +87,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r15",
@@ -362,7 +362,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s4-band",
@@ -372,37 +373,37 @@
         "values": {
           "items": [
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=qB0uqgdVbmM",
               "f1": "Vehicle Landing Page in Excelerator",
               "f2": "3:04"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=LNsvny8P1K0",
               "f1": "Product Categories Search",
               "f2": "2:20"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=cFiIR9SmkKw",
               "f1": "Favorites List for PartsPro X Only Users Feature",
               "f2": "5:13"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=k-l-bp7MZoA",
               "f1": "Improved Commerce Parts Search",
               "f2": "4:32"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=tE-oEWAmeFk",
               "f1": "Cross Reference",
               "f2": "4:14"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=tLt2nM_B1VU",
               "f1": "VMRS Category Search",
               "f2": "3:18"
             },
             {
-              "f0": "",
+              "f0": "https://www.youtube.com/watch?v=r6ayIocO4uw",
               "f1": "Parts Search",
               "f2": "2:34"
             },
@@ -512,7 +513,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s5-band",
@@ -579,7 +581,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     }
   ]
 }
