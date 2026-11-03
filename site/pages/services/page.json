@@ -75,21 +75,6 @@
             "gap": 0,
             "stackOn": "never"
           },
-          "children": [
-            {
-              "id": "s2c2",
-              "type": "column",
-              "props": {
-                "span": 12
-              },
-              "children": [],
-              "styles": {
-                "base": {
-                  "height": "100%"
-                }
-              }
-            }
-          ],
           "styles": {
             "base": {
               "position": "absolute",
@@ -98,7 +83,22 @@
               "bottom": "0",
               "left": "0"
             }
-          }
+          },
+          "children": [
+            {
+              "id": "s2c2",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "styles": {
+                "base": {
+                  "height": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
         },
         {
           "id": "s2r9",
@@ -448,13 +448,14 @@
             }
           ],
           "oasisLogo": {
-            "src": "/img/placeholders/logo.svg",
+            "src": "https://vendure.ai4dealerships.com/assets/source/9e/oasis-logo_red-300x77-1-1.webp",
             "alt": "OASIS Service Network logo",
             "width": 1200,
             "height": 600
           }
         }
-      }
+      },
+      "children": []
     },
     {
       "id": "s6-band",
@@ -493,7 +494,8 @@
             }
           ]
         }
-      }
+      },
+      "children": []
     }
   ]
 }
